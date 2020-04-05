@@ -63,7 +63,6 @@
 		font-weight: 300;
 		line-height: 1.75em;
 		margin-bottom: 1em;
-		text-transform: uppercase;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -74,12 +73,11 @@
 
 	h2 {
 		font-size: 1.5em;
-		letter-spacing: 0.1em;
+        vertical-align: center
 	}
 
 	h3 {
 		font-size: 1.15em;
-		letter-spacing: 0.025em;
 	}
 
 	sub {
@@ -331,12 +329,12 @@
 					background: #829bc9;
 				}
 
-			.icon.circle.fa-google-plus {
+			.icon.circle.fa-youtube {
 				background: #db6b67;
 				color: white;
 			}
 
-				.icon.circle.fa-google-plus:hover {
+				.icon.circle.fa-youtube:hover {
 					background: #df7b77;
 				}
 
@@ -572,7 +570,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: #90d2dbf0;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -801,20 +799,20 @@
 	@-ms-keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
 	@keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
 
-	#banner {
-		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
-		background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
-		color: white;
-		cursor: default;
+	#site-banner {
+ 		background-attachment: fixed; 
+		/*background-color: #645862;*/
+/*		background-image: url("images/overlay.png"), url("../images/banner.png");*/
+		background-image: url("../images/banner.png");
+
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		/*cursor: default;*/
 		padding: 6em 0;
 		text-align: center;
 	}
 
-		#banner .inner {
+		#site-banner .inner {
 			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
 			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
 			-o-animation: reveal-banner 1s 0.25s ease-in-out;
@@ -825,50 +823,43 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			background: rgba(30, 34, 37, 0.8);
 			color: white;
 			display: inline-block;
 			opacity: 0;
 			padding: 3em;
-			text-align: center;
+			text-align: left;
+            
 		}
 
-			#banner .inner header {
+			#site-banner .inner header {
 				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
-				margin: 0 0 2em 0;
-				padding: 3px 0 3px 0;
+                vertical-align:middle
 			}
 
-				#banner .inner header h2 {
-					border-bottom: solid 2px;
-					border-top: solid 2px;
-					font-size: 2.5em;
-					font-weight: 900;
-					letter-spacing: 0.2em;
+				#site-banner .inner header h2 {
+					font-size: 61px;
+					font-weight: 700 !important;
+                    font-family: 'Catamaran', sans-serif;
+					letter-spacing: 1px;
 					margin: 0;
+                    padding-top: 0;
 					padding-left: 0.05em;
-					position: relative;
-					text-transform: uppercase;
+                    line-height: 1;
 				}
 
-			#banner .inner p {
-				letter-spacing: 0.1em;
-				margin: 0;
-				text-transform: uppercase;
+			#site-banner .inner p {
+				color: #a5f4ff;
+                    font-family: 'Catamaran', sans-serif;
+                    font-size: 21px;
+                    opacity: 0.9;
+                    margin: 0;
+                    margin-left: 4px;
+                    line-height: 1;
 			}
 
-				#banner .inner p a {
-					color: inherit;
-					font-weight: 400;
-					text-decoration: none;
-				}
 
-			#banner .inner footer {
-				margin: 2em 0 0 0;
-			}
-
+/*#90d2dbf0;*/
 /* Main */
 
 	#main {
@@ -1043,7 +1034,6 @@
 		color: white;
 		font-size: 0.8em;
 		letter-spacing: 0.075em;
-		text-transform: uppercase;
 	}
 
 		#topPanel nav,
