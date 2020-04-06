@@ -66,48 +66,73 @@ layout: landing-page
 					
 					
 	<!-- Three -->
-    <div class="container" >
-        <div style="display: flex; justify-content: space-around;">
-            <div class="col-md-12">
-                <!-- <section class="wrapper style3 container special">-->
-                <h2>Gallery</h2>
-                <div class="row">
-                    <div class="20u">
-                        <img src="assets/carrousel-basilique.jpg" width="400px" />
-                        <header>
-                            <a href="https://www.abbayeauxdames.org/en/musicaventure/carrousel-musical/"><span class="gallery-text">Carousel</span></a> -  <a href="http://www.blueyeti.fr/le-carrousel-musical-abbaye-aux-dames/"><span class="gallery-text">Blue Yeti</span></a>
-                        </header>	
-                    </div>
-                    <div class="20u">
-                        <img src="assets/carrousel-dome.png" width="400px" />
-                    </div>
+  	<div class="container"> 
+        <a href="#"><h2>Gallery</h2></a>
+        <div class="owl-carousel owl-theme" >
+            <div class="carouselcontainer" style="width:840px;">
+                <div style="width:800px; display: flex;">
+                    <img src="assets/carrousel-dome.png" style="width:400px;"/>
+                    <img src="assets/carrousel-basilique.jpg" style="width:400px;"/>
                 </div>
-                <div class="20u">
-                    <img src="assets/Nebula_ChampignonsNeigeJaune.jpg" width="800px" />
-                    <header>
-                        <h3>Nebula - Les Baltazars</h3>
-                    </header>
+                <header>
+                    <a href="https://www.abbayeauxdames.org/en/musicaventure/carrousel-musical/"><span class="gallery-text">Carousel</span></a> -  <a href="http://www.blueyeti.fr/le-carrousel-musical-abbaye-aux-dames/"><span class="gallery-text">Blue Yeti</span></a>
+                </header>
+            </div>
+            <div class="carouselcontainer" style="width:840px">
+                <img src="assets/Nebula_ChampignonsNeigeJaune.jpg" style="width:800px;"/>
+                <header>
+                    <a href="http://www.baltazars.org/project/nebula/"><span class="gallery-text">Nebula</span></a> -  <a href="http://www.baltazars.org/"><span class="gallery-text">Les Baltazars</span></a>
+                </header>
+            </div>
+            <div class="carouselcontainer" style="width:640px">
+                <img src="assets/quarre.jpg"/>
+                <header>
+                    <a href="https://wpn214.com/en/"><span class="gallery-text">Quarrè</span>- <span class="gallery-text">Pierre Cochard</span></a> 
+                </header>
+            </div>
+            <div class="carouselcontainer" style="width:700px">
+                <img src="assets/dome_scrime.jpg"/>
+                <header>
+                    <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Meta-Chef-d-Orchestre"><span class="gallery-text">Méta Chef d’Orchestre</span>- <span class="gallery-text">Serge Delaubier</span></a> 
+                </header>
+            </div>
+            <div class="carouselcontainer"  style="width:640px">
+                <img src="assets/sonotact.jpg"/>
+                <header>
+                    <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Sonotact"><span class="gallery-text">Sonotact</span> - <span class="gallery-text">Pascale Criton</span></a> 
+                </header>
+            </div>
+        </div>
+    </div>  
+    
+    
+    <div class="container">
+        
+        <div style="display: flex; justify-content: space-around; margin: 0;padding: 0;">
+            <div class="wrapper style3" style="padding: 1em; padding-bottom: 0;margin: 0; margin-right: 2em; width: 70%;">
+                 <h2>Recent posts</h2>
+                <div class="recent-post-view">
+                    {% for post in site.posts limit:4 %}
+                        <div style="text-align: center;">
+                            <a href={{post.url}}><img src={{post.image}} width="400"/></a>
+                            <h3>{{post.title}}</h3>
+                        </div>
+                    {% endfor %}
                 </div>
-                <div class="20u">
-                    <img src="assets/sonotact.jpg" width="600px" />
-                    <header>
-                        <h3>Sonotact - Pascal Criton</h3>
-                    </header>
-                </div>	
+				<footer class="major" style="text-align: center;">
+                    <ul class="buttons">
+                        <li><a href="#" class="button">See More</a></li>
+                    </ul>
+				</footer>
             </div>
             <!-- Twitter timeline -->
-            <div class="col-md-2">
-                <a class="twitter-timeline" data-tweet-limit="5" href="https://twitter.com/ossia_io?ref_src=twsrc%5Etfw">Tweets by ossia_io
-                </a> 
+            <div class="wrapper style3" style="padding: 1em; width: 30%;">
+                <a class="twitter-timeline" data-tweet-limit="2" href="https://twitter.com/ossia_io?ref_src=twsrc%5Etfw">Tweets by ossia_io</a> 
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
                 </script>
             </div>
         </div>
-        <footer style="text-align:center;">
-            <ul class="buttons" style="display: inline-block;" >
-                <li><a href="#" class="button">See more...</a></li>
-            </ul>
-        </footer>       
+          
     </div>
 					
 					

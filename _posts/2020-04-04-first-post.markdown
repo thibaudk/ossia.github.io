@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Lorem Ipsum"
-date:   2014-08-31 14:36:23
+title:  "First post"
+date:   2014-04-04
+image: /images/pic01.jpg
+
 permalink: /first-post.html
 ---
 <span class="image featured"><img src="/images/pic02.jpg" alt=""></span>

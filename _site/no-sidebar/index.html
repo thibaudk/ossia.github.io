@@ -13,6 +13,9 @@
     <meta name="description" content="Open software system for interactive applications
 ">
     <meta name="keywords" content="" />
+    <link rel="stylesheet" href="/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="/owlcarousel/owl.theme.default.min.css">
+
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
     <script src="/js/jquery.min.js"></script>
     <script src="/js/jquery.dropotron.min.js"></script>
@@ -21,6 +24,7 @@
     <script src="/js/skel.min.js"></script>
     <script src="/js/skel-layers.min.js"></script>
     <script src="/js/init.js"></script>
+    <script src="/owlcarousel/owl.carousel.min.js"></script>
     <noscript>
         <link rel="stylesheet" href="/css/skel.css" />
         <link rel="stylesheet" href="/css/style.css" />
@@ -34,6 +38,17 @@
     <link rel="canonical" href="http://localhost:4000/no-sidebar/">
     <link rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Montserrat:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium|Catamaran:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium|Open+Sans:regular,bold,semi-bold,black,light,medium">
+      
+    <script>
+    $(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoWidth:true
+})
+});
+</script>
 </head>
 
 
@@ -45,7 +60,7 @@
 					<ul>
 						<li><a href="/">score</a></li>
 						<li><a href="/">libossia</a></li>
-						<li><a href="http://forum.ossia.io/">forum</a></li>
+						<li><a href="http://forum.ossia.io/" class="button special">forum</a></li>
 						<li><a href="/">community</a></li>
 						<li><a href="/">about</a></li>
                         <li><a href="/blog.html">Blog</a></li>
@@ -68,7 +83,6 @@
 								</li>
 							</ul>
 						</li>
-						<li><a href="#" class="button special">Sign Up</a></li>
 					</ul>
 				</nav>
 			</header>

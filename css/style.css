@@ -1105,5 +1105,18 @@
 			display: inline-block;
 			width: 5em;
 		}
-		
-		
+	
+.carouselcontainer {
+    background-color: #FFFFFF;
+    display: flex; 
+    flex-direction: column; 
+    padding: 20px;
+   /* justify-content: space-around; 
+    align-items: center !important;*/
+}
+
+.recent-post-view{
+    display: flex; 
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
