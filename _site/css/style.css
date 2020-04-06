@@ -1124,3 +1124,7 @@ ul {
 	list-style: disc;	
     padding-left: 1em;
 }
+
+ul.list-none{
+    list-style-type: none;	
+}
