@@ -91,9 +91,8 @@
         text-decoration: none;
     }
     
-    .gallery-text:hover {
+    a .gallery-text:hover {
         text-decoration: none;
-        font-weight: 800;
         color: #90d2db !important;
     }
 	sub {
@@ -1119,4 +1118,9 @@
     display: flex; 
     justify-content: space-evenly; 
     flex-wrap: wrap;
+}
+
+ul {
+	list-style: disc;	
+    padding-left: 1em;
 }
