@@ -1263,3 +1263,19 @@ div.thumbnail:hover{
     color: black;
     text-decoration: underline;
 }
+
+div.logo-grid {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+div.logo-grid img {
+    margin: 20px;
+}
+div.logo-grid span {
+    margin: 20px;
+    font-weight: 900 !important;
+    font-size: 50px;
+    color: black;
+}
