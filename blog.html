@@ -1,36 +1,82 @@
 ---
 layout: default
 ---
+{% comment%}
+Here we generate all the categories.
+{% endcomment%}
+
+{% assign rawcats = "" %}
+{% for post in site.posts %}
+{% assign tcats = post.category | join:'|' | append:'|' %}
+{% assign rawcats = rawcats | append:tcats %}
+{% endfor %}
+
+{% assign rawcats = rawcats | split:'|' | sort %}
+
+{% assign cats = "" %}
+
+{% for cat in rawcats %}
+{% if cat != "" %}
+
+{% if cats == "" %}
+{% assign cats = cat | split:'|' %}
+{% endif %}
+
+{% unless cats contains cat %}
+{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
 
 <article id="main">
     <header style="text-align:center;">
         <h2  class="page-title">Blog</h2>
     </header>
     <section class="wrapper style4 container">
-        <ul class="posts">
-            {% for post in site.posts %}
-                <li class="wrapper blog">
-                <h2 class="blog"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                <h1 class="blog">{{ post.date | date_to_long_string }} by {{post.author}}</h1>
-                <h1 class="blog category">
-                    {% for cat in post.category %}
-                        <a href="/blog/category/index.html#{{ cat }}">{{ cat }}</a>
+        <div class="row oneandhalf">
+            <div class="9u skel-cell-important">
+                <ul class="posts">
+                    {% for post in site.posts %}
+                        <li class="wrapper blog">
+                        <h2 class="blog"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <h1 class="blog">{{ post.date | date_to_long_string }} by {{post.author}}</h1>
+                        <h1 class="blog category"> {{ post.categories }}</h1>
+                        {% if post.image %}
+                        <p align="center" style="padding: 0;">
+                            <img src={{post.image}}>
+                        </p>
+                        {% endif %}
+                            {{ post.excerpt }}
+                            <section class="special">
+                                <ul class="buttons">
+                                    <li><a href="{{ post.url }}" class="button special">Read more</a></li>
+                                </ul>
+                            </section>
+                        </li>
                     {% endfor %}
-                </h1>
-                {% if post.image %}
-                <p align="center" style="padding: 0;">
-                    <img src={{post.image}}>
-                </p>
-                {% endif %}
-                    {{ post.excerpt }}
-                    <section class="special">
-                        <ul class="buttons">
-                            <li><a href="{{ post.url }}" class="button special">Read more</a></li>
-                        </ul>
-                    </section>
-                </li>
-            {% endfor %}
-        </ul>
+                </ul>
+            </div>
+            <div class="3u">
+			<!-- Sidebar -->
+                <div class="sidebar">
+                    <section class="categories">
+                        <h1 class="blog category-title">Post by category<h1/>
+                        {% for ct in cats %}
+                            <h1 class="blog category" style="margin:0;"> {{ ct }} </h1>
+                            <ul class="list-none">
+                            {% for post in site.posts %}
+                                {% if post.category contains ct %}
+                                <li>
+                                    <a class="link-cat" href="{{ post.url }}"> {{ post.title }} </a>
+                                </li>
+                                {% endif %}
+                            {% endfor %}
+                            </ul>
+                        {% endfor %}
+					</section>
+				</div>
+            </div>
+        </div>
     </section>
 </article>
     

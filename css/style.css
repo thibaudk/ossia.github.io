@@ -1222,3 +1222,25 @@ h2.page-title{
     border-width: 4px !important;
 	color: black !important;
 }
+
+.categories {
+    display: flex;
+    flex-direction: column;
+}
+h1.blog.category-title {
+    color:#281668;
+    font-weight: 600;
+}
+
+a.link-cat {
+    font-size: 15px;
+    line-height: auto;
+    letter-spacing: 0;
+    border: none;
+}
+a.link-cat:hover {
+    font-size: 15px;
+    line-height: auto;
+    letter-spacing: 0;
+    text-decoration: underline;
+}
