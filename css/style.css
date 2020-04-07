@@ -1151,6 +1151,14 @@ ul {
     padding-left: 1em;
 }
 
-ul.list-none{
+ul.posts, ul.list-none{
     list-style-type: none;	
+}
+
+h2.page-title{
+    font-size: 30pt;
+    font-weight: 600;
+    line-height: 1.75em;
+    margin-bottom: 1em;
+    font-family: 'Catamaran', sans-serif;
 }

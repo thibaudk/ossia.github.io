@@ -4,18 +4,11 @@ layout: default
 
 <article id="main">
   <header class="container" style="text-align:center;">
-    <h2 class="post-title" style="font-size: 28pt;">{{ page.title }}</h2>
+    <h2 class="page-title">{{ page.title }}</h2>
   </header>
 
   <section class="style4 wrapper container">
     {{ content }}
   </section>
-    
-    <footer>
-        {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="post-prev">&larr; Previous post</a> {% endif %}
-        {% if page.next %}
-        <a href="{{ page.next.url }}" class="post-next">Next post &rarr;</a> {% endif %}
-    </footer>
 </article>
 

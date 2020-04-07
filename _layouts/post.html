@@ -12,11 +12,12 @@ layout: default
     {{ content }}
   </section>
     
-    <footer>
+    <footer style="text-align:center">
         {% if page.previous %}
         <a href="{{ page.previous.url }}" class="post-prev">&larr; Previous post</a> {% endif %}
-        {% if page.next %}
-        <a href="{{ page.next.url }}" class="post-next">Next post &rarr;</a> {% endif %}
+       <a href="/blog/index.html" class="post-home">Back to all posts</a>
+       {% if page.next %}
+       <a href="{{ page.next.url }}" class="post-next">Next post &rarr;</a> {% endif %}
     </footer>
 </article>
 
