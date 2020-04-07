@@ -6,7 +6,7 @@ permalink: /roadmap.html
 ---
 
 <p align="center">
-<a href="https://github.com/OSSIA/score/releases/latest" class="button"  target="_blank" >Current stable version is 2.5.2</a>
+<a href="https://github.com/OSSIA/score/releases/tag/v2.5.2" class="button special"  target="_blank" >Current stable version is 2.5.2</a>
 </p>
 
 <h2>Future plans</h2>

@@ -6,7 +6,7 @@ permalink: /download.html
 ---
 The latest stable release can be found here:
 <p align="center">
-<a href="https://github.com/OSSIA/score/releases/latest"  target="_blank" class="button" >Download ossia score v2</a>
+<a href="https://github.com/OSSIA/score/releases/latest"  target="_blank" class="button special" >Download ossia score v2</a>
 </p>
 
 <h2>Supported operating systems</h2>
