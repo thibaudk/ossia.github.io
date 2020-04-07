@@ -15,6 +15,7 @@ layout: default
         
         {% if page.previous %}
         <a href="{{ page.previous.url }}" class="post-nav" style="text-align: left;">&larr; <strong>{{page.previous.title}}</strong></a> 
+        {% endif %}
         <a href="/blog/index.html" class="post-nav" style="text-align: center;">Back to all posts</a>
         {% if page.next %}
         <a href="{{ page.next.url }}" class="post-nav" style="text-align: right;"><strong>{{page.next.title}}</strong> &rarr;</a> 
