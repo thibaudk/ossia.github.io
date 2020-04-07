@@ -91,6 +91,24 @@
         vertical-align: center
 	}
 
+	h2.blog{
+        font-family: 'Libre Franklin';
+        font-size: 32px;
+        font-weight: 400;
+        color: #281668 !important;
+        text-align: center;
+    }
+    h1.blog{
+        font-family: 'Libre Franklin';
+        font-size: 18px;
+        font-weight: 400;
+    }
+    h1.blog.category{
+        font-family: 'Libre Franklin';
+        font-size: 16px;
+        color: #281668;
+        font-weight: 400;
+    }
 	h3 {
 		font-size: 1.15em;
 	}

@@ -8,7 +8,7 @@
 -->
 
 <head>
-    <title>Third post</title>
+    <title>Version 0.3 development sprint</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="Open software system for interactive applications
 ">
@@ -36,9 +36,9 @@
     <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
     <meta name="viewport" content="width=device-width">
 
-    <link rel="canonical" href="http://localhost:4000/posts/third-post/">
+    <link rel="canonical" href="http://localhost:4000/posts/v0_3/">
     <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium|Catamaran:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium|Open+Sans:regular,bold,semi-bold,black,light,medium">
+      href="https://fonts.googleapis.com/css?family=Montserrat:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium|Catamaran:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium|Libre+Franklin:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium|Open+Sans:regular,bold,semi-bold,black,light,medium">
     <script>
     $(document).ready(function(){
   $('.owl-carousel').owlCarousel({
@@ -100,23 +100,33 @@
     <div class="page-content">
             <article id="main">
   <header class="special container">
-    <h2 class="post-title">Third post</h2>
-    <p class="post-meta">Apr 6, 2014</p>
+    <h2 class="post-title">Version 0.3 development sprint</h2>
+    <p class="post-meta">Mar 27, 2014 • Julien</p>
   </header>
 
   <section class="style4 wrapper container">
-    <p><span class="image featured"><img src="/images/pic03.jpg" alt="" /></span>
-Morbi a semper justo, non eleifend elit. Sed nulla nulla, porttitor nec volutpat eu, pulvinar vitae augue. Curabitur tempor quis lorem eget vestibulum. Aenean vel lacinia orci, ac sollicitudin felis. Nunc eros libero, posuere nec massa ac, consectetur sollicitudin elit. Duis tincidunt nunc et neque egestas rhoncus. Curabitur ut euismod lorem, ut rutrum neque. Nullam at sem eros. Nam interdum lectus non cursus viverra.</p>
+    <p>Most of the i-score core developers are currently running a development sprint at GMEA – Centre National de Création Musicale d’Albi-Tarn for the OSSIA (Open Scenario System for Interactive Application) project. They have been doing a great job putting together a solid basis as i-score moves toward version 0.3.</p>
 
-<p>Duis eget magna at arcu tincidunt ultricies. Curabitur in facilisis sem, nec bibendum eros. Nunc fringilla imperdiet diam sed viverra. Vivamus lobortis dignissim mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet eu diam eu pellentesque. Duis tempus metus urna, vel faucibus ligula pharetra euismod. Donec rhoncus blandit posuere. Mauris mattis dolor est, dictum venenatis augue facilisis sit amet. Ut ante odio, congue eget arcu nec, semper eleifend urna. Donec rutrum pretium odio non pellentesque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam pellentesque nulla at tincidunt ultrices. Donec finibus malesuada magna. Phasellus eget tortor in lectus vehicula viverra sit amet sit amet purus.</p>
+<p>This week’s work has been focusing on both i-score’s underlying architecture as well as its user interface and general workflow.</p>
+
+<p>Théo De La Hogue and Clément Bossut have been refining i-score’s engine’s API. As part of the OSSIA project, the Score C++ library should be easily implemented in other environments so that users are free to write a scenario in a dedicated application such as i-score while executing it thru a Max external or some distributed Raspberry devices for example.</p>
+
+<p>On the other side, Jean-Michaël Celerier and Nicolas Vuaille have been working on the graphical interface. i-score 0.3 and above will have a much improved workflow. The device explorer will be much more powerfull, by providing support for dynamic namespaces, filtering options, namespaces presets and more… This will make it much easier to deal with remote control of applications that have a huge namespace (i.e. device’s parameter architecture).</p>
+
+<p><span class="image featured"><img src="/images/MaquetteI-score0.3New-600x308.png" alt="" /></span></p>
+
+<p>The general timeline workflow has also been considerably refined. Based on an event-centered approach, i-score will allow to interleave events and processes and to further merge timeline and cue-based approaches. Thanks to work done on Score API, a plugin system will make it possible to add interpolation and automations between events as of version 0.2, but also to add other processes such as mappings, sub-scenarios, loops.</p>
+
+<p>A lot of other features are also on the workbench. So stay tuned for upcoming sneak peeks on i-score next big iteration !</p>
 
   </section>
     
     <footer style="text-align:center">
         
-        <a href="/posts/second_post/" class="post-prev">&larr; Previous post</a> 
+        <a href="/posts/ux-workshop/" class="post-prev">&larr; Previous post</a> 
        <a href="/blog/index.html" class="post-home">Back to all posts</a>
        
+       <a href="/posts/control-dmx/" class="post-next">Next post &rarr;</a> 
     </footer>
 </article>
 

@@ -6,58 +6,69 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 07 Apr 2020 14:43:07 +0200</pubDate>
-    <lastBuildDate>Tue, 07 Apr 2020 14:43:07 +0200</lastBuildDate>
+    <pubDate>Tue, 07 Apr 2020 16:16:27 +0200</pubDate>
+    <lastBuildDate>Tue, 07 Apr 2020 16:16:27 +0200</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Third post</title>
-        <description>&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
-Morbi a semper justo, non eleifend elit. Sed nulla nulla, porttitor nec volutpat eu, pulvinar vitae augue. Curabitur tempor quis lorem eget vestibulum. Aenean vel lacinia orci, ac sollicitudin felis. Nunc eros libero, posuere nec massa ac, consectetur sollicitudin elit. Duis tincidunt nunc et neque egestas rhoncus. Curabitur ut euismod lorem, ut rutrum neque. Nullam at sem eros. Nam interdum lectus non cursus viverra.&lt;/p&gt;
+        <title>Control DMX lighting devices with i-score</title>
+        <description>&lt;p&gt;For now, i-score can send and receive only OSC or MIDI messages. But if you would like to use i-score to control lighting devices, there is a nice framework that can be used to translate OSC messages to Artnet, Sacn on a local network. It’s called OLA for Open Lighting Architecture.&lt;/p&gt;
 
-&lt;p&gt;Duis eget magna at arcu tincidunt ultricies. Curabitur in facilisis sem, nec bibendum eros. Nunc fringilla imperdiet diam sed viverra. Vivamus lobortis dignissim mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet eu diam eu pellentesque. Duis tempus metus urna, vel faucibus ligula pharetra euismod. Donec rhoncus blandit posuere. Mauris mattis dolor est, dictum venenatis augue facilisis sit amet. Ut ante odio, congue eget arcu nec, semper eleifend urna. Donec rutrum pretium odio non pellentesque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam pellentesque nulla at tincidunt ultrices. Donec finibus malesuada magna. Phasellus eget tortor in lectus vehicula viverra sit amet sit amet purus.&lt;/p&gt;
+&lt;p&gt;Ola can handle a lot of lighting protocols such as described on this page. You can download a namespace for OLA here, and a conf file for OSC plugin of OLA here.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 06 Apr 2014 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/posts/third-post/</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/third-post/</guid>
+        <pubDate>Thu, 12 Mar 2015 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/posts/control-dmx/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/control-dmx/</guid>
         
+        
+        <category>To check</category>
         
       </item>
     
       <item>
-        <title>Second post</title>
-        <description>&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
-Duis in purus sit amet elit ullamcorper venenatis vel a diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec dictum quam id ultricies dapibus. Donec rutrum pellentesque nisl, in bibendum erat imperdiet et. Maecenas eros lorem, dignissim in eros ut, consequat eleifend ante. Duis leo tortor, porttitor non ex ut, varius consectetur purus. Mauris vel erat risus. Nam convallis, lorem et tempus efficitur, nulla tortor efficitur sapien, ut pretium nisl turpis at purus. Nulla dui risus, suscipit nec tellus ac, aliquam finibus mi. Suspendisse accumsan, nisl a aliquet hendrerit, massa metus volutpat libero, et mollis lectus mauris et justo. Ut vitae est ut ligula sollicitudin blandit. Quisque egestas eleifend tortor, in finibus ex. Donec non orci quis odio porttitor mattis.&lt;/p&gt;
+        <title>Version 0.3 development sprint</title>
+        <description>&lt;p&gt;Most of the i-score core developers are currently running a development sprint at GMEA – Centre National de Création Musicale d’Albi-Tarn for the OSSIA (Open Scenario System for Interactive Application) project. They have been doing a great job putting together a solid basis as i-score moves toward version 0.3.&lt;/p&gt;
 
-&lt;p&gt;Duis ut blandit lorem. Suspendisse potenti. Donec maximus blandit neque dapibus hendrerit. Praesent dignissim turpis eu nisl varius tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur in volutpat felis. Sed eget neque vel risus fermentum maximus a vel arcu. Vivamus non lorem mattis, vehicula metus eu, pellentesque mauris. Nunc fermentum efficitur justo, et rutrum mi finibus non. Sed vehicula eros id elit elementum rhoncus. Nullam quis tellus vitae metus eleifend pharetra eget interdum nulla. Integer sit amet imperdiet urna.&lt;/p&gt;
+&lt;p&gt;This week’s work has been focusing on both i-score’s underlying architecture as well as its user interface and general workflow.&lt;/p&gt;
 
-&lt;p&gt;Morbi a semper justo, non eleifend elit. Sed nulla nulla, porttitor nec volutpat eu, pulvinar vitae augue. Curabitur tempor quis lorem eget vestibulum. Aenean vel lacinia orci, ac sollicitudin felis. Nunc eros libero, posuere nec massa ac, consectetur sollicitudin elit. Duis tincidunt nunc et neque egestas rhoncus. Curabitur ut euismod lorem, ut rutrum neque. Nullam at sem eros. Nam interdum lectus non cursus viverra.&lt;/p&gt;
+&lt;p&gt;Théo De La Hogue and Clément Bossut have been refining i-score’s engine’s API. As part of the OSSIA project, the Score C++ library should be easily implemented in other environments so that users are free to write a scenario in a dedicated application such as i-score while executing it thru a Max external or some distributed Raspberry devices for example.&lt;/p&gt;
 
-&lt;p&gt;Duis eget magna at arcu tincidunt ultricies. Curabitur in facilisis sem, nec bibendum eros. Nunc fringilla imperdiet diam sed viverra. Vivamus lobortis dignissim mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet eu diam eu pellentesque. Duis tempus metus urna, vel faucibus ligula pharetra euismod. Donec rhoncus blandit posuere. Mauris mattis dolor est, dictum venenatis augue facilisis sit amet. Ut ante odio, congue eget arcu nec, semper eleifend urna. Donec rutrum pretium odio non pellentesque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam pellentesque nulla at tincidunt ultrices. Donec finibus malesuada magna. Phasellus eget tortor in lectus vehicula viverra sit amet sit amet purus.&lt;/p&gt;
+&lt;p&gt;On the other side, Jean-Michaël Celerier and Nicolas Vuaille have been working on the graphical interface. i-score 0.3 and above will have a much improved workflow. The device explorer will be much more powerfull, by providing support for dynamic namespaces, filtering options, namespaces presets and more… This will make it much easier to deal with remote control of applications that have a huge namespace (i.e. device’s parameter architecture).&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/MaquetteI-score0.3New-600x308.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The general timeline workflow has also been considerably refined. Based on an event-centered approach, i-score will allow to interleave events and processes and to further merge timeline and cue-based approaches. Thanks to work done on Score API, a plugin system will make it possible to add interpolation and automations between events as of version 0.2, but also to add other processes such as mappings, sub-scenarios, loops.&lt;/p&gt;
+
+&lt;p&gt;A lot of other features are also on the workbench. So stay tuned for upcoming sneak peeks on i-score next big iteration !&lt;/p&gt;
 </description>
-        <pubDate>Sat, 05 Apr 2014 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/posts/second_post/</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/second_post/</guid>
+        <pubDate>Thu, 27 Mar 2014 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/posts/v0_3/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/v0_3/</guid>
         
         
-        <category>Duis</category>
+        <category>Dev</category>
         
       </item>
     
       <item>
-        <title>First post</title>
-        <description>&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at metus augue. In fringilla nibh ac efficitur blandit. Nullam eu pretium mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur vulputate lacinia tortor, vel ultrices ligula. Etiam hendrerit aliquam tristique. Nulla tincidunt tortor id quam dignissim fermentum.&lt;/p&gt;
+        <title>User experience workshop</title>
+        <description>&lt;p align=&quot;center&quot; style=&quot;padding: 0;&quot;&gt;
+    &lt;iframe src=&quot;https://player.vimeo.com/video/83989990&quot; width=&quot;800&quot; height=&quot;500&quot; frameborder=&quot;0&quot; allow=&quot;fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+    &lt;p&gt;&lt;a href=&quot;https://vimeo.com/83989990&quot;&gt;Le chant du filament&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/user24205756&quot;&gt;NICOLAS VILLENAVE&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
 
-&lt;p&gt;Duis in purus sit amet elit ullamcorper venenatis vel a diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec dictum quam id ultricies dapibus. Donec rutrum pellentesque nisl, in bibendum erat imperdiet et. Maecenas eros lorem, dignissim in eros ut, consequat eleifend ante. Duis leo tortor, porttitor non ex ut, varius consectetur purus. Mauris vel erat risus. Nam convallis, lorem et tempus efficitur, nulla tortor efficitur sapien, ut pretium nisl turpis at purus. Nulla dui risus, suscipit nec tellus ac, aliquam finibus mi. Suspendisse accumsan, nisl a aliquet hendrerit, massa metus volutpat libero, et mollis lectus mauris et justo. Ut vitae est ut ligula sollicitudin blandit. Quisque egestas eleifend tortor, in finibus ex. Donec non orci quis odio porttitor mattis.&lt;/p&gt;
+&lt;p&gt;Following November’s last development sprint, GMEA – Centre National de Création Musicale d’Albi-Tarn invited a bunch of i-score users as part of the OSSIA project. This workshop focussed on users experiments with i-score version 0.2.x and feedbacks regarding i-score 0.3 features.&lt;/p&gt;
 
-&lt;p&gt;Duis ut blandit lorem. Suspendisse potenti. Donec maximus blandit neque dapibus hendrerit. Praesent dignissim turpis eu nisl varius tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur in volutpat felis. Sed eget neque vel risus fermentum maximus a vel arcu. Vivamus non lorem mattis, vehicula metus eu, pellentesque mauris. Nunc fermentum efficitur justo, et rutrum mi finibus non. Sed vehicula eros id elit elementum rhoncus. Nullam quis tellus vitae metus eleifend pharetra eget interdum nulla. Integer sit amet imperdiet urna.&lt;/p&gt;
+&lt;p&gt;In addition to i-score core developers, were welcomed Pascal Baltazar who coordinates i-score development and extensively used i-score for the Nocturnes project led by Les Baltazars, Mathieu Chamagne who experiments i-score for interactive sound and visual installation as well as doing researches for spatial scenarios representations, Julien Rabin who is in charged of research and development at GMEA as well as working on i-score documentation, Renaud Rubiano who experiments i-score for live art productions and for his in progress installation Mobiles and Antoine Villeret who recently used i-score for Mylène Benoît’s project.&lt;/p&gt;
 
+&lt;p&gt;In collaboration with LaBRI and Grame – Centre National de Création Musicale, GMEA also invited Nicolas Villenave to experiment i-score for his project Le chant du filament. Together with Max Bruckert, Clément Bossut et Jaime Chao, Le chant du filament’s team made its Max-based software interoperable in order to make the various light processes controlled by i-score.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 04 Apr 2014 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/first-post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/first-post.html</guid>
+        <pubDate>Sat, 15 Mar 2014 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/posts/ux-workshop/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/ux-workshop/</guid>
         
+        
+        <category>News</category>
         
       </item>
     
