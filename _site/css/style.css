@@ -67,14 +67,24 @@
         font-family: 'Catamaran', sans-serif;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
 			border: 0;
-		}
+	}
     h1 a:hover, h2 a:hover{
         text-decoration: underline;
         
+    }
+    
+    h1.logo a{
+        color: #03c3ddff;
+        font-family: 'Catamaran', sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+    }
+    h1.logo a:hover{
+        text-decoration: none;
     }
 	h2 {
 		font-size: 1.5em;
@@ -678,14 +688,14 @@
 		}
 
 			#header nav ul li {
-                color: inherit;
                 line-height: 1.75em;
                 font-family: 'Catamaran', sans-serif;
-                font-weight: 600;
+                font-weight: 700;
                 font-size: 18px;
                 margin: 0;
 				display: inline-block;
 				margin-left: 1.5em;
+                color: #281668;
 			}
 
 				#header nav ul li > ul {
@@ -694,11 +704,15 @@
 
 				#header nav ul li a {
 					border: solid 1px transparent;
-					color: inherit;
 					display: inline-block;
 					line-height: 1em;
 					padding: 0.6em 0.75em;
 					text-decoration: none;
+                    color: #281668;
+                    
+                    font-family: 'Catamaran', sans-serif;
+                    font-weight: 700;
+                    font-size: 20px;
 				}
 
 				#header nav ul li input[type="button"],
@@ -713,15 +727,17 @@
 				#header nav ul li.submenu > a:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
+					font-family: 'Catamaran', sans-serif;
 					font-style: normal;
 					font-weight: normal;
+                    color: #281668;
 					text-transform: none !important;
 				}
 
 				#header nav ul li.submenu > a:before {
 					content: '\f107';
 					margin-right: 0.65em;
+                    color: #281668;
 				}
 
 				#header nav ul li.active > a, #header nav ul li:hover > a {
@@ -731,6 +747,7 @@
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					background: #AFECF4;
+                    color: black;
 				}
 
 				#header nav .cc-active {
@@ -796,6 +813,7 @@
 		padding: 1em 0;
 		text-transform: uppercase;
 		margin-top: calc(-1em + 1px);
+        color: #281668;
 	}
 
 		.dropotron.level-0 {
