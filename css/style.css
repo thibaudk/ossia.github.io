@@ -753,7 +753,7 @@
 				#header nav .cc-active {
 					font-weight: 900;
 				}
-
+      
 		#header.reveal {
 			-moz-animation: reveal-header 0.5s;
 			-webkit-animation: reveal-header 0.5s;
@@ -1189,4 +1189,18 @@ h2.page-title{
     line-height: 1.75em;
     margin-bottom: 1em;
     font-family: 'Catamaran', sans-serif;
+}
+
+.button.special.nav {
+	background: #AFECF4;
+	border-color: #AFECF4;
+    border-width: 4px !important;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900 !important;
+    font-size: 20px;
+	color: #281668 !important;
+}
+.button.special.nav:hover {
+    border-width: 4px !important;
+	color: black !important;
 }
