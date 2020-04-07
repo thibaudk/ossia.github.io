@@ -354,6 +354,7 @@
 
 			.icon.circle:hover {
 				top: -0.2em;
+                color: white !important;
 			}
 
 			.icon.circle.fa-twitter {
@@ -547,8 +548,8 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background: #AFECF4f0;
-		border: solid 1px;
-		color: inherit;
+		border: solid 2px #AFECF4f0;
+		color: #281668;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -566,8 +567,10 @@
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		.button:hover {
-			background: rgba(30, 34, 37, 1.0);
-			border-color: inherit;
+			background: white !important;
+			border-color: #AFECF4;
+            text-decoration: none;
+            color: black !important;
 		}
 
 		input[type="button"].special,
