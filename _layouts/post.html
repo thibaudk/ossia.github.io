@@ -11,13 +11,18 @@ layout: default
   <section class="style4 wrapper container">
     {{ content }}
   </section>
-    
-    <footer style="text-align:center">
+  <section class="wrapper container nav" >
+        
         {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="post-prev">&larr; Previous post</a> {% endif %}
-       <a href="/blog/index.html" class="post-home">Back to all posts</a>
-       {% if page.next %}
-       <a href="{{ page.next.url }}" class="post-next">Next post &rarr;</a> {% endif %}
-    </footer>
+        <a href="{{ page.previous.url }}" class="post-nav" style="text-align: left;">&larr; <strong>{{page.previous.title}}</strong></a> 
+        {% else %}
+        <a/>
+        {% endif %}
+        <a href="/blog/index.html" class="post-nav" style="text-align: center;">Back to all posts</a>
+        {% if page.next %}
+        <a href="{{ page.next.url }}" class="post-nav" style="text-align: right;"><strong>{{page.next.title}}</strong> &rarr;</a> 
+        {% endif %}
+    </section>
+    
 </article>
 

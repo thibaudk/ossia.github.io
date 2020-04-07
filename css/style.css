@@ -613,7 +613,7 @@
 /* Wrapper */
 
 	.wrapper {
-		margin-bottom: 5em;
+		margin-bottom: 1em;
 		padding: 5em;
 	}
 
@@ -811,14 +811,19 @@
 }
 /* Blog */
 
-.post-next {
-    float: right;
-    margin-right: 3em;
+.wrapper.container.nav{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
 }
 
-.post-prev {
-    float: left;
-    margin-left: 3em;
+.post-nav {
+    color: black !important;
+    border: none;
+}
+.post-nav:hover {
+    text-decoration: underline;
 }
 
 /* Dropotron */
