@@ -100,7 +100,8 @@
 			$('#nav > ul').dropotron({
 				mode: 'fade',
 				noOpenerFade: true,
-				expandMode: (skel.vars.isTouch ? 'click' : 'hover')
+				expandMode: (skel.vars.isTouch ? 'click' : 'hover'),
+                hoverDelay: 0
 			});
 
 		// Header.
