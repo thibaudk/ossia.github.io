@@ -34,23 +34,6 @@
 		letter-spacing: 0.025em;
 		line-height: 1.75em;
 	}
-
-	a {
-		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: #3fb1a3;
-		text-decoration: none;
-		border-bottom: dotted 1px;
-	}
-
-		a:hover {
-			border-bottom-color: transparent;
-            text-decoration: u;
-		}
-
 	strong, b {
 		font-weight: 400;
 	}
@@ -86,6 +69,15 @@
     h1.logo a:hover{
         text-decoration: none;
     }
+    h1.thumbnail{
+		color: #281668;
+        font-family: 'Catamaran', sans-serif;
+    }
+    h1.thumbnail:hover{
+        color: black;
+    }
+   
+    
 	h2 {
 		font-size: 1.5em;
         vertical-align: center
@@ -115,18 +107,19 @@
 	a {
       text-decoration: none;
     }
-    .gallery-text{
+    a span.gallery-text{
 		font-size: 1.15em;
 
         text-align: center;
 		color: black !important;
 		margin-bottom: 1em;
         text-decoration: none;
+        border:none;
     }
     
     a .gallery-text:hover {
-        text-decoration: none;
-        color: #90d2db !important;
+        text-decoration: underline;
+        color: #03c3dd !important;
     }
 	sub {
 		font-size: 0.8em;
@@ -1247,5 +1240,26 @@ a.link-cat:hover {
     font-size: 15px;
     line-height: auto;
     letter-spacing: 0;
+    text-decoration: underline;
+}
+
+a.thumbnail {
+    border: none;
+}
+
+div.thumbnail{
+    background-color: white;
+    text-align: center;
+    padding: 1em;
+}
+div.thumbnail:hover{
+    -moz-transition: background-color 0.1s ease-in-out;
+    -webkit-transition: background-color 0.1s ease-in-out;
+	-o-transition: background-color 0.1s ease-in-out;
+	-ms-transition: background-color 0.1s ease-in-out;
+	transition: background-color 0.1s ease-in-out;
+        
+    background-color: #AFECF4 ;
+    color: black;
     text-decoration: underline;
 }

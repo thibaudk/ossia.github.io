@@ -65,11 +65,11 @@ layout: landing-page
 					
 					
 	<!-- Three -->
-  	<div class="container"> 
+  	<div class="container wrapper" style="padding: 1em;"> 
         <h2><a href="/gallery.html">Gallery</a></h2>
         <div class="owl-carousel owl-theme" >
-            <div class="carouselcontainer" style="width:840px;">
-                <div style="width:800px; display: flex;">
+            <div class="carouselcontainer" style="width:840px">
+                <div style="width:800px; height:600px; display: flex;">
                     <img src="assets/carrousel-dome.png" style="width:400px;"/>
                     <img src="assets/carrousel-basilique.jpg" style="width:400px;"/>
                 </div>
@@ -112,9 +112,15 @@ layout: landing-page
                 <h2><a href="/blog/index.html">Recent posts</a></h2>
                 <div class="recent-post-view">
                     {% for post in site.posts limit:4 %}
-                        <div style="text-align: center;">
-                            <a href={{post.url}}><img src={{post.image}} width="400"/></a>
-                            <h3>{{post.title}}</h3>
+                        <div class="thumbnail" >
+                            <a class="thumbnail" href={{post.url}}>
+                                {% if post.image %} 
+                                    <img src={{post.image}} width="400"/>
+                                {% else %}
+                                    <img src="assets/default_post_thumbnail.png" width="400"/>
+                                {% endif %}
+                                <h1 class="thumbnail">{{post.title}}</h1>
+                            </a>
                         </div>
                     {% endfor %}
                 </div>
