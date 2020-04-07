@@ -2,7 +2,7 @@
 layout: landing-page
 ---		
 		<!-- Main -->
-			<article id="main">
+			<article id="main" style="padding-top: 3em;">
 
 				<header style="text-align:center;">
 					<h2 class="black">A free and open-source intermedia sequencer</h2>
@@ -35,14 +35,12 @@ layout: landing-page
                     </div>
                 </section>
 				<!-- One -->
-					<section class="wrapper style2 container special-alt" style="padding: 3em;">
+					<section class="wrapper style2 container special-alt" style="padding: 3em; padding-bottom: 0.5em; margin-bottom:5em;">
 						<p align="center" style="padding: 0;">
                             <iframe src="https://player.vimeo.com/video/247547998" width="100%" height="800" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                            <a href="https://vimeo.com/247547998">Score overview</a> from <a href="https://vimeo.com/ossia">ossia</a> on <a href="https://vimeo.com">Vimeo</a>.
-                        </p>	
-                        <div style="text-align:center;">
+                       
 							<a href="/download.html" class="button special">Download ossia score</a>
-						</div>
+                         </p>	
 					</section>
 					
 				<!-- Two -->
@@ -86,8 +84,8 @@ layout: landing-page
 					
 					
 	<!-- Three -->
-  	<div class="container wrapper" style="padding: 1em;"> 
-        <h2><a href="/gallery.html">Gallery</a></h2>
+  	<div class="container wrapper style3" style="padding: 1em;"> 
+        <h2 class="front-page"><a href="/gallery.html">Gallery</a></h2>
         <div class="owl-carousel owl-theme" >
             <div class="carouselcontainer" style="width:840px">
                 <div style="width:800px; height:600px; display: flex;">
@@ -124,13 +122,13 @@ layout: landing-page
             </div>
         </div>
     </div>  
-    
+    <br/>
     
     <div class="container">
         
         <div style="display: flex; justify-content: space-around; margin: 0;padding: 0;">
             <div class="wrapper style3" style="padding: 1em; padding-bottom: 0;margin: 0; margin-right: 2em; width: 70%;">
-                <h2><a href="/blog/index.html">Recent posts</a></h2>
+                <h2 class="front-page"><a href="/blog/index.html">Recent posts</a></h2>
                 <div class="recent-post-view">
                     {% for post in site.posts limit:4 %}
                         <div class="thumbnail" >

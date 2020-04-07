@@ -1176,12 +1176,9 @@
 		}
 	
 .carouselcontainer {
-    background-color: #FFFFFF;
     display: flex; 
     flex-direction: column; 
     padding: 20px;
-   /* justify-content: space-around; 
-    align-items: center !important;*/
 }
 
 .recent-post-view{
@@ -1205,6 +1202,17 @@ h2.page-title{
     line-height: 1.75em;
     margin-bottom: 1em;
     font-family: 'Catamaran', sans-serif;
+}
+h2.front-page{
+    font-size: 30pt;
+    padding: 0;
+    /*padding-top: 1em; */
+    padding-left: 20px;
+    text-align: center;
+}
+h2.front-page a:hover{
+    color: #03c3dd;
+    text-decoration: underline;
 }
 
 .button.special.nav {
