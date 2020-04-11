@@ -1259,13 +1259,14 @@ div.logo-grid span {
 #banner.background{
     padding: 0;
     margin: 0;
-    
     display: inline-block;
+
     position: relative;
 }
 #banner .background-image{
     width: 100%;
     height: auto;
+    vertical-align: bottom;
 }
 
 #banner .background-image + .overlay{
