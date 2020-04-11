@@ -209,13 +209,9 @@
 			}
 
 	footer > :last-child {
-		margin-bottom: 0;
+		margin: 0;
+        padding: 0;
 	}
-
-	footer.major {
-		padding-top: 3em;
-	}
-
 /* Form */
 
 	input[type="text"],
@@ -1001,7 +997,7 @@
 	#footer {
 		background: #e8eef4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+        padding: 2em;
 		text-align: center;
 	}
 
@@ -1264,8 +1260,10 @@ a.thumbnail {
 div.thumbnail{
     background-color: white;
     text-align: center;
-    padding: 1em;
-}
+    padding: 0em;
+    margin: 1em;
+}   
+
 div.thumbnail:hover{
     -moz-transition: background-color 0.1s ease-in-out;
     -webkit-transition: background-color 0.1s ease-in-out;
