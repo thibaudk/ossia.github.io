@@ -152,7 +152,7 @@ layout: landing-page
         
         <div style="display: flex; justify-content: space-around; margin: 0;padding: 0;">
             <div class="wrapper style3" style="padding: 1em; padding-bottom: 0;margin: 0; margin-right: 2em; width: 70%;">
-                <h2 class="front-page"><a href="/blog/index.html">Recent posts</a></h2>
+                <h2 class="front-page"><a href="/blog/index.html">Blog</a></h2>
                 <div class="recent-post-view">
                     {% for post in site.posts limit:4 %}
                         <div class="thumbnail" >
@@ -166,12 +166,7 @@ layout: landing-page
                             </a>
                         </div>
                     {% endfor %}
-                </div>
-				<footer class="major" style="text-align: center;">
-                    <ul class="buttons">
-                        <li><a href="#" class="button">See More</a></li>
-                    </ul>
-				</footer>
+                </div>				
             </div>
             <!-- Twitter timeline -->
             <div class="wrapper style3" style="padding: 1em; width: 30%;">
