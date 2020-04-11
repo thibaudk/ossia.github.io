@@ -928,7 +928,7 @@
 			}
 
 /* CTA */
-
+/*
 	#cta {
 		background-attachment: fixed;
 		background-color: #645862;
@@ -948,12 +948,12 @@
 			padding-left: 40px;
 			padding-right: 40px;
 
-		}
+		}*/
 
 /* Footer */
 
 	#footer {
-		background: #e8eef4;
+		background: var(--dark-transparent-grey);
 		color: #7c8081;
         padding: 2em;
 		text-align: center;
