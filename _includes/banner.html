@@ -1,20 +1,27 @@
 <!-- Banner -->		
-<section id="site-banner">
+<section id="banner" class="background">
+<!--    <img class="background-image" src="assets/banner.png"/>  -->
+   <img class="background-image" src="assets/test-image.jpg"/> 
 
-    <!--
-        ".inner" is set up as an inline-block so it automatically expands
-        in both directions to fit whatever's inside it. This means it won't
-        automatically wrap lines, so be sure to use line breaks where
-        appropriate (<br />).
-    -->
+   <div class="overlay">
     <div class="inner">
-
-        <image src="/assets/score-logo.png" width="100px" style="vertical-align:middle"/>
         <header>
-            <h2>ossia</h2>
-            <p>Open Software System for Interactive Applications</p>
+            <!-- Logo -->		
+            <div style="display:flex; justify-content:center;">
+                <image src="/assets/score-logo.png" height="80px" style="vertical-align:middle"/>
+                <h2 class="software">ossia score</h2>
+            </div>
+            
+            <!-- Short description -->		
+            <p> <h2 style="color:white; margin-bottom: 0;">A free and open-source intermedia sequencer</h2>
+            Enables precise and flexible scripting of interactive scenarios.
+            <br />
+            Control and score any OSC-compliant software or hardware:
+            Max/MSP, PureData, openFrameworks, Processing…</p>
+            <br />
         </header>
-        
-    </div>
-
+        <!-- Download button -->		
+        <a href="/download.html" class="download">Download ossia score</a>
+    </div>  
+    </div> 
 </section>
