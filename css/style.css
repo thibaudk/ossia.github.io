@@ -727,10 +727,10 @@
                     font-weight: 700;
                     font-size: 20px;
 				}
-
-				#header nav ul li input[type="button"],
-				#header nav ul li input[type="submit"],
-				#header nav ul li input[type="reset"],
+                #header nav ul li a:hover {
+                    color: black !important;
+				}
+              
 				#header nav ul li .button {
 					font-size: 1em;
 					min-width: 0;
