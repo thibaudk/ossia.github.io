@@ -123,20 +123,31 @@
        text-decoration: underline;
         color: var(--light-blue) !important;
     }
-    a span.gallery-text{
-		font-size: 1.15em;
+    
+    .gallery-text{
+        font-size: 24px;
 
         text-align: center;
-		color: black !important;
+		color: var(--light-grey) !important;
 		margin-bottom: 1em;
-        text-decoration: none;
         border:none;
     }
     
-    a .gallery-text:hover {
-        text-decoration: underline;
-        color: var(--light-blue) !important;
+    a.gallery-text:hover {
+        text-decoration: none !important;
+        color: var(--orange) !important;
     }
+    
+    .carouselcontainer {
+        display: flex; 
+        flex-direction: column; 
+        padding: 20px;
+    }
+    
+    img.frontpage-gallery{
+        height: 600px;
+    }
+    
 	sub {
 		font-size: 0.8em;
 		position: relative;
@@ -1135,16 +1146,12 @@
 			width: 5em;
 		}
 	
-.carouselcontainer {
-    display: flex; 
-    flex-direction: column; 
-    padding: 20px;
-}
 
 .recent-post-view{
     display: flex; 
     justify-content: space-evenly; 
     flex-wrap: wrap;
+/*     border-right: thick solid var(--pale-blue); */
 }
 
 ul {
@@ -1164,15 +1171,19 @@ h2.page-title{
     font-family: 'Catamaran', sans-serif;
 }
 h2.front-page{
-    font-size: 30pt;
+    font-weight: 600;
+    
+    font-size: 28pt;
     padding: 0;
+    color: white;
     /*padding-top: 1em; */
     padding-left: 20px;
+    text-transform: uppercase;
     text-align: center;
 }
 h2.front-page a:hover{
     color: #03c3dd;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .categories {
@@ -1220,6 +1231,13 @@ div.thumbnail:hover{
     text-decoration: underline;
 }
 
+h2.logo-header {
+    margin: 0;
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Catamaran', sans-serif;
+}
 div.logo-grid {
     display: flex; 
     flex-wrap: wrap;
@@ -1240,20 +1258,30 @@ div.logo-grid span {
     
     font-weight: 900 !important;
     font-size: 50px;
+    letter-spacing: -2px;
     color: black;
+}
+div.logo-grid a:hover{
+    text-decoration: none;
 }
 
 /* Index page section */
 #index {
     width: 100%;
     padding: 0;
-    padding-top: 3em;
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 
     margin: 0;
 }
 #index.black {
     background-color: black;
+    text-align : center;
+}
+
+
+#index.white {
+    background-color: white;
 }
 /* Banner */
 #banner.background{
@@ -1317,7 +1345,6 @@ h2.software {
     padding: 0.5em;
     text-transform: uppercase;
     
-/* 	background-color: var(--pale-blue); */
     border: solid var(--light-grey) 1px;
             
 	color: #d1d1d1 !important;
