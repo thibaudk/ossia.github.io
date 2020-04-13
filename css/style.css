@@ -1139,6 +1139,7 @@ a.thumbnail{
     font-size: 22px;
     padding: 0em;
     margin: 1em;
+    text-align: left;
 }   
 
 a.thumbnail:hover{
@@ -1289,4 +1290,19 @@ h2.software {
     display: block;
     padding-top: 90px; /*So that anchors work ....*/
     margin-top: -90px; /*So that anchors work ....*/
+}
+
+/* Recent posts */
+h1.blog-title{
+    color: inherit;
+    font-weight: 300;
+	margin: 0;
+    font-family: 'Catamaran', sans-serif;
+}
+span.blog-date{
+    margin-top: -30px:
+    color: inherit;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Catamaran', sans-serif;
 }

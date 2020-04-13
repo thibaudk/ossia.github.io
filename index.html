@@ -142,12 +142,16 @@ layout: landing-page
                 <div class="recent-post-view">
                     {% for post in site.posts limit:4 %}
                         <a href={{post.url}} class="thumbnail" >
+                            <h1 class="blog-title">{{post.title}} </h1>
+                            
                             {% if post.image %} 
                                 <img src={{post.image}} width="400"/>
                             {% else %}
                                 <img src="assets/default_post_thumbnail.png" width="400"/>
                             {% endif %}
-                            <h1>{{post.title}}</h1>
+                            <br/>
+                            <span class="blog-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                           
                         </a>
                     {% endfor %}
                 </div>				
