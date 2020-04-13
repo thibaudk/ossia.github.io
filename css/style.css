@@ -1,9 +1,9 @@
-@import url("font-awesome.min.css");
+
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
 
 :root {
     --light-blue:  #03c3dd;
-    --pale-blue: #AFECF4;
+    --pale-blue: #58B8C5;
     --dark-blue: #281668;
     
     --light-grey: #C0C0C0;
@@ -11,6 +11,7 @@
     --dark-transparent-grey: rgba(30, 34, 37, 0.97);
     
     --orange: #FF7A00;
+    --purple: #994466;
 }
 
 /*
@@ -62,34 +63,15 @@
         font-family: 'Catamaran', sans-serif;
 	}
 
-	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+	a {
+			color: var(--pale-blue);
 			text-decoration: none;
 			border: 0;
 	}
-    h1 a:hover, h2 a:hover{
-        text-decoration: underline;
-        
-    }
-    
-    h1.logo a{
-/*         color: #03c3ddff; */
-        color: var(--light-blue);
-        font-family: 'Catamaran', sans-serif;
-        font-weight: 700;
-        font-size: 48px;
-    }
-    h1.logo a:hover{
+    a:hover{
         text-decoration: none;
+        color: var(--orange);
     }
-    h1.thumbnail{
-		color: var(--dark-blue);
-        font-family: 'Catamaran', sans-serif;
-    }
-    h1.thumbnail:hover{
-        color: black;
-    }
-   
     
 	h2 {
 		font-size: 1.5em;
@@ -116,13 +98,6 @@
 	h3 {
 		font-size: 1.15em;
 	}
-	a {
-      text-decoration: none;
-    }
-    a:hover{
-       text-decoration: underline;
-        color: var(--light-blue) !important;
-    }
     
     .gallery-text{
         font-size: 24px;
@@ -363,66 +338,23 @@
 			border: 0;
 			border-radius: 100%;
 			display: inline-block;
-			font-size: 1.25em;
-			height: 2.25em;
-			left: 0;
-			line-height: 2.25em;
+            
+            width: 1em;
+			height: 1em;
+            
+            font-size: 2em;
+ 			line-height: 1em; 
 			text-align: center;
+            vertical-align: middle;
 			text-decoration: none;
-			top: 0;
-			width: 2.25em;
+
 		}
 
 			.icon.circle:hover {
 				top: -0.2em;
                 color: white !important;
 			}
-
-			.icon.circle.fa-twitter {
-				background: #70aecd;
-				color: white;
-			}
-
-				.icon.circle.fa-twitter:hover {
-					background: #7fb7d2;
-				}
-
-			.icon.circle.fa-facebook {
-				background: #7490c3;
-				color: white;
-			}
-
-				.icon.circle.fa-facebook:hover {
-					background: #829bc9;
-				}
-
-			.icon.circle.fa-youtube {
-				background: #db6b67;
-				color: white;
-			}
-
-				.icon.circle.fa-youtube:hover {
-					background: #df7b77;
-				}
-
-			.icon.circle.fa-github {
-				background: #dcad8b;
-				color: white;
-			}
-
-				.icon.circle.fa-github:hover {
-					background: #e1b89b;
-				}
-
-			.icon.circle.fa-dribbble {
-				background: #da83ae;
-				color: white;
-			}
-
-				.icon.circle.fa-dribbble:hover {
-					background: #df93b8;
-				}
-
+			
 		.icon.featured {
 			cursor: default;
 			display: block;
@@ -435,10 +367,6 @@
 				font-size: 5em;
 				line-height: 1em;
 			}
-
-		.icon > .label {
-			display: none;
-		}
 
 /* List */
 
@@ -762,7 +690,7 @@
 					-o-transition: all 0.1s ease-in-out;
 					-ms-transition: all 0.1s ease-in-out;
 					transition: all 0.1s ease-in-out;
-                    color: var(--light-blue) !important;
+                    color: var(--orange) !important;
 				}
 				#header nav ul li.special.active > a, #header nav ul li.special:hover > a {
 					color: var(--orange) !important;
@@ -1176,15 +1104,10 @@ h2.front-page{
     
     font-size: 28pt;
     padding: 0;
-    color: white;
-    /*padding-top: 1em; */
+   
     padding-left: 20px;
     text-transform: uppercase;
     text-align: center;
-}
-h2.front-page a:hover{
-    color: #03c3dd;
-    text-decoration: none;
 }
 
 .categories {
@@ -1209,27 +1132,23 @@ a.link-cat:hover {
     text-decoration: underline;
 }
 
-a.thumbnail {
-    border: none;
-}
-
-div.thumbnail{
+a.thumbnail{
+    color: black;
     background-color: white;
     text-align: center;
+    font-size: 22px;
     padding: 0em;
     margin: 1em;
 }   
 
-div.thumbnail:hover{
-    -moz-transition: background-color 0.1s ease-in-out;
-    -webkit-transition: background-color 0.1s ease-in-out;
-	-o-transition: background-color 0.1s ease-in-out;
-	-ms-transition: background-color 0.1s ease-in-out;
-	transition: background-color 0.1s ease-in-out;
+a.thumbnail:hover{
+    -moz-transition: color 0.1s ease-in-out;
+    -webkit-transition: color 0.1s ease-in-out;
+	-o-transition: color 0.1s ease-in-out;
+	-ms-transition: color 0.1s ease-in-out;
+	transition: color 0.1s ease-in-out;
         
-    background-color: #AFECF4 ;
-    color: black;
-    text-decoration: underline;
+    color: var(--orange)
 }
 
 h2.logo-header {

@@ -138,19 +138,17 @@ layout: landing-page
     <section id="index" class="white" style="padding: 3em; margin: 0;">
         <div style="display: flex; justify-content: space-around; margin: 0;padding: 0;">
             <div  style=" width: 60%;">
-                <h2 class="front-page" style="color: black;"><a href="/blog/index.html">Blog</a></h2>
+                <h2 class="front-page"><a href="/blog/index.html">Blog</a></h2>
                 <div class="recent-post-view">
                     {% for post in site.posts limit:4 %}
-                        <div class="thumbnail" >
-                            <a class="thumbnail" href={{post.url}}>
-                                {% if post.image %} 
-                                    <img src={{post.image}} width="400"/>
-                                {% else %}
-                                    <img src="assets/default_post_thumbnail.png" width="400"/>
-                                {% endif %}
-                                <h1 class="thumbnail">{{post.title}}</h1>
-                            </a>
-                        </div>
+                        <a href={{post.url}} class="thumbnail" >
+                            {% if post.image %} 
+                                <img src={{post.image}} width="400"/>
+                            {% else %}
+                                <img src="assets/default_post_thumbnail.png" width="400"/>
+                            {% endif %}
+                            <h1>{{post.title}}</h1>
+                        </a>
                     {% endfor %}
                 </div>				
             </div>
