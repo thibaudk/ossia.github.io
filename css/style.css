@@ -1108,8 +1108,9 @@ h2.front-page{
     padding-left: 20px;
     text-transform: uppercase;
     text-align: center;
+    
+    letter-spacing: 0.8em;
 }
-
 .categories {
     display: flex;
     flex-direction: column;
