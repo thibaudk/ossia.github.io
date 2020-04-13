@@ -1203,6 +1203,14 @@ div.logo-grid a:hover{
 #index.white {
     background-color: white;
 }
+
+#index.white h2 a{
+    color: black;
+}
+
+#index.white h2 a:hover{
+    color: var(--orange);
+}
 /* Banner */
 #banner.background{
     padding: 0;
