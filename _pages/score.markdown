@@ -1,12 +1,12 @@
 ---
-layout: about-page
-title:  "About ossia"
+layout: score-page
+title:  "About ossia score"
 
-permalink: /about.html
-category: site-about
+permalink: /score.html
+category: "site-score"
 ---
 
-<h2>Background</h2>
+<h2>About ossia score</h2>
 
 ossia score is based on more than 15 years of research at LaBRI in the frame of the i-score (interactive scores) project.
 
@@ -21,9 +21,6 @@ Parts of this library have been made accessible through APIs to several programm
 
 ossia score is distributed under the terms of the CeCILL license.
 It is compatible with the the GPLv3.
-
-libossia is distributed under the terms of the CeCILL-C license
-It is compatible with the the LGPLv3.
 
 <h2>Support</h2>
 

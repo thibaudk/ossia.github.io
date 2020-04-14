@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: score-page
 title:  "Download"
 
 permalink: /download.html
+category: site-score
 ---
 The latest stable release can be found here:
 <p align="center">

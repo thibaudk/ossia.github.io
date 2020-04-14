@@ -1,47 +1,58 @@
+<script>
+$(function(){
+
+    $('.menu a').each(function(){
+    var category_name = "site-" + this.text; 
+    if("{{page.category}}" ===  category_name){
+        $(this).addClass('active');
+    }
+    });
+
+    var home = document.getElementById("homebtn");
+    if( window.location.pathname === "/")
+    {
+    
+        home.style.display = "none";
+    }
+    else
+    {
+        home.style.display = "flex";
+    }
+});
+</script>
+
 <header id="header">
-				<!--<h1 class="logo"><img src="/assets/score-logo.png" width="48px" style="margin-bottom: 6px; vertical-align: middle;"/><a id="logo" href="/" >  ossia</a></h1>-->
-				<nav id="nav">
-					<ul>
-						<li ><a href="/">score</a>
-                           <!-- <ul class="list-none">
-								<li><a href="/download.html">Download</a></li>
-								<li><a href="https://ossia.github.io/score/" target="_blank">Documentation</a></li>
-								<li><a href="https://www.youtube.com/playlist?list=PLIHLSiZpIa6aRQT5v6RInuyCR3qWmMEgV" target="_blank">Video Tutorials</a></li>
-								<li><a href="https://github.com/OSSIA/score/wiki" target="_blank">Wiki on github</a></li>
-								<li><a href="/contributor-guide.html">Contributor guide</a></li>
-							</ul>-->
-                        </li>
-						<li><a href="/">libossia</a>
-                            <ul class="list-none">
-								<li><a href="/libossia.html">About libossia</a></li>
-								<li><a href="https://ossia.github.io/#introduction" target="_blank">Documentation</a></li>
-							</ul>
-                        </li>
-						
-						<li><a href="/">community</a>
-                            <ul class="list-none">
-                            	<li><a href="https://gitter.im/OSSIA/score" target="_blank">Chat</a></li>
-                                <li><a href="/blog/index.html">Blog</a></li>
-                                <li><a href="http://forum.ossia.io/" target="_blank">Forum</a></li>
-                                <li><a href="/gallery.html">Gallery</a></li>
-								<li><a href="https://scrime.u-bordeaux.fr/Enseignements/Ateliers/Liste-des-Ateliers/L-atelier-OSSIA-score-Anciennement-i-score" target="_blank">Workshop (fr)</a></li>
-							</ul>
-                        </li>
-						<li><a href="/">about</a>
-                            <ul class="list-none">
-                            	<li><a href="/about.html">About ossia</a></li>
-                                <li><a href="/team.html">Team</a></li>
-                                <li><a href="/roadmap.html">Roadmap</a></li>
-                                <li><a href="/research.html">Research</a></li>
-							</ul>
-					</ul>
-					<ul style="position: absolute; right: 1.5em;">
-                        <li class="special">
-                            <a href="http://forum.ossia.io/" target="_blank">forum</a>
-                        </li>
-                        <li class="special">
-                            <a href="https://gitter.im/OSSIA/score" target="_blank">chat</a>
-                        </li>
-					</ul>
-				</nav>
-			</header>
+	<nav id="nav" class="menu">
+        <ul style="position: absolute; left: 1.5em;">
+            <li>
+                <a id="homebtn" class="home-logo" href="/">
+                    <image src="/assets/score-logo.png" height="50px"/>
+                    <h2 class="software small">ossia</h2>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li >
+                <a href="/score.html">score</a>
+            </li>
+			<li>
+                <a href="/libossia.html">libossia</a>
+            </li>
+			<li>
+                <a href="/community.html">community</a>
+            </li>
+			<li>
+                <a href="/about.html">about</a>
+            </li>
+        </ul>
+                            
+		<ul style="position: absolute; right: 1.5em;">
+            <li class="special">
+                <a href="http://forum.ossia.io/" target="_blank">forum</a>
+            </li>
+            <li class="special">
+                <a href="https://gitter.im/OSSIA/score" target="_blank">chat</a>
+            </li>
+        </ul>
+	</nav>
+</header>

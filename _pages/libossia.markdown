@@ -3,6 +3,8 @@ layout: page
 title:  "libossia"
 
 permalink: /libossia.html
+category: site-libossia
+
 ---
 
 libossia is a modern C++, cross-environment distributed object model for creative coding.

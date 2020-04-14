@@ -68,7 +68,7 @@
 			text-decoration: none;
 			border: 0;
 	}
-    a:hover{
+    a:hover, a:active, a.active{
         text-decoration: none;
         color: var(--orange);
     }
@@ -633,7 +633,14 @@
         
         text-align:center;
 	}
-	
+			
+        #header a.home-logo{
+            display: none/*flex*/; 
+            justify-content:center; 
+            align-items: center;
+            padding: 0; 
+            margin-bottom:10px;
+        }
 		#header h1 {
 			font-weight: 600;
             font-size: 28px;
@@ -684,7 +691,8 @@
                     font-size: 25px;
 				}
 
-				#header nav ul li.active > a, #header nav ul li:hover > a {
+				#header nav ul li.active > a, #header nav ul li:hover > a,
+				#header nav ul li a.active {
 					-moz-transition: all 0.1s ease-in-out;
 					-webkit-transition: all 0.1s ease-in-out;
 					-o-transition: all 0.1s ease-in-out;
@@ -692,7 +700,7 @@
 					transition: all 0.1s ease-in-out;
                     color: var(--orange) !important;
 				}
-				#header nav ul li.special.active > a, #header nav ul li.special:hover > a {
+				#header nav ul li.active > a, #header nav ul li.special:hover > a {
 					color: var(--orange) !important;
 				}
 				#header nav .cc-active {
@@ -1265,7 +1273,13 @@ h2.software {
 	padding-left: 0.1em;
     line-height: 1;
 }
-				
+h2.software.small{
+    font-size: 42px;
+    text-transform: none;
+    padding-top: 0.1em;
+}
+
+
 #banner .download {
     font-family: 'Catamaran', sans-serif;
     font-size: 24px;
@@ -1307,3 +1321,5 @@ span.blog-date{
     font-size: 16px;
     font-family: 'Catamaran', sans-serif;
 }
+
+

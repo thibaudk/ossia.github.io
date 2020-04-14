@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: score-page
 title:  "Contributor Guide"
 
 permalink: /contributor-guide.html
+category: site-score
 ---
 
 <h2>Get the code</h2>

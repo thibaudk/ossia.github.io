@@ -3,6 +3,7 @@ layout: page
 title:  "Gallery"
 
 permalink: /gallery.html
+category: site-community
 ---
 
 <div id="carousel" align="middle" class="gallery-page-image" >

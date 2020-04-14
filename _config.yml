@@ -12,3 +12,4 @@ include: ["_pages"]
 permalink: /posts/:title/
 # Build settings
 markdown: kramdown
+

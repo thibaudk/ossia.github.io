@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: about-page
 title:  "Team"
 
 permalink: /team.html
+category: site-about
 ---
 
 <strong>score</strong> and <strong>libossia</strong> are specified, developed, documented and tested by a team of collaborators, that has been growing over the years.
