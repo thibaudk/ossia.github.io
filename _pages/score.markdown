@@ -1,6 +1,6 @@
 ---
 layout: score-page
-title:  "About ossia score"
+title:  "ossia score"
 
 permalink: /score.html
 category: "site-score"
