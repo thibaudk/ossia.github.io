@@ -7,10 +7,10 @@ category: site-score
 ---
 The latest stable release can be found here:
 <p align="center">
-<a href="https://github.com/OSSIA/score/releases/latest"  target="_blank" class="button special" >Download ossia score v2</a>
+<a href="https://github.com/OSSIA/score/releases/latest"  target="_blank" class="page-button" >Download ossia score v2</a>
 </p>
 
-<h2>Supported operating systems</h2>
+<h2">Supported operating systems</h2>
 
 * Windows 10
 * Mac OS X 10.12, 10.13, 10.14

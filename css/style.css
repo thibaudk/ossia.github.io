@@ -1333,7 +1333,6 @@ span.blog-date{
     font-weight: 700;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     color: black;
     border-radius: 5px;
@@ -1345,6 +1344,7 @@ span.blog-date{
 
 .menu-item.panel{
     height: 400px;
+    padding-top: 4.5em;
 }
 .menu-item:hover, .menu-item.active {
      -webkit-transition: all 0.1s ease-in-out;
@@ -1408,4 +1408,23 @@ p.description {
     padding-top: 1em; 
     width: 250px;
     margin: 0; 
+}
+
+.page-button {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 24px;
+    line-height: 0.7em;
+    font-weight: 600;
+    
+    padding: 0.5em;
+    border-radius: 5px;
+    background: var(--light-transparent-blue);
+    border: solid 2px transparent;
+	color: black !important;
+}
+.page-button:hover {
+    text-decoration: none;
+    color:var(--orange) !important;
+    background: none;
+    border-color: var(--orange);
 }
