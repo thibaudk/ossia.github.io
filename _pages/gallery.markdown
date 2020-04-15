@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: community-page
 title:  "Gallery"
 
 permalink: /gallery.html

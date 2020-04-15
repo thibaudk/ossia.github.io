@@ -3,6 +3,8 @@
 
 :root {
     --light-blue:  #03c3dd;
+    --light-transparent-blue: rgba(3, 195, 221, 0.5);;
+
     --pale-blue: #58B8C5;
     --dark-blue: #281668;
     
@@ -1323,3 +1325,69 @@ span.blog-date{
 }
 
 
+.menu-item {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 24px;
+    line-height: 1em;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 5px;
+    padding: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background: var(--light-transparent-blue);
+}
+
+.menu-item.panel{
+    height: 400px;
+}
+.menu-item:hover, .menu-item.active {
+     -webkit-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+    color: var(--orange) !important;
+    background:none;
+}
+
+.icon-chat {
+  mask: url(../assets/icons/chat_icon.svg);
+}
+.icon-blog {
+  mask: url(../assets/icons/blog_icon.svg);
+}
+.icon-forum {
+  mask: url(../assets/icons/forum_icon.svg);
+}
+.icon-gallery {
+  mask: url(../assets/icons/gallery_icon.svg);
+}
+.icon-svg {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background: black;
+  mask-size: cover;
+}
+.menu-item:hover .icon-svg, .menu-item.active .icon-svg {
+    -moz-transition: background 0.1s ease-in-out;
+    -webkit-transition: background 0.1s ease-in-out;
+	-o-transition: background 0.1s ease-in-out;
+	-ms-transition: background 0.1s ease-in-out;
+	transition: background 0.1s ease-in-out;
+    background: var(--orange) !important;
+}
+
+p.description {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 1em; 
+    width: 250px;
+    margin: 0; 
+}
