@@ -1382,7 +1382,9 @@ span.blog-date{
 .icon-contributing{
   mask: url(../assets/icons/contributing_icon.svg);
 }
-
+.icon-about{
+  mask: url(../assets/icons/about_icon.svg);
+}
 .icon-svg {
   display: inline-block;
   width: 64px;

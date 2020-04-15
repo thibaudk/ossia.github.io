@@ -2,31 +2,32 @@
 layout: default
 ---
 
+<script>
+$(function(){
+
+    $('.menu a').each(function(){
+    if("{{page.title}}" ===  this.text){
+        $(this).addClass('active');
+    }
+    });
+});
+</script>
+
 <article id="main">
     <header class="container" style="padding-top: 6em;text-align:center;">
+    
+    <div class="menu" style="display:flex; justify-content: space-around;  width: 80%;margin:auto; padding: auto; padding-bottom: 1em; ">
+            <a href="/about.html" class="menu-item" ><span class="icon-svg icon-about"/></span>About ossia</a>
+            <a href="/team.html" class="menu-item"><span class="icon-svg icon-forum"></span>Team</a>
+            <a href="/roadmap.html" class="menu-item"><span class="icon-svg icon-feature"></span>Roadmap</a>
+            <a href="/research.html" class="menu-item"><span class="icon-svg icon-documentation"></span>Research</a>
+    </div>
+    
     <h2 class="page-title">{{page.title}}</h2>
   </header>
 
     <section class="wrapper style4 container">
-        <div class="row oneandhalf">
-            <div class="9u skel-cell-important">
-                {{ content }}
-            </div>
-            <div class="3u">
-			<!-- Sidebar -->
-                <div class="sidebar">
-                    <section class="categories">
-                        <h1 class="blog category-title">Overview<h1/>
-                        <ul class="list-none">
-                            	<li><a href="/about.html">About ossia</a></li>
-                                <li><a href="/team.html">Team</a></li>
-                                <li><a href="/roadmap.html">Roadmap</a></li>
-                                <li><a href="/research.html">Research</a></li>
-							</ul>
-					</section>
-				</div>
-            </div>
-        </div>
+        {{ content }}
     </section>
 </article>
     

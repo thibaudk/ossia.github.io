@@ -1,8 +1,8 @@
 ---
 layout: score-page
-title:  "ossia score"
+title:  "About"
 
-permalink: /score.html
+permalink: /about-ossia-score.html
 category: "site-score"
 ---
 
