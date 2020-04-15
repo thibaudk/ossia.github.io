@@ -1,6 +1,6 @@
 ---
 layout: score-page
-title:  "Contributor Guide"
+title:  "Contribute"
 
 permalink: /contributor-guide.html
 category: site-score
