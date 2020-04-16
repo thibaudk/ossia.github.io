@@ -32,16 +32,16 @@ Here we generate all the categories.
 {% endif %}
 {% endfor %}
 
-<div class="row oneandhalf">
-    <div class="9u skel-cell-important">
+<div class="row oneandhalf" style="width: 80%; margin: auto;">
+    <div class="9u skel-cell-important" style="padding: 0;">
         <ul class="posts">
             {% for post in site.posts %}
-                <li class="wrapper blog">
-                    <h2 class="blog"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <li class="wrapper blog" >
+                    <h2 class="blog title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
                     <h1 class="blog">{{ post.categories }} - {{ page.date | date: "%b %-d, %Y" }} by {{post.author}}</h1>
                         {% if post.image %}
                             <p align="center" style="padding: 0;">
-                            <img src={{post.image}}>
+                            <img src="{{post.image}}">
                             </p>
                         {% endif %}
                         {{ post.excerpt }}
@@ -51,21 +51,16 @@ Here we generate all the categories.
     </div>
     <div class="3u">
     <!-- Sidebar -->
-        <div class="sidebar">
-            <section class="categories">
+        <section class="categories">
                 <h1 class="blog category-title">Post by category</h1>
                 {% for ct in cats %}
                     <h1 class="blog category" style="margin:0;"> {{ ct }} </h1>
-                    <ul class="list-none">
                         {% for post in site.posts %}
                             {% if post.category contains ct %}
-                                <li><a class="link-cat" href="{{ post.url }}"> {{ post.title }} </a>
-                                </li>
-                            {% endif %}
-                        {% endfor %}
-                    </ul>
-                {% endfor %}
-            </section>
-        </div>
+                            <a class="link-cat" href="{{ post.url }}">{{ post.title }} </a>
+                        {% endif %}
+                    {% endfor %}
+            {% endfor %}
+        </section>
     </div>
 </div>
