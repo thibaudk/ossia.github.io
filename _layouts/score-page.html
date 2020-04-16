@@ -4,10 +4,10 @@ layout: default
 
 <script>
 $(function(){
-
     $('.menu a').each(function(){
     if("{{page.title}}" ===  this.text){
         $(this).addClass('active');
+         return false;
     }
     });
 });
@@ -16,7 +16,7 @@ $(function(){
 <article id="main">
   <header class="container" style="padding-top: 6em;text-align:center;">
   
-    <div class="menu" style="display:flex; justify-content: space-around;  width: 80%;margin:auto; padding: auto; padding-bottom: 1em; ">
+    <div class="menu">
             <a href="/about-ossia-score.html" class="menu-item" ><span class="icon-svg icon-about"/></span>About</a>
             <a href="/download.html" class="menu-item" ><span class="icon-svg icon-download"/></span>Download</a>
             <a href="" class="menu-item"><span class="icon-svg icon-feature"></span>Features</a>

@@ -1,100 +1,115 @@
 ---
 layout: landing-page
 ---		
-		<!-- Main -->
-			<article id="main">
-				<!-- Video -->
-				<section id="index" class="black" >
-                    <iframe src="https://player.vimeo.com/video/247547998" width="100%" height="800" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-				</section>
-				<!-- score features -->
-				<section id="index" class="white">
-                    <div class="container special">
-                    <!-- Supported protocols -->
-                        <div class="logo-grid">
-                            <div class="3u">
-                                <h2 class="logo-header">Supported protocols: </h2>
-                            </div>
-                            <div class="8u logo-grid">
-                                
-                                <a href="https://www.midi.org/"><img src="/assets/logo/midi.jpg" height="60" width="auto"/></a>
-                                <a href="http://opensoundcontrol.org/"><span>OSC</span></a>
-                                <a href=""><span>DMX</span></a>
-                                <a href="https://www.arduino.cc/"><img src="/assets/logo/arduino.png" height="70px" width="auto"/></a>
-                                <a href=""><span>HTTP</span></a>
-                                <a href=""><img src="/assets/logo/websocket.png" width="80" height="auto"/></a>
-                                <a href="https://www.phidgets.com/"><img src="/assets/logo/phidgets.png" width="80" height="auto"/></a>
-                                <a href=""><img src="/assets/logo/gamepad.png" width="80" height="auto"/></a>
-                                <a href=""><img src="/assets/logo/wiimote.png" width="80" height="auto"/></a>
-                                <a href="https://www.avid.com/learn-and-support/c24"><span>C|24</span></a>
-                            </div>
-                        </div>    
-                        <br/>
-                        <br/>
-                        <!-- Compatible softwares -->
-                        <div class="logo-grid">
-                            <div class="3u">
-                                <h2 class="logo-header">Compatible softwares: </h2>
-                            </div>
-                            <div class="8u logo-grid">
-                                <a href="https://madmapper.com/"><img src="/assets/logo/madmapper.jpg" height="50" width="auto"/></a>
-                                <a href="https://www.garagecube.com/modul8/"><img src="/assets/logo/modul8.jpeg" height="70" width="auto"/></a>
-                                <a href="https://www.millumin.com/v3/index.php"><img src="/assets/logo/millumin.png" height="70" width="auto"/></a>
-                                <a href="https://cycling74.com/"><img src="/assets/logo/max.jpg" height="70" width="auto"/></a>
-                                <a href="https://puredata.info/"><img src="/assets/logo/pd.png" height="60" width="auto" /></a>
-                                <a href="https://openframeworks.cc/"><img src="/assets/logo/of.png" height="60" width="auto"/></a>
-                                <a href="https://processing.org/"><img src="/assets/logo/processing.jpg" height="60" width="auto"/></a>
-                                <a href="https://vidvox.net/"><img src="/assets/logo/vdmx.png" height="50" width="auto"/></a>
-                                <a href="https://vvvv.org/"><img src="/assets/logo/vvvv.png" height="70" width="auto"/></a>
-                                <a href="https://faust.grame.fr/"><img src="/assets/logo/faust.png" height="50" width="auto"/></a>
-                                <a href="https://unity.com/"><img src="/assets/logo/unity.png" height="60" width="auto"/></a>
-                                <a href="https://www.unrealengine.com/"><img src="/assets/logo/unreal_engine.png" width="80" height="auto"/></a>
-                                <a href="https://github.com/patriciogonzalezvivo/glslViewer"><span >glslViewer</span></a>
-                            </div>
-                        </div>
-                    </div>    
-                    </br>
-                    </br>
+
+   
+<!-- Loading the carousel for the gallery -->
+
+<link rel="stylesheet" href="/owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="/owlcarousel/owl.theme.default.min.css">
+
+<script>
+$(window).on('load',function(){
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoWidth:true
+})
+});
+</script>
+
+
+<!-- Main -->
+<article id="main">
+
+<!-- Video -->
+    <section id="index" class="black" >
+        <iframe src="https://player.vimeo.com/video/247547998" width="100%" height="800" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </section>
+	
+	<!-- score features -->
+	<section id="index" class="white">
+        <div class="container special">
+        <!-- Supported protocols -->
+            <div class="logo-grid">
+                <div class="3u">
+                    <h2 class="logo-header">Supported protocols: </h2>
+                </div>
+                <div class="8u logo-grid">
+                    <a href="https://www.midi.org/"><img src="/assets/logo/midi.jpg" height="60" width="auto"/></a>
+                    <a href="http://opensoundcontrol.org/"><span>OSC</span></a>
+                    <a href=""><span>DMX</span></a>
+                    <a href="https://www.arduino.cc/"><img src="/assets/logo/arduino.png" height="70px" width="auto"/></a>
+                    <a href=""><span>HTTP</span></a>
+                    <a href=""><img src="/assets/logo/websocket.png" width="80" height="auto"/></a>
+                    <a href="https://www.phidgets.com/"><img src="/assets/logo/phidgets.png" width="80" height="auto"/></a>
+                    <a href=""><img src="/assets/logo/gamepad.png" width="80" height="auto"/></a>
+                    <a href=""><img src="/assets/logo/wiimote.png" width="80" height="auto"/></a>
+                    <a href="https://www.avid.com/learn-and-support/c24"><span>C|24</span></a>
+                </div>
+            </div>    
+            <br/>
+            <br/>
+            <!-- Compatible softwares -->
+            <div class="logo-grid">
+                <div class="3u">
+                    <h2 class="logo-header">Compatible softwares: </h2>
+                </div>
+                <div class="8u logo-grid">
+                    <a href="https://madmapper.com/"><img src="/assets/logo/madmapper.jpg" height="50" width="auto"/></a>
+                    <a href="https://www.garagecube.com/modul8/"><img src="/assets/logo/modul8.jpeg" height="70" width="auto"/></a>
+                    <a href="https://www.millumin.com/v3/index.php"><img src="/assets/logo/millumin.png" height="70" width="auto"/></a>
+                    <a href="https://cycling74.com/"><img src="/assets/logo/max.jpg" height="70" width="auto"/></a>
+                    <a href="https://puredata.info/"><img src="/assets/logo/pd.png" height="60" width="auto" /></a>
+                    <a href="https://openframeworks.cc/"><img src="/assets/logo/of.png" height="60" width="auto"/></a>
+                    <a href="https://processing.org/"><img src="/assets/logo/processing.jpg" height="60" width="auto"/></a>
+                    <a href="https://vidvox.net/"><img src="/assets/logo/vdmx.png" height="50" width="auto"/></a>
+                    <a href="https://vvvv.org/"><img src="/assets/logo/vvvv.png" height="70" width="auto"/></a>
+                    <a href="https://faust.grame.fr/"><img src="/assets/logo/faust.png" height="50" width="auto"/></a>
+                    <a href="https://unity.com/"><img src="/assets/logo/unity.png" height="60" width="auto"/></a>
+                    <a href="https://www.unrealengine.com/"><img src="/assets/logo/unreal_engine.png" width="80" height="auto"/></a>
+                    <a href="https://github.com/patriciogonzalezvivo/glslViewer"><span >glslViewer</span></a>
+                </div>
+            </div>
+        </div>    
+        </br>
+        </br>
                     
-                    <!-- Main features -->
-					<section class="wrapper style1 container special">
-						<div class="row">
-							<div class="4u">
+        <!-- Main features -->
+		<section class="wrapper style1 container special">
+            <div class="row">
+                <div class="4u">
+                    <section>
+                        <image src="assets/icon_multi@300x.png" height="70px"/>
+						<header>
+                            <h3>Multi-protocol sequencer</h3>
+                        </header>
+						<p>Remote-control various applications, such as Max/MSP, PureData, Processing, openFrameworks, Unity3D, modul8, Live… using OSC, Minuit and more to come.</p>
+                    </section>
 							
-								<section>
-									<image src="assets/icon_multi@300x.png" height="70px"/>
-									<header>
-										<h3>Multi-protocol sequencer</h3>
-									</header>
-									<p>Remote-control various applications, such as Max/MSP, PureData, Processing, openFrameworks, Unity3D, modul8, Live… using OSC, Minuit and more to come.</p>
-								</section>
-							
-							</div>
-							<div class="4u">
-							
-								<section>
-									<image src="assets/icon_flex@300x.png" height="70px"/>
-									<header>
-										<h3>Flexible time management</h3>
-									</header>
-									<p>Set temporal & conditional relationships between events, interactively trigger them, hierarchize your score, and use loops to produce interactive scenarios.</p>
-								</section>
-							
-							</div>
-							<div class="4u">
-							
-								<section>
-									<image src="assets/icon_interpolation@300x.png" height="70px"/>
-									<header>
-										<h3>Interpolation & breakpoint functions</h3>
-									</header>
-									<p>Automatically interpolate parameters’ values between events or draw your own curved breakpoint function. Map addresses together, and live-script your score using JavaScript.</p>
-								</section>
-							
-							</div>
-						</div>
-					</section>
-                </section>
+                </div>
+				<div class="4u">
+                    <section>
+                        <image src="assets/icon_flex@300x.png" height="70px"/>
+						<header>
+                            <h3>Flexible time management</h3>
+                        </header>
+						<p>Set temporal & conditional relationships between events, interactively trigger them, hierarchize your score, and use loops to produce interactive scenarios.</p>
+                    </section>
+                </div>
+				<div class="4u">
+                    <section>
+                        <image src="assets/icon_interpolation@300x.png" height="70px"/>
+						<header>
+                            <h3>Interpolation & breakpoint functions</h3>
+                        </header>
+						<p>Automatically interpolate parameters’ values between events or draw your own curved breakpoint function. Map addresses together, and live-script your score using JavaScript.</p>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </section>
 					
 	<!-- Gallery -->
 <!--   	<div class="container wrapper style3" style="padding: 1em;">  -->
@@ -138,7 +153,7 @@ layout: landing-page
     <section id="index" class="white" style="padding: 3em; margin: 0;">
         <div style="display: flex; justify-content: space-around; margin: 0;padding: 0;">
             <div  style=" width: 60%;">
-                <h2 class="front-page"><a href="/blog/index.html">Blog</a></h2>
+                <h2 class="front-page"><a href="/blog.html">Blog</a></h2>
                 <div class="recent-post-view">
                     {% for post in site.posts limit:4 %}
                         <a href={{post.url}} class="thumbnail" >

@@ -1,17 +1,16 @@
 <script>
 $(function(){
-
     $('.menu a').each(function(){
     var category_name = "site-" + this.text; 
     if("{{page.category}}" ===  category_name){
         $(this).addClass('active');
+        return false;
     }
     });
 
     var home = document.getElementById("homebtn");
     if( window.location.pathname === "/")
     {
-    
         home.style.display = "none";
     }
     else
@@ -23,36 +22,23 @@ $(function(){
 
 <header id="header">
 	<nav id="nav" class="menu">
-        <ul style="position: absolute; left: 1.5em;">
-            <li>
-                <a id="homebtn" class="home-logo" href="/">
-                    <image src="/assets/score-logo.png" height="50px"/>
-                    <h2 class="software small">ossia</h2>
-                </a>
-            </li>
-        </ul>
-        <ul>
-            <li >
-                <a href="/about-ossia-score.html">score</a>
-            </li>
-			<li>
-                <a href="/libossia.html">libossia</a>
-            </li>
-			<li>
-                <a href="/community.html">community</a>
-            </li>
-			<li>
-                <a href="/about.html">about</a>
-            </li>
-        </ul>
+        <div style="position: absolute; left: 1.5em;">
+            <a id="homebtn" class="home-logo" href="/">
+                <image src="/assets/score-logo.png" height="50px"/>
+                <h2 class="software small">ossia</h2>
+            </a>
+        </div>
+        
+        <div>
+            <a href="/about-ossia-score.html">score</a>
+			<a href="/libossia.html">libossia</a>
+			<a href="/community.html">community</a>
+			<a href="/about.html">about</a>
+        </div>
                             
-		<ul style="position: absolute; right: 1.5em;">
-            <li class="special">
-                <a href="http://forum.ossia.io/" target="_blank">forum</a>
-            </li>
-            <li class="special">
-                <a href="https://gitter.im/OSSIA/score" target="_blank">chat</a>
-            </li>
-        </ul>
+		<div style="position: absolute; right: 1.5em;">
+            <a href="http://forum.ossia.io/" target="_blank">forum</a>
+            <a href="https://gitter.im/OSSIA/score" target="_blank">chat</a>
+        </div>
 	</nav>
 </header>
