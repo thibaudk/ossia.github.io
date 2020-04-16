@@ -38,7 +38,7 @@ Here we generate all the categories.
             {% for post in site.posts %}
                 <li class="wrapper blog" >
                     <h2 class="blog title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                    <h1 class="blog">{{ post.categories }} - {{ page.date | date: "%b %-d, %Y" }} by {{post.author}}</h1>
+                    <h1 class="blog">{{ post.categories }}  •  {{ post.date | date: "%b %-d, %Y" }}  •  {{post.author}}</h1>
                         {% if post.image %}
                             <p align="center" style="padding: 0;">
                             <img src="{{post.image}}">

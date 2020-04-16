@@ -5,6 +5,7 @@ title:  "Gallery"
 permalink: /gallery.html
 category: site-community
 ---
+<section class="wrapper style4 container" style="">
 
 <div id="carousel" align="middle" class="gallery-page-image" >
     <img src="assets/gallery/frontpage/carrousel-frontpage.png" style="width:800px;" align="middle"/>
@@ -88,3 +89,4 @@ category: site-community
 * Blue Yeti: Musée de la nature et de la Chasse de Gien: libossia-QML
 * Blue Yeti: Dispositifs interactifs parcours muséographique Chocolaterie Camille Bloch (Suisse): libossia-QML
 
+</section>
