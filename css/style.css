@@ -622,7 +622,7 @@
 	}
 			
         #header a.home-logo{
-            display: none/*flex*/; 
+            display: flex; 
             justify-content:center; 
             align-items: center;
             padding: 0; 
@@ -639,10 +639,13 @@
 			}
         
 		#header nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
             text-transform: uppercase;
             margin-top: 6px;
             margin-bottom: 6px;
-
         }
             #header nav div {
                 margin: 0;
@@ -651,10 +654,13 @@
                 display:inline-block; 
             }
 				#header nav div a {
+/*                     width: 180px; */
+                    padding-left: 1em;
+                    padding-right: 1em;
 					border: solid 1px transparent;
 					display: inline-block;
 					line-height: 1em;
-					padding: 0.3em 0.75em;
+                    
 					text-decoration: none;
                     color: var(--pale-blue);
                     
