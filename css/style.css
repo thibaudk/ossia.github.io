@@ -688,23 +688,20 @@
 	margin: 0;
     color: black;
 }
+
 /* Blog */
 
 .wrapper.container.nav{
-    padding: 1em;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    align-items: center;
+   padding: 2em; 
+   padding-bottom: 4em;
+   padding-left: 0em; 
+   padding-right: 0em;
 }
 
 .post-nav {
-    color: black !important;
+    color: inherit;
     border: none;
-}
-.post-nav:hover {
-    text-decoration: underline;
-}
-
+}   
 
 /* Main */
 

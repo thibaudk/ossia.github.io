@@ -2,7 +2,7 @@
 layout: default
 ---
 
-    <article id="main">
+  <article id="main">
   <header class="special container">
     <h2 class="post-title">{{ page.title }}</h2>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
@@ -11,16 +11,19 @@ layout: default
   <section class="style4 wrapper container">
     {{ content }}
   </section>
-  <section class="wrapper container nav" >
+  <section class="wrapper container nav">
+       {% if page.previous %}
+        <a href="{{ page.previous.url }}" class="post-nav" style="float: left; text-align: left; ">&larr; <strong>{{page.previous.title}}</strong></a> 
+        {% endif %}
         
-        {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="post-nav" style="text-align: left;">&larr; <strong>{{page.previous.title}}</strong></a> 
-        {% endif %}
-        <a href="/blog/index.html" class="post-nav" style="text-align: center;">Back to all posts</a>
+        <div style="position: absolute; left: 50%;">
+            <a href="/blog/index.html" class="post-nav" style="position: relative; left: -50%;"><strong>Back to all posts</strong></a>
+        </div>
+        
         {% if page.next %}
-        <a href="{{ page.next.url }}" class="post-nav" style="text-align: right;"><strong>{{page.next.title}}</strong> &rarr;</a> 
+        <a href="{{ page.next.url }}" class="post-nav" style="float: right; text-align: right;"><strong>{{page.next.title}}</strong> &rarr;</a> 
         {% endif %}
-    </section>
+</section>
     
 </article>
 
