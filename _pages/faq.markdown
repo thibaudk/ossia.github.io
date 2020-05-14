@@ -3,11 +3,9 @@ layout: learn-page
 title:  "FAQ"
 
 permalink: /faq.html
-category: site-faq
+category: site-learn
 ---
-
-
-<h2>Questions</h2>
+    
 <h3 class="faq">Basics</h3>
 <p type="button" class="question" data-toggle="collapse" href="#demo">> What can ossia score do ?</p>
 <div id="demo" class="collapse answer">
@@ -34,6 +32,8 @@ category: site-faq
     Ask JM<br/>
 </div>
 
+
+<br/>
 
 <br/>
 

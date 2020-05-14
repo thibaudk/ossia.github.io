@@ -11,10 +11,6 @@
     <meta name="keywords" content="" />
     
     <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/skel.min.js"></script>
     <script src="/js/skel-layers.min.js"></script>
@@ -28,8 +24,20 @@
     <meta name="viewport" content="width=device-width">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-   
-</script>
+
     <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium|Catamaran:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium|Libre+Franklin:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium|Open+Sans:regular,bold,semi-bold,black,light,medium">
+      href="https://fonts.googleapis.com/css?family=Montserrat:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium|Catamaran:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium|Libre+Franklin:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium|Open+Sans:regular,bold,semi-bold,black,light,medium|Lato:regular,bold,semi-bold,black,light,medium">
+      
+       <script>
+     $(window).load(function() {
+        $("body").addClass('all-loaded');
+        });
+        $(window).on('load',function(){
+        $("#cover").hide();
+//         $("#header").show();
+        });
+        </script>
+        
 </head>
+<div id="cover"></div>
+
