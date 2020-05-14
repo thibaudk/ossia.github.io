@@ -1,6 +1,6 @@
 <script>
 $(function(){
-    $('.menu a').each(function(){
+    $('.cat a').each(function(){
     var category_name = "site-" + this.text; 
     if("{{page.category}}" ===  category_name){
         $(this).addClass('active');
@@ -18,7 +18,7 @@ $(function(){
                 <h2 class="software small" style="padding: 0; padding-left: 0.2em;padding-bottom: 0.1em;">ossia</h2>
             </a>
         </div>
-        <div style="flex-grow:1;">
+        <div class="cat" style="flex-grow:1;">
             <a href="/about-ossia-score.html">score</a>
 			<a href="/libossia.html">libossia</a>
 			<a href="/learn.html">learn</a>
