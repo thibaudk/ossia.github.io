@@ -1237,13 +1237,15 @@ margin: 0;
 .active, .collapsible:hover {
     color:var(--orange) !important;
 }
-
+.collapsible.active{
+    color:var(--orange) !important;
+    font-weight: 700;
+}
 .collapsible-content {
      color: black;
     font-weight: 500;
     font-size: 19px;
     
-    border: 1px solid var(--light-transparent-blue);
     vertical-align: middle;
     padding: 10px;
     
