@@ -13,6 +13,11 @@ It is based on [libossia](https://github.com/OSSIA/libossia){:target="_blank"}.
 
 <h2>Contributing</h2>
 
+* Contributing to the user library
+* Extending the scripting API
+* Implementing new protocols
+* Implementing new processes and effects
+    
 The score project is open to contributions.
 We need help on :
 
