@@ -5,10 +5,27 @@ title:  "Download"
 permalink: /download.html
 category: site-score
 ---
-The latest stable release can be found here:
-<p align="center">
-<a href="https://github.com/OSSIA/score/releases/latest"  target="_blank" class="page-button" >Download ossia score v2</a>
+<script>
+$(function(){
+var tag = "v3.0.0-alpha5";
+var version = "v3.0.0-a5";
+
+   document.getElementById("linux").href = "https://github.com/OSSIA/score/releases/download/"+tag+"/score-"+version+"-Linux.AppImage" ;
+   
+   document.getElementById("windows").href = "https://github.com/OSSIA/score/releases/download/"+tag+"/score-"+version+"-win64.exe" ;
+   
+   document.getElementById("osx").href = "https://github.com/OSSIA/score/releases/download/"+tag+"/score-"+version+"-macOS.zip";
+
+});
+</script>
+
+Download the latest stable release:
+<p style="display: flex; justify-content: center;align-content:space-evenly;" align="center">
+<a id="windows" href="https://github.com/OSSIA/score/releases/latest"  target="_blank" class="page-button download-page"><img src="assets/windows_logo_2012-Black.svg" width="80px"/>Windows</a>
+<a id="osx" href="https://github.com/OSSIA/score/releases/latest"  target="_blank" class="page-button download-page" ><img src="assets/apple_logo_black.svg" width="80px"/>OS X</a>
+<a id="linux" target="_blank" class="page-button download-page"><img src="assets/Linux_Platform.svg" width="80px"/>Linux</a>
 </p>
+The <a href="https://github.com/OSSIA/score/releases/latest"  target="_blank">change log</a> for the latest release.
 
 <h2>Supported operating systems</h2>
 
