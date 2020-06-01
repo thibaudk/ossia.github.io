@@ -6,6 +6,7 @@ permalink: /contributor-guide.html
 category: site-score
 ---
 
+
 <h2>Get the code</h2>
 
 The [source code](https://github.com/OSSIA/score){:target="_blank"} for score is hosted on GitHub.
@@ -32,7 +33,7 @@ We need help on :
 Here is a video explaining how to contribute to the code of ossia score:
 
 <p align="center" style="padding: 0;">
-<iframe width="1120" height="630" src="https://www.youtube.com/embed/LSifHFbuky0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1120" height="630" src="" data-src="https://www.youtube.com/embed/LSifHFbuky0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
 Most of the discussion regarding score features occurs on the issue tracker.
