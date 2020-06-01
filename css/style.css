@@ -53,7 +53,8 @@
 	}
 
 	a {
-			color: var(--pale-blue);
+			color: var(--light-blue);
+            font-weight: 400;
 			text-decoration: none;
 			border: 0;
 	}
