@@ -20,15 +20,16 @@ Parts of this library have been made accessible through APIs to several programm
 <h2>Licenses</h2>
 
 ossia score is distributed under the terms of the CeCILL license.
-It is compatible with the the GPLv3.
+It is compatible with the GPLv3.
 
 <h2>Support</h2>
 
 ossia score development has been mainly supported by the following organisms :
-
-* SCRIME
-* LaBRI
-* Blue Yeti
+<div class="logo-grid" style="justify-content: center;">
+<a href="https://www.labri.fr/"><img src="/assets/LABRI_BIG.png" height="40" width="auto"/></a>
+<a href="https://scrime.u-bordeaux.fr/"><img src="/assets/logo-SCRIME-2018-Light.jpg" height="100" width="auto"/></a>
+<a href="http://www.blueyeti.fr/"><img src="/assets/blueyeti.png" height="120" width="auto"/></a>
+</div>
 
 With support and contributions of other organisms, such as GMEA, L’Arboretum, didascalie.net, StudioMirio and more. 
 
