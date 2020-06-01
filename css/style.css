@@ -586,7 +586,6 @@
 /*                     width: 180px; */
                     padding-left: 1em;
                     padding-right: 1em;
-					border: solid 1px transparent;
 					display: inline-block;
 					line-height: 1em;
                     
@@ -1323,5 +1322,12 @@ margin: 0;
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+.follow-us{
+    color: var(--pale-blue);
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
 }
 /* */
