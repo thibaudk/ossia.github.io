@@ -1,0 +1,42 @@
+<script>
+$(function(){
+    $('.cat a').each(function(){
+    var category_name = "site-" + this.text; 
+    if("{{page.category}}" ===  category_name){
+        $(this).addClass('active');
+        return false;
+    }
+    });
+});
+
+// load asynchrnously videos to avoid slowing the page showing
+function init() {
+var vidDefer = document.getElementsByTagName('iframe');
+for (var i=0; i<vidDefer.length; i++) {
+if(vidDefer[i].getAttribute('data-src')) {
+vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
+</script>
+
+<header id="header">
+	<nav id="nav" style="vertical-align: middle; ">
+        <div style="padding-right: 5em;">
+            <a id="homebtn" class="home-logo" style="margin: 0;" href="/">
+                <image src="/assets/score-logo.png" height="45px"/>
+                <h2 class="software small" style="padding: 0; padding-left: 0.2em;padding-bottom: 0.1em;">ossia</h2>
+            </a>
+        </div>
+        <div class="cat" style="flex-grow:1;">
+            <a href="/about-ossia-score.html">score</a>
+			<a href="/libossia.html">libossia</a>
+			<a href="/learn.html">learn</a>
+            <a href="/community.html">community</a>
+			<a href="/about.html">about</a>
+        </div>
+        <div>     
+            <a href="http://forum.ossia.io/" target="_blank" style="padding-left: 0; padding-right: 1em;">forum</a>
+            <a href="https://gitter.im/OSSIA/score" target="_blank" style="padding:0; padding-right: 1em;">chat</a>
+        </div>
+	</nav>
+</header>

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<script>
+$(function(){
+    $('.menu a').each(function(){
+    if("{{page.title}}" ===  this.text){
+        $(this).addClass('active');
+         return false;
+    }
+    });
+});
+</script>
+
+<article id="main">
+    <header class="container" style="padding-top: 6em;text-align:center;">
+    
+    <div class="menu">
+            <a href="/about.html" class="menu-item" ><span class="icon-svg icon-about"/></span>About ossia</a>
+            <a href="/team.html" class="menu-item"><span class="icon-svg icon-forum"></span>Team</a>
+            <a href="/roadmap.html" class="menu-item"><span class="icon-svg icon-feature"></span>Roadmap</a>
+            <a href="/research.html" class="menu-item"><span class="icon-svg icon-documentation"></span>Research</a>
+    </div>
+    
+    <h2 class="page-title">{{page.title}}</h2>
+  </header>
+
+    <section class="wrapper style4 container">
+        {{ content }}
+    </section>
+</article>
+    

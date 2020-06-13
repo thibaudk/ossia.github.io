@@ -1,0 +1,184 @@
+---
+layout: landing-page
+---		
+
+   
+<!-- Loading the carousel for the gallery -->
+
+<link rel="stylesheet" href="/owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="/owlcarousel/owl.theme.default.min.css">
+<script src="/owlcarousel/owl.carousel.min.js"></script>
+<script>
+$(window).on('load',function(){
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoWidth:true
+})
+});
+</script>
+
+
+<!-- Main -->
+<article id="main">
+
+<!-- Video -->
+    <section id="index" class="black" >
+        <iframe src="https://player.vimeo.com/video/247547998" width="100%" height="800" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </section>
+	
+	<!-- score features -->
+	<section id="index" class="white">
+        <div class="container special">
+        <!-- Supported protocols -->
+            <div class="logo-grid">
+                <div class="3u">
+                    <h2 class="logo-header">Supported protocols: </h2>
+                </div>
+                <div class="8u logo-grid">
+                    <a href="https://www.midi.org/" class="tooltip"><img src="/assets/logo/midi.jpg" height="60" width="auto"/><span class="tooltiptext">Midi</span></a>
+                    <a href="http://opensoundcontrol.org/" class="tooltip"><span>OSC</span><span class="tooltiptext">Open Sound Control</span></a>
+                    <a href="https://spout.zeal.co/" class="tooltip"><img src="/assets/logo/spout.png" height="50px" width="auto"/><span class="tooltiptext">Spout</span></a>
+                    <a href="https://www.arduino.cc/" class="tooltip"><img src="/assets/logo/arduino.png" height="70px" width="auto"/><span class="tooltiptext">Arduino</span></a>
+                    <a href=""><span>DMX</span></a>
+                    <a href=""><span>HTTP</span></a>
+                    <a href="" class="tooltip"><img src="/assets/logo/websocket.png" width="80" height="auto" /><span class="tooltiptext">Websocket</span></a>
+                    <a href="https://www.phidgets.com/" class="tooltip"><img src="/assets/logo/phidgets.png" width="80" height="auto"/><span class="tooltiptext">Phidgets</span></a>
+                    <a href="" class="tooltip"><img src="/assets/logo/gamepad.png" width="80" height="auto"/><span class="tooltiptext">Gamepad</span></a>
+                    <a href="" class="tooltip"><img src="/assets/logo/wiimote.png" width="80" height="auto"/><span class="tooltiptext">Wiimote</span></a>
+                    <a href="https://www.avid.com/learn-and-support/c24" class="tooltip"><span>C|24</span><span class="tooltiptext">Avid C|24</span></a>
+                </div>
+            </div>    
+            <br/>
+            <br/>
+            <!-- Compatible softwares -->
+            <div class="logo-grid">
+                <div class="3u">
+                    <h2 class="logo-header">Compatible softwares: </h2>
+                </div>
+                <div class="8u logo-grid">
+                    <a href="https://madmapper.com/" class="tooltip"><img src="/assets/logo/madmapper.jpg" height="50" width="auto"/><span class="tooltiptext">Madmapper</span></a>
+                    <a href="https://www.garagecube.com/modul8/" class="tooltip"><img src="/assets/logo/modul8.jpeg" height="70" width="auto"/><span class="tooltiptext">modul8</span></a>
+                    <a href="https://www.millumin.com/v3/index.php" class="tooltip"><img src="/assets/logo/millumin.png" height="70" width="auto"/><span class="tooltiptext">Millumin</span></a>
+                    <a href="https://cycling74.com/" class="tooltip"><img src="/assets/logo/max.jpg" height="70" width="auto"/><span class="tooltiptext">Max</span></a>
+                    <a href="https://puredata.info/" class="tooltip"><img src="/assets/logo/pd.png" height="60" width="auto" /><span class="tooltiptext">Pure Data</span></a>
+                    <a href="https://openframeworks.cc/" class="tooltip"><img src="/assets/logo/of.png" height="60" width="auto"/><span class="tooltiptext">openFrameworks</span></a>
+                    <a href="https://processing.org/" class="tooltip"><img src="/assets/logo/processing.jpg" height="60" width="auto"/><span class="tooltiptext">Processing</span></a>
+                    <a href="https://vidvox.net/" class="tooltip"><img src="/assets/logo/vdmx.png" height="50" width="auto"/><span class="tooltiptext">VDMX</span></a>
+                    <a href="https://vvvv.org/" class="tooltip"><img src="/assets/logo/vvvv.png" height="70" width="auto"/><span class="tooltiptext">vvvv</span></a>
+                    <a href="https://faust.grame.fr/" class="tooltip"><img src="/assets/logo/faust.png" height="50" width="auto"/><span class="tooltiptext">Faust</span></a>
+                    <a href="https://unity.com/" class="tooltip"><img src="/assets/logo/unity.png" height="60" width="auto"/><span class="tooltiptext">Unity</span></a>
+                    <a href="https://www.unrealengine.com/" class="tooltip"><img src="/assets/logo/unreal_engine.png" width="80" height="auto"/><span class="tooltiptext">Unreal Engine</span></a>
+                    <a href="https://github.com/patriciogonzalezvivo/glslViewer"><span >glslViewer</span></a>
+                    <a href="https://opencv.org/" class="tooltip"><img src="/assets/logo/opencv-logo.png" width="60" height="auto"/><span class="tooltiptext">OpenCV</span></a>
+                </div>
+            </div>
+        </div>    
+        </br>
+        </br>
+                    
+        <!-- Main features -->
+		<section class="wrapper style1 container special">
+            <div class="row">
+                <div class="4u">
+                    <section>
+                        <image src="assets/icon_multi@300x.png" height="70px"/>
+						<header>
+                            <h3>Multi-protocol sequencer</h3>
+                        </header>
+						<p>Remote-control various applications, such as Max/MSP, PureData, Processing, openFrameworks, Unity3D, modul8, Live… using OSC, Minuit and more to come.</p>
+                    </section>
+							
+                </div>
+				<div class="4u">
+                    <section>
+                        <image src="assets/icon_flex@300x.png" height="70px"/>
+						<header>
+                            <h3>Flexible time management</h3>
+                        </header>
+						<p>Set temporal & conditional relationships between events, interactively trigger them, hierarchize your score, and use loops to produce interactive scenarios.</p>
+                    </section>
+                </div>
+				<div class="4u">
+                    <section>
+                        <image src="assets/icon_interpolation@300x.png" height="70px"/>
+						<header>
+                            <h3>Interpolation & breakpoint functions</h3>
+                        </header>
+						<p>Automatically interpolate parameters’ values between events or draw your own curved breakpoint function. Map addresses together, and live-script your score using JavaScript.</p>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </section>
+					
+	<!-- Gallery -->
+<!--   	<div class="container wrapper style3" style="padding: 1em;">  -->
+      <section id="index" class="black">
+        <h2 class="front-page"><a href="/gallery.html">Gallery</a></h2>
+        <div class="owl-carousel owl-theme" >
+            <div class="carouselcontainer"  style="width:840px">
+                <a href="/gallery.html#carousel"><img class="frontpage-gallery" src="assets/gallery/frontpage/carrousel-frontpage.png"/></a>
+                <header>
+                    <a href="https://www.abbayeauxdames.org/en/musicaventure/carrousel-musical/" class="gallery-text">Carousel</a> <span class="gallery-text">-</span> <a href="http://www.blueyeti.fr/le-carrousel-musical-abbaye-aux-dames/" class="gallery-text">Blue Yeti</a>
+                </header>
+            </div>
+            <div class="carouselcontainer" style="width:840px">
+                <a href="/gallery.html#nebula"><img class="frontpage-gallery" src="assets/gallery/frontpage/Nebula_ChampignonsNeigeJaune-frontpage.jpg"/></a>
+                <header>
+                    <a href="http://www.baltazars.org/project/nebula/" class="gallery-text">Nebula</a> <span class="gallery-text">-</span> <a href="http://www.baltazars.org/" class="gallery-text">Les Baltazars</a>
+                </header>
+            </div>
+            <div class="carouselcontainer" style="width:740px">
+                <a href="/gallery.html#quarre"><img class="frontpage-gallery" src="assets/gallery/frontpage/quarre-frontpage.jpg"/></a>
+                <header>
+                    <a href="https://wpn214.com/en/" class="gallery-text">Quarrè - Pierre Cochard</a> 
+                </header>
+            </div>
+            <div class="carouselcontainer" style="width:840px">
+                <a href="/gallery.html#meta-chef-d-orchestre"><img class="frontpage-gallery" src="assets/gallery/frontpage/dome_scrime-frontpage.jpg"/></a>
+                <header>
+                    <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Meta-Chef-d-Orchestre" class="gallery-text">Méta Chef d’Orchestre - Serge Delaubier</a> 
+                </header>
+            </div>
+            <div class="carouselcontainer"  style="width:880px">
+                <a href="/gallery.html#sonotact"><img class="frontpage-gallery" src="assets/gallery/frontpage/sonotact-frontpage.jpg"/></a>
+                <header>
+                    <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Sonotact" class="gallery-text">Sonotact - Pascale Criton</a> 
+                </header>
+            </div>
+        </div>
+    </section>  
+    
+    <!-- Recent posts and twitter feed -->
+    <section id="index" class="white" style="padding: 3em; margin: 0;">
+        <div style="display: flex; justify-content: space-around; margin: 0;padding: 0;">
+            <div  style=" width: 60%;">
+                <h2 class="front-page"><a href="/blog.html">Blog</a></h2>
+                <div class="recent-post-view">
+                    {% for post in site.posts limit:4 %}
+                        <a href={{post.url}} class="thumbnail" >
+                            <h1 class="blog-title">{{post.title}} </h1>
+                            
+                            {% if post.image %} 
+                                <img src={{post.image}} width="400"/>
+                            {% else %}
+                                <img src="assets/default_post_thumbnail.png" width="400"/>
+                            {% endif %}
+                            <br/>
+                            <span class="blog-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                           
+                        </a>
+                    {% endfor %}
+                </div>				
+            </div>
+            <!-- Twitter timeline -->
+            <div style="width: 30%;">
+                 <h2><a class="twitter-timeline" data-tweet-limit="2" href="https://twitter.com/ossia_io?ref_src=twsrc%5Etfw">Tweets by ossia_io</a> </h2>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+                </script>
+            </div>
+        </div>
+    </section>	
+</article>

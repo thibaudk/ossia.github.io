@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+  <article id="main">
+  <header class="special container">
+    <h2 class="post-title">{{ page.title }}</h2>
+    <p class="post-meta">{{ page.categories }}  •  {{ page.date | date: "%b %-d, %Y" }}{% if page.author %}  •  {{ page.author }}{% endif %}{% if page.meta %}  •  {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <section class="style4 wrapper container">
+    {{ content }}
+  </section>
+  <section class="wrapper container nav">
+       {% if page.previous %}
+        <a href="{{ page.previous.url}}" class="post-nav" style="float: left; text-align: left; ">&larr; <strong>{{page.previous.title}}</strong></a> 
+        {% endif %}
+        
+        <div style="position: absolute; left: 50%;">
+            <a href="/blog/index.html" class="post-nav" style="position: relative; left: -50%;"><strong>Back to all posts</strong></a>
+        </div>
+        
+        {% if page.next %}
+        <a href="{{ page.next.url }}" class="post-nav" style="float: right; text-align: right;"><strong>{{page.next.title}}</strong> &rarr;</a> 
+        {% endif %}
+</section>
+    
+</article>
+

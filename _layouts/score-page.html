@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<script>
+$(function(){
+    $('.menu a').each(function(){
+    if("{{page.title}}" ===  this.text){
+        $(this).addClass('active');
+         return false;
+    }
+    });
+});
+</script>
+
+<article id="main">
+  <header class="container" style="padding-top: 6em;text-align:center;">
+  
+    <div class="menu">
+            <a href="/about-ossia-score.html" class="menu-item" ><span class="icon-svg icon-about"/></span>About</a>
+            <a href="/download.html" class="menu-item" ><span class="icon-svg icon-download"/></span>Download</a>
+            <a href="/features.html" class="menu-item"><span class="icon-svg icon-feature"></span>Features</a>
+            <a href="https://ossia.github.io/score/" target="_blank" class="menu-item"><span class="icon-svg icon-documentation"></span>Docs</a>
+            <a href="https://www.youtube.com/playlist?list=PLIHLSiZpIa6aRQT5v6RInuyCR3qWmMEgV"  target="_blank" class="menu-item"><span class="icon-svg icon-video"></span>Tutorials</a>
+            <a href="/contributor-guide.html" class="menu-item"><span class="icon-svg icon-contributing"></span>Contribute</a>
+    </div>
+        
+    <h2 class="page-title">{{ page.title }}</h2>
+  </header>
+
+    <section class="wrapper style4 container">
+        {{ content }}
+    </section>
+</article>
+    

@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Version 0.3 development sprint"
+date:   2014-03-27
+author: Julien
+category: Dev
+image: /images/MaquetteI-score0.3New-600x308.png
+---
+
+Most of the i-score core developers are currently running a development sprint at GMEA – Centre National de Création Musicale d’Albi-Tarn for the OSSIA (Open Scenario System for Interactive Application) project. They have been doing a great job putting together a solid basis as i-score moves toward version 0.3.
+
+This week’s work has been focusing on both i-score’s underlying architecture as well as its user interface and general workflow.
+
+Théo De La Hogue and Clément Bossut have been refining i-score’s engine’s API. As part of the OSSIA project, the Score C++ library should be easily implemented in other environments so that users are free to write a scenario in a dedicated application such as i-score while executing it thru a Max external or some distributed Raspberry devices for example.
+
+On the other side, Jean-Michaël Celerier and Nicolas Vuaille have been working on the graphical interface. i-score 0.3 and above will have a much improved workflow. The device explorer will be much more powerfull, by providing support for dynamic namespaces, filtering options, namespaces presets and more… This will make it much easier to deal with remote control of applications that have a huge namespace (i.e. device’s parameter architecture).
+
+<span class="image featured"><img src="/images/MaquetteI-score0.3New-600x308.png" alt=""></span>
+
+The general timeline workflow has also been considerably refined. Based on an event-centered approach, i-score will allow to interleave events and processes and to further merge timeline and cue-based approaches. Thanks to work done on Score API, a plugin system will make it possible to add interpolation and automations between events as of version 0.2, but also to add other processes such as mappings, sub-scenarios, loops.
+
+A lot of other features are also on the workbench. So stay tuned for upcoming sneak peeks on i-score next big iteration !
