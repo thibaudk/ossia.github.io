@@ -26,32 +26,40 @@ category: site-learn
 <div class="collapsible-content">
 </div>
 
-<p type="button" class="collapsible"> Creating a nested score</p>
+<p type="button" class="collapsible"> Showing a video</p>
 <div class="collapsible-content">
 </div>
 
-<p type="button" class="collapsible">  Showing a video</p>
+<p type="button" class="collapsible"> Automating a parameter</p>
 <div class="collapsible-content">
 </div>
 
-<p type="button" class="collapsible">  Automating a parameter</p>
+<p type="button" class="collapsible"> Creating loops</p>
 <div class="collapsible-content">
 </div>
 
-<p type="button" class="collapsible"> Making a loop</p>
+<p type="button" class="collapsible"> Creating interactive loops</p>
 <div class="collapsible-content">
 </div>
 
-<h3 class="faq">Intermediate</h3>
-<p type="button" class="collapsible">  Mapping a parameter</p>
-<div id="intermediate-mapping" class="collapsible-content">
-</div>
-
-<p type="button" class="collapsible">  Writing & playing MIDI through a software synthesizer</p>
+<p type="button" class="collapsible"> Writing & playing MIDI through a software synthesizer</p>
 <div class="collapsible-content">
 </div>
 
-<p type="button" class="collapsible">  Modulating with LFOs, step sequencers and others</p>
+<h3 class="faq">Intermediate usage</h3>
+<p type="button" class="collapsible"> Understanding the ossia score timeline</p>
+<div class="collapsible-content">
+</div>
+
+<p type="button" class="collapsible"> Mapping a parameter</p>
+<div class="collapsible-content">
+</div>
+
+<p type="button"  class="collapsible"> Creating effects and synthesizer chains</p>
+<div class="collapsible-content">
+</div>
+
+<p type="button" class="collapsible"> Modulating with LFOs, step sequencers and others</p>
 <div class="collapsible-content">
 </div>
 
@@ -59,44 +67,69 @@ category: site-learn
 <div class="collapsible-content">
 </div>
 
-<p type="button" class="collapsible">  Switching between musical and real-time mode</p>
+<p type="button" class="collapsible"> Switching between musical and real-time mode</p>
 <div class="collapsible-content">
 </div>
 
-<p type="button" class="collapsible">  Recording OSC messages and automations</p>
+<p type="button" class="collapsible"> Recording OSC messages and automations</p>
 <div class="collapsible-content">
 </div>
 
-<h3 class="faq">Advanced features</h3>
-<p type="button" class="collapsible">  Nesting scores</p>
+<p type="button" class="collapsible"> Nesting scores</p>
 <div class="collapsible-content">
 </div>
 
-<p type="button" class="collapsible">  Creating complex graphs of effects</p>
+<p type="button"  class="collapsible"> Creating sequences of parameters</p>
 <div class="collapsible-content">
 </div>
 
-<p type="button" class="collapsible">  Multi-channel audio output and sound spatialization</p>
+<p type="button"  class="collapsible"> Understanding racks, layers and slots</p>
 <div class="collapsible-content">
 </div>
 
-<p type="button" class="collapsible">  Scripting with JavaScript</p>
+<h3 class="faq">Advanced usage</h3>
+<p type="button" class="collapsible"> Creating complex graphs of effects</p>
 <div class="collapsible-content">
 </div>
 
-<p type="button"  class="collapsible">  Writing audio effects with Faust</p>
+<p type="button"  class="collapsible"> Tempo control and polyrythmy</p>
 <div class="collapsible-content">
 </div>
 
-<p type="button" class="collapsible">  Writing advanced mappings with math expressions</p>
+<p type="button" class="collapsible"> Multi-channel audio output and sound spatialization</p>
 <div class="collapsible-content">
 </div>
 
-<p type="button" class="collapsible">  Writing graphics effects with ISF</p>
+<p type="button" class="collapsible"> Audio routing</p>
+<div class="collapsible-content">
+</div>
+
+<p type="button" class="collapsible"> Creating state-machine-like scores</p>
 <div class="collapsible-content">
 </div>
 
 <p type="button"  class="collapsible"> Creating a control surface for external parameters</p>
+<div class="collapsible-content">
+</div>
+
+<p type="button"  class="collapsible"> Remote controlling through a web page</p>
+<div class="collapsible-content">
+</div>
+
+<h3 class="faq">Using the embedded scripting languages</h3>
+<p type="button" class="collapsible"> Scripting with JavaScript</p>
+<div class="collapsible-content">
+</div>
+
+<p type="button"  class="collapsible"> Writing audio effects with Faust</p>
+<div class="collapsible-content">
+</div>
+
+<p type="button" class="collapsible"> Writing mappings with math expressions</p>
+<div class="collapsible-content">
+</div>
+
+<p type="button" class="collapsible"> Writing graphic effects with ISF</p>
 <div class="collapsible-content">
 </div>
 
