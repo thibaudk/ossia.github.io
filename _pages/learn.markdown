@@ -13,7 +13,7 @@ category: site-learn
          <a href="https://www.youtube.com/playlist?list=PLIHLSiZpIa6aRQT5v6RInuyCR3qWmMEgV" class="menu-item panel" target="_blank" ><span class="icon-svg icon-video"></span>Tutorials
          <p class="description">Video tutorials in french</p></a>
          
-         <a href="https://ossia.github.io/score/" target="_blank"  class="menu-item panel"><span class="icon-svg icon-documentation"></span>Docs
+         <a href="https://ossia.github.io/ossia-docs/score/" target="_blank"  class="menu-item panel"><span class="icon-svg icon-documentation"></span>Docs
          <p class="description">Documentation for score</p></a>
          
          <a href="http://forum.ossia.io/"  target="_blank" class="menu-item panel"><span class="icon-svg icon-forum"></span>Forum
