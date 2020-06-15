@@ -204,3 +204,23 @@
 			padding: 0;
 			border: 0;
 		}
+		
+/* Content */
+
+div.logo-grid {
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 0.05em;
+    justify-content: center; 
+    align-items: center;
+    align-content:center;
+    
+}
+h2.logo-header {
+    font-size: 28px;
+    letter-spacing: 0.05em;
+}
+div.logo-grid 3u{
+    margin:0;
+    width: 100%;
+}
