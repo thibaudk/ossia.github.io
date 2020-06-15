@@ -1211,7 +1211,8 @@ p.description {
     font-size: 22px;
     font-weight: 400;
     padding-top: 1em; 
-    width: 250px;
+    text-align: center;
+    width: 85%;
     margin: 0; 
 }
 

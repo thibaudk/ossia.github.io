@@ -271,6 +271,17 @@ h2.front-page a{
     background: var(--light-transparent-blue);
 }
 
+.menu-item.panel{
+    height: 200px;
+    width: 48%;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
+p.description {
+    font-size: 18px;
+}
+
 .icon-svg {
   width: 32px;
   height: 32px;
