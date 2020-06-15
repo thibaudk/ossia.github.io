@@ -5,10 +5,6 @@ date:   2014-03-15
 author: Julien
 category: News
 ---
-<!--
-<div class="videoWrapper" >
-    <iframe src="https://player.vimeo.com/video/83989990"  frameborder="0" allow="fullscreen" allowfullscreen></iframe>
-<div/>-->
 
 <div class="videoWrapper">
     <iframe src="https://player.vimeo.com/video/83989990"  frameborder="0" allow="fullscreen" allowfullscreen></iframe>

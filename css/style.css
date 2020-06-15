@@ -839,8 +839,8 @@ ul {
     padding-left: 1em;
 }
 
-ul.posts, ul.list-none{
-    list-style-type: none;	
+ul.list-none{
+    
 }
 
 h2.page-title{
@@ -870,10 +870,19 @@ h2.front-page a{
     
     letter-spacing: 0.4em;
 }
+
+/* Blog */
+ul.posts{
+    list-style-type: none;	
+    width: 60%; 
+    margin-left: auto;
+}
 .categories {
     display: flex;
     flex-direction: column;
     padding: 1em;
+    width: 25%; 
+    padding-left: 2em;
 }
 
 h1.blog.category-title{
@@ -1375,6 +1384,13 @@ margin: 0;
 	height: 0;
 }
 .videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.videoWrapper img {
 	position: absolute;
 	top: 0;
 	left: 0;
