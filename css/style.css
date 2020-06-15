@@ -913,7 +913,7 @@ a.thumbnail:hover{
 
 h2.logo-header {
     margin: 0;
-    margin-bottom: 0.5em;
+/*     margin-bottom: 0.5em; */
     color: black;
     font-size: 38px;
     font-weight: 600;
@@ -924,9 +924,10 @@ h2.logo-header {
 div.logo-grid {
     display: flex; 
     flex-wrap: wrap;
-    padding: 0;
-     justify-content: center; 
+    justify-content: center; 
     align-items: center;
+    width: 100%;
+    padding: 5%;
 }
 div.logo-grid h2{
     margin: 0;
@@ -941,6 +942,9 @@ div.logo-grid img {
 div.logo-grid span {
     margin: 0px;
     margin-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
     
     font-weight: 900 !important;
     font-size: 50px;

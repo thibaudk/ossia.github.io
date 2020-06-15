@@ -208,23 +208,23 @@
 /* Content */
 
 div.logo-grid {
-    display: flex; 
+   /* display: flex; 
     flex-wrap: wrap;
     padding: 0.05em;
     justify-content: center; 
     align-items: center;
-    align-content:center;
+    align-content:center;*/
     
 }
 h2.logo-header {
     font-size: 28px;
     letter-spacing: 0.05em;
 }
-div.logo-grid 3u{
-    margin:0;
-    width: 100%;
-}
 
+div.logo-grid a {
+    margin: 0px;
+    margin-left: 10px;
+}
 .carouselcontainer {
     padding: 0;
     width: 300px;
@@ -235,4 +235,8 @@ div.logo-grid 3u{
 
 .thumbnail-blogpost{
     width: 300px;
+}
+
+.tooltip .tooltiptext {
+    display:none;
 }
