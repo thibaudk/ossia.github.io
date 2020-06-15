@@ -184,9 +184,9 @@ $(window).on('load',function(){
                             <h1 class="blog-title">{{post.title}} </h1>
                             
                             {% if post.image %} 
-                                <img src={{post.image}} width="400"/>
+                                <img class="thumbnail-blogpost" src={{post.image}} width="auto"/>
                             {% else %}
-                                <img src="assets/default_post_thumbnail.png" width="400"/>
+                                <img class="thumbnail-blogpost" src="assets/default_post_thumbnail.png"/>
                             {% endif %}
                             <br/>
                             <span class="blog-date">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -196,7 +196,7 @@ $(window).on('load',function(){
                 </div>				
             </div>
             <!-- Twitter timeline -->
-            <div style="width: 30%;">
+            <div class="twitter" style="width: 30%;">
                  <h2><a class="twitter-timeline" data-tweet-limit="2" href="https://twitter.com/ossia_io?ref_src=twsrc%5Etfw">Tweets by ossia_io</a> </h2>
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
                 </script>
