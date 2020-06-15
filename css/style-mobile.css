@@ -291,3 +291,16 @@ header.container {
     padding-top: 1em !important;
     
 }
+
+.page-button {
+    font-size: 18px;
+    line-height: 0.7em;
+    
+    padding: 0.2em;
+}
+.page-button.download-page {
+    font-size: 18px;
+    margin: 5px;
+    line-height: 1.0em;
+    width: 30%;
+}
