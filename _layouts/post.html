@@ -13,15 +13,15 @@ layout: default
   </section>
   <section class="wrapper container nav">
        {% if page.previous %}
-        <a href="{{ page.previous.url}}" class="post-nav" style="float: left; text-align: left; ">&larr; <strong>{{page.previous.title}}</strong></a> 
+        <a href="{{ page.previous.url}}" class="post-nav" style="float: left; text-align: left; ">&larr; <strong class="post-nav-title">{{page.previous.title}}</strong></a> 
         {% endif %}
         
         <div style="position: absolute; left: 50%;">
-            <a href="/blog/index.html" class="post-nav" style="position: relative; left: -50%;"><strong>Back to all posts</strong></a>
+            <a href="/blog/index.html" class="post-nav" style="position: relative; left: -50%;"><strong class="post-nav-title">Back to all posts</strong></a>
         </div>
         
         {% if page.next %}
-        <a href="{{ page.next.url }}" class="post-nav" style="float: right; text-align: right;"><strong>{{page.next.title}}</strong> &rarr;</a> 
+        <a href="{{ page.next.url }}" class="post-nav" style="float: right; text-align: right;"><strong class="post-nav-title">{{page.next.title}}</strong> &rarr;</a> 
         {% endif %}
 </section>
     

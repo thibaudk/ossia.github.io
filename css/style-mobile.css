@@ -320,3 +320,15 @@ ul.posts {
 .categories {
     display: none;
 }
+
+.wrapper.container.nav{
+   padding: 1em; 
+}
+
+.post-nav {
+    font-size: 40px;
+    padding: 0  em;
+}   
+.post-nav-title{
+    display: none !important;
+}
