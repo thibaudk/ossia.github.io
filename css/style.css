@@ -119,11 +119,12 @@
         display: flex; 
         flex-direction: column; 
         padding: 20px;
+        width: 800px;
     }
     
-    img.frontpage-gallery{
+    /*img.frontpage-gallery{
         height: 600px;
-    }
+    }*/
     
 	sub {
 		font-size: 0.8em;

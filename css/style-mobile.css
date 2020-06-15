@@ -224,3 +224,8 @@ div.logo-grid 3u{
     margin:0;
     width: 100%;
 }
+
+.carouselcontainer {
+    padding: 0;
+    width: 300px;
+}
