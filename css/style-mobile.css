@@ -229,3 +229,10 @@ div.logo-grid 3u{
     padding: 0;
     width: 300px;
 }
+.twitter {
+    display:none;
+}
+
+.thumbnail-blogpost{
+    width: 300px;
+}
