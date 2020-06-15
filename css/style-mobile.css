@@ -312,6 +312,10 @@ header.container {
 .wrapper.blog{
      padding: 1em;
 }
+ h2.blog.title{
+     font-size: 22px;
+     letter-spacing: 0.01em;
+}
 ul.posts {
     width: 100%; 
     margin: 0;
