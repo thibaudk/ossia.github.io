@@ -9,9 +9,9 @@ category: site-learn
 <h3 class="faq">Basics</h3>
 <p type="button" class="collapsible" > What is ossia score ?</p>
 <div class="collapsible-content">
-<p align="center" style="margin: 5px;">
-<iframe width="854" height="480" src="https://www.youtube.com/embed/LSifHFbuky0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+<div class="videoWrapper">
+    <iframe src="" data-src="https://www.youtube.com/embed/LSifHFbuky0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+</div>
 </div>
 
 <p type="button" class="collapsible"> Playing a sound</p>
