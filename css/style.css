@@ -989,6 +989,7 @@ div.logo-grid a:hover{
     width: 100%;
     height: auto;
     vertical-align: bottom;
+    background: var(--dark-grey) url(../assets/banner_quarre.jpg);
 }
 
 #banner .background-image + .overlay{
@@ -1016,6 +1017,12 @@ div.logo-grid a:hover{
 #banner.inner header {
     display: inline-block;
     vertical-align:middle
+}
+
+#banner .software-logo {
+    height: 80px;
+    vertical-align:middle;
+    padding-right: 20px;
 }
 
 h2.software {
