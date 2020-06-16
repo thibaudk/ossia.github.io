@@ -545,8 +545,8 @@
         position: fixed;
 		top: 0;
         left: 0;
-        background-color: var(--dark-transparent-grey); 
-        
+        background-color: var(--dark-transparent-grey);  
+
         text-align:center;
 	}
 			
@@ -570,7 +570,7 @@
 		#header nav {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             text-transform: uppercase;
             margin-top: 6px;
@@ -584,8 +584,8 @@
             }
 				#header nav div a {
 /*                     width: 180px; */
-                    padding-left: 1em;
-                    padding-right: 1em;
+                    padding-left: 0.8em;
+                    padding-right: 0.8em;
 					display: inline-block;
 					line-height: 1em;
                     
@@ -594,23 +594,15 @@
                     
                     font-family: 'Catamaran', sans-serif;
                     font-weight: 700;
-                    font-size: 25px;
+                    font-size: 23px;
 				}
 
                 #header nav div.active > a, #header nav div a:hover,
 				#header nav div a.active {
-					-moz-transition: all 0.1s ease-in-out;
-					-webkit-transition: all 0.1s ease-in-out;
-					-o-transition: all 0.1s ease-in-out;
-					-ms-transition: all 0.1s ease-in-out;
-					transition: all 0.1s ease-in-out;
                     color: var(--orange) !important;
 				}
 				#header nav div a.active, #header nav div a.special:hover {
 					color: var(--orange) !important;
-				}
-				#header nav .cc-active {
-					font-weight: 900;
 				}
 
 			#header.alt nav {
@@ -1033,6 +1025,7 @@ div.logo-grid a:hover{
     
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 #banner .inner {
     background: var(--dark-transparent-grey);

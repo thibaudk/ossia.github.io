@@ -77,7 +77,20 @@
 	#banner {
 		margin: 0;
 	}
-
+#banner .overlay {
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+	#banner .inner {
+    background: var(--dark-transparent-grey);
+	color: white;
+	padding: 4em;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    
+	text-align: center;
+}
 /* Wrapper */
 
 	.wrapper.special-alt {
