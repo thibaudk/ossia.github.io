@@ -807,8 +807,9 @@
 .recent-post-view{
     display: flex; 
     justify-content: space-evenly; 
+    align-content: center; 
+    align-items: center; 
     flex-wrap: wrap;
-/*     border-right: thick solid var(--pale-blue); */
 }
 
 ul {
@@ -904,7 +905,6 @@ a.thumbnail{
     font-size: 22px;
     padding: 0em;
     margin: 1em;
-    text-align: left;
 }   
 
 a.thumbnail:hover{
@@ -921,9 +921,12 @@ a.thumbnail:hover{
     padding: 3em; 
     margin: 0;
 }
-
+.twitter{
+    padding-right: 5em; 
+}
 .blog-list {
     width: 80%;
+    padding-left: 3em; 
 }
 
 h2.logo-header {

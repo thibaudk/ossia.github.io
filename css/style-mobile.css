@@ -240,6 +240,7 @@ h2.front-page a{
 
 /* Frontpage blog + twitter */
 
+
 .blog-twitter{
     padding: 0; 
     margin: 0;
@@ -251,6 +252,7 @@ h2.front-page a{
 
 .blog-list {
     width: 100%;
+    padding: 0; 
 }
 
 .twitter {
