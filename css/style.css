@@ -686,8 +686,8 @@
         background: var(--pale-blue);
         background-repeat: none;
         mask-size: cover; 
-        mask: url(../assets/icons/top_button_icon.svg);
-        -webkit-mask-image: url(../assets/icons/top_button_icon.svg);
+        mask: url(images/icons/top_button_icon.svg);
+        -webkit-mask-image: url(images/icons/top_button_icon.svg);
 	}
 
 	#sideButton .toggle {
@@ -1012,7 +1012,7 @@ div.logo-grid a:hover{
     width: 100%;
     height: auto;
     vertical-align: bottom;
-    background: var(--dark-grey) url(../assets/banner_quarre.jpg);
+    background: var(--dark-grey) url(images/banner_quarre.jpg);
 }
 
 #banner .background-image + .overlay{
@@ -1152,44 +1152,44 @@ span.blog-date{
 }
 
 .icon-chat {
-  mask: url(../assets/icons/chat_icon.svg);
-  -webkit-mask-image: url(../assets/icons/chat_icon.svg);
+  mask: url(images/icons/chat_icon.svg);
+  -webkit-mask-image: url(images/icons/chat_icon.svg);
 }
 .icon-blog {
-  mask: url(../assets/icons/blog_icon.svg);
-  -webkit-mask-image: url(../assets/icons/blog_icon.svg);
+  mask: url(images/icons/blog_icon.svg);
+  -webkit-mask-image: url(images/icons/blog_icon.svg);
 }
 .icon-forum {
-  mask: url(../assets/icons/forum_icon.svg);
-  -webkit-mask-image: url(../assets/icons/forum_icon.svg);
+  mask: url(images/icons/forum_icon.svg);
+  -webkit-mask-image: url(images/icons/forum_icon.svg);
 }
 .icon-gallery {
-  mask: url(../assets/icons/gallery_icon.svg);
-  -webkit-mask-image: url(../assets/icons/gallery_icon.svg);
+  mask: url(images/icons/gallery_icon.svg);
+  -webkit-mask-image: url(images/icons/gallery_icon.svg);
 }
 .icon-download {
-  mask: url(../assets/icons/download_icon.svg);
-  -webkit-mask-image: url(../assets/icons/download_icon.svg);
+  mask: url(images/icons/download_icon.svg);
+  -webkit-mask-image: url(images/icons/download_icon.svg);
 }
 .icon-feature {
-  mask: url(../assets/icons/feature_icon.svg);
-  -webkit-mask-image: url(../assets/icons/feature_icon.svg);
+  mask: url(images/icons/feature_icon.svg);
+  -webkit-mask-image: url(images/icons/feature_icon.svg);
 }
 .icon-documentation {
-  mask: url(../assets/icons/documentation_icon.svg);
-  -webkit-mask-image: url(../assets/icons/documentation_icon.svg);
+  mask: url(images/icons/documentation_icon.svg);
+  -webkit-mask-image: url(images/icons/documentation_icon.svg);
 }
 .icon-video {
-  mask: url(../assets/icons/video_icon.svg);
-  -webkit-mask-image: url(../assets/icons/video_icon.svg);
+  mask: url(images/icons/video_icon.svg);
+  -webkit-mask-image: url(images/icons/video_icon.svg);
 }
 .icon-contributing{
-  mask: url(../assets/icons/contributing_icon.svg);
-  -webkit-mask-image: url(../assets/icons/contributing_icon.svg);
+  mask: url(images/icons/contributing_icon.svg);
+  -webkit-mask-image: url(images/icons/contributing_icon.svg);
 }
 .icon-about{
-  mask: url(../assets/icons/about_icon.svg);
-   -webkit-mask-image: url(../assets/icons/about_icon.svg);
+  mask: url(images/icons/about_icon.svg);
+   -webkit-mask-image: url(images/icons/about_icon.svg);
 }
 .icon-svg {
   display: inline-block;
