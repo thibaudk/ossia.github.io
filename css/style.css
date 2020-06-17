@@ -1142,12 +1142,22 @@ span.blog-date{
     width: 300px;
     padding-top: 4.5em;
 }
+
+.menu-item.mid-panel{
+    height: 250px;
+    width: 300px;
+    padding-top: 1.5em;
+    background: none;
+    border: solid var(--light-transparent-blue) 2px;
+}
+
 .menu-item:hover, .menu-item.active {
      -webkit-transition: all 0.1s ease-in-out;
 	-o-transition: all 0.1s ease-in-out;
 	-ms-transition: all 0.1s ease-in-out;
 	transition: all 0.1s ease-in-out;
     color: var(--orange) !important;
+    border-color: var(--orange) !important;
     background:none;
 }
 
