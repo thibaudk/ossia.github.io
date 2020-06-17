@@ -1,8 +1,8 @@
 ---
-layout: page
-title:  "libossia"
+layout: libossia-page
+title:  "About"
 
-permalink: /libossia.html
+permalink: /libossia/about.html
 category: site-libossia
 
 ---
@@ -15,14 +15,19 @@ This OSC tree-based architecture (coined “device” in the OSSIA terminology) 
 
 libossia offers bindings and implementations for several environments such as:
 
-* PureData
-* Max/MSP
-* Python
-* Unity3D
-* QML
-* Faust
-* SuperCollider.
+<div class="logo-grid">
+    <a href="https://cycling74.com/" class="tooltip"><img src="/assets/logo/max.jpg" height="70" width="auto"/><span class="tooltiptext">Max</span></a>
+    <a href="https://puredata.info/" class="tooltip"><img src="/assets/logo/pd.png" height="60" width="auto" /><span class="tooltiptext">Pure Data</span></a>
+    <a href="https://openframeworks.cc/" class="tooltip"><img src="/assets/logo/of.png" height="60" width="auto"/><span class="tooltiptext">openFrameworks</span></a>
+    <a href="https://faust.grame.fr/" class="tooltip"><img src="/assets/logo/faust.png" height="50" width="auto"/><span class="tooltiptext">Faust</span></a>
+    <a href="https://unity.com/" class="tooltip"><img src="/assets/logo/unity.png" height="60" width="auto"/><span class="tooltiptext">Unity</span></a>
+    <a href="https://www.unrealengine.com/" class="tooltip"><img src="/assets/logo/unreal_engine.png" width="80" height="auto"/><span class="tooltiptext">Unreal Engine</span></a>
+    <a href=""><span >QML</span></a>
+    <a href=""><span >SuperCollider</span></a>
+    <a href=""><span >Python</span></a>
+</div>
 
+<br/>
 Please feel free to come and chat with us ! [join the chat](https://gitter.im/OSSIA){:target="_blank"}
 
 Documentation :

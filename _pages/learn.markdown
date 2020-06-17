@@ -18,7 +18,7 @@ category: site-learn
          
          <a href="http://forum.ossia.io/"  target="_blank" class="menu-item mid-panel"><span class="icon-svg icon-forum"></span>Forum
          <p class="description">Ask any questions !</p></a>
-         <a href="https://gitter.im/OSSIA/score"  target="_blank" class="menu-item mid-panel"><span class="icon-svg icon-chat"></span>Chat<p class="description">Come chat with us on Gitter !</p></a>
+         <a href="https://gitter.im/OSSIA/score"  target="_blank" class="menu-item mid-panel"><span class="icon-svg icon-chat"></span>Chat<p class="description">Please feel free to come and chat with us !</p></a>
 </div>
 <br/>
 <h2 class="page-title">FAQ</h2>

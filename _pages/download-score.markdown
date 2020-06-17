@@ -2,7 +2,7 @@
 layout: score-page
 title:  "Download"
 
-permalink: /download.html
+permalink: /score/download.html
 category: site-score
 ---
 <script>

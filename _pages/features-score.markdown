@@ -2,7 +2,7 @@
 layout: score-page
 title:  "Features"
 
-permalink: /features.html
+permalink: /score/features.html
 category: "site-score"
 ---
 
