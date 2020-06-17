@@ -176,7 +176,7 @@ $(window).on('load',function(){
             <div class="blog-list">
                 <h2 class="front-page"><a href="/blog.html">Blog</a></h2>
                 <div class="recent-post-view">
-                    {% for post in site.posts limit:4 %}
+                    {% for post in site.posts limit:2 %}
                         <a href={{post.url}} class="thumbnail" >
                             <h1 class="blog-title">{{post.title}} </h1>
                             
@@ -194,7 +194,7 @@ $(window).on('load',function(){
             </div>
             <!-- Twitter timeline -->
             <div class="twitter" style="width: 30%;">
-                 <h2><a class="twitter-timeline" data-tweet-limit="2" href="https://twitter.com/ossia_io?ref_src=twsrc%5Etfw">Tweets by ossia_io</a> </h2>
+                 <h2><a class="twitter-timeline" data-tweet-limit="1" href="https://twitter.com/ossia_io?ref_src=twsrc%5Etfw">Tweets by ossia_io</a> </h2>
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
                 </script>
             </div>
