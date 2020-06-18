@@ -303,6 +303,10 @@ header.container {
     
     padding: 0.2em;
 }
+.frontpage-video{
+    width:100%;
+    margin: 0;
+}
 /* Download */
 .page-button.download-page {
     font-size: 18px;

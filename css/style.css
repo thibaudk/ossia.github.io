@@ -132,7 +132,10 @@
     /*img.frontpage-gallery{
         height: 600px;
     }*/
-    
+    .frontpage-video{
+        width:70%;
+        margin: auto;
+    }
 	sub {
 		font-size: 0.8em;
 		position: relative;

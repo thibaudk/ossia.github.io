@@ -71,6 +71,9 @@
 		background-size: 15em;
 	}
 
+.frontpage-video{
+    width:90%;
+}
 .menu-item.panel{
     height: 350px;
     width: 200px;
