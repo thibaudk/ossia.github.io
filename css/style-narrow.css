@@ -77,6 +77,13 @@
     padding: 0.5em;
     padding-top: 4em;
 }
+
+/* Gallery */
+.gallery-list {
+    padding-left: 1em; 
+    padding-right: 1em;
+}
+
 /* CTA */
 
 	#cta {

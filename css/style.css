@@ -1136,7 +1136,10 @@ h2.software.small{
     background-color: black;
    
 }
-
+.gallery-list {
+    padding-left: 6em; 
+    padding-right: 6em;
+}
 /* Recent posts */
 h1.blog-title{
     color: inherit;

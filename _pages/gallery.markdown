@@ -76,7 +76,7 @@ category: site-community
 </div>
 <br/>
 <br/>
-<div style="padding-left: 6em; padding-right: 6em;">
+<div class="gallery-list">
 <h2>More projects using ossia: </h2>
 
 <ul>
