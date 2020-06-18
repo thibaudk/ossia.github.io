@@ -277,6 +277,12 @@ h2.front-page a{
     margin-bottom: 1em;
 }
 
+.menu-item.mid-panel{
+    height: 200px;
+    width: 24%;
+    padding-top: 1em;
+}
+
 p.description {
     font-size: 18px;
 }
