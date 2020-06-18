@@ -162,7 +162,7 @@
 	}
 
 	header.special {
-		margin-bottom: 5em;
+		margin-bottom: 1em;
 		padding-top: 7em;
 		position: relative;
 		text-align: center;
@@ -533,7 +533,7 @@
 		.wrapper.style4 {
  			background: var(--light-background);
 			color: inherit;
-			padding: 4em;
+			padding: 3em;
             padding-left: 6em;
             padding-right: 6em;
 		}
