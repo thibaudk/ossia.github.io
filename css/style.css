@@ -1108,6 +1108,12 @@ span.blog-date{
     font-size: 16px;
     font-family: 'Catamaran', sans-serif;
 }
+span.copyright {
+    color: var(--light-grey);
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Catamaran', sans-serif;
+}
 
 .menu {
     display:flex; 

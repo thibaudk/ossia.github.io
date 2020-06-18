@@ -23,6 +23,15 @@ category: site-community
 
 <br/>
 
+<div id="fourfor" align="middle" class="gallery-page-image">
+<img src="assets/gallery/DID_4858.JPG" class="post-image" />
+    <br/>
+    <a href="https://bravozoulou.fr/projets/four-for/" class="gallery-text">Four For - Bravo Zoulou</a> 
+     <br/>&copy; Didier Crasnault
+</div>
+
+<br/>
+
 <div id="quarre" align="middle" class="gallery-page-image">
 <img src="assets/gallery/quarre.jpg" class="post-image" />
     <br/>
