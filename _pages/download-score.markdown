@@ -21,9 +21,9 @@ var version = "v3.0.0-a5";
 
 Download the latest release __ossia score v3.0.0__:
 <p style="display: flex; justify-content: center;align-content:space-evenly;" align="center">
-<a id="windows" href="https://github.com/OSSIA/score/releases/latest"  target="_blank" class="page-button download-page"><img src="assets/windows_logo_2012-Black.svg" height="80px"/>Windows 10</a>
-<a id="osx" href="https://github.com/OSSIA/score/releases/latest"  target="_blank" class="page-button download-page" ><img src="assets/apple_logo_black.svg" height="80px"/>Mac OS<br/>10.14, 10.15</a>
-<a id="linux" target="_blank" class="page-button download-page"><img src="assets/Linux_Platform.svg" height="80px"/>Linux <br/>details below</a>
+<a id="windows" href="https://github.com/OSSIA/score/releases/latest"  target="_blank" class="page-button download-page"><img src="../assets/windows_logo_2012-Black.svg" height="80px"/>Windows 10</a>
+<a id="osx" href="https://github.com/OSSIA/score/releases/latest"  target="_blank" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="80px"/>Mac OS<br/>10.14, 10.15</a>
+<a id="linux" target="_blank" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux <br/>details below</a>
 </p>
 The <a href="https://github.com/OSSIA/score/releases/latest"  target="_blank">change log</a> for the latest release.
 
