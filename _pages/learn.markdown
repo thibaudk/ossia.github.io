@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: score-page
 title:  "Learn"
 
 permalink: /score/learn.html
@@ -10,18 +10,19 @@ category: site-learn
         <!-- <a href="/score/learn/faq.html"  class="menu-item panel" ><span class="icon-svg icon-chat"></span> FAQ
          <p class="description">Most frequently asked questions</p></a>
          -->
-         <a href="https://www.youtube.com/playlist?list=PLIHLSiZpIa6aRQT5v6RInuyCR3qWmMEgV" class="menu-item mid-panel" target="_blank" ><span class="icon-svg icon-video"></span>Tutorials
+         <a href="https://www.youtube.com/playlist?list=PLIHLSiZpIa6aRQT5v6RInuyCR3qWmMEgV" class="menu-item panel" target="_blank" ><span class="icon-svg icon-video"></span>Tutorials
          <p class="description">Video tutorials in french</p></a>
          
-         <a href="https://ossia.github.io/ossia-docs/score/" target="_blank"  class="menu-item mid-panel"><span class="icon-svg icon-documentation"></span>Docs
+         <a href="https://ossia.github.io/ossia-docs/score/" target="_blank"  class="menu-item panel"><span class="icon-svg icon-documentation"></span>Docs
          <p class="description">Documentation for score</p></a>
          
-         <a href="http://forum.ossia.io/"  target="_blank" class="menu-item mid-panel"><span class="icon-svg icon-forum"></span>Forum
+         <a href="http://forum.ossia.io/"  target="_blank" class="menu-item panel"><span class="icon-svg icon-forum"></span>Forum
          <p class="description">Ask any questions !</p></a>
-         <a href="https://gitter.im/OSSIA/score"  target="_blank" class="menu-item mid-panel"><span class="icon-svg icon-chat"></span>Chat<p class="description">Please feel free to come and chat with us !</p></a>
+         <a href="https://gitter.im/OSSIA/score"  target="_blank" class="menu-item panel"><span class="icon-svg icon-chat"></span>Chat<p class="description">Please feel free to come and chat with us !</p></a>
 </div>
-<br/>
-<h2 class="page-title">FAQ</h2>
+
+<div style="width: 80%;">
+<h2 class="page-title" style="text-align: center;">FAQ</h2>
     
 <h3 class="faq">Basics</h3>
 <p type="button" class="collapsible" > What is ossia score ?</p>
@@ -231,7 +232,7 @@ category: site-learn
 <div class="collapsible-content">
     Please report them on the <a href="https://github.com/OSSIA/score/issues">issue tracker</a> if you have time. Thanks in advance !
 </div>
-
+</div>
 
 <br/>
 

@@ -71,6 +71,12 @@
 		background-size: 15em;
 	}
 
+.menu-item.panel{
+    height: 350px;
+    width: 200px;
+    padding: 0.5em;
+    padding-top: 4em;
+}
 /* CTA */
 
 	#cta {
