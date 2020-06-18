@@ -2,7 +2,7 @@
 layout: libossia-page
 title:  "Download"
 
-permalink: /libossia/download.html
+permalink: /site-libossia/download.html
 category: site-libossia
 ---
 
