@@ -111,6 +111,10 @@
     .gallery-page-image .gallery-text{
 		color: black !important;
     }
+    .gallery-page-image .gallery-text:hover {
+        text-decoration: none !important;
+        color: var(--orange) !important;
+    }
     a.gallery-text:hover {
         text-decoration: none !important;
         color: var(--orange) !important;
@@ -122,7 +126,9 @@
         padding: 20px;
         width: 800px;
     }
-    
+    .carouselcontainer.gallery-page {
+        width: 1000px;
+    }
     /*img.frontpage-gallery{
         height: 600px;
     }*/
@@ -533,7 +539,8 @@
 		.wrapper.style4 {
  			background: var(--light-background);
 			color: inherit;
-			padding: 3em;
+            padding-top: 1em;
+			padding-bottom: 2em;
             padding-left: 6em;
             padding-right: 6em;
 		}
@@ -1092,10 +1099,42 @@ h2.software.small{
 }
 
 /* Gallery page */
+.gallery-page {
+    width: 95%;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+}
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
 .gallery-page-image {
-    display: block;
-    padding-top: 90px; /*So that anchors work ....*/
-    margin-top: -90px; /*So that anchors work ....*/
+    width: 300px;
+    height: 350px;
+    background-color: var(--dark-grey);
+    vertical-align: middle;
+    color: var(--light-grey);
+    margin: 0.1em; 
+    padding: 0.3em;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-page-image > .gallery-text{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 22px;
+    color: #E0E0E0 !important;
+    margin: 0;
+}
+.container-image-gallery{
+    vertical-align: middle;
+    background-color: black;
+   
 }
 
 /* Recent posts */
@@ -1121,7 +1160,7 @@ span.copyright {
 
 .menu {
     display:flex; 
-    justify-content: space-around;  
+    justify-content: center;  
     width: 80%;
     margin:auto; 
     padding: auto; 
@@ -1141,6 +1180,7 @@ span.copyright {
     align-items: center;
     color: black;
     border-radius: 5px;
+    margin: 0.5em;
     padding: 1em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -1148,21 +1188,16 @@ span.copyright {
 }
 
 .menu-item.panel{
-    height: 350px;
-    width: 280px;
-    padding-top: 4em;
+    height: 270px;
+    width: 260px;
+    padding-top: 1.3em;
 }
 
-.menu-item:hover, .menu-item.active {
-     -webkit-transition: all 0.1s ease-in-out;
-	-o-transition: all 0.1s ease-in-out;
-	-ms-transition: all 0.1s ease-in-out;
-	transition: all 0.1s ease-in-out;
+.menu-item:hover , .menu-item.active, .menu-item.panel.active {
     color: var(--orange) !important;
     border-color: var(--orange) !important;
-    background:none;
+    background: none !important;
 }
-
 .icon-chat {
   mask: url(images/icons/chat_icon.svg);
   -webkit-mask-image: url(images/icons/chat_icon.svg);
