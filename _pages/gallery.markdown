@@ -19,9 +19,7 @@ category: site-community
 
 <div id="nebula" align="middle" class="gallery-page-image">
     <a href="http://www.baltazars.org/project/nebula/" class="gallery-text">
-        <div class="container-image-gallery">
-            <img src="assets/gallery/Nebula_ChampignonsNeigeJaune.jpg" class="post-image gallery" />
-        </div>
+        <img src="assets/gallery/Nebula_ChampignonsNeigeJaune.jpg" class="post-image" />
         Nebula  <br/> Les Baltazars</a>
 </div>
 
@@ -52,6 +50,13 @@ category: site-community
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Sonotact" class="gallery-text">
         <img src="assets/gallery/sonotact.jpg" class="post-image" />
         Sonotact  <br/> Pascale Criton
+    </a> 
+</div>
+
+<div align="middle" class="gallery-page-image">
+    <a href="https://www.compagnie-ever.com/aleas" class="gallery-text">
+        <img src="assets/gallery/aleas.png" class="post-image" />
+        ALEAS <br/> Compagnie EVER - Camille Rocailleux
     </a> 
 </div>
 
