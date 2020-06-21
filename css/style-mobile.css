@@ -258,6 +258,18 @@ h2.front-page a{
 .twitter {
     display:none;
 }
+/* Front page features */
+
+.feature {
+    margin: 0.2em;
+}
+
+.feature.image {
+    width: 90%;
+}
+.feature.text {
+    padding: 0.2em;
+}
 /* Menu button */
 
 .menu-item {

@@ -81,6 +81,17 @@
     padding-top: 4em;
 }
 
+.feature {
+    margin: 0.5em;
+}
+
+.feature.image {
+    width: 40%;
+}
+.feature.text {
+    padding: 0.5em;
+}
+
 /* Gallery */
 .gallery-list {
     padding-left: 1em; 

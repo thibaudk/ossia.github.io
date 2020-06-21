@@ -52,6 +52,45 @@ $(window).on('load',function(){
     </div> 
 </div>
 
+<!-- Awards -->
+<section id="index" class="white">
+    <h2 class="logo-header">Supported by: </h2> 
+    <div class="logo-grid">
+     <a href="https://www.unrealengine.com/" class="tooltip"><img src="/assets/logo/unreal_engine.png" width="80" height="auto"/><span class="tooltiptext">Unreal Engine</span></a>
+    </div>
+</section>
+   
+   <!-- Features -->
+ <section id="index" class="dark-grey" >
+       <h2 style="text-align: center;" ><a href="/score/features.html" class="title-section">Main features</a></h2> 
+       <div class="feature-container">
+            <img class="feature image" src="/assets/score.png"/>
+            <div class="feature text" >
+                <h2>Sound control</h2>
+                <p>
+                Control sound with ossia score using these features:
+                    <ul>
+                        <li>Feature 1: sjhf qshfqjd fhsqkfdjqns hsjdf</li>
+                        <li>Feature 2: sjhf qshfqjd fhsqkfdjqns hsjdf</li>
+                    </ul>
+                </p>
+            </div>
+       </div>
+        <div class="feature-container">
+            <div class="feature text" >
+                <h2>Video control</h2>
+                <p>
+                Shader and video and blablibla
+                    <ul>
+                        <li>Feature 1: sjhf qshfqjd fhsqkfdjqns hsjdf</li>
+                        <li>Feature 2: sjhf qshfqjd fhsqkfdjqns hsjdf</li>
+                    </ul>
+                </p>
+            </div>
+            <img class="feature image" src="/assets/score.png"/>
+       </div>
+ </section>
+    
 <!-- Video -->
     <section id="index" class="black" style="">
         <div class="frontpage-video">
@@ -138,7 +177,7 @@ $(window).on('load',function(){
 					
 	<!-- Gallery -->
       <section id="index" class="black">
-        <h2 class="front-page"><a href="/gallery.html">Gallery</a></h2>
+        <h2 style="text-align: center;" ><a href="/gallery.html" class="title-section">Gallery</a></h2> 
         <div class="owl-carousel owl-theme" >
             <div class="carouselcontainer">
                 <a href="/gallery.html"><img class="frontpage-gallery" src="assets/gallery/frontpage/carrousel-frontpage.jpg"/></a>
@@ -183,7 +222,8 @@ $(window).on('load',function(){
     <section class="white blog-twitter" id="index">
         <div style="display: flex; justify-content: space-around; margin: 0;">
             <div class="blog-list">
-                <h2 class="front-page"><a href="/blog.html">Blog</a></h2>
+                <h2 style="text-align: center;" ><a href="/blog.html" class="title-section">Blog</a></h2> 
+                
                 <div class="recent-post-view">
                     {% for post in site.posts limit:2 %}
                         <a href={{post.url}} class="thumbnail" >
