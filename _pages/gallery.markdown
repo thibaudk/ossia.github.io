@@ -55,7 +55,7 @@ category: site-community
 
 <div align="middle" class="gallery-page-image">
     <a href="https://www.compagnie-ever.com/aleas" class="gallery-text">
-        <img src="assets/gallery/aleas.png" class="post-image" />
+        <img src="assets/gallery/MECA 2.jpg" class="post-image" />
         ALEAS <br/> Compagnie EVER - Camille Rocailleux
     </a> 
 </div>
