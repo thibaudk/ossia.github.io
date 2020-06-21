@@ -238,6 +238,22 @@ h2.front-page a{
     letter-spacing: 0.4em;
 }
 
+a.title-section {
+    font-size: 36px;
+    letter-spacing: 0.01em;
+}
+
+.feature-container {
+    flex-direction: column;
+}
+.feature-container.reversed {
+    flex-direction: column-reverse;
+}
+.feature.text > h2 {
+    font-size: 34px;
+    letter-spacing: 0.01em;
+} 
+
 /* Frontpage blog + twitter */
 
 
