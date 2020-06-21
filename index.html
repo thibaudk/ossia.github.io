@@ -174,7 +174,37 @@ $(window).on('load',function(){
                 </div>
             </div>
         </section>-->
-   
+   <!-- Recent posts and twitter feed -->
+    <section class="white blog-twitter" id="index">
+        <div style="display: flex; justify-content: space-around; margin: 0;">
+            <div class="blog-list">
+                <h2 style="text-align: center;" ><a href="/blog.html" class="title-section">Blog</a></h2> 
+                
+                <div class="recent-post-view">
+                    {% for post in site.posts limit:2 %}
+                        <a href={{post.url}} class="thumbnail" >
+                            <h1 class="blog-title">{{post.title}} </h1>
+                            
+                            {% if post.image %} 
+                                <img class="thumbnail-blogpost" src={{post.image}} width="auto"/>
+                            {% else %}
+                                <img class="thumbnail-blogpost" src="assets/default_post_thumbnail.png"/>
+                            {% endif %}
+                            <br/>
+                            <span class="blog-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                           
+                        </a>
+                    {% endfor %}
+                </div>				
+            </div>
+            <!-- Twitter timeline -->
+            <div class="twitter" style="width: 30%;">
+                 <h2><a class="twitter-timeline" data-tweet-limit="1" href="https://twitter.com/ossia_io?ref_src=twsrc%5Etfw">Tweets by ossia_io</a> </h2>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+                </script>
+            </div>
+        </div>
+    </section>	
 					
 	<!-- Gallery -->
       <section id="index" class="black">
@@ -219,35 +249,5 @@ $(window).on('load',function(){
             </div>
         </div>
       </section>  
-    <!-- Recent posts and twitter feed -->
-    <section class="white blog-twitter" id="index">
-        <div style="display: flex; justify-content: space-around; margin: 0;">
-            <div class="blog-list">
-                <h2 style="text-align: center;" ><a href="/blog.html" class="title-section">Blog</a></h2> 
-                
-                <div class="recent-post-view">
-                    {% for post in site.posts limit:2 %}
-                        <a href={{post.url}} class="thumbnail" >
-                            <h1 class="blog-title">{{post.title}} </h1>
-                            
-                            {% if post.image %} 
-                                <img class="thumbnail-blogpost" src={{post.image}} width="auto"/>
-                            {% else %}
-                                <img class="thumbnail-blogpost" src="assets/default_post_thumbnail.png"/>
-                            {% endif %}
-                            <br/>
-                            <span class="blog-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                           
-                        </a>
-                    {% endfor %}
-                </div>				
-            </div>
-            <!-- Twitter timeline -->
-            <div class="twitter" style="width: 30%;">
-                 <h2><a class="twitter-timeline" data-tweet-limit="1" href="https://twitter.com/ossia_io?ref_src=twsrc%5Etfw">Tweets by ossia_io</a> </h2>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-                </script>
-            </div>
-        </div>
-    </section>	
+    
 </article>
