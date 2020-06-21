@@ -885,7 +885,7 @@ h2.page-title{
     font-size: 15pt;
 }
 
-a.title-section {
+.title-section {
     text-align: center;
     color: var(--light-background);
     margin-bottom: 0;
