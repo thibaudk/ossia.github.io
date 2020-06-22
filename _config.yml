@@ -12,4 +12,7 @@ include: ["_pages"]
 permalink: /posts/:title/
 # Build settings
 markdown: kramdown
+collections:
+  score_features:
+    output: true
 

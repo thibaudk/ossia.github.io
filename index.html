@@ -234,15 +234,14 @@ function hideOverlay() {
                 
                 <div class="recent-post-view">
                     {% for post in site.posts limit:2 %}
-                        <a href={{post.url}} class="thumbnail" >
-                            <h1 class="blog-title">{{post.title}} </h1>
-                            
+                        <a href={{post.url}} class="thumbnail" >                            
                             {% if post.image %} 
                                 <img class="thumbnail-blogpost" src={{post.image}} width="auto"/>
                             {% else %}
                                 <img class="thumbnail-blogpost" src="assets/default_post_thumbnail.png"/>
                             {% endif %}
                             <br/>
+                            <h1 class="blog-title">{{post.title}} </h1>
                             <span class="blog-date">{{ post.date | date: "%b %-d, %Y" }}</span>
                            
                         </a>

@@ -973,12 +973,13 @@ a.link-cat:hover {
 }
 
 a.thumbnail{
-    color: black;
+    color: var(--dark-grey);
+/*     background-color: var(--dark-grey); */
     background-color: white;
     text-align: center;
     font-size: 22px;
-    padding: 0em;
-    margin: 1em;
+    padding: 1em;
+    margin: 0.5em;
 }   
 
 a.thumbnail:hover{
@@ -1202,9 +1203,22 @@ h2.software.small{
 /* Recent posts */
 h1.blog-title{
     color: inherit;
-    font-weight: 300;
+    font-weight: 600;
 	margin: 0;
+/*     font-family: 'Lato', sans-serif; */
+    font-size: 26px;
+}
+.thumbnail-feature{
+    width: 300px;
+}
+.feature-description{
+    font-weight: 400;
+    font-size: 18px;
     font-family: 'Catamaran', sans-serif;
+    text-spacing: 0.1em;
+    display:block;
+    width:300px;
+    word-wrap:break-word;
 }
 span.blog-date{
     margin-top: -30px:
@@ -1502,7 +1516,6 @@ margin: 0;
 .thumbnail-blogpost{
     width: 400px;
 }
-
 .post-image {
     width: 90%;
     display:block; 
