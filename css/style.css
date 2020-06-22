@@ -1119,7 +1119,7 @@ h2.software.small{
 }
 
 
-.download {
+#banner .download {
     font-family: 'Catamaran', sans-serif;
     font-size: 24px;
     line-height: 0.7em;
@@ -1133,7 +1133,7 @@ h2.software.small{
 	color: #d1d1d1 !important;
 }
 
-.download:hover {
+#banner .download:hover {
     text-decoration: none;
     color:var(--orange) !important;
     border-color: var(--orange);
