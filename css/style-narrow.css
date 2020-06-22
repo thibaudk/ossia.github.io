@@ -88,6 +88,10 @@
 .feature.image {
     width: 40%;
 }
+.feature.logo-grid {
+    width: 40%;
+    padding: 0.1em;
+}
 .feature.text {
     padding: 0.5em;
 }

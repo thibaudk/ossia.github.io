@@ -67,7 +67,7 @@
     }
     
 	h2 {
-		font-size: 1.5em;
+		font-size: 40px;
         vertical-align: center
 	}
 
@@ -871,8 +871,13 @@ h2.page-title{
 }
 
 .feature.image {
-    width: 50%;
+    width: 30%;
 }
+.feature.logo-grid {
+    width: 30%;
+    padding: 0.1em;
+}
+
 .feature.text {
     padding: 1em;
 }
@@ -1114,7 +1119,7 @@ h2.software.small{
 }
 
 
-#banner .download {
+.download {
     font-family: 'Catamaran', sans-serif;
     font-size: 24px;
     line-height: 0.7em;
@@ -1128,7 +1133,7 @@ h2.software.small{
 	color: #d1d1d1 !important;
 }
 
-#banner .download:hover {
+.download:hover {
     text-decoration: none;
     color:var(--orange) !important;
     border-color: var(--orange);

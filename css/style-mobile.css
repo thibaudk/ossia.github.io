@@ -243,16 +243,6 @@ h2.front-page a{
     letter-spacing: 0.01em;
 }
 
-.feature-container {
-    flex-direction: column;
-}
-.feature-container.reversed {
-    flex-direction: column-reverse;
-}
-.feature.text > h2 {
-    font-size: 34px;
-    letter-spacing: 0.01em;
-} 
 
 /* Frontpage blog + twitter */
 
@@ -276,12 +266,27 @@ h2.front-page a{
 }
 /* Front page features */
 
+.feature-container {
+    flex-direction: column-reverse;
+}
+.feature-container.reversed {
+    flex-direction: column;
+}
+.feature.text > h2 {
+    font-size: 34px;
+    letter-spacing: 0.01em;
+} 
 .feature {
     margin: 0.2em;
 }
 
 .feature.image {
     width: 90%;
+}
+
+.feature.logo-grid {
+    width: 90%;
+    padding: 0;
 }
 .feature.text {
     padding: 0.2em;
