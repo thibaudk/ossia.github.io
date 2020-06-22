@@ -69,10 +69,13 @@ $(window).on('load',function(){
 </section>
    
    <!-- Features -->
+<div id="overlay" onclick="hideOverlay()">
+<img id="overlay-image" src="/assets/score.png"/>
+</div>
  <section id="index" class="dark-grey" >
        <h2 style="text-align: center;" ><a href="/score/features.html" class="title-section">Main features</a></h2> 
        <div class="feature-container">
-            <img class="feature image" src="/assets/feature-audio.png"/>
+            <img class="feature image" onclick="displayInOverlay(this.src)" src="/assets/feature-audio.png"/>
             <div class="feature text" >
                 <h2>Sound control</h2>
                 <p>
@@ -95,10 +98,10 @@ $(window).on('load',function(){
                     </ul>
                 </p>
             </div>
-            <img class="feature image" src="/assets/score.png"/>
+            <img  class="feature image" onclick="displayInOverlay(this.src)"  src="/assets/score.png"/>
        </div>
        <div class="feature-container">
-            <img class="feature image" src="/assets/feature-automation.png"/>
+            <img class="feature image" onclick="displayInOverlay(this.src)" src="/assets/feature-automation.png"/>
             <div class="feature text" >
                 <h2>Automation</h2>
                 <p>
@@ -112,6 +115,19 @@ $(window).on('load',function(){
        </div>
       
  </section>
+ 
+ 
+<script>
+function displayInOverlay(image) {
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("overlay-image").src = image;
+}
+
+function hideOverlay() {
+  document.getElementById("overlay").style.display = "none";
+}
+</script>
+
     <section id="index" class="white">
      <div class="feature-container reversed">
             <div class="feature text" >

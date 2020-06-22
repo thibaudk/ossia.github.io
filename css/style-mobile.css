@@ -281,7 +281,10 @@ h2.front-page a{
 .feature.image {
     width: 90%;
 }
-
+#overlay > img {
+    width: 100%;
+    height: auto;
+}
 .feature.logo-grid {
     width: 90%;
     padding: 0;

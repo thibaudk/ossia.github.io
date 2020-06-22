@@ -8,6 +8,7 @@
     --light-grey: #C0C0C0;
     --dark-grey: #1e2225;
     --dark-transparent-grey: rgba(30, 34, 37, 0.97);
+    --dark-overlay: rgba(30, 34, 37, 0.6);
     
     --orange: #FF7A00;
     --purple: #994466;
@@ -228,13 +229,12 @@
 
 /* Image */
 
-	.image {
+/*	.image {
 		border: 0;
 		position: relative;
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
 			content: '';
 			height: 100%;
 			left: 0;
@@ -251,7 +251,7 @@
 				display: block;
 				width: 100%;
 			}
-
+*/
 		.image.featured {
 			display: block;
 			margin: 0 0 2em 0;
@@ -869,9 +869,31 @@ h2.page-title{
 .feature {
     margin: 1em;
 }
-
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--dark-overlay); 
+  z-index: 15000; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+  
+  text-align: center; 
+}
+#overlay > img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 80%;
+    width: auto;
+}
 .feature.image {
     width: 30%;
+    cursor: pointer;
 }
 .feature.logo-grid {
     width: 30%;

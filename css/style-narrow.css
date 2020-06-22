@@ -85,6 +85,11 @@
     margin: 0.5em;
 }
 
+#overlay > img {
+    width: 100%;
+    height: auto;
+}
+
 .feature.image {
     width: 40%;
 }
