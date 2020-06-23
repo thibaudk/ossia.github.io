@@ -177,7 +177,7 @@ category: site-learn
 <div class="collapsible-content">
 </div>
 
-<p type="button" class="collapsible"> Connecting to OpenFrameworks</p>
+<p type="button" class="collapsible"> Connecting to openFrameworks</p>
 <div class="collapsible-content">
 </div>
 
