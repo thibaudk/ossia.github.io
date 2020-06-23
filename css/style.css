@@ -1125,13 +1125,13 @@ div.logo-grid a:hover{
 }
 
 h2.software {
-    font-size: 64px;
+    font-size: 74px;
     font-weight: 700 !important;
     font-family: 'Catamaran', sans-serif;
     color: var(--light-blue);
 	letter-spacing: 1px;
 	margin: 0;
-    padding-top: 0.2em;
+    padding-top: 0.05em;
 	padding-left: 0.1em;
     line-height: 1;
 }
