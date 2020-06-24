@@ -102,6 +102,10 @@
 .feature.text > p, .feature.text > ul {
     width: 90%;
 } 
+.feature.logo-grid {
+    width: 90%;
+    padding: 0;
+}
 /* Gallery */
 .gallery-list {
     padding-left: 1em; 
