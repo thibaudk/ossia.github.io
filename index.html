@@ -75,10 +75,12 @@ $(window).on('load',function(){
  <section id="index" class="dark-grey" >
        <h2 style="text-align: center;" ><a href="/score/features.html" class="title-section">Main features</a></h2> 
        <div class="feature-container">
-            <img class="feature image" onclick="displayInOverlay(this.src)" src="/assets/score.png"/>
+            <div class="feature image-container">
+                <img onclick="displayInOverlay(this.src)" src="/assets/score.png"/>
+            </div>
             <div class="feature text" >
                 <h2>An intermedia sequencer</h2>
-                <p>Sequence various kinds of media in an intelligent timeline: 
+                <p> Sequence various kinds of media in an intelligent timeline: 
                     <ul>
                         <li>Playback most audio formats, with support for multichannel</li>
                         <li>H.264 and HAP video playback, with a state-of-the art cross-platform video & shader pipeline</li>
@@ -98,10 +100,14 @@ $(window).on('load',function(){
                     </ul>
                 </p>
             </div>
-            <img  class="feature image" onclick="displayInOverlay(this.src)"  src="/assets/feature-interaction.gif"/>
+            <div class="feature image-container">
+                <img onclick="displayInOverlay(this.src)"  src="/assets/feature-interaction.gif"/>
+            </div>
        </div>
        <div class="feature-container">
-            <img class="feature image" onclick="displayInOverlay(this.src)" src="/assets/feature-script.png"/>
+            <div class="feature image-container">
+                <img onclick="displayInOverlay(this.src)" src="/assets/feature-script.png"/>
+            </div>
             <div class="feature text" >
                 <h2>A scriptable, open software</h2>
                 <p>Multiple programming languages are embedded in ossia score:
@@ -125,7 +131,9 @@ $(window).on('load',function(){
                    </ul>
                </p>
            </div>
-           <img  class="feature image" onclick="displayInOverlay(this.src)"  src="/assets/feature-nodal.gif"/>
+           <div class="feature image-container">
+                <img onclick="displayInOverlay(this.src)"  src="/assets/feature-nodal.gif"/>
+           </div>
       </div>
  </section>
  

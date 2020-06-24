@@ -270,17 +270,10 @@ h2.front-page a{
 .feature-container.reversed {
     flex-direction: column;
 }
-.feature.text > h2 {
-    font-size: 34px;
-    letter-spacing: 0.01em;
-} 
 .feature {
     margin: 0.2em;
 }
 
-.feature.image {
-    width: 90%;
-}
 #overlay > img {
     width: 100%;
     height: auto;
@@ -289,8 +282,18 @@ h2.front-page a{
     width: 90%;
     padding: 0;
 }
+.feature.image-container {
+    width: 90%;
+}
 .feature.text {
     padding: 0.2em;
+}
+.feature.text > h2 {
+    font-size: 34px;
+    letter-spacing: 0.01em;
+} 
+.feature.text > p, .feature.text > ul {
+    width: 90%;
 }
 /* Menu button */
 

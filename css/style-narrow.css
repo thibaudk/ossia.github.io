@@ -89,17 +89,19 @@
     width: 100%;
     height: auto;
 }
-
-.feature.image {
-    width: 40%;
+  
+.feature-container {
+    flex-direction: column-reverse;
 }
-.feature.logo-grid {
-    width: 40%;
-    padding: 0.1em;
+.feature-container.reversed {
+    flex-direction: column;
 }
-.feature.text {
-    padding: 0.5em;
+.feature.image-container {
+    width: 90%;
 }
+.feature.text > p, .feature.text > ul {
+    width: 90%;
+} 
 /* Gallery */
 .gallery-list {
     padding-left: 1em; 
