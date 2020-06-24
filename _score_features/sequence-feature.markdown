@@ -1,0 +1,12 @@
+---
+layout: score-page
+title:  "Sequences"
+
+permalink: /score/features/sequences.html
+category: "site-score"
+
+image: /assets/score.png
+description: "Creating sequences"
+---
+
+Video feature

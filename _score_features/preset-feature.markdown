@@ -1,0 +1,12 @@
+---
+layout: score-page
+title:  "Presets"
+
+permalink: /score/features/presets.html
+category: "site-score"
+
+image: /assets/score.png
+description: "Creating, storing and recalling presets"
+---
+
+Video feature

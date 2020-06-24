@@ -1,0 +1,12 @@
+---
+layout: score-page
+title:  "Mapper device"
+
+permalink: /score/features/mapper-device.html
+category: "site-score"
+
+image: /assets/score.png
+description: "Mappings between devices"
+---
+
+Video feature

@@ -4,8 +4,8 @@ title:  "Automation"
 
 permalink: /score/features/automation.html
 category: "site-score"
-image: /assets/feature-automation.png
-description: "This feature is key sksnjf sbdfksjnsd f skdjh shdh shdye s dbhfusjds sdjdknq hd"
+image: /assets/features/automation.png
+description: "Discover how to automate internal and external parameters"
 ---
 
 Automation feature

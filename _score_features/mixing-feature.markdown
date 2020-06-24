@@ -1,0 +1,12 @@
+---
+layout: score-page
+title:  "Mixing"
+
+permalink: /score/features/mixing.html
+category: "site-score"
+
+image: /assets/score.png
+description: "Audio mixing, audio workflow and hierarchy"
+---
+
+Video feature

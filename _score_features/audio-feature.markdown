@@ -4,8 +4,8 @@ title:  "Audio"
 
 permalink: /score/features/audio.html
 category: "site-score"
-image: /assets/feature-audio.png
-description: "This feature is key sksnjf sbdfksjnsd f skdjh shdh shdye s dbhfusjds sdjdknq hd"
+image: /assets/features/audio.png
+description: "An overview of audio features in ossia score"
 ---
 
 Audio feature
