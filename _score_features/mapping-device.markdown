@@ -5,7 +5,7 @@ title:  "Mapper device"
 permalink: /score/features/mapper-device.html
 category: "site-score"
 
-image: /assets/features/missing.png
+image: /assets/features/mapper.png
 description: "Mappings between devices"
 ---
 

@@ -5,7 +5,7 @@ title:  "Musicality"
 permalink: /score/features/musical.html
 category: "site-score"
 
-image: /assets/features/missing.png
+image: /assets/features/music.png
 description: "Musicality, quantization, timebars..."
 ---
 
