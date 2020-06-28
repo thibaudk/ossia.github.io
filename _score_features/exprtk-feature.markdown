@@ -5,7 +5,7 @@ title:  "Math expressions"
 permalink: /score/features/exprtk.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/exprtk.png
 description: "Use simple formulas to create mappings, filters and synths"
 ---
 

@@ -5,7 +5,7 @@ title:  "MIDI"
 permalink: /score/features/midi.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/missing.png
 description: "MIDI input & output, piano roll & MIDI effects"
 ---
 

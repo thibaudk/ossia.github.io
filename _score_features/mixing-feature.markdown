@@ -5,7 +5,7 @@ title:  "Mixing"
 permalink: /score/features/mixing.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/missing.png
 description: "Audio mixing, audio workflow and hierarchy"
 ---
 

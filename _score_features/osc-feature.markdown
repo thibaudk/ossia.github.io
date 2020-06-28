@@ -5,7 +5,7 @@ title:  "OSC"
 permalink: /score/features/osc.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/missing.png
 description: "Send and receive OSC messages"
 ---
 

@@ -5,7 +5,7 @@ title:  "Remote control"
 permalink: /score/features/remote-control.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/missing.png
 description: "Remote control through a web page"
 ---
 

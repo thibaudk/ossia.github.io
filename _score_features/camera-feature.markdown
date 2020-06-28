@@ -5,7 +5,7 @@ title:  "Camera"
 permalink: /score/features/camera.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/missing.png
 description: "Use a camera as an input for VJ"
 ---
 

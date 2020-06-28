@@ -5,7 +5,7 @@ title:  "Loops"
 permalink: /score/features/loops.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/loop.png
 description: "Creating loops"
 ---
 

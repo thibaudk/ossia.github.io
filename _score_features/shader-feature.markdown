@@ -5,7 +5,7 @@ title:  "Shaders"
 permalink: /score/features/shaders.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/missing.png
 description: "Using and writing ISF shader effects"
 ---
 

@@ -5,7 +5,7 @@ title:  "Library"
 permalink: /score/features/library.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/library.png
 description: "Using the library"
 ---
 

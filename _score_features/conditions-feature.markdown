@@ -5,7 +5,7 @@ title:  "Conditions"
 permalink: /score/features/conditions.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/conditions.png
 description: "Create conditional scores"
 ---
 

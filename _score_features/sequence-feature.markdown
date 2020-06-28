@@ -5,7 +5,7 @@ title:  "Sequences"
 permalink: /score/features/sequences.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/missing.png
 description: "Creating sequences"
 ---
 

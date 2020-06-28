@@ -5,7 +5,7 @@ title:  "OSCQuery"
 permalink: /score/features/oscquery.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/missing.png
 description: "Using OSCQuery for automatic discovery of OSC devices"
 ---
 

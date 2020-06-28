@@ -5,7 +5,7 @@ title:  "Nesting"
 permalink: /score/features/nesting.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/missing.png
 description: "Nesting scores with the scenario process"
 ---
 

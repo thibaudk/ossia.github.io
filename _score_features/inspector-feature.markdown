@@ -5,7 +5,7 @@ title:  "Inspector"
 permalink: /score/features/inspector.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/inspector.png
 description: "Discover the features of the inspector panel"
 ---
 

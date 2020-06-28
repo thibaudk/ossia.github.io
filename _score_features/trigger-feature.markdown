@@ -5,7 +5,7 @@ title:  "Triggers"
 permalink: /score/features/trigger.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/trigger.png
 description: "Interactive triggering"
 ---
 

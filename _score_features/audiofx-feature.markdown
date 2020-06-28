@@ -1,6 +1,6 @@
 ---
 layout: score-page
-title:  "Audio plug-ins, virtual synthesizers"
+title:  "Audio plug-ins"
 
 permalink: /score/features/audiofx.html
 category: "site-score"

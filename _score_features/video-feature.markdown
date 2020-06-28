@@ -5,7 +5,7 @@ title:  "Video"
 permalink: /score/features/video.html
 category: "site-score"
 
-image: /assets/score.png
+image: /assets/features/missing.png
 description: "Video support and usage"
 ---
 
