@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/fx.png
 description: "Using audio plugins in ossia score"
+
+tag: "Audio"
 ---
 
 Video feature

@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/graph.png
 description: "Creating state machines and graphs"
+
+tag: "Other"
 ---
 
 Video feature

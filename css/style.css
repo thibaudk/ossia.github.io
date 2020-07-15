@@ -150,9 +150,12 @@
 	}
 
 	hr {
-		border-top: solid 1px rgba(124, 128, 129, 0.2);
-		border: 0;
-		margin-bottom: 1.5em;
+        display: block;
+        width: 100%;
+        height: 1px;
+        border: 0;
+		border-top: solid 2px var(--pale-blue);
+ 		margin-bottom: 1em;
 	}
 
 	blockquote {
@@ -1062,6 +1065,39 @@ div.logo-grid span {
 }
 div.logo-grid a:hover{
     text-decoration: none;
+}
+/* Features page */
+h2.feature-title{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+h2.feature-title:before, h2.feature-title:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width:50%;
+    height: 2px;
+    margin-left: 5%;
+    content: '\a0';
+    background-color: var(--pale-blue);
+}
+
+h2.feature-title:before {
+    margin-left: -55%;
+    text-align: right;
+}
+
+.features-list{
+    display: flex; 
+    justify-content: start; 
+    align-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
 }
 
 /* Index page section */

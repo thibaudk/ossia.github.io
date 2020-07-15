@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/lfo.png
 description: "Modulate any parameter in the score"
+
+tag: "Audio"
 ---
 
 Video feature

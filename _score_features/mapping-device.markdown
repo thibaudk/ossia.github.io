@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/mapper.png
 description: "Mappings between devices"
+
+tag: "Other"
 ---
 
 Video feature

@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/console.png
 description: "Scripting workflows with the console"
+
+tag: "Scripting"
 ---
 
 Video feature

@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/js.png
 description: "Writing JavaScript processes"
+
+tag: "Scripting"
 ---
 
 Video feature

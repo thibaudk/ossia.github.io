@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/missing.png
 description: "Interaction through a serial port (Arduino, etc.)"
+
+tag: "Other"
 ---
 
 Video feature

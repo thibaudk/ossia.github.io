@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/missing.png
 description: "Using the control surface to keep an hand on score parameters"
+
+tag: "Other"
 ---
 
 Video feature

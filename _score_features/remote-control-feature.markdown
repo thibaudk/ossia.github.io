@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/missing.png
 description: "Remote control through a web page"
+
+tag: "Other"
 ---
 
 Video feature

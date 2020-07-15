@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/missing.png
 description: "Creating sequences"
+
+tag: "Audio"
 ---
 
 Video feature

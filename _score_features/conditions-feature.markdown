@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/conditions.png
 description: "Create conditional scores"
+
+tag: "Other"
 ---
 
 Video feature

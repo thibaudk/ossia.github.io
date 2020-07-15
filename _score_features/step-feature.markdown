@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/missing.png
 description: "Using the step sequencer process"
+
+tag: "Audio"
 ---
 
 Video feature

@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/mappings.png
 description: "Mappings in the timeline"
+
+tag: "Other"
 ---
 
 Video feature

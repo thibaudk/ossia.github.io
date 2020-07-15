@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/cue.png
 description: "Sending cues to control a show"
+
+tag: "Other"
 ---
 
 Video feature

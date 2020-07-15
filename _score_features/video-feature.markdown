@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/missing.png
 description: "Video support and usage"
+
+tag: "Video"
 ---
 
 Video feature

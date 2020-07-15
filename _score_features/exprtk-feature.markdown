@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/exprtk.png
 description: "Use simple formulas to create mappings, filters and synths"
+
+tag: "Audio"
 ---
 
 Video feature

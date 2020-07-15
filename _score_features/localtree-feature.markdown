@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/localtree.png
 description: "Controlling ossia score with the local device tree"
+
+tag: "Other"
 ---
 
 Video feature

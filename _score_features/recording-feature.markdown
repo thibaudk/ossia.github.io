@@ -7,6 +7,8 @@ category: "site-score"
 
 image: /assets/features/record.gif
 description: "Recording external parameter changes"
+
+tag: "Other"
 ---
 
 Video feature
