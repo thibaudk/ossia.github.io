@@ -167,7 +167,12 @@
             #banner .download {
                 display:none;
             }
-
+h2.software{
+    font-size: 42px;
+}
+h2.catchphrase {
+    font-size: 24px;
+}
 /* Main */
 
 	#main {

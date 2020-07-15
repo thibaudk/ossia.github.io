@@ -65,12 +65,31 @@
     
 	text-align: center;
 }
+div.line{
+    display:none;
+}
+#banner .software-logo {
+    height: 40px;
+    vertical-align:middle;
+    padding-right: 5px;
+}
+h2.software{
+    font-size: 42px;
+}
 /* Main */
 
 	#main {
 		background-size: 15em;
 	}
 
+
+h2.catchphrase {
+    font-size: 26px;
+    font-weight: 200 !important;
+    font-family: 'Catamaran', sans-serif;
+    color: #8acdd0;
+    margin-bottom: 0;
+}
 .frontpage-video{
     width:90%;
 }
