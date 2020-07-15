@@ -612,13 +612,25 @@
                     font-weight: 700;
                     font-size: 23px;
 				}
-
+                
                 #header nav div.active > a, #header nav div a:hover,
 				#header nav div a.active {
                     color: var(--orange) !important;
 				}
 				#header nav div a.active, #header nav div a.special:hover {
 					color: var(--orange) !important;
+				}
+				
+				
+                #header nav div a.donate{
+                    color: var(--orange);
+                }
+                #header nav div.active > a.donate, #header nav div a.donate:hover,
+				#header nav div a.donate.active {
+                    color: white !important;
+				}
+				#header nav div a.donate.active, #header nav div a.donate.special:hover {
+					color: white !important;
 				}
 
 			#header.alt nav {
