@@ -21,9 +21,10 @@ libossia offers bindings and implementations for several environments such as:
     <a href="https://openframeworks.cc/" class="tooltip"><img src="/assets/logo/of.png" height="40" width="auto"/><span class="tooltiptext">openFrameworks</span></a>
     <a href="https://faust.grame.fr/" class="tooltip"><img src="/assets/logo/faust.png" height="50" width="auto"/><span class="tooltiptext">Faust</span></a>
     <a href="https://unity.com/" class="tooltip"><img src="/assets/logo/unity.png" height="60" width="auto"/><span class="tooltiptext">Unity</span></a>
+    <a href="https://processing.org/" class="tooltip"><img src="/assets/logo/processing.jpg" height="60" width="auto"/><span class="tooltiptext">Processing</span></a>
     <a href="https://www.unrealengine.com/" class="tooltip"><img src="/assets/logo/unreal_engine.png" width="80" height="auto"/><span class="tooltiptext">Unreal Engine</span></a>
     <a href="https://www.qt.io/" class="tooltip"><img src="/assets/logo/qt-logo.png" height="60" width="auto"/><span class="tooltiptext">Qt QML</span></a>
-   <a href="https://supercollider.github.io/" class="tooltip"><img src="/assets/logo/supercollider-logo.png" height="60" width="auto"/><span class="tooltiptext">SuperCollider</span></a>
+    <a href="https://supercollider.github.io/" class="tooltip"><img src="/assets/logo/supercollider-logo.png" height="60" width="auto"/><span class="tooltiptext">SuperCollider</span></a>
     <a href="https://www.python.org/"  class="tooltip"><img src="/assets/logo/python-logo.png" height="60" width="auto"/><span class="tooltiptext">Python</span></a>
 </div>
 

@@ -1112,6 +1112,33 @@ h2.feature-title:before {
     flex-wrap: wrap;
 }
 
+/* libossia bindings page */
+h2.binding-title{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+h2.binding-title img {
+    float: left;
+    margin-right: 3%;
+}
+
+h2.binding-title:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width:100%;
+    height: 2px;
+    margin-left: 5%;
+    content: '\a0';
+    background-color: var(--pale-blue);
+}
+
+
 /* Index page section */
 #index {
     width: 100%;
