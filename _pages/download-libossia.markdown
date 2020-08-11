@@ -4,6 +4,7 @@ title:  "Download"
 
 permalink: /site-libossia/download.html
 category: site-libossia
+ossia_version: https://github.com/ossia/libossia/releases/download/v1.0.5
 ---
 
 libossia is available for many platforms and environments - scroll down for the one you are using.
@@ -26,23 +27,32 @@ The license for the library itself is LGPLv3.
     </div><br/>
     <div class="features-list">
     <ul>
-    <li><a href="">Downloads</a></li>
-    <li><a href="">API Documentation</a></li>
-    <li><a href="">Examples</a></li>
-    <li><a href="">Doxygen</a></li>
+    <li><a href="{{page.ossia_version}}/libossia-native-win.zip">Download (Windows)</a></li>
+    <li><a href="{{page.ossia_version}}/libossia-native-linux_x86_64-static.tar.gz">Download (Linux, static library, x86_64)</a></li>
+    <li><a href="{{page.ossia_version}}/libossia-native-linux_x86_64.tar.gz">Download (Linux, x86_64)</a></li>
+    <li><a href="{{page.ossia_version}}/libossia-native-macos-static.tar.gz">Download (macOS, static library, x86_64)</a></li>
+    <li><a href="{{page.ossia_version}}/libossia-native-macos.tar.gz">Download (macOS, x86_64)</a></li><br/>
+    <li><a href="https://github.com/ossia/libossia">Source code</a></li>
+    <li><a href="https://github.com/ossia/libossia/wiki/Building">Build instructions</a></li>
+    <li><a href="https://ossia.github.io/ossia-docs/?cpp--14#introduction">API Documentation</a></li>
+    <li><a href="https://github.com/ossia/libossia/tree/master/examples">Examples</a></li>
+    <li><a href="https://ossia.github.io/libossia/html/">Doxygen</a></li>
     </ul>
   </div>
   
   <h2 class="binding-title"><img src="/assets/logo/c.png" height="60" width="auto"/>C binding</h2>
   <div class="features-list">
-    libossia provides a clean C89 header which wraps the most important functionality.
+    libossia provides a clean C89 header which wraps the most important functionality. 
+    It can be used with the libossia-native libraries above which contain the functionality linked in.
   </div><br/>
   <div>  
     <ul>
-    <li><a href="">Downloads</a></li>
-    <li><a href="">API Documentation</a></li>
-    <li><a href="">Examples</a></li>
-    <li><a href="">Doxygen</a></li>
+    <!--<li><a href="">Downloads</a></li>-->
+    <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-c">Source code</a></li>
+    <li><a href="https://ossia.github.io/ossia-docs/?c#introduction">API Documentation</a></li>
+    <li><a href="https://ossia.github.io/libossia/html/group___c_a_p_i.html">Doxygen</a></li>
+    <!--<li><a href="">Examples</a></li>-->
+    <!--<li><a href="https://ossia.github.io/libossia/html">Doxygen</a></li>-->
     </ul>
   </div>
 
@@ -62,25 +72,36 @@ The license for the library itself is LGPLv3.
 -->
   <h2 class="binding-title"><img src="/assets/logo/max.jpg" height="70" width="auto"/>Max/MSP</h2>
   <div class="features-list">
-    libossia is available as a set of Max objects.
+    libossia is available as a Max package.
     </div><br/>
     <div>    
     <ul>
-    <li><a href="">Downloads</a></li>
-    <li><a href="">API Documentation</a></li>
-    <li><a href="">Examples</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-max-osx.tar.gz">Max package (macOS)</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-max-win.zip">Max package (Windows)</a></li><br/>
+    <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-max">Source code</a></li>
+    <li><a href="https://ossia.github.io/ossia-docs/?plaintext--max#introduction">API Documentation</a></li>
+    <!--<li><a href="">Examples</a></li>-->
     </ul>
   </div>
 
   <h2 class="binding-title"><img src="/assets/logo/pd.png" height="60" width="auto" />PureData</h2>
   <div class="features-list">
-    libossia is available as a set of PureData objects. It is also supported for PurrData.
+    libossia is available as a PureData package. It is also supported for PurrData.
+    In PureData, you can install ossia directly through the package manager.
     </div><br/>
     <div>
     <ul>
-    <li><a href="">Downloads</a></li>
-    <li><a href="">API Documentation</a></li>
-    <li><a href="">Examples</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-pd-linux_arm.tar.gz">PureData externals (Linux, ARMv7)</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-pd-linux_x86_64.tar.gz">PureData externals (Linux, x86_64)</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-pd-osx.tar.gz">PureData externals (macOS)</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-pd-win32.zip">PureData externals (Windows, 32-bit)</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-pd-win64.zip">PureData externals (Windows, 64-bit)</a></li><br/>
+    <li><a href="{{page.ossia_version}}/ossia-purr-data-linux_arm.tar.gz">PurrData externals (Linux, ARMv7)</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-purr-data-linux_x86_64.tar.gz">PurrData externals (Linux, x86_64)</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-purr-data-osx.tar.gz">PurrData externals (macOS)</a></li><br/>
+    <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-pd">Source code</a></li>
+    <li><a href="https://ossia.github.io/ossia-docs/?plaintext--pd#introduction">API Documentation</a></li>
+    <!--<li><a href="">Examples</a></li>-->
     </ul>
   </div>
 
@@ -88,12 +109,14 @@ The license for the library itself is LGPLv3.
   <div class="features-list">
     libossia provides a C# binding. An additional Unity3D GameObject integration layer is available.
     The library ships as an asset that can be copied into your project. 
+    The C# files at the root level (Assets/ossia) do not depend on Unity3D and can be used from any C# code base.
     </div><br/>
     <div>
     <ul>
-    <li><a href="">Downloads</a></li>
-    <li><a href="">API Documentation</a></li>
-    <li><a href="">Examples</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-unity3d.zip">Download Unity3D asset (Mac / Win / Linux)</a></li><br/>
+    <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-unity3d">Source code</a></li>
+    <li><a href="https://ossia.github.io/ossia-docs/?csharp#introduction">API Documentation</a></li>
+    <!--<li><a href="">Examples</a></li>-->
     </ul>
   </div>
 
@@ -103,21 +126,22 @@ The license for the library itself is LGPLv3.
     </div><br/>
     <div>
     <ul>
-    <li><a href="">Downloads</a></li>
-    <li><a href="">API Documentation</a></li>
-    <li><a href="">Examples</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-java.zip">Download Java library (Mac / Win / Linux)</a></li><br/>
+    <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-java">Source code</a></li>
+    <li><a href="https://ossia.github.io/ossia-docs/?java#introduction">API Documentation</a></li>
     </ul>
   </div>
 
   <h2 class="binding-title"><img src="/assets/logo/of.png" height="40" width="auto"/>OpenFrameworks</h2>
   <div class="features-list">
-    libossia is available as an OpenFrameworks extension. 
+    libossia is available as an OpenFrameworks extension made to expose a tree of ofParameters to OSCQuery easily. 
     </div><br/>
     <div>
     <ul>
-    <li><a href="">Downloads</a></li>
+    <li><a href="https://github.com/bltzr/ofxOscQuery/releases">Downloads (Win, Mac, Linux)</a></li><br/>
+    <li><a href="https://github.com/bltzr/ofxOscQuery">Source code, examples...</a></li>
     <li><a href="">API Documentation</a></li>
-    <li><a href="">Examples</a></li>
+    <!--<li><a href="">Examples</a></li>-->
     </ul>
   </div>
 
@@ -127,9 +151,9 @@ The license for the library itself is LGPLv3.
     </div><br/>
     <div>
     <ul>
-    <li><a href="">Downloads</a></li>
-    <li><a href="">API Documentation</a></li>
-    <li><a href="">Examples</a></li>
+    <li><a href="https://github.com/OSSIA/ossia-sclang">Source code</a></li>
+    <li><a href="https://ossia.github.io/ossia-docs/?javascript#creating-parameters">API Documentation</a></li>
+    <!--<li><a href="">Examples</a></li>-->
     </ul>
   </div>
 
@@ -139,33 +163,36 @@ The license for the library itself is LGPLv3.
     </div><br/>
     <div>
     <ul>
-    <li><a href="">Downloads</a></li>
-    <li><a href="">API Documentation</a></li>
-    <li><a href="">Examples</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-qml-linux_x86_64.tar.gz">Download (Linux, x86_64)</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-qml-osx.tar.gz">Download (macOS)</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-qml-win64.zip">Download (Windows, 64-bit)</a></li><br/>
+    <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-qt">Source code</a></li>
+    <li><a href="https://ossia.github.io/ossia-docs/?qml#introduction">API Documentation</a></li>
+    <!--<li><a href="">Examples</a></li>-->
     </ul>
   </div>
 
   <h2 class="binding-title"><img src="/assets/logo/python-logo.png" height="60" width="auto"/>Python</h2>
   <div class="features-list">
     libossia is useable from Python. 
-    </div><br/>
-    <div>
+  </div><br/>
+  <div>
     <ul>
-    <li><a href="">Downloads</a></li>
-    <li><a href="">API Documentation</a></li>
-    <li><a href="">Examples</a></li>
+    <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-python">Source code</a></li>
+    <li><a href="https://ossia.github.io/ossia-docs/?python#introduction">API Documentation</a></li>
+    <!--<li><a href="">Examples</a></li>-->
     </ul>
   </div>
 
   <h2 class="binding-title"><img src="/assets/logo/faust.png" height="50" width="auto"/>Faust architecture</h2>
   <div class="features-list">
-    libossia provides a Faust architecture file.  
+    libossia provides a Faust architecture file. It will expose the controls over OSCQuery.
     </div><br/>
     <div>
     <ul>
-    <li><a href="">Downloads</a></li>
-    <li><a href="">API Documentation</a></li>
-    <li><a href="">Examples</a></li>
+    <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-faust">Download</a></li>
+    <!--<li><a href="">API Documentation</a></li>-->
+    <!--<li><a href="">Examples</a></li>-->
     </ul>
   </div>
 </div>
