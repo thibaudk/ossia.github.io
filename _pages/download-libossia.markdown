@@ -7,8 +7,22 @@ category: site-libossia
 ossia_version: https://github.com/ossia/libossia/releases/download/v1.0.5
 ---
 
-libossia is available for many platforms and environments - scroll down for the one you are using.
+<b>libossia</b> is available for many platforms and environments:
 
+<div class="logo-grid" style="margin-top: 1em; margin-bottom: 1em;">
+     <a href="#cpp-binding"><img src="/assets/logo/cpp.png" height="60" width="auto"/></a>
+     <a href="#c-binding" ><img src="/assets/logo/c.png" height="60" width="auto"/></a>
+     <a href="#max-binding"><img src="/assets/logo/max.jpg" height="70" width="auto"/></a>
+    <a href="#pd-binding" ><img src="/assets/logo/pd.png" height="60" width="auto"/></a>
+    <a href="#unity-binding"><img src="/assets/logo/unity.png" height="60" width="auto"/></a>
+    <a href="#processing-binding"><img src="/assets/logo/processing.jpg" height="60" width="auto"/></a>
+    <a href="#of-binding"><img src="/assets/logo/of.png" height="40" width="auto"/></a>
+    <a href="#supercollider-binding"><img src="/assets/logo/supercollider-logo.png" height="60" width="auto"/></a>
+    <a href="#qt-binding"><img src="/assets/logo/qt-logo.png" height="60" width="auto"/></a>
+    <a href="#python-binding"><img src="/assets/logo/python-logo.png" height="60" width="auto"/></a>
+    <a href="#faust-binding"><img src="/assets/logo/faust.png" height="50" width="auto"/></a>
+</div>
+    
 The license for the library itself is LGPLv3.
 
 <ul>
@@ -18,7 +32,7 @@ The license for the library itself is LGPLv3.
 
 
 <div>
-  <h2 class="binding-title"><img src="/assets/logo/cpp.png" height="60" width="auto"/>Native C++ library</h2>
+  <h2 class="binding-title" id="cpp-binding"><img src="/assets/logo/cpp.png" height="60" width="auto"/>Native C++ library</h2>
   <div class="features-list">
     This is the main C++ library on which everything is built upon. It is useful if you plan to integrate libossia to a C++ software or write a new
     OSCQuery-enabled software for instance.
@@ -40,7 +54,7 @@ The license for the library itself is LGPLv3.
     </ul>
   </div>
   
-  <h2 class="binding-title"><img src="/assets/logo/c.png" height="60" width="auto"/>C binding</h2>
+  <h2 class="binding-title" id="c-binding"><img src="/assets/logo/c.png" height="60" width="auto"/>C binding</h2>
   <div class="features-list">
     libossia provides a clean C89 header which wraps the most important functionality. 
     It can be used with the libossia-native libraries above which contain the functionality linked in.
@@ -70,7 +84,7 @@ The license for the library itself is LGPLv3.
     </ul>
   </div>
 -->
-  <h2 class="binding-title"><img src="/assets/logo/max.jpg" height="70" width="auto"/>Max/MSP</h2>
+  <h2 class="binding-title" id="max-binding"><img src="/assets/logo/max.jpg" height="70" width="auto"/>Max/MSP</h2>
   <div class="features-list">
     libossia is available as a Max package.
     </div><br/>
@@ -84,7 +98,7 @@ The license for the library itself is LGPLv3.
     </ul>
   </div>
 
-  <h2 class="binding-title"><img src="/assets/logo/pd.png" height="60" width="auto" />PureData</h2>
+  <h2 class="binding-title" id="pd-binding"><img src="/assets/logo/pd.png" height="60" width="auto" />PureData</h2>
   <div class="features-list">
     libossia is available as a PureData package. It is also supported for PurrData.
     In PureData, you can install ossia directly through the package manager.
@@ -105,7 +119,7 @@ The license for the library itself is LGPLv3.
     </ul>
   </div>
 
-  <h2 class="binding-title"><img src="/assets/logo/unity.png" height="60" width="auto"/>C#, Unity3D</h2>
+  <h2 class="binding-title" id="unity-binding"><img src="/assets/logo/unity.png" height="60" width="auto"/>C#, Unity3D</h2>
   <div class="features-list">
     libossia provides a C# binding. An additional Unity3D GameObject integration layer is available.
     The library ships as an asset that can be copied into your project. 
@@ -120,7 +134,7 @@ The license for the library itself is LGPLv3.
     </ul>
   </div>
 
-  <h2 class="binding-title"><img src="/assets/logo/processing.jpg" height="60" width="auto"/>Java, Kotlin, Processing, OpenRNDR</h2>
+  <h2 class="binding-title" id="processing-binding"><img src="/assets/logo/processing.jpg" height="60" width="auto"/>Java, Kotlin, Processing, OpenRNDR</h2>
   <div class="features-list">
     libossia provides JVM bindings, which allows it to be used with Processing, etc.  
     </div><br/>
@@ -132,7 +146,7 @@ The license for the library itself is LGPLv3.
     </ul>
   </div>
 
-  <h2 class="binding-title"><img src="/assets/logo/of.png" height="40" width="auto"/>OpenFrameworks</h2>
+  <h2 class="binding-title" id="of-binding" ><img src="/assets/logo/of.png" height="40" width="auto"/>OpenFrameworks</h2>
   <div class="features-list">
     libossia is available as an OpenFrameworks extension made to expose a tree of ofParameters to OSCQuery easily. 
     </div><br/>
@@ -145,7 +159,7 @@ The license for the library itself is LGPLv3.
     </ul>
   </div>
 
-  <h2 class="binding-title"><img src="/assets/logo/supercollider-logo.png" height="60" width="auto"/>SuperCollider</h2>
+  <h2 class="binding-title" id="supercollider-binding"><img src="/assets/logo/supercollider-logo.png" height="60" width="auto"/>SuperCollider</h2>
   <div class="features-list">
     libossia is available for SuperCollider. 
     </div><br/>
@@ -157,7 +171,7 @@ The license for the library itself is LGPLv3.
     </ul>
   </div>
 
-  <h2 class="binding-title"><img src="/assets/logo/qt-logo.png" height="60" width="auto"/>Qt / QML</h2>
+  <h2 class="binding-title" id="qt-binding"><img src="/assets/logo/qt-logo.png" height="60" width="auto"/>Qt / QML</h2>
   <div class="features-list">
     libossia integrates with the QML markup language, to easily build performant user interfaces.
     </div><br/>
@@ -172,7 +186,7 @@ The license for the library itself is LGPLv3.
     </ul>
   </div>
 
-  <h2 class="binding-title"><img src="/assets/logo/python-logo.png" height="60" width="auto"/>Python</h2>
+  <h2 class="binding-title" id="python-binding"><img src="/assets/logo/python-logo.png" height="60" width="auto"/>Python</h2>
   <div class="features-list">
     libossia is useable from Python. 
   </div><br/>
@@ -184,7 +198,7 @@ The license for the library itself is LGPLv3.
     </ul>
   </div>
 
-  <h2 class="binding-title"><img src="/assets/logo/faust.png" height="50" width="auto"/>Faust architecture</h2>
+  <h2 class="binding-title" id="faust-binding"><img src="/assets/logo/faust.png" height="50" width="auto"/>Faust architecture</h2>
   <div class="features-list">
     libossia provides a Faust architecture file. It will expose the controls over OSCQuery.
     </div><br/>
