@@ -1114,24 +1114,26 @@ h2.feature-title:before {
 
 /* libossia bindings page */
 h2.binding-title{
-    position: relative;
     z-index: 1;
     overflow: hidden;
     text-align: left;
     margin-top: 2em;
     margin-bottom: 0.5em;
     font-weight: 500;
+    
+    display: flex; 
+    justify-content: start; 
+    align-content: center; 
+    align-items: center; 
+    flex-direction: row;
 }
 h2.binding-title img {
-    float: left;
     margin-right: 3%;
+    vertical-align: text-bottom;
 }
 
 h2.binding-title:after {
-    position: absolute;
-    top: 51%;
-    overflow: hidden;
-    width:100%;
+    flex-grow: 1;
     height: 2px;
     margin-left: 5%;
     content: '\a0';
