@@ -146,9 +146,9 @@ The license for the library itself is LGPLv3.
     </ul>
   </div>
 
-  <h2 class="binding-title" id="of-binding" ><img src="/assets/logo/of.png" height="40" width="auto"/>OpenFrameworks</h2>
+  <h2 class="binding-title" id="of-binding" ><img src="/assets/logo/of.png" height="40" width="auto"/>openFrameworks</h2>
   <div class="features-list">
-    libossia is available as an OpenFrameworks extension made to expose a tree of ofParameters to OSCQuery easily. 
+    libossia is available as an openFrameworks extension made to expose a tree of ofParameters to OSCQuery easily. 
     </div><br/>
     <div>
     <ul>
