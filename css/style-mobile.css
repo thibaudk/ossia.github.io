@@ -388,6 +388,15 @@ ul.posts {
    padding: 1em; 
 }
 
+.wrapper.style4 {
+    padding: 0em;
+}
+
+a.thumbnail{
+    margin-left: auto;
+    margin-right: auto;
+}   
+
 .post-nav {
     font-size: 40px;
     padding: 0  em;
