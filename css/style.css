@@ -1640,7 +1640,13 @@ margin: 0;
 figure.highlight pre {
     padding: 1em;
     border-radius: 5px;
-    font-family: "Monospace";
+    font-family:  Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-size: 80%;
+    line-height: 140%;
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
 }
 
 .highlight pre { background-color: #272822; }
