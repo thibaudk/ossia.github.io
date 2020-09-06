@@ -133,10 +133,3 @@ h2.catchphrase {
     padding-left: 1em; 
     padding-right: 1em;
 }
-
-/* CTA */
-
-	#cta {
-		background-size: 15em, 15em, auto, cover;
-		padding: 3em;
-	}

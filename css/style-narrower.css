@@ -36,8 +36,6 @@
 /* Button */
 
 	input[type="button"].small,
-	input[type="submit"].small,
-	input[type="reset"].small,
 	.button.small {
 		font-size: 0.8em;
 		min-width: 18em;
@@ -119,12 +117,6 @@
 
 	body.index #main {
 		padding-top: 4.5em;
-	}
-
-/* CTA */
-
-	#cta {
-		margin: 0;
 	}
 
 /* Footer */
