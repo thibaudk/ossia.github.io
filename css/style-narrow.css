@@ -93,11 +93,14 @@ h2.catchphrase {
 .frontpage-video{
     width:90%;
 }
+
+.menu-item {
+    width: 100px;
+    font-size: 20px;
+}
+
 .menu-item.panel{
-    height: 350px;
-    width: 200px;
-    padding: 0.5em;
-    padding-top: 4em;
+    height: 240px;
 }
 
 .feature {

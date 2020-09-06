@@ -1351,36 +1351,31 @@ span.copyright {
 .menu {
     display:flex; 
     justify-content: center;  
-    width: 80%;
+    width: 100%;
     margin:auto; 
-    padding: auto; 
-    padding-bottom: 1em;
+    padding: 0;
     flex-wrap: wrap;
+}
+
+.menu-item > .icon-svg {
+    background: var(--light-blue);
 }
 
 .menu-item {
     width: 160px;
     text-align: center;
     font-family: 'Catamaran', sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1em;
-    font-weight: 700;
+    font-weight: 400;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black;
-    border-radius: 5px;
-    margin: 0.5em;
-    padding: 1em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    background: var(--light-transparent-blue);
-}
-
-.menu-item.panel{
-    height: 270px;
-    width: 260px;
-    padding-top: 1.3em;
+    color: var(--light-blue);
+    border-radius: 0px;
+    margin: 0.5em;margin-top: 1em;
+    padding: 0.01em;
+    background: none;
 }
 
 .menu-item:hover , .menu-item.active, .menu-item.panel.active {
@@ -1388,6 +1383,37 @@ span.copyright {
     border-color: var(--orange) !important;
     background: none !important;
 }
+
+.menu-item.panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0.2em;
+    
+    height: 270px;
+    width: 20%;
+    
+    font-size: 24px;
+    font-weight: 700;
+    background:rgba(3, 195, 221, 0.4);
+    color: black;
+    border-radius: 4px; 
+}
+.menu-item.panel > .icon-svg {
+    background: black;
+    margin: 0.5em;
+}
+.menu-item.panel > p.description {
+    padding: 0;
+    margin: 0.5em;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Catamaran', sans-serif;
+
+}
+
 .icon-chat {
   mask: url(images/icons/chat_icon.svg);
   -webkit-mask-image: url(images/icons/chat_icon.svg);

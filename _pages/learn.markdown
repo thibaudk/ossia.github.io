@@ -6,7 +6,7 @@ permalink: /score/learn.html
 category: site-learn
 
 ---
-<div class="menu" style="display:flex; justify-content: space-between; align-items:center; width: 100%;margin:auto; padding: auto; ">
+<div class="menu" style="display:flex; align-items:center; width: 100%;margin:auto; padding: auto; ">
         <!-- <a href="/score/learn/faq.html"  class="menu-item panel" ><span class="icon-svg icon-chat"></span> FAQ
          <p class="description">Most frequently asked questions</p></a>
          -->
@@ -18,10 +18,10 @@ category: site-learn
          
          <a href="http://forum.ossia.io/"  target="_blank" class="menu-item panel"><span class="icon-svg icon-forum"></span>Forum
          <p class="description">Ask any questions !</p></a>
-         <a href="https://gitter.im/OSSIA/score"  target="_blank" class="menu-item panel"><span class="icon-svg icon-chat"></span>Chat<p class="description">Please feel free to come and chat with us !</p></a>
+         <a href="https://gitter.im/OSSIA/score"  target="_blank" class="menu-item panel"><span class="icon-svg icon-chat"></span>Chat<p class="description">Come chat with us !</p></a>
 </div>
 
-<div style="width: 80%;">
+<div style="width: 100%;">
 <h2 class="page-title" style="text-align: center;">FAQ</h2>
     
 <h3 class="faq">Basics</h3>
