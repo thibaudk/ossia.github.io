@@ -321,18 +321,32 @@ h2.front-page a{
 .menu{
     width: 100%;
     padding: 0;
-    
 }
+
 .menu-item.panel{
-    height: 100px;
+    height: 160px;
     width: 48%;
+    padding: 0;
     padding-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.5em;
+    background: var(--light-transparent-blue);
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    vertical-align: center;
 }
+
+.menu-item.panel > p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.menu-item.panel > .icon-svg {
+    background: black;
+}
+
 .menu-item.mid-panel{
     height: 200px;
     width: 24%;
-    padding-top: 1em;
 }
 
 p.description {
