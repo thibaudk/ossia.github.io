@@ -303,22 +303,32 @@ h2.front-page a{
 /* Menu button */
 
 .menu-item {
-    width:100px;
-    font-size: 18px;
+    width:auto;
+    font-size: 15px;
     line-height: 1em;
-    
+    font-weight: 400;
     border-radius: 0px;
-    padding: 0.1em;
-    background: var(--light-transparent-blue);
+    padding: 0.01em;/*0.1em;*/
+    background: none;
+    margin: auto;
+    margin-top: 1em;
+    color: var(--light-blue);
 }
 
+.menu-item > .icon-svg {
+    background: var(--light-blue);
+}
+.menu{
+    width: 100%;
+    padding: 0;
+    
+}
 .menu-item.panel{
-    height: 200px;
+    height: 100px;
     width: 48%;
     padding-top: 1em;
     margin-bottom: 1em;
 }
-
 .menu-item.mid-panel{
     height: 200px;
     width: 24%;
