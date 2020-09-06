@@ -215,10 +215,10 @@ h2.logo-header {
     letter-spacing: 0.05em;
 }
 
-div.logo-grid a {
-    margin: 0px;
-    margin-left: 10px;
+div.logo-grid {
+    padding: 0;
 }
+
 .carouselcontainer {
     padding: 0;
     width: 300px;
@@ -388,10 +388,6 @@ ul.posts {
    padding: 1em; 
 }
 
-.wrapper.style4 {
-    padding: 0em;
-}
-
 a.thumbnail{
     margin-left: auto;
     margin-right: auto;
@@ -404,3 +400,10 @@ a.thumbnail{
 .post-nav-title{
     display: none !important;
 }
+
+/* Features page */
+a.thumbnail{
+    padding: 0;
+    background: none;
+    margin-bottom: 1em;
+}  
