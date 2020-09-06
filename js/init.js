@@ -41,25 +41,25 @@
 					height: 50,
 					html: '<span class="toggle" data-action="toggleLayer" data-args="topPanel"></span>'
 				},
-				sidePanel: {
-					states: '/global/wide/normal/narrow/narrower',
-					position: 'top-left',
-					side: 'left',
-					hidden: true,
-					animation: 'revealX',
-					width: 250,
-					height: '100%',
-					html: '<nav data-action="navList" data-args="nav"></nav>',
-					clickToHide: true,
-					orientation: 'vertical'
-				},
-				sideButton: {
-					states: '/global/wide/normal/narrow/narrower',
-					position: 'top-left',
-					width: 100,
-					height: 60,
-					html: '<span class="toggle" data-action="toggleLayer" data-args="sidePanel"></span>'
-				}
+// 				sidePanel: {
+// 					states: '/global/wide/normal/narrow/narrower',
+// 					position: 'top-left',
+// 					side: 'left',
+// 					hidden: true,
+// 					animation: 'revealX',
+// 					width: 250,
+// 					height: '100%',
+// 					html: '<nav data-action="navList" data-args="nav"></nav>',
+// 					clickToHide: true,
+// 					orientation: 'vertical'
+// 				},
+// 				sideButton: {
+// 					states: '/global/wide/normal/narrow/narrower',
+// 					position: 'top-left',
+// 					width: 100,
+// 					height: 60,
+// 					html: '<span class="toggle" data-action="toggleLayer" data-args="sidePanel"></span>'
+// 				}
 			}
 		}
 	});

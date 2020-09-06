@@ -24,9 +24,9 @@ It is compatible with the GPLv3.
 
 ossia score development has been mainly supported by the following organisms :
 <div class="logo-grid" style="justify-content: center;">
-<a href="https://www.labri.fr/"><img src="/assets/LABRI_BIG.png" height="40" width="auto"/></a>
-<a href="https://scrime.u-bordeaux.fr/"><img src="/assets/logo-SCRIME-2018-Light.jpg" height="80" width="auto"/></a>
-<a href="http://www.blueyeti.fr/"><img src="/assets/blueyeti.png" height="100" width="auto"/></a>
+<a href="https://www.labri.fr/"><img src="/assets/logo/LABRI_BIG.png"/></a>
+<a href="https://scrime.u-bordeaux.fr/"><img src="/assets/logo/logo-SCRIME-2018-Light.jpg"/></a>
+<a href="http://www.blueyeti.fr/"><img src="/assets/logo/blueyeti.png"/></a>
 </div>
 
 With support and contributions of other organisms, such as GMEA, L’Arboretum, didascalie.net, StudioMirio and more. 

@@ -2,19 +2,7 @@
 layout: default
 ---
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    
-<script>
-$(function(){
-    $('.menu a').each(function(){
-    if("{{page.title}}" ===  this.text){
-        $(this).addClass('active');
-         return false;
-    }
-    });
-});
-</script>
-
-  
+   
 <article id="main" style="padding-bottom: 2em;">
     <header class="container" style="padding-top: 6em;text-align:center;">
         <div class="menu" style="width: 90%;">
@@ -34,4 +22,14 @@ $(function(){
   {{ content }}
 </section>
 </article>
-    
+     
+<script>
+$(function(){
+    $('.menu a').each(function(){
+    if("{{page.title}}" ===  this.text){
+        $(this).addClass('active');
+         return false;
+    }
+    });
+});
+</script>

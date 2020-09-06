@@ -7,19 +7,6 @@ layout: landing-page
 
 <link rel="stylesheet" href="/owlcarousel/owl.carousel.min.css">
 <link rel="stylesheet" href="/owlcarousel/owl.theme.default.min.css">
-<script src="/owlcarousel/owl.carousel.min.js"></script>
-<script>
-$(window).on('load',function(){
-  $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
-    responsive:true,
-    autoWidth: true
-})
-});
-</script>
-
 
 <!-- Main -->
 <article id="main" style="background-color: var(--dark-grey);">
@@ -58,13 +45,13 @@ $(window).on('load',function(){
     <h2 style="text-align: center;" ><span class="title-section" style="color: black; border-color:var(--orange);">Supporting organizations</span></h2> 
     <div class="logo-grid">
      <a href="https://www.unrealengine.com/"><img src="/assets/logo/unreal_engine.png" width="80" height="auto"/></a>
-     <a href="https://www.mozilla.org/" ><img src="/assets/logo/mozilla-logo.png" width="auto" height="50"/></a>
-     <a href="https://opencollective.com/"><img src="/assets/logo/opencollectivelogo.png" width="auto" height="50"/></a>
-    <a href="https://anr.fr/" ><img src="/assets/logo/anr-logo.png" width="auto" height="40"/></a>
-    <a href="https://www.education.gouv.fr/"><img src="/assets/logo/logo-ministere-de-la-culture.png" width="auto" height="100"/></a>
-    <a href="https://www.labri.fr/"><img src="/assets/LABRI_BIG.png" height="30" width="auto"/></a>
-    <a href="https://scrime.u-bordeaux.fr/"><img src="/assets/logo-SCRIME-2018-Light.jpg" height="80" width="auto"/></a>
-    <a href="http://www.blueyeti.fr/"><img src="/assets/blueyeti.png" height="100" width="auto"/></a>
+     <a href="https://www.mozilla.org/" ><img src="/assets/logo/mozilla-logo.png"/></a>
+     <a href="https://opencollective.com/"><img src="/assets/logo/opencollectivelogo.png" /></a>
+    <a href="https://anr.fr/" ><img src="/assets/logo/anr-logo.png"/></a>
+    <a href="https://www.education.gouv.fr/"><img src="/assets/logo/logo-ministere-de-la-culture.png"/></a>
+    <a href="https://www.labri.fr/"><img src="/assets/logo/LABRI_BIG.png" /></a>
+    <a href="https://scrime.u-bordeaux.fr/"><img src="/assets/logo/logo-SCRIME-2018-Light.jpg"/></a>
+    <a href="http://www.blueyeti.fr/"><img src="/assets/logo/blueyeti.png" /></a>
     </div>
 </section>
    
@@ -138,16 +125,6 @@ $(window).on('load',function(){
  </section>
  
  
-<script>
-function displayInOverlay(image) {
-  document.getElementById("overlay").style.display = "block";
-  document.getElementById("overlay-image").src = image;
-}
-
-function hideOverlay() {
-  document.getElementById("overlay").style.display = "none";
-}
-</script>
 
     <section id="index" class="white">
      <div class="feature-container reversed">
@@ -209,45 +186,11 @@ function hideOverlay() {
     <section id="index" class="black" style="">
         <div class="frontpage-video">
         <div class="videoWrapper"">
-            <iframe src="" data-src="https://player.vimeo.com/video/247547998" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <iframe src="" data-src="https://player.vimeo.com/video/247547998" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
         </div>
         </div>
     </section>
 	
-        <!-- Main features -->
-		<!--<section class="wrapper style1 container special">
-            <div class="row">
-                <div class="4u">
-                    <section>
-                        <image src="assets/icon_multi@300x.png" height="70px"/>
-						<header>
-                            <h3>Multi-protocol sequencer</h3>
-                        </header>
-						<p>Remote-control various applications, such as Max/MSP, PureData, Processing, openFrameworks, Unity3D, modul8, Live… using OSC, Minuit and more to come.</p>
-                    </section>
-							
-                </div>
-				<div class="4u">
-                    <section>
-                        <image src="assets/icon_flex@300x.png" height="70px"/>
-						<header>
-                            <h3>Flexible time management</h3>
-                        </header>
-						<p>Set temporal & conditional relationships between events, interactively trigger them, hierarchize your score, and use loops to produce interactive scenarios.</p>
-                    </section>
-                </div>
-				<div class="4u">
-                    <section>
-                        <image src="assets/icon_interpolation@300x.png" height="70px"/>
-						<header>
-                            <h3>Interpolation & breakpoint functions</h3>
-                        </header>
-						<p>Automatically interpolate parameters’ values between events or draw your own curved breakpoint function. Map addresses together, and live-script your score using JavaScript.</p>
-                    </section>
-                </div>
-            </div>
-        </section>
-        -->
    <!-- Recent posts and twitter feed -->
     <section class="white blog-twitter" id="index">
         <div style="display: flex; justify-content: space-around; margin: 0;">
@@ -273,8 +216,6 @@ function hideOverlay() {
             <!-- Twitter timeline -->
             <div class="twitter" style="width: 30%;">
                  <h2><a class="twitter-timeline" data-tweet-limit="1" href="https://twitter.com/ossia_io?ref_src=twsrc%5Etfw">Tweets by ossia_io</a> </h2>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-                </script>
             </div>
         </div>
     </section>	
@@ -322,5 +263,27 @@ function hideOverlay() {
             </div>
         </div>
       </section>  
-    
 </article>
+
+<script async src="/owlcarousel/owl.carousel.min.js"></script>
+<script>
+$(window).on('load',function(){
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:true,
+    autoWidth: true
+})
+});
+
+function displayInOverlay(image) {
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("overlay-image").src = image;
+}
+
+function hideOverlay() {
+  document.getElementById("overlay").style.display = "none";
+}
+</script>
+ <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

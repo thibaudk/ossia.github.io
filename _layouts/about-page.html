@@ -2,17 +2,6 @@
 layout: default
 ---
 
-<script>
-$(function(){
-    $('.menu a').each(function(){
-    if("{{page.title}}" ===  this.text){
-        $(this).addClass('active');
-         return false;
-    }
-    });
-});
-</script>
-
 <article id="main">
     <header class="container" style="padding-top: 6em;text-align:center;">
     
@@ -31,3 +20,13 @@ $(function(){
     </section>
 </article>
     
+<script>
+$(function(){
+    $('.menu a').each(function(){
+    if("{{page.title}}" ===  this.text){
+        $(this).addClass('active');
+         return false;
+    }
+    });
+});
+</script>
