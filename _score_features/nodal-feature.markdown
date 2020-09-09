@@ -8,7 +8,7 @@ category: "site-score"
 image: /assets/features/missing.png
 description: "Cables, ports, nodal view..."
 
-tag: "Other"
+tag: "Structure"
 ---
 
 Video feature

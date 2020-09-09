@@ -8,7 +8,7 @@ category: "site-score"
 image: /assets/features/loop.png
 description: "Creating loops"
 
-tag: "Audio"
+tag: "Structure"
 ---
 
 Video feature

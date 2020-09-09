@@ -8,7 +8,7 @@ category: "site-score"
 image: /assets/features/trigger.png
 description: "Interactive triggering"
 
-tag: "Other"
+tag: "Structure"
 ---
 
 Video feature
