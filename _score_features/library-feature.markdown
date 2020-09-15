@@ -11,4 +11,9 @@ description: "Using the library"
 tag: "Other"
 ---
 
-Video feature
+Important folders: 
+- Skins
+- Util/metro_tick.wav Util/metro_tock.wav 
+- Addons
+- Presets
+- 
