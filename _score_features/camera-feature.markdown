@@ -8,7 +8,7 @@ category: "site-score"
 image: /assets/features/missing.png
 description: "Use a camera as an input for VJ"
 
-tag: "Other"
+tag: "Graphics"
 ---
 
-Video feature
+Caméra

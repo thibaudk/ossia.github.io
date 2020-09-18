@@ -11,9 +11,17 @@ description: "Using the library"
 tag: "Other"
 ---
 
-Important folders: 
+
+# Important folders: 
 - Skins
 - Util/metro_tick.wav Util/metro_tock.wav 
 - Addons
 - Presets
-- 
+
+# User library
+Downloaded on first launch 
+
+## Settings: change the library path
+
+# Project library
+- Need to save the file somewhere -> folder becomes the project folder.
