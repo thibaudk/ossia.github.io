@@ -8,7 +8,7 @@ category: "site-score"
 image: /assets/features/timing.png
 description: "Timing and processes"
 
-tag: "Data model"
+tag: "Software model"
 ---
 
 How timing works in ossia score.

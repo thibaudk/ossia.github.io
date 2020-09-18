@@ -14,11 +14,12 @@ tag: "Audio"
 - Drag'n'drop depuis la bibliothèque
 - Les fichiers avec information de tempo sont mis en boucle & timestretch automatiquement
 - 4 modes de timestretch: 
- * Raw: pas de timestretch
- * Timestretch: timestretch normal, adapté aux instrus mélodiques
- * Timestretch (percussive): timestretch normal, adapté aux instrus percussifs
- * Repitch: change la hauteur
+  * Raw: pas de timestretch
+  * Timestretch: timestretch normal, adapté aux instrus mélodiques
+  * Timestretch (percussive): timestretch normal, adapté aux instrus percussifs
+  * Repitch: change la hauteur
 
 - Les fichiers .wav / .aiff à la même fréquence d'échantillonnage que celle de score sont lus depuis le disque
 - Tous les autres fichiers sont convertis et stockés en RAM 
-  
+- Formats supportés: tous ceux supportés par ffmpeg 
+  * http://www.ffmpeg.org/general.html#Audio-Codecs

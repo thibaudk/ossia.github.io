@@ -20,102 +20,96 @@ Note that some of the names used in those mapping may be later used by user inte
 do appropriate things (for stuff such as blob, font, label, buffer, filepath, url, width, scale...)
 
 ### Integers
-    int
-    integer
-    int32
-    i32
-    long
+* int
+* integer
+* int32
+* i32
+* long
 
 ### Floating point
-    float
-    single
-    number
-    num
-    decimal
-    flt
-    float32
-    ieee754
-    real
-    width
-    length
-    len
-    height
-    glfloat
-    x
-    y
-    z
-    w
-    scale
+* float
+* single
+* number
+* num
+* decimal
+* flt
+* float32
+* ieee754
+* real
+* width
+* length
+* len
+* height
+* glfloat
+* x
+* y
+* z
+* w
+* scale
 
 ### String
-    string
-    str
-    symbol
-    sym
+* string
+* str
+* symbol
+* sym
 
-    font
+* font
 
-    label
+* label
 
-    url
-    filepath
-    path
-    file
-    folder
-    directory
+* url
+* filepath
+* path
+* file
+* folder
+* directory
 
-    bytearray
-    blob
-    buffer
+* bytearray
+* blob
+* buffer
 
 ### Boolean
-    bool
-    boolean
+* bool
+* boolean
 
 ### Character
-    char
-    character
-    byte
+* char
+* character
+* byte
 
 ### Arrays (vec2/vec3/vec4)
-    vec2
-    vec2f
-    vector2
-    size
-    dim
-    dims
+* vec2
+* vec2f
+* vector2
+* size
+* dim
+* dims
 
-    vec3
-    vec3f
-    vector3
+* vec3
+* vec3f
+* vector3
 
-    vec4
-    vector4
-    vec4f
-    rect
-    rectangle
+* vec4
+* vector4
+* vec4f
+* rect
+* rectangle
 
 ### Impulse
-    pulse
-    impulse
-    infinitum
-    bang
-
-    auto add_ext = [&](auto e) {
-      net::parameter_data p;
-      p.type = e;
-      t.insert({e, p});
-    };
+* pulse
+* impulse
+* infinitum
+* bang
 
 ### List
-    list
-    lst
-    tuple
-    vector
-    generic
-    anything
-    any
-    floatArray
-    integerArray
-    stringArray
+* list
+* lst
+* tuple
+* vector
+* generic
+* anything
+* any
+* floatArray
+* integerArray
+* stringArray
 

@@ -14,6 +14,7 @@ tag: "Scripting"
 - Fonctions disponibles actuellement: 
   * Fournies par `EditJsContext`
 
+- Shortcut: ctrl-shift-C
 # Examples
 
 
