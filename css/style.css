@@ -52,7 +52,8 @@
 		color: inherit;
 		font-weight: 300;
 		line-height: 1.75em;
-		margin-bottom: 1em;
+		margin-bottom: 0.3em;
+		margin-top: 0.3em;
         font-family: 'Catamaran', sans-serif;
 	}
 
@@ -67,8 +68,17 @@
         color: var(--orange);
     }
     
+    h1{
+        font-size: 38px;
+        font-weight: 400;
+    }
+    h1.blog{
+        font-family: 'Libre Franklin';
+        font-size: 18px;
+        font-weight: 400;
+    }
 	h2 {
-		font-size: 40px;
+		font-size: 32px;
         vertical-align: center
 	}
 
@@ -81,11 +91,7 @@
     h2.blog.title{
         text-align: center;
     }
-    h1.blog{
-        font-family: 'Libre Franklin';
-        font-size: 18px;
-        font-weight: 400;
-    }
+    
     span.blog.category{
         font-family: 'Libre Franklin';
         font-size: 16px;
@@ -93,11 +99,11 @@
         font-weight: 400;
     }
 	h3 {
-		font-size: 1.15em;
+		font-size: 22px;
         font-weight: 600;
 	}
     h4 {
-		font-size: 1.em;
+		font-size: 1.15em;
         font-weight: 500;
         line-height: 0.4em;
 	}
@@ -326,14 +332,19 @@
 			padding-left: 0.25em;
 		}
 
-	ul.default {
-		list-style: disc;
-		padding-left: 1em;
+    ul {
+        list-style: disc;
+        padding-left: 1em;
+    }
+    li:before {
+        list-style: disc;
+        font-size: 12px;
+        padding-left: 1em;
+    }
+    
+	ul.default li {
+		padding-left: 0.5em;
 	}
-
-		ul.default li {
-			padding-left: 0.5em;
-		}
 
 	ul.icons {
 		cursor: default;
@@ -660,12 +671,6 @@
     align-items: center; 
     flex-wrap: wrap;
 }
-
-ul {
-	list-style: disc;	
-    padding-left: 1em;
-}
-
 
 h2.page-title{
     font-size: 30pt;

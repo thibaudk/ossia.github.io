@@ -24,11 +24,11 @@ This uses http://www.partow.net/programming/exprtk/index.html underneath for sol
 The expression can be written on multiple lines
 Numerous math functions are available: sin, cos, abs, log... as well as the usual pi, etc... constants.
 
-## Examples
+# Examples
 
-### Value generator
+## Value generator
 
-#### Logistic function
+### Logistic function
 {% highlight matlab %}
 if(m1 == 0) { 
   m2 := 0.8; 
@@ -40,7 +40,7 @@ m2 := r * m2 * (1 - m2);
 m2;
 {% endhighlight %}
 
-### Value mapper
+## Value mapper
 
 ### Add jitter
 {% highlight matlab %}
