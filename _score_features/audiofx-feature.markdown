@@ -17,4 +17,5 @@ tag: "Audio"
   - Faust 
 
 - Instruments virtuels sont détectés aussi
-- Méthode recommandée
+  
+- Méthode recommandée: utiliser une effect chain / synth chain

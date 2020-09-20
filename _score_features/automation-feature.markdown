@@ -29,3 +29,7 @@ tag: "Structure"
 - Comportement des ports
   
 - Enregistrement
+
+- Fonctions right-click
+
+- Mode pen : en gardant alt appuyé

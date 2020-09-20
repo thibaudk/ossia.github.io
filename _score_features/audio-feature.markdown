@@ -21,5 +21,6 @@ tag: "Audio"
 
 - Les fichiers .wav / .aiff à la même fréquence d'échantillonnage que celle de score sont lus depuis le disque
 - Tous les autres fichiers sont convertis et stockés en RAM 
+  - Note : mentionner le ramdisk trick
 - Formats supportés: tous ceux supportés par ffmpeg 
   * http://www.ffmpeg.org/general.html#Audio-Codecs
