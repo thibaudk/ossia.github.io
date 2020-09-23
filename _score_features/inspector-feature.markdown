@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Inspector"
 
 permalink: /score/features/inspector.html

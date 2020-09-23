@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Script console"
 
 permalink: /score/features/console.html
@@ -12,6 +12,7 @@ tag: "Scripting"
 work_in_progress: true
 ---
 
+## Description
 - Fonctions disponibles actuellement:
   * Ce sont les fonctions de la classe C++ [EditJsContext](https://github.com/ossia/score/blob/master/src/plugins/score-plugin-js/JS/ConsolePanel.hpp#L40)
 

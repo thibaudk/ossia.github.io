@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Gamepads"
 
 permalink: /score/features/gamepad.html

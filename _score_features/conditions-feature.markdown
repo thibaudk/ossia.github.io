@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Conditions"
 
 permalink: /score/features/conditions.html

@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Nesting"
 
 permalink: /score/features/nesting.html

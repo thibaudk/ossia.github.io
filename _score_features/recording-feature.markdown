@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Recording"
 
 permalink: /score/features/recording.html

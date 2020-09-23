@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Automation"
 
 permalink: /score/features/automation.html

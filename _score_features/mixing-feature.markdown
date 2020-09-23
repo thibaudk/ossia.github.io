@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Mixing"
 
 permalink: /score/features/mixing.html

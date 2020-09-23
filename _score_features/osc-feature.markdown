@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "OSC"
 
 permalink: /score/features/osc.html

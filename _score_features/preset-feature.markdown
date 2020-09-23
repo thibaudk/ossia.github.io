@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Presets"
 
 permalink: /score/features/presets.html

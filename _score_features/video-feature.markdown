@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Video"
 
 permalink: /score/features/video.html
@@ -12,7 +12,7 @@ tag: "Graphics"
 work_in_progress: true
 ---
 
-# Usage
+## Usage
 - Drag'n'drop video from system or user library
 - Videos loop by default
 
@@ -21,7 +21,7 @@ work_in_progress: true
   * Drop the video
   * Select the output port of the video process and assing it to the window device
 
-# Support
+## Support
 - Formats de fichiers supportés: tous ceux supportés par ffmpeg 
   * http://www.ffmpeg.org/general.html#Video-Codecs
 

@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Javascript"
 
 permalink: /score/features/javascript.html
@@ -12,7 +12,7 @@ tag: "Scripting"
 work_in_progress: true
 ---
 
-# Scripting in Javascript / QML.
+## Scripting in Javascript / QML.
 ES7; https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 qml : property real, etc.
 
@@ -20,10 +20,10 @@ https://doc.qt.io/qt-5/qmlreference.html
 
 setting the path to a file is possible
 
-# Editing code
+## Editing code
 if there are compilation errors, the edited script *won't* be saved.
 
-# Example of a value mapper
+## Example of a value mapper
 
 {% highlight qml %}
 // Necessary for the Script object. 
@@ -64,7 +64,7 @@ Script {
 
 Note: it is also possible to access the list of messages with their precise timing, with `values`.
 
-# Example of an audio generator
+## Example of an audio generator
 
 {% highlight qml %}
 import Score 1.0
@@ -109,11 +109,11 @@ Script {
 
 {% endhighlight %}
 
-# Example of a MIDI transposer
+## Example of a MIDI transposer
 
 See the user library: Presets/JS/transpose.qml
 
-# Port types 
+## Port types 
 ## Properties common to all ports
 {% highlight qml %}
 FloatSlider {

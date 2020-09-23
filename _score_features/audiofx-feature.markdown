@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Audio plug-ins"
 
 permalink: /score/features/audiofx.html

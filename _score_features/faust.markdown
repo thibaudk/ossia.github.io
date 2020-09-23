@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Faust"
 
 permalink: /score/features/faust.html

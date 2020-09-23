@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Timing"
 
 permalink: /score/features/timing.html

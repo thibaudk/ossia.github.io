@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Step sequencer"
 
 permalink: /score/features/step-sequencer.html

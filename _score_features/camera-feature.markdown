@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Camera"
 
 permalink: /score/features/camera.html
@@ -12,7 +12,7 @@ tag: "Graphics"
 work_in_progress: true
 ---
 
-# Usage
+## Usage
 Score supports using camera inputs in its VFX graph.
 
 ## Example
@@ -24,7 +24,7 @@ Score supports using camera inputs in its VFX graph.
 - Dans le shader mettre l'entrée à la camera, la sortie à la window.
 - Faire play :-)
   
-# Informations techniques
+## Informations techniques
 ## Utiliser les API système sous windows & mac
 Rien de spécial ?
 

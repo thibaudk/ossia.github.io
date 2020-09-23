@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Cues"
 
 permalink: /score/features/cues.html

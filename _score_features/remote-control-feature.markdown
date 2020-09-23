@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Remote control"
 
 permalink: /score/features/remote-control.html

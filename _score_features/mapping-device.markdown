@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Mapper device"
 
 permalink: /score/features/mapper-device.html

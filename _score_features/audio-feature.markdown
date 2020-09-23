@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Sound files"
 
 permalink: /score/features/audio.html

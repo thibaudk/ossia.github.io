@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Serial port"
 
 permalink: /score/features/serialport.html

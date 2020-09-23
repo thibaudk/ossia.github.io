@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Modular workflow"
 
 permalink: /score/features/modular.html

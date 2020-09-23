@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Musicality"
 
 permalink: /score/features/musical.html

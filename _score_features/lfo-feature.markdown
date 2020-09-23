@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "LFO"
 
 permalink: /score/features/lfo.html

@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Control surface"
 
 permalink: /score/features/controlsurface.html

@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Local tree"
 
 permalink: /score/features/localtree.html

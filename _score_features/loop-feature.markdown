@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Loops"
 
 permalink: /score/features/loops.html

@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Shaders"
 
 permalink: /score/features/shaders.html

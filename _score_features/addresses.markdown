@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Addresses"
 
 permalink: /score/features/addresses.html
@@ -11,7 +11,7 @@ tag: "Software model"
 work_in_progress: true
 ---
 
-# Address types
+## Address types
 
 In multiple cases in score and libossia, an address type can be used.
 

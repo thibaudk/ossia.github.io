@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "MIDI"
 
 permalink: /score/features/midi.html

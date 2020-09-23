@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Math expressions"
 
 permalink: /score/features/exprtk.html
@@ -24,7 +24,7 @@ This uses http://www.partow.net/programming/exprtk/index.html underneath for sol
 The expression can be written on multiple lines
 Numerous math functions are available: sin, cos, abs, log... as well as the usual pi, etc... constants.
 
-# Examples
+## Examples
 
 ## Value generator
 

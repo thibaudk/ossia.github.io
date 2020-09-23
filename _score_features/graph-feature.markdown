@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: score-feature
 title:  "Graphs"
 
 permalink: /score/features/graph.html
