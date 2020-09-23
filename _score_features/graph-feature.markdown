@@ -9,5 +9,5 @@ image: /assets/features/graph.png
 description: "Creating state machines and graphs"
 
 tag: "Structure"
-work_in_progress: true
+visible: false
 ---

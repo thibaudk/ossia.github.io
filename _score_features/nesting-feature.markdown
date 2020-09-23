@@ -9,5 +9,5 @@ image: /assets/features/nesting.png
 description: "Nesting scores with the scenario process"
 
 tag: "Structure"
-work_in_progress: true
+visible: false
 ---

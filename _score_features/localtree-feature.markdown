@@ -9,5 +9,5 @@ image: /assets/features/localtree.png
 description: "Controlling ossia score with the local device tree"
 
 tag: "Interoperability"
-work_in_progress: true
+visible: false
 ---

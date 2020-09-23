@@ -9,6 +9,6 @@ image: /assets/features/missing.png
 description: "Remote control through a web page"
 
 tag: "Interoperability"
-work_in_progress: true
+visible: false
 ---
 

@@ -9,7 +9,7 @@ image: /assets/features/faust.png
 description: "Using Faust to create advanced audio processes"
 
 tag: "Audio"
-work_in_progress: true
+visible: false
 ---
 
 faust.grame.fr

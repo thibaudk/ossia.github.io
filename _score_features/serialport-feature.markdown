@@ -9,5 +9,5 @@ image: /assets/features/missing.png
 description: "Interaction through a serial port (Arduino, etc.)"
 
 tag: "Interoperability"
-work_in_progress: true
+visible: false
 ---

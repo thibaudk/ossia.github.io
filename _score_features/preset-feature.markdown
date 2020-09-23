@@ -9,5 +9,5 @@ image: /assets/features/missing.png
 description: "Creating, storing and recalling presets"
 
 tag: "Structure"
-work_in_progress: true
+visible: false
 ---

@@ -9,5 +9,5 @@ image: /assets/features/missing.png
 description: "Cables, ports, nodal view..."
 
 tag: "Structure"
-work_in_progress: true
+visible: false
 ---

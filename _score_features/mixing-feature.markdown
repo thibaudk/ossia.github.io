@@ -9,5 +9,5 @@ image: /assets/features/music.png
 description: "Audio mixing, audio workflow and hierarchy"
 
 tag: "Audio"
-work_in_progress: true
+visible: false
 ---

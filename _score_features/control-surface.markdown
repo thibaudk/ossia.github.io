@@ -5,11 +5,11 @@ title:  "Control surface"
 permalink: /score/features/controlsurface.html
 category: "site-score"
 
-image: /assets/features/missing.png
+image: /assets/features/controlsurface.gif
 description: "Using the control surface to keep an hand on score parameters"
 
 tag: "Controls"
-work_in_progress: true
+visible: false
 ---
 
 - Drop addresses on it

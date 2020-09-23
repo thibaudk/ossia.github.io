@@ -30,6 +30,8 @@ category: "site-score"
 {% endfor %}
 
 
+            {% if post.visible %}
+            {% endif %}
 <div>
     {% for ct in cats %}
          <h2 class="feature-title">{{ ct }}</h2>

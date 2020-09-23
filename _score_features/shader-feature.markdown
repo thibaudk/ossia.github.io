@@ -9,6 +9,6 @@ image: /assets/features/missing.png
 description: "Using and writing ISF shader effects"
 
 tag: "Graphics"
-work_in_progress: true
+visible: false
 ---
 

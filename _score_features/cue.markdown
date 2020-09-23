@@ -9,5 +9,5 @@ image: /assets/features/cue.png
 description: "Sending cues to control a show"
 
 tag: "Structure"
-work_in_progress: true
+visible: false
 ---

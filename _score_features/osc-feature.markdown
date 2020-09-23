@@ -9,5 +9,5 @@ image: /assets/features/osc.png
 description: "Send and receive OSC messages"
 
 tag: "Interoperability"
-work_in_progress: true
+visible: false
 ---

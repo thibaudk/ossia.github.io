@@ -5,11 +5,11 @@ title:  "Camera"
 permalink: /score/features/camera.html
 category: "site-score"
 
-image: /assets/features/missing.png
+image: /assets/features/camera.gif
 description: "Use a camera as an input for VJ"
 
 tag: "Graphics"
-work_in_progress: true
+visible: true
 ---
 
 ## Usage

@@ -9,5 +9,5 @@ image: /assets/features/missing.png
 description: "Using gamepads and wiimotes in a score"
 
 tag: "Interoperability"
-work_in_progress: true
+visible: false
 ---
