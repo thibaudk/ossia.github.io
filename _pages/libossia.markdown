@@ -7,6 +7,7 @@ category: site-libossia
 
 ---
 
+## About libossia
 libossia is a modern C++, cross-environment distributed object model for creative coding.
 
 It allows to declare the architecture of your creative coding application’s functions as a tree of OSC nodes and parameters. These nodes/parameters can have attributes, which allow to declare many of their properties, such as their values, types, units, ranges, etc.
@@ -31,7 +32,7 @@ libossia offers bindings and implementations for several environments such as:
 <br/>
 Please feel free to come and chat with us ! [join the chat](https://gitter.im/OSSIA){:target="_blank"}
 
-Documentation :
+## Documentation :
 
 * [Lib and Implementations](https://ossia.github.io/ossia-docs/#introduction){:target="_blank"}
 * [Tutorials](https://github.com/OSSIA/libossia/tree/master/docs/Tutorial){:target="_blank"}
@@ -43,3 +44,6 @@ Documentation :
 [Source code](https://github.com/OSSIA/libossia){:target="_blank"}
 
 [API Documentation](https://ossia.github.io/ossia-docs/#introduction){:target="_blank"}
+
+
+libossia is distributed under the terms of the CeCILL-C license and of the LGPLv3 license.

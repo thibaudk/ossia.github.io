@@ -8,7 +8,6 @@ category: "site-score"
 image: /assets/features/localtree.png
 description: "Controlling ossia score with the local device tree"
 
-tag: "Other"
+tag: "Interoperability"
+work_in_progress: true
 ---
-
-Video feature

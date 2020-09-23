@@ -9,14 +9,15 @@ image: /assets/features/console.png
 description: "Scripting workflows with the console"
 
 tag: "Scripting"
+work_in_progress: true
 ---
 
-- Fonctions disponibles actuellement: 
-  * Fournies par `EditJsContext`
+- Fonctions disponibles actuellement:
+  * Ce sont les fonctions de la classe C++ [EditJsContext](https://github.com/ossia/score/blob/master/src/plugins/score-plugin-js/JS/ConsolePanel.hpp#L40)
 
-- Shortcut: ctrl-shift-C
-# Examples
+- Shortcut: {% include shortcut.html content="Ctrl+Shift+C" %}
 
+## Example
 
 {% highlight qml %}
 // Creates an OSC device named foo. Messages will be sent from score to 127.0.0.1:5678.

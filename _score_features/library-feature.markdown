@@ -8,7 +8,8 @@ category: "site-score"
 image: /assets/features/library.png
 description: "Using the library"
 
-tag: "Other"
+tag: "Software model"
+work_in_progress: true
 ---
 
 
@@ -20,6 +21,8 @@ tag: "Other"
 
 # User library
 Downloaded on first launch 
+https://github.com/ossia/score-user-library 
+Please contribute
 
 ## Settings: change the library path
 

@@ -8,7 +8,6 @@ category: "site-score"
 image: /assets/features/missing.png
 description: "Using gamepads and wiimotes in a score"
 
-tag: "Other"
+tag: "Interoperability"
+work_in_progress: true
 ---
-
-Video feature

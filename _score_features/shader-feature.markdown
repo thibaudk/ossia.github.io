@@ -8,7 +8,7 @@ category: "site-score"
 image: /assets/features/missing.png
 description: "Using and writing ISF shader effects"
 
-tag: "Video"
+tag: "Graphics"
+work_in_progress: true
 ---
 
-Video feature

@@ -8,6 +8,7 @@ image: /assets/features/addresses.png
 description: "How addresses work in score and libossia"
 
 tag: "Software model"
+work_in_progress: true
 ---
 
 # Address types

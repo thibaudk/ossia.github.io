@@ -6,29 +6,20 @@ permalink: /score/about.html
 category: "site-score"
 ---
 
-<h2>About ossia score</h2>
-
-ossia score is based on more than 15 years of research at LaBRI in the frame of the i-score (interactive scores) project.
-
-It currently uses the OSSIA library (libossia), which is a reimplementation of the Score engine for the execution engine, and of Jamoma Modular for the network/interoperability management.
-Parts of this library have been made accessible through APIs to several programming languages and implementations in various creative environments
-
 <img class="post-image" src="/assets/score.png" />
 
-<h2>Licenses</h2>
+## About ossia score
+[ossia score](https://github.com/ossia/score) is a sequencer for audio-visual artists, designed to enable the creation of interactive shows, museum installations, intermedia digital artworks, interactive music and more in an intuitive user interface.
 
-ossia score is distributed under the terms of the CeCILL license.
-It is compatible with the GPLv3.
+It allows to sequence OSC, MIDI, DMX, sound files and more, between multiple software and hardware. 
+Its novel interactive timeline enables scores written with it to depend on external events and controls through a simple visual language.
 
-<h2>Support</h2>
+## Technologies
+ossia score is free, libre & open source software and runs on desktop (Windows / macOS / Linux), mobile and embedded. 
+It leverages [libossia](../site-libossia/about.html) for its implementation, as well as reputed open-source technologies such as Qt 5, Boost and LLVM. It is written primarily in modern C++.
 
-ossia score development has been mainly supported by the following organisms :
-<div class="logo-grid" style="justify-content: center;">
-<a href="https://www.labri.fr/"><img src="/assets/logo/LABRI_BIG.png"/></a>
-<a href="https://scrime.u-bordeaux.fr/"><img src="/assets/logo/logo-SCRIME-2018-Light.jpg"/></a>
-<a href="http://www.blueyeti.fr/"><img src="/assets/logo/blueyeti.png"/></a>
-</div>
+## License
+ossia score is distributed under the terms of the CeCILL license. The french CeCILL license allows the software to be used under the terms of the GNU GPLv3.
 
-With support and contributions of other organisms, such as GMEA, L’Arboretum, didascalie.net, StudioMirio and more. 
-
-There was support from the French National Agency for Research, during the OSSIA project.
+## Funding
+You can fund the development of ossia on [OpenCollective](https://opencollective.com/ossia).

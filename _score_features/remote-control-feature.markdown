@@ -8,7 +8,7 @@ category: "site-score"
 image: /assets/features/missing.png
 description: "Remote control through a web page"
 
-tag: "Other"
+tag: "Interoperability"
+work_in_progress: true
 ---
 
-Video feature

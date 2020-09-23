@@ -7,12 +7,12 @@ category: site-score
 ---
 
 
-<h2>Get the code</h2>
+## Get the code
 
 The [source code](https://github.com/OSSIA/score){:target="_blank"} for score is hosted on GitHub.
 It is based on [libossia](https://github.com/OSSIA/libossia){:target="_blank"}.
 
-<h2>Contributing</h2>
+## Contributing
 <img style="float: right;" src="/assets/contribution_oscar.png" width="40%"/>
 * Contributing to the user library
 * Extending the scripting API

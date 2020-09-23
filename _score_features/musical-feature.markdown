@@ -8,7 +8,6 @@ category: "site-score"
 image: /assets/features/music.png
 description: "Musicality, quantization, timebars..."
 
-tag: "Audio"
+tag: "Software model"
+work_in_progress: true
 ---
-
-Video feature

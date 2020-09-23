@@ -6,31 +6,35 @@ permalink: /about.html
 category: site-about
 ---
 
-<h2>Background</h2>
+## Scientific background
 
-ossia score is based on more than 15 years of research at LaBRI in the frame of the i-score (interactive scores) project.
+Software developed as part of the ossia project has its roots in scientific research projects started around 2000 at the LaBRI - the general research project is called <i>i-score</i> (interactive scores). See the [Research](Research) section for detailed information.
+<!-- <img class="post-image" src="https://raw.githubusercontent.com/OSSIA/score/master/docs/score.png"/> -->
 
-It currently uses the OSSIA library (libossia), which is a reimplementation of the Score engine for the execution engine, and of Jamoma Modular for the network/interoperability management.
-Parts of this library have been made accessible through APIs to several programming languages and implementations in various creative environments
 
-<img class="post-image" src="https://raw.githubusercontent.com/OSSIA/score/master/docs/score.png"/>
+## Support
+Development has been supported over the years by many organisms and grants:
+<div class="logo-grid" style="justify-content: center;">
+<a href="https://www.labri.fr/"><img src="/assets/logo/LABRI_BIG.png"/></a>
+<a href="https://scrime.u-bordeaux.fr/"><img src="/assets/logo/logo-SCRIME-2018-Light.jpg"/></a>
+<a href="http://www.blueyeti.fr/"><img src="/assets/logo/blueyeti.png"/></a>
+<a href="https://www.unrealengine.com/"><img src="/assets/logo/unreal_engine.png" width="80" height="auto"/></a>
+<a href="https://www.mozilla.org/" ><img src="/assets/logo/mozilla-logo.png"/></a>
+<a href="https://opencollective.com/"><img src="/assets/logo/opencollectivelogo.png" /></a>
+<a href="https://anr.fr/" ><img src="/assets/logo/anr-logo.png"/></a>
+<a href="https://celtera.dev"><img src="/assets/logo/celtera.png"/></a>
+<a href="http://www.anrt.asso.fr/fr/cifre-7843"><img src="/assets/logo/logo-cifre-s.png"/></a>
+<a href="https://www.enseignementsup-recherche.gouv.fr/"><img src="/assets/logo/ministere-sup.jpg"/></a>
+<a href="https://www.education.gouv.fr/"><img src="/assets/logo/logo-ministere-de-la-culture.png"/></a>
+</div>
 
-<h2>Licenses</h2>
+With support and contributions of other organisms, such as:
+* GMEA
+* L’Arboretum
+* didascalie.net
+* StudioMirio 
 
-ossia score is distributed under the terms of the CeCILL license.
-It is compatible with the the GPLv3.
+And of course all the open-source contributors:
 
-libossia is distributed under the terms of the CeCILL-C license
-It is compatible with the the LGPLv3.
-
-<h2>Support</h2>
-
-ossia score development has been mainly supported by the following organisms :
-
-* SCRIME
-* LaBRI
-* Blue Yeti
-
-With support and contributions of other organisms, such as GMEA, L’Arboretum, didascalie.net, StudioMirio and more. 
-
-There was support from the French National Agency for Research, during the OSSIA project.
+* [ossia score contributors](https://github.com/ossia/score/graphs/contributors)
+* [libossia contributors](https://github.com/ossia/libossia/graphs/contributors)

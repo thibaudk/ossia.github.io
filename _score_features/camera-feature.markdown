@@ -9,6 +9,7 @@ image: /assets/features/missing.png
 description: "Use a camera as an input for VJ"
 
 tag: "Graphics"
+work_in_progress: true
 ---
 
 # Usage

@@ -9,6 +9,5 @@ image: /assets/features/midi.png
 description: "MIDI input & output, piano roll & MIDI effects"
 
 tag: "Audio"
+work_in_progress: true
 ---
-
-Video feature

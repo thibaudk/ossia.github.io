@@ -9,6 +9,5 @@ image: /assets/features/missing.png
 description: "Creating sequences"
 
 tag: "Structure"
+work_in_progress: true
 ---
-
-Video feature

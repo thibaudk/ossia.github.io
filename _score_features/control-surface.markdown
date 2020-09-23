@@ -8,7 +8,8 @@ category: "site-score"
 image: /assets/features/missing.png
 description: "Using the control surface to keep an hand on score parameters"
 
-tag: "Utilities"
+tag: "Controls"
+work_in_progress: true
 ---
 
 - Drop addresses on it

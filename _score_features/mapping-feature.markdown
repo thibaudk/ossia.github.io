@@ -8,7 +8,6 @@ category: "site-score"
 image: /assets/features/mappings.png
 description: "Mappings in the timeline"
 
-tag: "Other"
+tag: "Controls"
+work_in_progress: true
 ---
-
-Video feature

@@ -4,15 +4,15 @@ title:  "Download"
 
 permalink: /site-libossia/download.html
 category: site-libossia
-ossia_version: https://github.com/ossia/libossia/releases/download/v1.0.5
+ossia_version: https://github.com/ossia/libossia/releases/download/v1.0.8
 ---
 
 <b>libossia</b> is available for many platforms and environments:
 
 <div class="logo-grid" style="margin-top: 1em; margin-bottom: 1em;">
-     <a href="#cpp-binding"><img src="/assets/logo/cpp.png" height="60" width="auto"/></a>
-     <a href="#c-binding" ><img src="/assets/logo/c.png" height="60" width="auto"/></a>
-     <a href="#max-binding"><img src="/assets/logo/max.jpg" height="70" width="auto"/></a>
+    <a href="#cpp-binding"><img src="/assets/logo/cpp.png" height="60" width="auto"/></a>
+    <a href="#c-binding" ><img src="/assets/logo/c.png" height="60" width="auto"/></a>
+    <a href="#max-binding"><img src="/assets/logo/max.jpg" height="70" width="auto"/></a>
     <a href="#pd-binding" ><img src="/assets/logo/pd.png" height="60" width="auto"/></a>
     <a href="#unity-binding"><img src="/assets/logo/unity.png" height="60" width="auto"/></a>
     <a href="#processing-binding"><img src="/assets/logo/processing.jpg" height="60" width="auto"/></a>

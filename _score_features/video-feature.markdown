@@ -8,7 +8,8 @@ category: "site-score"
 image: /assets/features/missing.png
 description: "Video support and usage"
 
-tag: "Video"
+tag: "Graphics"
+work_in_progress: true
 ---
 
 # Usage

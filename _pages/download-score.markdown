@@ -4,45 +4,31 @@ title:  "Download"
 
 permalink: /score/download.html
 category: site-score
+score_dl: https://github.com/ossia/score/releases/download/v3.0.0-a13-2
+score_version: 3.0.0-a13-2
 ---
-<script>
-$(function(){
-var tag = "v3.0.0-alpha5";
-var version = "v3.0.0-a5";
 
-   document.getElementById("linux").href = "https://github.com/OSSIA/score/releases/download/"+tag+"/score-"+version+"-Linux.AppImage" ;
-   
-   document.getElementById("windows").href = "https://github.com/OSSIA/score/releases/download/"+tag+"/score-"+version+"-win64.exe" ;
-   
-   document.getElementById("osx").href = "https://github.com/OSSIA/score/releases/download/"+tag+"/score-"+version+"-macOS.zip";
-
-});
-</script>
-
-Download the latest release __ossia score v3.0.0__:
+Download the latest alpha release __ossia score v{{page.score_version}}__:
 <p style="display: flex; justify-content: center;align-content:space-evenly;" align="center">
-<a id="windows" href="https://github.com/OSSIA/score/releases/latest"  target="_blank" class="page-button download-page"><img src="../assets/windows_logo_2012-Black.svg" height="80px"/>Windows 10</a>
-<a id="osx" href="https://github.com/OSSIA/score/releases/latest"  target="_blank" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="80px"/>Mac OS<br/>10.14, 10.15</a>
-<a id="linux" target="_blank" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux <br/>details below</a>
+<a href="{{page.score_dl}}/ossia.score-{{page.score_version}}-win64.exe" target="_blank" class="page-button download-page"><img src="../assets/windows_logo_2012-Black.svg" height="80px"/>Windows 10</a>
+<a href="{{page.score_dl}}/ossia.score-{{page.score_version}}-macOS.zip"  target="_blank" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="80px"/>Mac OS<br/>10.14, 10.15</a>
+<a href="{{page.score_dl}}/ossia.score-{{page.score_version}}-linux-amd64.AppImage" target="_blank" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux</a>
 </p>
-The <a href="https://github.com/OSSIA/score/releases/latest"  target="_blank">change log</a> for the latest release.
+See the <a href="https://github.com/OSSIA/score/releases/latest" target="_blank">change log</a> for the latest release.
 
-<h2>Additional information</h2>
+## Supported platforms
 
 The releases are 64-bit on all operating systems.
-Due to the limitations of the continuous integration service, most Mac OS releases will only work on the latest Mac OS version.
-However, score can be built from source in order to work on 10.9 for instance.
 
-<h2>Linux supported distribution</h2>
-For Linux, the AppImage should work on :
-* CentOS >= 6.7
-* Chromixium
-* Fedora
-* Kali
-* Ubuntu, Kubuntu, Xubuntu, etc… >= 12.04
-* Debian >= Jessie
-* Suse >= 7.2
-* ElementaryOS
-* Arch Linux
+* Windows: must be at least Windows 10.
+* macOS: must be at least Mojave (10.14).
+* All Linux distributions from at least 2015-era should be supported. 
+  * The packages are built on CentOS 7
+  * Your system must have at least glibc-2.17, as well as X11, ALSA, libGL, librt, libdbus.
 
-It does not work currently on NixOS.
+## Source code
+
+The source code for the latest release can be downloaded from here: 
+* Latest release's <a href="{{page.score_dl}}/ossia.score-{{page.score_version}}-src.tar.xz">source code</a>
+* Latest release's <a href="{{page.score_dl}}/ossia.score-{{page.score_version}}-src.tar.xz.asc">source code signature</a>
+* Alternatively, you can fetch the latest source code <a href="https://github.com/OSSIA/score">directly from Github</a>

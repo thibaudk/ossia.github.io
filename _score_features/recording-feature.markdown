@@ -8,7 +8,7 @@ category: "site-score"
 image: /assets/features/record.gif
 description: "Recording external parameter changes"
 
-tag: "Other"
+tag: "Structure"
+work_in_progress: true
 ---
 
-Video feature

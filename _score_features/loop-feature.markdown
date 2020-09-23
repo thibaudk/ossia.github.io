@@ -9,6 +9,5 @@ image: /assets/features/loop.png
 description: "Creating loops"
 
 tag: "Structure"
+work_in_progress: true
 ---
-
-Video feature
