@@ -5,7 +5,7 @@ title:  "Modular workflow"
 permalink: /score/features/modular.html
 category: "site-score"
 
-image: /assets/features/missing.png
+image: /assets/features/nodes.png
 description: "Cables, ports, nodal view..."
 
 tag: "Structure"
