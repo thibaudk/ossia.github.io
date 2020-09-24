@@ -13,7 +13,7 @@ Each of us is somehow a different mix between an artist and an developer, and we
 The current core team is composed of:
 * <b>Jean-Michaël Celerier</b>: Lead developer and software architect
 * <b>Antoine Villeret</b>: libossia (ossia-pd/max and more) and score developer
-* <b>Pascal Baltazar</b>: Coordination, specifications and some user interface design
+* <b>Pia Baltazar</b>: Coordination, specifications and some user interface design
 * <b>Julien Rabin</b>: Documentation, specifications and some user interface design
 * <b>Akané Lévy</b>: Graphic, website and user interface design, initial ofxOssia development
 * <b>Thibaud Keller</b>: ossia-superCollider, development, user feedback and more
