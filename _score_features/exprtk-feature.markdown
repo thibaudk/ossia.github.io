@@ -11,6 +11,7 @@ description: "Use simple formulas to create mappings, filters and synths"
 tag: "Scripting"
 ---
 
+## Description
 The four processes : 
 - Audio Generator
 - Audio Mapping 
@@ -23,8 +24,6 @@ This uses http://www.partow.net/programming/exprtk/index.html underneath for sol
 
 The expression can be written on multiple lines
 Numerous math functions are available: sin, cos, abs, log... as well as the usual pi, etc... constants.
-
-## Examples
 
 ## Value generator
 
@@ -58,31 +57,27 @@ m1 := r;
 x + a * r / (2^33);
 {% endhighlight %}
 
-### Audio generator
+## Audio generator
 
 ### Sine wave
 {% highlight matlab %}
-var freq := 20 + a * 500;
-freq := 2 * pi * m1[0] *  freq * b / fs;
+var phi := 2 * pi * (20 + a * 500) / fs;
 
-m1[0] += 1;
+m1[0] += phi;
 
-out[0] := b * cos( freq );
-out[1] := b * cos( freq );
+out[0] := b * cos(m1[0]);
+out[1] := b * cos(m1[0]);
 {% endhighlight %}
 
 ### Square wave
 {% highlight matlab %}
-var freq := 20 + a * 500;
-freq := 2 * pi * m1[0] *  freq * b / fs;
+var phi := 2 * pi * (20 + a * 500) / fs;
 
-m1[0] += 1;
+m1[0] += phi;
 
-var res := cos(freq);
-res := (res >= 0) ? 1 : -1;
-
-out[0] := b * res;
-out[1] := b * res;
+var f := cos(m1[0]) > 0 ? b : -b;
+out[0] := f;
+out[1] := f;
 {% endhighlight %}
 ### Wobbly synth
 
@@ -99,7 +94,7 @@ out[0] := b * cos( freq_l );
 out[1] := b * cos( freq_r );
 {% endhighlight %}
 
-### Audio filter
+## Audio filter
 
 ### Crude distortion
 
