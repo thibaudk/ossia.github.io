@@ -12,7 +12,6 @@ category: site-about
 
 <h2>Future plans</h2>
 
-* JIT compilation support. [An addon has been started but has not been maintained](https://github.com/OSSIA/score-addon-jit){:target="_blank"}.
 * Networked edition and execution. [These capabilities have been prototyped but not kept up to date with the rest of the software](https://github.com/OSSIA/iscore-addon-network){:target="_blank"}.
 * Parametric processes. How to have parameters and variables used within the scope of a given box and changed easily across different instances of that box.
 * Mixer panel : making mixing from within score more straightforward.
@@ -21,11 +20,11 @@ category: site-about
 * Better support for sequences.
 * Support for MIDI 2.0.
 
-<h2><a href="https://github.com/OSSIA/score/releases/tag/v3.0.0-alpha1"  target="_blank">ossia score v3 (release targeting mid-2020)</a></h2>
+<h2><a href="https://github.com/OSSIA/score/releases/tag/v3.0.0-alpha1"  target="_blank">ossia score v3 (release targeting late 2020)</a></h2>
 
 ossia score 3 fulfills the long-term goal of being a proper multi-media platform, by providing integrated video abilities, in sync with the rest of the score, as well as musical abilities with support for tempo, musical metrics and quantization. Finally, the core engine has been extended to allow cycles in scenarios with a new kind of connection. This allows to implement state-machine-like behaviours in scenarios.
 
-* [Support for reading videos](https://twitter.com/jcelerie/status/1236809800727617537){:target="_blank"}, right now H264 and HAP. Implementation uses Vulkan, Metal, D3D or OpenGL depending on the platform for maximal performance. Multiple viewports are supported.
+* [Support for reading videos](https://twitter.com/jcelerie/status/1236809800727617537){:target="_blank"}, right now H.264 and HAP. Implementation uses Vulkan, Metal, D3D or OpenGL depending on the platform for maximal performance. Multiple viewports are supported. Spout output is supported.
 * Support for applying shader-based filters on these videos. Interactive shader format is supported.
 * Support for tempo, musical bars, etc. It is now possible to sync the triggering of a timenode to the beginning of the following bar for instance. Polyrythmy is supported : each interval can have its own tempo and metrics timeline.
 * [Support for cycles and loops](https://twitter.com/jcelerie/status/1245484342274646017){:target="_blank"} in the main scenario.
@@ -33,8 +32,9 @@ ossia score 3 fulfills the long-term goal of being a proper multi-media platform
 * Built-in looping for individual processes, to easily loop audio files.
 * Intervals can now be viewed in nodal mode to easily interconnect their processes.
 * Many small and useful new processes – signal visualization, pattern sequencer…
+* [JIT compilation support](https://twitter.com/jcelerie/status/1307792769277190147){:target="_blank"}.  This will be an experimental feature for the 3.0 release cycle, allowing you to write and run C++ extensions directly from within the software.
 
-<h2><a href="https://github.com/OSSIA/score/releases/tag/v2.5.2"  target="_blank">ossia score v2.5 (release targeting mid-2020)</a></h2>
+<h2><a href="https://github.com/OSSIA/score/releases/tag/v2.5.2"  target="_blank">ossia score v2.5</a></h2>
 
 This version is a big update to 2.0, adding two new processes :
 
@@ -43,7 +43,7 @@ This version is a big update to 2.0, adding two new processes :
 * RemoteControl : control your score through a simple WebSockets API.
 * Tons of UI work
 
-<h2><a href="https://github.com/OSSIA/score/releases/tag/v2.0.0-a1"  target="_blank">ossia score v2.0 (release targeting mid-2020)</a></h2>
+<h2><a href="https://github.com/OSSIA/score/releases/tag/v2.0.0-a1"  target="_blank">ossia score v2.0</a></h2>
 
 The 2.0 version is a paradigm shift : it introduces data and audio processing in score. The name was changed to reflect the OSSIA project legacy. It is now possible to play sounds, apply sound effects, among many other changes. The main highlights are :
 
@@ -60,9 +60,9 @@ The 2.0 version is a paradigm shift : it introduces data and audio processing in
 
 The first release for the 2.0 version was released in April 2018.
 
-<h2><a href="https://github.com/OSSIA/score/releases/tag/v1.0.0-b40"  target="_blank">i-score v1.0 (release targeting mid-2020)</a></h2>
+<h2><a href="https://github.com/OSSIA/score/releases/tag/v1.0.0-b40"  target="_blank">i-score v1.0 </a></h2>
 
-The 1.0 version is the concretization of the last year of effort in the  OSSIA project.
+The 1.0 version is the concretization of the last year of effort of the OSSIA project.
 Thanks to a from-scratch rewrite, the software has been highly modularized, and now offers the following features :
 
 * Undo-redo
