@@ -3,14 +3,14 @@ layout: score-page
 title:  "Contribute"
 
 permalink: /contributor-guide.html
-category: site-score
+category: site-community
 ---
 
 
 ## Get the code
 
-The [source code](https://github.com/OSSIA/score){:target="_blank"} for score is hosted on GitHub.
-It is based on [libossia](https://github.com/OSSIA/libossia){:target="_blank"}.
+The [source code](https://github.com/ossia/score){:target="_blank"} for score is hosted on GitHub.
+It is based on [libossia](https://github.com/ossia/libossia){:target="_blank"}.
 
 ## Contributing
 <img style="float: right;" src="/assets/contribution_oscar.png" width="40%"/>
@@ -30,8 +30,9 @@ We need help on :
 * (soon) Translations
 * Linux distribution packaging
 
-Most of the discussion regarding score features occurs on the issue tracker.
-If you wish to help, you can join the forum: we can help you into making your first contributions to the project.
+Most of the discussion regarding score features occurs on the [issue tracker](https://github.com/ossia/score/issues).
+If you wish to help, you can join the [forum](https://forum.ossia.io) or the [chat](https://gitter.im/ossia/score).
+We can help you into making your first contributions to the project.
 
 Here is a video explaining how to contribute to the code of ossia score:
 

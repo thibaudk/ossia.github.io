@@ -48,15 +48,15 @@ Here we generate all the categories.
             {% endfor %}
         </ul>
     <!-- Sidebar -->
-        <section class="categories">
-                <h1 class="blog category-title">Post by category</h1>
-                {% for ct in cats %}
-                    <h1 class="blog category" style="margin:0;"> {{ ct }} </h1>
-                        {% for post in site.posts %}
-                            {% if post.category contains ct %}
-                            <a class="link-cat" href="{{ post.url }}">{{ post.title }} </a>
-                        {% endif %}
-                    {% endfor %}
-            {% endfor %}
-        </section>
+    <section class="categories">
+            <h1 class="blog category-title">Post by category</h1>
+            {% for ct in cats %}
+                <h1 class="blog category" style="margin:0;"> {{ ct }} </h1>
+                    {% for post in site.posts %}
+                        {% if post.category contains ct %}
+                        <a class="link-cat" href="{{ post.url }}">{{ post.title }} </a>
+                    {% endif %}
+                {% endfor %}
+        {% endfor %}
+    </section>
 </div>

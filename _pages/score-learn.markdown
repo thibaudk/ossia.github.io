@@ -27,9 +27,15 @@ category: site-learn
 <h3 class="faq">Basics</h3>
 <p type="button" class="collapsible" > What is ossia score ?</p>
 <div class="collapsible-content">
-<div class="videoWrapper">
-    <iframe src="" data-src="https://www.youtube.com/embed/LSifHFbuky0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+ossia score is an interactive, intermedia sequencer. It allows to sequence various kinds of media and parameters (for instance, OSC messages, sound files, video effects)... over time in a timeline. The timeline has interactive features : it is possible to specify that a part of the score will execute when an event happens, such as a note being played, etc.
 </div>
+
+<p type="button" class="collapsible" > How can I help ?</p>
+<div class="collapsible-content">
+The easiest way to contribute is by donating to the <a href="https://opencollective.org/ossia">development fund</a>.
+
+A very good way to participate is by contributing through bug reports, and code improvements.
+See the <a href="contributor-guide.html">Contributing</a> page for more information.
 </div>
 
 <p type="button" class="collapsible"> Playing a sound</p>
@@ -218,6 +224,11 @@ category: site-learn
 <h3 class="faq">Troubleshooting</h3>
 
 <p type="button" class="collapsible">  The playback does not start</p>
+<div class="collapsible-content">
+     Most of the time, this is due to incorrect sound settings.
+</div>
+
+<p type="button" class="collapsible">  The score runs but there is no sound</p>
 <div class="collapsible-content">
      Most of the time, this is due to incorrect sound settings.
 </div>
