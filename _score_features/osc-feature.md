@@ -22,7 +22,7 @@ Once opened a new *score* project, right-click in the Device explorer on the lef
 
 From the Protocols column, choose 'OSC' and setup IP address your device is running on as well in & out ports. You may also specify a name for your device. For the demo purpose here, we will use the default 'OSCdevice' name. When done, the Device explorer pane should display our device top node.
 
-![OSC device top node](/assets/features/osc/OSC_top_node.png "OSC device top node")
+![OSC device top node](/assets/features/osc/osc_top_node.png "OSC device top node")
 
 Note: Should you need to change settings of your OSC device, the setup panel can be brought back by choosing 'Edit' in the device contextual menu.
 
@@ -39,7 +39,7 @@ For demo purpose here, we will use Vidvox's handy [OSC Test application](https:/
 
 When done, the Device explorer pane should display all learned OSC addresses. You can browse your device namespace, fold/unfold any node in the namespace hierarchy by clicking the arrow prepending each node. You can also see a parameter current value in your OSC device yb selecting this parameter in *score* Device explorer and check its bottom section.
 
-![Monitoring value changes](/assets/features/osc/testing_osc.png Monitoring distant parameter's value_)
+![Monitoring value changes](/assets/features/osc/testing_osc.png "Monitoring distant parameter's value"_)
 
 ## Adding addresses manually
 
@@ -53,7 +53,7 @@ As of *score* 3.0.0, each level of your parameter's OSC address is to be declare
 
 For our 'volume' parameter, we want to set the type as something else than 'container'. For example, we will set up our parameter as a float value.
 
-![Parameter type](/assets/features/osc/parameter_type_.png "Create an OSC parameter")
+![Parameter type](/assets/features/osc/parameter_type.png "Create an OSC parameter")
 
 You may also edits some of the parameter's attributes as detailed in next step.
 
