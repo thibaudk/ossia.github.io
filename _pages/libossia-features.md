@@ -40,7 +40,7 @@ category: "site-libossia"
          <div class="features-list">
         {% for post in site.libossia_features %}
                 <a href="{{post.url}}" class="thumbnail" >
-                    <img class="thumbnail-feature" src="{{post.image}}" width="auto"/>
+                    <img class="thumbnail-feature" src="/assets/blank.png" alt="" data-echo="{{post.image}}"  width="auto"/>
                     <h1 class="blog-title">{{post.title}} </h1>
                     <span class="feature-description">{{post.description}} </span>
                 </a>
@@ -49,3 +49,5 @@ category: "site-libossia"
         
     {% endfor %}
 </div>
+
+{% include lazyload.html %}

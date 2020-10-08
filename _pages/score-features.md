@@ -38,7 +38,7 @@ category: "site-score"
             {% if post.tag contains ct %}
             {% if post.visible %}
                 <a href="{{post.url}}" class="thumbnail" >
-                    <img class="thumbnail-feature" src="{{post.image}}" width="auto"/>
+                    <img class="thumbnail-feature" src="/assets/blank.png" alt="" data-echo="{{post.image}}"  width="auto"/>
                     <h1 class="blog-title">{{post.title}} </h1>
                     <span class="feature-description">{{post.description}} </span>
                 </a>
@@ -48,3 +48,5 @@ category: "site-score"
         </div>
     {% endfor %}
 </div>
+
+{% include lazyload.html %}
