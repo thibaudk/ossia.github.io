@@ -6,13 +6,13 @@ permalink: /score/features/texgen.html
 category: "site-score"
 
 image: /assets/features/texgen.png
-description: "Generating textures"
+description: "Generative textures"
 
 tag: "Graphics"
 visible: true
 ---
 
-
+# Example
 {% highlight cpp %}
 extern "C"
 void score_rgba(unsigned char* rgba, int width, int height, int t)
@@ -29,5 +29,4 @@ void score_rgba(unsigned char* rgba, int width, int height, int t)
     }
   }
 }
-
 {% endhighlight %}

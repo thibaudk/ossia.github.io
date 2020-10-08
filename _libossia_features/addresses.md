@@ -7,7 +7,7 @@ category: "site-score"
 image: /assets/features/addresses.png
 description: "How addresses work in score and libossia"
 
-tag: "Software model"
+tag: "Protocols"
 visible: true
 ---
 

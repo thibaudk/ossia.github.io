@@ -5,7 +5,7 @@ title:  "Bytebeat"
 permalink: /score/features/bytebeat.html
 category: "site-score"
 
-image: /assets/features/missing.png
+image: /assets/features/bytebeat.png
 description: "Dope 8-bit sound generator"
 
 tag: "Audio"
@@ -24,3 +24,6 @@ visible: true
 {% highlight cpp %}
 (((t<<1)^((t<<1)+(t>>7)&t>>12))|t>>(4-(1^7&(t>>19)))|t>>7)
 {% endhighlight %}
+
+- Lots of examples here: 
+  https://www.reddit.com/r/bytebeat/comments/20km9l/cool_equations/
