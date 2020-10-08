@@ -9,7 +9,7 @@ image: /assets/features/timing.png
 description: "Timing and processes"
 
 tag: "Software model"
-visible: true
+visible: false
 ---
 
 How timing works in ossia score.
