@@ -13,4 +13,6 @@ markdown: kramdown
 collections:
   score_features:
     output: true
+  libossia_features:
+    output: true
 

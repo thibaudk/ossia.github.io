@@ -235,7 +235,7 @@ See the <a href="contributor-guide.html">Contributing</a> page for more informat
 
 <p type="button" class="collapsible"> The minimap is hard to use on a Mac</p>
 <div class="collapsible-content">
-     You are likely encountering <a href="https://stackoverflow.com/questions/61843481/macos-simulated-mouse-event-only-works-when-launching-binary-not-application-b">this macOS issue</a>. <br/> 
+    You are likely encountering <a href="https://stackoverflow.com/questions/61843481/macos-simulated-mouse-event-only-works-when-launching-binary-not-application-b">this macOS issue</a>. <br/> 
     As a workaround, you can try to open score by right-clicking on Score.app, selection "Open contents", navigating to "Score.app/Contents/MacOS" and running the "score" binary from there.
 </div>
 
