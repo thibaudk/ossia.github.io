@@ -48,9 +48,9 @@ The license for the library itself is LGPLv3.
     <li><a href="{{page.ossia_version}}/libossia-native-macos.tar.gz">Download (macOS, x86_64)</a></li><br/>
     <li><a href="https://github.com/ossia/libossia">Source code</a></li>
     <li><a href="https://github.com/ossia/libossia/wiki/Building">Build instructions</a></li>
-    <li><a href="https://ossia.github.io/ossia-docs/?cpp--14#introduction">API Documentation</a></li>
+    <li><a href="https://ossia.io/ossia-docs/?cpp--14#introduction">API Documentation</a></li>
     <li><a href="https://github.com/ossia/libossia/tree/master/examples">Examples</a></li>
-    <li><a href="https://ossia.github.io/libossia/html/">Doxygen</a></li>
+    <li><a href="https://ossia.io/libossia/html/">Doxygen</a></li>
     </ul>
   </div>
   
@@ -63,10 +63,10 @@ The license for the library itself is LGPLv3.
     <ul>
     <!--<li><a href="">Downloads</a></li>-->
     <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-c">Source code</a></li>
-    <li><a href="https://ossia.github.io/ossia-docs/?c#introduction">API Documentation</a></li>
-    <li><a href="https://ossia.github.io/libossia/html/group___c_a_p_i.html">Doxygen</a></li>
+    <li><a href="https://ossia.io/ossia-docs/?c#introduction">API Documentation</a></li>
+    <li><a href="https://ossia.io/libossia/html/group___c_a_p_i.html">Doxygen</a></li>
     <!--<li><a href="">Examples</a></li>-->
-    <!--<li><a href="https://ossia.github.io/libossia/html">Doxygen</a></li>-->
+    <!--<li><a href="https://ossia.io/libossia/html">Doxygen</a></li>-->
     </ul>
   </div>
 
@@ -93,7 +93,7 @@ The license for the library itself is LGPLv3.
     <li><a href="{{page.ossia_version}}/ossia-max-osx.tar.gz">Max package (macOS)</a></li>
     <li><a href="{{page.ossia_version}}/ossia-max-win.zip">Max package (Windows)</a></li><br/>
     <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-max">Source code</a></li>
-    <li><a href="https://ossia.github.io/ossia-docs/?plaintext--max#introduction">API Documentation</a></li>
+    <li><a href="https://ossia.io/ossia-docs/?plaintext--max#introduction">API Documentation</a></li>
     <!--<li><a href="">Examples</a></li>-->
     </ul>
   </div>
@@ -114,7 +114,7 @@ The license for the library itself is LGPLv3.
     <li><a href="{{page.ossia_version}}/ossia-purr-data-linux_x86_64.tar.gz">PurrData externals (Linux, x86_64)</a></li>
     <li><a href="{{page.ossia_version}}/ossia-purr-data-osx.tar.gz">PurrData externals (macOS)</a></li><br/>
     <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-pd">Source code</a></li>
-    <li><a href="https://ossia.github.io/ossia-docs/?plaintext--pd#introduction">API Documentation</a></li>
+    <li><a href="https://ossia.io/ossia-docs/?plaintext--pd#introduction">API Documentation</a></li>
     <!--<li><a href="">Examples</a></li>-->
     </ul>
   </div>
@@ -129,7 +129,7 @@ The license for the library itself is LGPLv3.
     <ul>
     <li><a href="{{page.ossia_version}}/ossia-unity3d.zip">Download Unity3D asset (Mac / Win / Linux)</a></li><br/>
     <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-unity3d">Source code</a></li>
-    <li><a href="https://ossia.github.io/ossia-docs/?csharp#introduction">API Documentation</a></li>
+    <li><a href="https://ossia.io/ossia-docs/?csharp#introduction">API Documentation</a></li>
     <!--<li><a href="">Examples</a></li>-->
     </ul>
   </div>
@@ -142,7 +142,7 @@ The license for the library itself is LGPLv3.
     <ul>
     <li><a href="{{page.ossia_version}}/ossia-java.zip">Download Java library (Mac / Win / Linux)</a></li><br/>
     <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-java">Source code</a></li>
-    <li><a href="https://ossia.github.io/ossia-docs/?java#introduction">API Documentation</a></li>
+    <li><a href="https://ossia.io/ossia-docs/?java#introduction">API Documentation</a></li>
     </ul>
   </div>
 
@@ -166,7 +166,7 @@ The license for the library itself is LGPLv3.
     <div>
     <ul>
     <li><a href="https://github.com/OSSIA/ossia-sclang">Source code</a></li>
-    <li><a href="https://ossia.github.io/ossia-docs/?javascript#creating-parameters">API Documentation</a></li>
+    <li><a href="https://ossia.io/ossia-docs/?javascript#creating-parameters">API Documentation</a></li>
     <!--<li><a href="">Examples</a></li>-->
     </ul>
   </div>
@@ -181,7 +181,7 @@ The license for the library itself is LGPLv3.
     <li><a href="{{page.ossia_version}}/ossia-qml-osx.tar.gz">Download (macOS)</a></li>
     <li><a href="{{page.ossia_version}}/ossia-qml-win64.zip">Download (Windows, 64-bit)</a></li><br/>
     <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-qt">Source code</a></li>
-    <li><a href="https://ossia.github.io/ossia-docs/?qml#introduction">API Documentation</a></li>
+    <li><a href="https://ossia.io/ossia-docs/?qml#introduction">API Documentation</a></li>
     <!--<li><a href="">Examples</a></li>-->
     </ul>
   </div>
@@ -193,7 +193,7 @@ The license for the library itself is LGPLv3.
   <div>
     <ul>
     <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-python">Source code</a></li>
-    <li><a href="https://ossia.github.io/ossia-docs/?python#introduction">API Documentation</a></li>
+    <li><a href="https://ossia.io/ossia-docs/?python#introduction">API Documentation</a></li>
     <!--<li><a href="">Examples</a></li>-->
     </ul>
   </div>

@@ -34,16 +34,16 @@ Please feel free to come and chat with us ! [join the chat](https://gitter.im/OS
 
 ## Documentation :
 
-* [Lib and Implementations](https://ossia.github.io/ossia-docs/#introduction){:target="_blank"}
+* [Lib and Implementations](https://ossia.io/ossia-docs/#introduction){:target="_blank"}
 * [Tutorials](https://github.com/OSSIA/libossia/tree/master/docs/Tutorial){:target="_blank"}
 * [Examples](https://github.com/OSSIA/libossia/tree/master/examples){:target="_blank"}
-* [Doxygen](https://ossia.github.io/libossia/html/){:target="_blank"}
+* [Doxygen](https://ossia.io/libossia/html/){:target="_blank"}
 * [Building](https://github.com/OSSIA/libossia/wiki/Building){:target="_blank"}
 * [Code style](https://github.com/OSSIA/libossia/wiki/Code-style-guide){:target="_blank"}
 
 [Source code](https://github.com/OSSIA/libossia){:target="_blank"}
 
-[API Documentation](https://ossia.github.io/ossia-docs/#introduction){:target="_blank"}
+[API Documentation](https://ossia.io/ossia-docs/#introduction){:target="_blank"}
 
 
 libossia is distributed under the terms of the CeCILL-C license and of the LGPLv3 license.
