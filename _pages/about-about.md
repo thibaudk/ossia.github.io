@@ -17,13 +17,13 @@ Development has been supported over the years by many organisms and grants:
 <div class="logo-grid" style="justify-content: center;">
 <a href="https://www.labri.fr/"><img src="/assets/logo/LABRI_BIG.png"/></a>
 <a href="https://scrime.u-bordeaux.fr/"><img src="/assets/logo/logo-SCRIME-2018-Light.jpg"/></a>
-<a href="http://www.blueyeti.fr/"><img src="/assets/logo/blueyeti.png"/></a>
+<a href="https://www.blueyeti.fr/"><img src="/assets/logo/blueyeti.png"/></a>
 <a href="https://www.unrealengine.com/"><img src="/assets/logo/unreal_engine.png" width="80" height="auto"/></a>
 <a href="https://www.mozilla.org/" ><img src="/assets/logo/mozilla-logo.png"/></a>
 <a href="https://opencollective.com/"><img src="/assets/logo/opencollectivelogo.png" /></a>
 <a href="https://anr.fr/" ><img src="/assets/logo/anr-logo.png"/></a>
 <a href="https://celtera.dev"><img src="/assets/logo/celtera.png"/></a>
-<a href="http://www.anrt.asso.fr/fr/cifre-7843"><img src="/assets/logo/logo-cifre-s.png"/></a>
+<a href="https://www.anrt.asso.fr/fr/cifre-7843"><img src="/assets/logo/logo-cifre-s.png"/></a>
 <a href="https://www.enseignementsup-recherche.gouv.fr/"><img src="/assets/logo/ministere-sup.jpg"/></a>
 <a href="https://www.education.gouv.fr/"><img src="/assets/logo/logo-ministere-de-la-culture.png"/></a>
 </div>

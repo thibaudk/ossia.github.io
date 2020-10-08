@@ -14,11 +14,11 @@ category: site-community
     <a href="https://www.abbayeauxdames.org/en/musicaventure/carrousel-musical/" class="gallery-text">
         <img src="assets/gallery/carrousel.jpg" class="post-image" />
         Carousel Musical <br/> (Abbaye aux Dames)</a>
-    <a href="http://www.blueyeti.fr/le-carrousel-musical-abbaye-aux-dames/" class="gallery-text">Blue Yeti</a>
+    <a href="https://www.blueyeti.fr/le-carrousel-musical-abbaye-aux-dames/" class="gallery-text">Blue Yeti</a>
 </div>
 
 <div id="nebula" align="middle" class="gallery-page-image">
-    <a href="http://www.baltazars.org/project/nebula/" class="gallery-text">
+    <a href="https://www.baltazars.org/project/nebula/" class="gallery-text">
         <img src="assets/gallery/Nebula_ChampignonsNeigeJaune.jpg" class="post-image" />
         Nebula  <br/> Les Baltazars</a>
 </div>
@@ -68,7 +68,7 @@ category: site-community
 </div>
 
 <div align="middle" class="gallery-page-image">
-    <a href="http://djeff.com/portfolio/dyew/" class="gallery-text" >
+    <a href="https://djeff.com/portfolio/dyew/" class="gallery-text" >
         <img src="assets/gallery/Big_Dyew-1920x917.jpg" class="post-image" />
         Dyew  <br/> Djeff
     </a>

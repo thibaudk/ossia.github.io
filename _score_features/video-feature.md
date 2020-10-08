@@ -23,7 +23,7 @@ visible: false
 
 ## Support
 - Formats de fichiers supportés: tous ceux supportés par ffmpeg 
-  * http://www.ffmpeg.org/general.html#Video-Codecs
+  * https://www.ffmpeg.org/general.html#Video-Codecs
 
 
 - Formats de pixels supportés: 

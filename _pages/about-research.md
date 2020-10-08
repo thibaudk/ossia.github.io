@@ -23,9 +23,9 @@ Talks about the project are regularly given in conferences and meetups. Here is 
 #### 2018
 
 * <a href="https://tel.archives-ouvertes.fr/tel-01947309/document">Authoring interactive media: a logical & temporal approach</a>, Ph. D. thesis, Jean-Michaël Celerier
-* <a href="http://data.jssa.info/paper/2018v10n01/4.Celerier.pdf">Leveraging domain-specific languages in an interactive score system</a>, By JM. Celerier, @JSSA regular meeting
+* <a href="https://data.jssa.info/paper/2018v10n01/4.Celerier.pdf">Leveraging domain-specific languages in an interactive score system</a>, By JM. Celerier, @JSSA regular meeting
 * <a href="https://pearl.plymouth.ac.uk/bitstream/handle/10026.1/11131/ICNMC_2018.pdf?sequence=1">i-Berlioz: Interactive Computer-Aided Orchestration with Temporal Control</a>, By E. Miranda et al., @ICNMC2018
-* <a href="http://cmr.soc.plymouth.ac.uk/ICCMR%20Updates260918/TIMBRE2018.pdf">Generating Orchestral Sequences with Timbral Descriptors</a>, By A. Antoine et al., @TIMBRE2018
+* <a href="https://cmr.soc.plymouth.ac.uk/ICCMR%20Updates260918/TIMBRE2018.pdf">Generating Orchestral Sequences with Timbral Descriptors</a>, By A. Antoine et al., @TIMBRE2018
 <pre>
 
 </pre>
@@ -46,7 +46,7 @@ Talks about the project are regularly given in conferences and meetups. Here is 
 
 </pre>
 #### 2015
-* <a href="http://www.theses.fr/2015BORD0283">Sémantique Formelle et Vérification Automatique de Scénarios Hiérarchiques Multimédia avec des Choix Interactifs</a>, Ph. D thesis, J. Arias.
+* <a href="https://www.theses.fr/2015BORD0283">Sémantique Formelle et Vérification Automatique de Scénarios Hiérarchiques Multimédia avec des Choix Interactifs</a>, Ph. D thesis, J. Arias.
 * <a href="https://hal.archives-ouvertes.fr/hal-01245350">Le séquenceur interactif multimédia i-score</a>, by J. Arias et al. @JDEV2015
 * <a href="https://hal.archives-ouvertes.fr/hal-01129394">Foundations for Reliable and Flexible Interactive Multimedia Scores</a>, by J. Arias et al. @MCM2015
 * <a href="https://hal.archives-ouvertes.fr/hal-01129316">Exploiting Parallelism in FPGAs for the Real-Time Interpretation of Interactive Multimedia Score</a>, by J. Arias et al. @JIM2015
@@ -64,7 +64,7 @@ Talks about the project are regularly given in conferences and meetups. Here is 
 
 </pre>
 #### 2012
-* <a href="http://www.cs.ucy.ac.cy/~mtoro/tcdc12.pdf">An Extension of Interactive Scores for Multimedia Scenarios with Temporal Relations for Micro and Macro Controls</a>, by M. Toro-Bermudez et al. @SMC2012
+* <a href="https://www.cs.ucy.ac.cy/~mtoro/tcdc12.pdf">An Extension of Interactive Scores for Multimedia Scenarios with Temporal Relations for Micro and Macro Controls</a>, by M. Toro-Bermudez et al. @SMC2012
 <pre>
 
 </pre>

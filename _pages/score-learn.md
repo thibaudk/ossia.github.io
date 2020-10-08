@@ -16,7 +16,7 @@ category: site-learn
          <a href="https://ossia.io/ossia-docs/score/" target="_blank"  class="menu-item panel"><span class="icon-svg icon-documentation"></span>Docs
          <p class="description">Documentation for score</p></a>
          
-         <a href="http://forum.ossia.io/"  target="_blank" class="menu-item panel"><span class="icon-svg icon-forum"></span>Forum
+         <a href="https://forum.ossia.io/"  target="_blank" class="menu-item panel"><span class="icon-svg icon-forum"></span>Forum
          <p class="description">Ask any questions !</p></a>
          <a href="https://gitter.im/OSSIA/score"  target="_blank" class="menu-item panel"><span class="icon-svg icon-chat"></span>Chat<p class="description">Come chat with us !</p></a>
 </div>
@@ -250,7 +250,7 @@ See the <a href="contributor-guide.html">Contributing</a> page for more informat
 <br/>
 
 <p align="center">
-<a href="http://forum.ossia.io/" class="page-button"  target="_blank" >If your question is not here, ask us in the forum ! </a>
+<a href="https://forum.ossia.io/" class="page-button"  target="_blank" >If your question is not here, ask us in the forum ! </a>
 </p>
 
 

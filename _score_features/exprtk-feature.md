@@ -20,7 +20,7 @@ The four processes :
 - Custom Mapping (Value)
 
 Allow to write simple math expressions.
-This uses http://www.partow.net/programming/exprtk/index.html underneath for solving the expressions.
+This uses https://www.partow.net/programming/exprtk/index.html underneath for solving the expressions.
 
 The expression can be written on multiple lines
 Numerous math functions are available: sin, cos, abs, log... as well as the usual pi, etc... constants.

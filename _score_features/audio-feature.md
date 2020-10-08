@@ -24,4 +24,4 @@ visible: false
 - Tous les autres fichiers sont convertis et stockés en RAM 
   - Note : mentionner le ramdisk trick
 - Formats supportés: tous ceux supportés par ffmpeg 
-  * http://www.ffmpeg.org/general.html#Audio-Codecs
+  * https://www.ffmpeg.org/general.html#Audio-Codecs
