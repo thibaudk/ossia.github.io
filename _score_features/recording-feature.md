@@ -9,6 +9,6 @@ image: /assets/features/record.gif
 description: "Recording external parameter changes"
 
 tag: "Structure"
-visible: false
+visible: true
 ---
 

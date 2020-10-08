@@ -9,5 +9,5 @@ image: /assets/features/sequence.png
 description: "Creating sequences"
 
 tag: "Structure"
-visible: false
+visible: true
 ---

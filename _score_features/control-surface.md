@@ -9,7 +9,7 @@ image: /assets/features/controlsurface.gif
 description: "Using the control surface to keep an hand on score parameters"
 
 tag: "Controls"
-visible: false
+visible: true
 ---
 
 - Drop addresses on it

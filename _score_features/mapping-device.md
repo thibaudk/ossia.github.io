@@ -9,5 +9,5 @@ image: /assets/features/mapper.png
 description: "Mappings between devices"
 
 tag: "Interoperability"
-visible: false
+visible: true
 ---

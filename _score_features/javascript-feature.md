@@ -9,7 +9,7 @@ image: /assets/features/js.png
 description: "Writing JavaScript processes"
 
 tag: "Scripting"
-visible: false
+visible: true
 ---
 
 ## Scripting in Javascript / QML.

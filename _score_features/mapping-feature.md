@@ -9,5 +9,5 @@ image: /assets/features/mappings.png
 description: "Mappings in the timeline"
 
 tag: "Controls"
-visible: false
+visible: true
 ---

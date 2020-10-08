@@ -9,5 +9,5 @@ image: /assets/features/loop.png
 description: "Creating loops"
 
 tag: "Structure"
-visible: false
+visible: true
 ---

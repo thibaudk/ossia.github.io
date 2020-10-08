@@ -9,7 +9,7 @@ image: /assets/features/osc.png
 description: "Send and receive OSC messages"
 
 tag: "Interoperability"
-visible: false
+visible: true
 ---
 
 *Score* let you remotely control any OSC (Open Sound Control) compatible device (be it hardware or software). To do so, we first need to setup our OSC device in *score*.

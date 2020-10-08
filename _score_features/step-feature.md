@@ -9,5 +9,5 @@ image: /assets/features/step.png
 description: "Using the step sequencer process"
 
 tag: "Controls"
-visible: false
+visible: true
 ---

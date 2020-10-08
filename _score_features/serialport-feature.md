@@ -9,5 +9,5 @@ image: /assets/logo/arduino.png
 description: "Interaction through a serial port (Arduino, etc.)"
 
 tag: "Interoperability"
-visible: false
+visible: true
 ---

@@ -8,7 +8,7 @@ image: /assets/features/audio.png
 description: "Playing sound files in ossia score"
 
 tag: "Audio"
-visible: false
+visible: true
 ---
 
 - Drag'n'drop depuis le système

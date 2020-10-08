@@ -9,6 +9,6 @@ image: /assets/features/shader.png
 description: "Using and writing ISF shader effects"
 
 tag: "Graphics"
-visible: false
+visible: true
 ---
 

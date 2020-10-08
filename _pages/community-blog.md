@@ -33,20 +33,20 @@ Here we generate all the categories.
 {% endfor %}
 
 <div style="display: flex; justify-content: center; margin: 0;padding: 0; width: 100%; ">
-        <ul class="posts">
-            {% for post in site.posts %}
-                <li class="wrapper blog" >
-                    <h2 class="blog title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                    <h1 class="blog">{{ post.categories }}  •  {{ post.date | date: "%b %-d, %Y" }}  •  {{post.author}}</h1>
-                        {% if post.image %}
-                            <div class="videoWrapper">
-                                <img src="{{post.image}}">
-                            </div>
-                        {% endif %}
-                        {{ post.excerpt }}
-                </li>
-            {% endfor %}
-        </ul>
+    <ul class="posts">
+        {% for post in site.posts %}
+            <li class="wrapper blog" >
+                <h2 class="blog title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <h1 class="blog">{{ post.categories }}  •  {{ post.date | date: "%b %-d, %Y" }}  •  {{post.author}}</h1>
+                    {% if post.image %}
+                        <div class="videoWrapper">
+                            <img src="{{post.image}}">
+                        </div>
+                    {% endif %}
+                    {{ post.excerpt }}
+            </li>
+        {% endfor %}
+    </ul>
     <!-- Sidebar -->
     <section class="categories">
             <h1 class="blog category-title">Post by category</h1>

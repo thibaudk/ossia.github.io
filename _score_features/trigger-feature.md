@@ -9,6 +9,6 @@ image: /assets/features/trigger.png
 description: "Interactive triggering"
 
 tag: "Structure"
-visible: false
+visible: true
 ---
 

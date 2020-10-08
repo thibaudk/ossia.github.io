@@ -8,7 +8,7 @@ image: /assets/features/automation.png
 description: "Discover how to automate internal and external parameters"
 
 tag: "Structure"
-visible: false
+visible: true
 ---
 
 - Documenter les différents types d'automation: 

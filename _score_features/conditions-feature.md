@@ -9,6 +9,6 @@ image: /assets/features/conditions.png
 description: "Create conditional scores"
 
 tag: "Structure"
-visible: false
+visible: true
 ---
 

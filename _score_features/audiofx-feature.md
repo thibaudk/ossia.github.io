@@ -9,7 +9,7 @@ image: /assets/features/fx.png
 description: "Using audio plugins in ossia score"
 
 tag: "Audio"
-visible: false
+visible: true
 ---
 
 - Types d'effets supportés: 

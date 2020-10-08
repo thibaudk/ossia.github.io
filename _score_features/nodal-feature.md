@@ -9,5 +9,5 @@ image: /assets/features/nodes.png
 description: "Cables, ports, nodal view..."
 
 tag: "Structure"
-visible: false
+visible: true
 ---

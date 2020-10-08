@@ -9,7 +9,7 @@ image: /assets/features/videos.png
 description: "Video support and usage"
 
 tag: "Graphics"
-visible: false
+visible: true
 ---
 
 ## Usage

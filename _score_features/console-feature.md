@@ -9,7 +9,7 @@ image: /assets/features/console.png
 description: "Scripting workflows with the console"
 
 tag: "Scripting"
-visible: false
+visible: true
 ---
 
 ## Description

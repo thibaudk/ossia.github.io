@@ -30,22 +30,21 @@ category: "site-score"
 {% endfor %}
 
 <h1> Important: the documentation below is a work-in-progress. </h1>
-            {% if post.visible %}
-            {% endif %}
 <div>
     {% for ct in cats %}
          <h2 class="feature-title">{{ ct }}</h2>
          <div class="features-list">
         {% for post in site.score_features %}
             {% if post.tag contains ct %}
+            {% if post.visible %}
                 <a href="{{post.url}}" class="thumbnail" >
                     <img class="thumbnail-feature" src="{{post.image}}" width="auto"/>
                     <h1 class="blog-title">{{post.title}} </h1>
                     <span class="feature-description">{{post.description}} </span>
                 </a>
             {% endif %}
+            {% endif %}
         {% endfor %}
         </div>
-        
     {% endfor %}
 </div>

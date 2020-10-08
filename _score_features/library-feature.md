@@ -9,7 +9,7 @@ image: /assets/features/library.png
 description: "Using the library"
 
 tag: "Software model"
-visible: false
+visible: true
 ---
 
 

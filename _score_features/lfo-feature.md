@@ -9,5 +9,5 @@ image: /assets/features/lfo.png
 description: "Modulate any parameter in the score"
 
 tag: "Controls"
-visible: false
+visible: true
 ---
