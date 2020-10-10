@@ -26,3 +26,6 @@ Likewise, by default the tempo is the global one. It is possible to add a tempo 
 to give it a different speed behaviour - its children will all take this tempo unless another more precise tempo is 
 given at a deeper nesting level.
 
+# Usage
+- Processes which are able to use tempo & metrics information (audio plug-ins, LFO, arpeggiator, etc) will do so automatically
+- Triggers can be quantified to fall on the next quantification date from when they are triggered.
