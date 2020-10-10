@@ -19,6 +19,13 @@ visible: true
 - Addons
 - Presets
 
+## Preview
+For now, sound files and audio files are previewed.
+More to come.
+
+## Other features
+Double click on .score file : opens it
+
 ## User library
 Downloaded on first launch 
 https://github.com/ossia/score-user-library 

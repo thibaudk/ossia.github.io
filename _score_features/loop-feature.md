@@ -11,3 +11,8 @@ description: "Creating loops"
 tag: "Structure"
 visible: true
 ---
+
+
+# Looping processes
+- Loop button in the inspector of every process
+- Will loop for the "loop duration" 

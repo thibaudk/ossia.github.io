@@ -12,3 +12,6 @@ tag: "Structure"
 visible: true
 ---
 
+
+# Keyboard shortcuts
+Pressing suppr / backspace when a condition is selected removes it.

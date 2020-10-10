@@ -12,9 +12,17 @@ tag: "Audio"
 visible: true
 ---
 
+
+
 # Connecting MIDI devices
 
+
 # MIDI generators
+
+MIDI processes can  write to a specific channel or directly to the root device 
+through addresses.
+
+Velocity of MIDI notes can now be changed with shift-click.
 
 ## Piano roll
 

@@ -27,3 +27,4 @@ visible: true
   * https://www.ffmpeg.org/general.html#Audio-Codecs
 
 
+- VST : scan dans la bibliothèque

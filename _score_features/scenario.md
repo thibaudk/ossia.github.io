@@ -14,8 +14,27 @@ visible: true
 
 The main view in score.
 
-# Features
+### Features
 
+- Intervals: Muting intervals
+
+- Triggers: see [the relevant page](triggers.html)
+- Conditions: see [the relevant page](conditions.html)
+- Comment blocks
+
+
+
+### Keyboard shortcuts
+
+- In a scenario with the navigation keys ( {% include shortcut.html content="↑" %}, {% include shortcut.html content="↓" %}, {% include shortcut.html content="→" %}, {% include shortcut.html content="←" %}).
+- To the parent scenario with {% include shortcut.html content="Ctrl+Alt+↑" %}.
+
+- Unroll all intervals' racks in a scenario {% include shortcut.html content="Ctrl+Alt+U" %} 
+- Fold all intervals' racks in a scenario {% include shortcut.html content="Ctrl+Alt+F" %} 
+
+### Speed control
+
+Speed sliders appear on intervals while playing. To reset it:  {% include shortcut.html content="Ctrl+Right Click" %} 
 
 ### List of drag'n'drops possible 
 
