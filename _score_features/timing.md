@@ -13,3 +13,6 @@ visible: true
 ---
 
 How timing works in ossia score.
+
+
+### Low-level timing explanations
