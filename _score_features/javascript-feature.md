@@ -23,6 +23,92 @@ setting the path to a file is possible
 ## Editing code
 if there are compilation errors, the edited script *won't* be saved.
 
+## General syntax 
+
+Every script must contain 
+{% highlight qml %}
+import Score 1.0
+{% endhighlight %}
+somewhere at the top.
+
+A script defines a javascript object, with : 
+- Input and output ports
+- Callbacks that are called either regularly on every tick, or on special events (start, stop, pause, resume).
+
+The smallest valid empty script looks like this:
+{% highlight qml %}
+import Score 1.0
+Script {
+  tick: function(token, state) { }
+}
+{% endhighlight %}
+
+The tick function's two arguments give both timing and contextual information useful for writing algorithms.
+
+Please read the [Timing](timing.html) page to understand the timing concepts used in ossia score, in particular 
+how model, physical and musical dates relate to each other.
+
+### Token object
+
+Important note: due to the way numbers work in Javascript (that is, double-precision floating point numbers), 
+and due to the timing units, scripts can only be expected to be accurate for representing durations no greater than 147 days.
+
+That is, if a time interval lasts a year, after 147 days the timing values returned by `prev_date`, `date`, ... may not be accurate anymore.
+This limit is pushed back to the hard limit of 414 years when using the C++ integer-based API instead.
+
+Note that this does not affect for instance, scores with normal durations which would loop back to the beginning - permanently running installations are safe.
+
+#### Properties
+
+- `previous_date`: the model date at which the tick starts.
+- `date`: the model date at which the tick ends
+- `parent_duration`: the nominal model duration of the closest parent interval.
+- `offset`: the model date at which we must start reading from our input.
+- `speed`: current speed (a multiplicative factor).
+- `tempo`: current tempo.
+
+- `musical_start_last_signature`: what is the position in quarter notes of the closest previous musical signature change to `previous_date`.
+- `musical_start_last_bar`: what is the position in quarter notes of the closest previous bar change to `previous_date`.
+- `musical_start_position`: what is the position of `previous_date` in quarter notes.
+- `musical_end_last_bar`: what is the position in quarter notes of the closest previous musical signature change to `date`.
+- `musical_end_position`: what is the position of `date` in quarter notes.
+
+- `signature_upper`: 6 in "6/8", at the start of the tick.
+- `signature_lower`: 8 in "6/8", at the start of the tick.
+
+#### Methods
+
+- `logical_read_duration()`: how long are we reading from the model data.
+
+- `physical_start(ratio)`: at which sample in the output must we start to write.
+- `physical_read_duration(ratio)`: how many samples are we reading from the input ports.
+- `physical_write_duration(ratio)`: how many samples are we writing to the output ports.
+- `to_physical_time_in_tick(time, ratio)`: convert a model time into a physical time.
+- `from_physical_time_in_tick(time, ratio)`: convert a time in physical dates, to a time in model dates. 
+  
+- `in_range(time)`: check that the model time given is indeed in the range of this tick.
+
+- `position()`: where are we in relation to our parent interval. 0 is the beginning, 1 is the nominal duration. If an interval has a greater max, or is infinite, this will go beyond 1. 
+- `forward()`: is the time going forward in this tick (speed > 0).
+- `backward()`: is the time going backward in this tick (speed < 0).
+- `paused()`: is the time going anywhere in this tick (speed == 0). Note that there is a difference between setting the speed to zero, and pressing the "pause" button - in the first case, processes will still keep being executed, just with no duration.
+- `get_quantification_date(quant)`: get a model date if there is a quantification date for the requested quantification in this tick. -1 is returned if there isn't any.
+
+- `get_physical_quantification_date(quant, ratio)`: get a physical date if there is a quantification date for the requested quantification in this tick. -1 is returned if there isn't any.
+
+### State object
+The `state` object contains global properties relevant for the whole score execution.
+
+#### Properties
+
+- `sample_rate`: explicit.
+- `buffer_size`: explicit.
+- `model_to_physical`: the ratio to pass to the `token` functions going from model to physical dates.
+- `physical_to_model`: the ratio to pass to the `token` functions going from physical to model dates.
+- `physical_date`: how many samples have elapsed since the score has started playing.
+- `start_date_ns`: the date in nanoseconds when the score started playing.
+- `current_date_ns`: the current date in nanoseconds.
+
 ## Example of a value mapper
 
 {% highlight qml %}
@@ -81,7 +167,7 @@ Script {
     var arr = [ ];
 
     // How many samples we must write
-    var n = token.physical_write_duration(state.model_to_samples);
+    var n = token.physical_write_duration(state.model_to_physical);
     
     if(n > 0) {
       // Computer the sin() coefficient
@@ -91,7 +177,7 @@ Script {
       var phi = 2 * Math.PI * freq / state.sample_rate;
 
       // Where we must start to write samples
-      var i0 = token.physical_start(state.model_to_samples);
+      var i0 = token.physical_start(state.model_to_physical);
 
       // Fill our array
       for(var s = 0; s < n; s++) {
