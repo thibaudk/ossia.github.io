@@ -12,4 +12,7 @@ tag: "Software model"
 visible: true
 ---
 
-- right click to edit precisely
+# Shortcuts
+
+- Show: {% include shortcut.html content="Ctrl+Shift+D" %}
+- Esc: deselect node

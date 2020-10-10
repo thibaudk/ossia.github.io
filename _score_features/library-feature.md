@@ -12,6 +12,11 @@ tag: "Software model"
 visible: true
 ---
 
+# Shortcuts
+
+- Process library: {% include shortcut.html content="Ctrl+Shift+P" %}
+- System library: {% include shortcut.html content="Ctrl+Shift+B" %}
+- Project library: {% include shortcut.html content="Ctrl+Shift+L" %}
 
 ## Important folders: 
 - Skins
