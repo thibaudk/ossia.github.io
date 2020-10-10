@@ -1,12 +1,12 @@
 ---
 layout: score-feature
-title:  "Bytebeat"
+title:  "Generative textures"
 
 permalink: /score/features/texgen.html
 category: "site-score"
 
 image: /assets/features/texgen.png
-description: "Generative textures"
+description: "Using C++ scripts"
 
 tag: "Graphics"
 visible: true

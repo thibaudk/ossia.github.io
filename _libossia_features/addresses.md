@@ -4,12 +4,34 @@ title:  "Addresses"
 
 permalink: /score/features/addresses.html
 category: "site-score"
-image: /assets/features/addresses.png
 description: "How addresses work in score and libossia"
 
 tag: "Protocols"
 visible: true
 ---
+
+## Pattern match
+
+It's possible to do e.g. 
+
+Given a device, for instance a MIDI device that looks like 
+
+{% highlight matlab %}
+QUNEO:/1/control/1
+QUNEO:/1/control/4
+QUNEO:/1/control/23
+{% endhighlight %}
+
+It's possible to use 
+
+{% highlight matlab %}
+QUNEO:/1/control/*
+{% endhighlight %}
+
+to refer to all the controls at once. Such addresses are called pattern matchs and are 
+available in ossia score for instance for use in input and output ports.
+
+Read more about [the whole set of possibilities in the pattern matching section of the libossia doc](https://ossia.io/ossia-docs/?c#pattern-matching).
 
 ## Address types
 
