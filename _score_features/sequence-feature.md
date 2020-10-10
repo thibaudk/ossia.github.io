@@ -11,3 +11,5 @@ description: "Creating sequences"
 tag: "Structure"
 visible: true
 ---
+
+- auto-sequence settings 

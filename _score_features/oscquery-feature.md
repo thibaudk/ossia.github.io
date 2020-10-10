@@ -12,3 +12,5 @@ tag: "Interoperability"
 visible: true
 ---
 
+- Rate limiting
+- see [libossia protocol details](../site-libossia/features/oscquery.html)

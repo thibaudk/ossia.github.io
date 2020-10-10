@@ -23,6 +23,9 @@ The main view in score.
 - Comment blocks
 
 
+### Execution
+- Putting stuff on the top start state for it to run with Reinitialize
+- Putting stuff on the top end state for it to run when stop is pressed.
 
 ### Keyboard shortcuts
 
@@ -42,7 +45,8 @@ Speed sliders appear on intervals while playing. To reset it:  {% include shortc
 - Drop from the device explorer to an interval: create an automatoin curve.
 - Drop from the library explorer to an interval: create a process.
 - Drop a media from the library or the system to an interval: create a process.
-
+- Drop from the object list into a slot or in the interval
+  
 #### Moving processes around
 - Drag the little ☰ icon somewhere else in the timeline.
   - In the same interval: reorders
@@ -60,3 +64,7 @@ Speed sliders appear on intervals while playing. To reset it:  {% include shortc
 - Message list: add messages to the state
 - .cues files (created by dropping a state into the library)
 - .layer files
+
+
+#### From states
+- It is possible to select messages in a state and drop them either in the scenario, or on another state
