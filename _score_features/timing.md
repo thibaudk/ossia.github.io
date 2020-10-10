@@ -12,7 +12,10 @@ tag: "Software model"
 visible: true
 ---
 
+### Low-level timing explanations
+
 How timing works in ossia score.
 
-
-### Low-level timing explanations
+- Quantification
+- Model time
+- Physical time

@@ -11,3 +11,6 @@ description: "Audio mixing, audio workflow and hierarchy"
 tag: "Audio"
 visible: true
 ---
+
+* Intervals: audio bus feature
+* Mixing console
