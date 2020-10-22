@@ -30,6 +30,22 @@ category: site-learn
 ossia score is an interactive, intermedia sequencer. It allows to sequence various kinds of media and parameters (for instance, OSC messages, sound files, video effects)... over time in a timeline. The timeline has interactive features : it is possible to specify that a part of the score will execute when an event happens, such as a note being played, etc.
 </div>
 
+<p type="button" class="collapsible" > Is it free ?</p>
+<div class="collapsible-content">
+Yes! The whole system is available under GNU GPLv3 (for ossia score) and GNU LGPLv3 (for libossia).
+You can copy, redistribute, use, share, modify it as much as you wish.<br/>
+We strongly believe that artists from around the world need free tools.
+</div>
+
+<p type="button" class="collapsible" > Can I use it in a commercial or production setting ?</p>
+<div class="collapsible-content">
+Yes! The license allows you to do whatever you want with the software. You can make artworks, 
+shows, music production, art and museum installs, etc... without any limitation of features, time, or 
+anything of the sort.<br/>
+Note that there is *no warranty* provided - it is however possible to contact our team at
+<a href="mailto:contact@ossia.io">contact@ossia.io</a> for paid support. 
+</div>
+
 <p type="button" class="collapsible" > How can I help ?</p>
 <div class="collapsible-content">
 The easiest way to contribute is by donating to the <a href="https://opencollective.org/ossia">development fund</a>.
@@ -37,7 +53,7 @@ The easiest way to contribute is by donating to the <a href="https://opencollect
 A very good way to participate is by contributing through bug reports, and code improvements.
 See the <a href="contributor-guide.html">Contributing</a> page for more information.
 </div>
-
+<!--
 <p type="button" class="collapsible"> Playing a sound</p>
 <div class="collapsible-content">
 </div>
@@ -220,8 +236,15 @@ See the <a href="contributor-guide.html">Contributing</a> page for more informat
 <p type="button" class="collapsible"> Communicating with a gamepad or Wiimote</p>
 <div class="collapsible-content">
 </div>
-
+-->
 <h3 class="faq">Troubleshooting</h3>
+
+<p type="button"  class="collapsible">  score just crashed</p>
+<div class="collapsible-content">
+    Please send us a detailed bug report of what you were doing at the moment of the crash,
+    along with any crashlog, in either the forum, the chat or the <a href="https://github.com/ossia/score/issues">Github issues (preferably)</a>.
+    Thanks !
+</div>
 
 <p type="button" class="collapsible">  The playback does not start</p>
 <div class="collapsible-content">
@@ -233,16 +256,24 @@ See the <a href="contributor-guide.html">Contributing</a> page for more informat
      Most of the time, this is due to incorrect sound settings.
 </div>
 
-<p type="button" class="collapsible"> The minimap is hard to use on a Mac</p>
+<p type="button" class="collapsible">  Playback seems to hang at random times on Linux</p>
+<div class="collapsible-content">
+    This is due to a <a href="https://portaudio.music.columbia.narkive.com/3V9hsUak/pa-linux-alsa-c-3636-assertion-failed-with-hack-fix">PortAudio bug</a>.
+    Use the JACK backend instead.
+</div>
+
+<p type="button" class="collapsible"> Some VST plug-ins and virtual cameras do not work on Mac</p>
+<div class="collapsible-content">
+    You are likely encountering <a href="https://stackoverflow.com/questions/61114738/are-macos-virtual-webcams-inherently-incompatible-with-10-14s-hardened-runtime">security-related macOS issues</a>. <br/> 
+    As a workaround, you can follow the steps given in the above link to remove the code signing of the score binary, which will in turn make macOS allow score to open virtual webcams and any audio plug-ins.
+</div>
+
+<p type="button" class="collapsible"> The minimap is hard to use on Mac</p>
 <div class="collapsible-content">
     You are likely encountering <a href="https://stackoverflow.com/questions/61843481/macos-simulated-mouse-event-only-works-when-launching-binary-not-application-b">this macOS issue</a>. <br/> 
     As a workaround, you can try to open score by right-clicking on Score.app, selection "Open contents", navigating to "Score.app/Contents/MacOS" and running the "score" binary from there.
 </div>
 
-<p type="button"  class="collapsible">  I have crashes</p>
-<div class="collapsible-content">
-    Please report them on the <a href="https://github.com/OSSIA/score/issues">issue tracker</a> if you have time. Thanks in advance !
-</div>
 </div>
 
 <br/>
