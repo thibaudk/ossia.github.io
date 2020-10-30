@@ -121,3 +121,16 @@ var k := 3;
 x := cos(a * tp) - pow(cos(b * tp), j);
 y := sin(c * tp) - pow(sin(d * tp), k);
 {% endhighlight %}
+
+{% highlight matlab %}
+var tp := 2 * PI * t;
+var a := 80;
+var b := 1;
+var c := 80;
+var d := 1;
+
+var j := 3;
+var k := 3;
+x := cos(a * tp) - pow(cos(b * tp), j);
+y := sin(c * tp) - pow(sin(d * tp), k);
+{% endhighlight %}
