@@ -1,6 +1,6 @@
 # Site settings
 title: ossia
-email: ossia.collective@gmail.com
+email: contact@ossia.io
 description: > # this means to ignore newlines until "baseurl:"
   Open software system for interactive applications
 baseurl: "" # the subpath of your site, e.g. /blog/

@@ -6,7 +6,7 @@ permalink: /score/features/commandline.html
 category: "site-score"
 
 image: /assets/features/cmdline.png
-description: "Using the control surface to keep an hand on score parameters"
+description: "Options for the score start-up"
 
 tag: "Scripting"
 visible: true

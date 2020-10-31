@@ -5,30 +5,8 @@ title:  "Features"
 permalink: /score/features.html
 category: "site-score"
 ---
-
-{% assign rawcats = "" %}
-{% for post in site.score_features %}
-{% assign tcats = post.tag | join:'|' | append:'|' %}
-{% assign rawcats = rawcats | append:tcats %}
-{% endfor %}
-
-{% assign rawcats = rawcats | split:'|' | sort %}
-
-{% assign cats = "" %}
-
-{% for cat in rawcats %}
-{% if cat != "" %}
-
-{% if cats == "" %}
-{% assign cats = cat | split:'|' %}
-{% endif %}
-
-{% unless cats contains cat %}
-{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
-{% endunless %}
-{% endif %}
-{% endfor %}
-
+{% assign cats = "Structure|Audio|Controls|Graphics|Interoperability|Presentation|Scripting|Software model" | split: '|' %}
+{{cats}}
 <h1> Important: the documentation below is a work-in-progress. </h1>
 <div>
     {% for ct in cats %}
