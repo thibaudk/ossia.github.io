@@ -4,14 +4,14 @@ title:  "Download"
 
 permalink: /score/download.html
 category: site-score
-score_dl: https://github.com/ossia/score/releases/download/v3.0.0-a18
-score_version: 3.0.0-a18
+score_dl: https://github.com/ossia/score/releases/download/v3.0.0-a19
+score_version: 3.0.0-a19
 ---
 
 Download the latest alpha release __ossia score v{{page.score_version}}__:
 <p style="display: flex; justify-content: center;align-content:space-evenly;" align="center">
 <a href="{{page.score_dl}}/ossia.score-{{page.score_version}}-win64.exe" target="_blank" class="page-button download-page"><img src="../assets/windows_logo_2012-Black.svg" height="80px"/>Windows 10</a>
-<a href="{{page.score_dl}}/ossia.score-{{page.score_version}}-macOS.zip"  target="_blank" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="80px"/>Mac OS<br/>10.14, 10.15</a>
+<a href="{{page.score_dl}}/ossia.score-{{page.score_version}}-macOS.dmg"  target="_blank" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="80px"/>Mac OS<br/>10.14, 10.15</a>
 <a href="{{page.score_dl}}/ossia.score-{{page.score_version}}-linux-amd64.AppImage" target="_blank" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux</a>
 </p>
 See the <a href="https://github.com/OSSIA/score/releases/latest" target="_blank">change log</a> for the latest release.
