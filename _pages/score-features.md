@@ -6,7 +6,7 @@ permalink: /score/features.html
 category: "site-score"
 ---
 {% assign cats = "Structure|Audio|Controls|Graphics|Interoperability|Presentation|Scripting|Software model" | split: '|' %}
-{{cats}}
+
 <h1> Important: the documentation below is a work-in-progress. </h1>
 <div>
     {% for ct in cats %}
