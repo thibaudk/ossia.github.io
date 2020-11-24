@@ -25,8 +25,17 @@ The releases are 64-bit on all operating systems.
 * All Linux distributions from at least 2015-era should be supported. 
   * The packages are built on CentOS 7
   * Your system must have at least glibc-2.17, as well as X11, ALSA, libGL, librt, libdbus.
-  * libavahi is required at runtime for Zeroconf support.
-  * libbluez is necessary to use Wiimotes (which go through Bluetooth).
+
+## Optional dependencies
+
+*score* and *libossia* use Bonjour for the OSCQuery automatic discovery feature.
+
+This means that on Windows, you must install the [Bonjour Print Services](https://support.apple.com/kb/dl999?locale=en_US) 
+for this to work.
+
+On Linux, you must be running Avahi (if you are using a common distribution, such as Ubuntu or Fedora it is likely already the case).
+
+Additionally, on Linux, libbluez may be necessary to use Wiimotes (which go through Bluetooth).
 
 ## Source code
 
