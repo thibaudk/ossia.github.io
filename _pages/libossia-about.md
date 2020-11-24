@@ -2,7 +2,7 @@
 layout: libossia-page
 title:  "About"
 
-permalink: /libossia/index.html
+permalink: /site-libossia/about.html
 category: site-libossia
 
 ---
