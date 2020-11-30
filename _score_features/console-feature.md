@@ -20,13 +20,13 @@ visible: true
 
 ## Example
 
-{% highlight qml %}
+{% highlight js %}
 // Creates an OSC device named foo. Messages will be sent from score to 127.0.0.1:5678.
 // Score will listen to messages on port 1234.
 Score.createOSCDevice("foo", "127.0.0.1", 5678, 1234);
 
 // Creates an OSC address on the device foo, named /bar/baz. It will receive color.rgba types.
-// All the usual ossia unit names are accessible, 
+// All the usual ossia unit names are accessible,
 // as well as useful names such as the ones found in [addresses](addresses doc)
 Score.createAddress("foo:/bar/baz", "color.rgba");
 
@@ -34,7 +34,7 @@ Score.createAddress("foo:/bar/baz", "color.rgba");
 // The name is the object name, put in the inspector
 var myObject = Score.find("the object name");
 
-// Creates an automation. The first argument must be a valid pointer to an interval 
+// Creates an automation. The first argument must be a valid pointer to an interval
 // found by Score.find(...).
 Score.automate(myInterval, "foo:/my/address");
 
