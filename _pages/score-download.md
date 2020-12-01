@@ -4,8 +4,8 @@ title:  "Download"
 
 permalink: /score/download.html
 category: site-score
-score_dl: https://github.com/ossia/score/releases/download/v3.0.0-a20
-score_version: 3.0.0-a20
+score_dl: https://github.com/ossia/score/releases/download/v3.0.0-a21
+score_version: 3.0.0-a21
 ---
 
 Download the latest alpha release __ossia score v{{page.score_version}}__:
@@ -22,7 +22,7 @@ The releases are 64-bit on all operating systems.
 
 * Windows: must be at least Windows 10.
 * macOS: must be at least Mojave (10.14).
-* All Linux distributions from at least 2015-era should be supported. 
+* All Linux distributions from at least 2015-era should be supported.
   * The packages are built on CentOS 7
   * Your system must have at least glibc-2.17, as well as X11, ALSA, libGL, librt, libdbus.
 
@@ -30,7 +30,7 @@ The releases are 64-bit on all operating systems.
 
 *score* and *libossia* use Bonjour for the OSCQuery automatic discovery feature.
 
-This means that on Windows, you must install the [Bonjour Print Services](https://support.apple.com/kb/dl999?locale=en_US) 
+This means that on Windows, you must install the [Bonjour Print Services](https://support.apple.com/kb/dl999?locale=en_US)
 for this to work.
 
 On Linux, you must be running Avahi (if you are using a common distribution, such as Ubuntu or Fedora it is likely already the case).
@@ -39,7 +39,7 @@ Additionally, on Linux, libbluez may be necessary to use Wiimotes (which go thro
 
 ## Source code
 
-The source code for the latest release can be downloaded from here: 
+The source code for the latest release can be downloaded from here:
 * Latest release's <a href="{{page.score_dl}}/ossia.score-{{page.score_version}}-src.tar.xz">source code</a>
 * Latest release's <a href="{{page.score_dl}}/ossia.score-{{page.score_version}}-src.tar.xz.asc">source code signature</a>
 * Alternatively, you can fetch the latest source code <a href="https://github.com/OSSIA/score">directly from Github</a>

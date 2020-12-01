@@ -102,8 +102,8 @@ or, to showcase all possible types:
             { "Vec3f": [0.0, 1.1, 1.2] },
             { "Vec4f": [0.0, 1.1, 1.3, 1.4] },
             { "Float": 1.23 },
-            { "String: "foo" },
-            { "Impulse: null },
+            { "String": "foo" },
+            { "Impulse": null },
         ]
     }
 }
