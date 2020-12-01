@@ -4,7 +4,7 @@ title:  "Download"
 
 permalink: /site-libossia/download.html
 category: site-libossia
-ossia_version: https://github.com/ossia/libossia/releases/download/v1.0.10
+ossia_version: https://github.com/ossia/libossia/releases/download/v1.1.0-a4
 ---
 
 <b>libossia</b> is available for many platforms and environments:
@@ -22,7 +22,7 @@ ossia_version: https://github.com/ossia/libossia/releases/download/v1.0.10
     <a href="#python-binding"><img src="/assets/logo/python-logo.png" height="60" width="auto"/></a>
     <a href="#faust-binding"><img src="/assets/logo/faust.png" height="50" width="auto"/></a>
 </div>
-    
+
 The license for the library itself is LGPLv3.
 
 <ul>
@@ -53,13 +53,13 @@ The license for the library itself is LGPLv3.
     <li><a href="https://ossia.io/libossia/html/">Doxygen</a></li>
     </ul>
   </div>
-  
+
   <h2 class="binding-title" id="c-binding"><img src="/assets/logo/c.png" height="60" width="auto"/>C binding</h2>
   <div class="features-list">
-    libossia provides a clean C89 header which wraps the most important functionality. 
+    libossia provides a clean C89 header which wraps the most important functionality.
     It can be used with the libossia-native libraries above which contain the functionality linked in.
   </div><br/>
-  <div>  
+  <div>
     <ul>
     <!--<li><a href="">Downloads</a></li>-->
     <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-c">Source code</a></li>
@@ -73,9 +73,9 @@ The license for the library itself is LGPLv3.
 <!--
   <h2 class="binding-title">Unreal Engine integration</h2>
   <div class="features-list">
-    libossia provides a C header which wraps the most important functionality. 
+    libossia provides a C header which wraps the most important functionality.
   </div><br/>
-  <div>  
+  <div>
     <ul>
     <li><a href="">Downloads</a></li>
     <li><a href="">API Documentation</a></li>
@@ -88,7 +88,7 @@ The license for the library itself is LGPLv3.
   <div class="features-list">
     libossia is available as a Max package.
     </div><br/>
-    <div>    
+    <div>
     <ul>
     <li><a href="{{page.ossia_version}}/ossia-max-osx.tar.gz">Max package (macOS)</a></li>
     <li><a href="{{page.ossia_version}}/ossia-max-win.zip">Max package (Windows)</a></li><br/>
@@ -122,7 +122,7 @@ The license for the library itself is LGPLv3.
   <h2 class="binding-title" id="unity-binding"><img src="/assets/logo/unity.png" height="60" width="auto"/>C#, Unity3D</h2>
   <div class="features-list">
     libossia provides a C# binding. An additional Unity3D GameObject integration layer is available.
-    The library ships as an asset that can be copied into your project. 
+    The library ships as an asset that can be copied into your project.
     The C# files at the root level (Assets/ossia) do not depend on Unity3D and can be used from any C# code base.
     </div><br/>
     <div>
@@ -136,7 +136,7 @@ The license for the library itself is LGPLv3.
 
   <h2 class="binding-title" id="processing-binding"><img src="/assets/logo/processing.jpg" height="60" width="auto"/>Java, Kotlin, Processing, OpenRNDR</h2>
   <div class="features-list">
-    libossia provides JVM bindings, which allows it to be used with Processing, etc.  
+    libossia provides JVM bindings, which allows it to be used with Processing, etc.
     </div><br/>
     <div>
     <ul>
@@ -148,7 +148,7 @@ The license for the library itself is LGPLv3.
 
   <h2 class="binding-title" id="of-binding" ><img src="/assets/logo/of.png" height="40" width="auto"/>openFrameworks</h2>
   <div class="features-list">
-    libossia is available as an openFrameworks extension made to expose a tree of ofParameters to OSCQuery easily. 
+    libossia is available as an openFrameworks extension made to expose a tree of ofParameters to OSCQuery easily.
     </div><br/>
     <div>
     <ul>
@@ -161,7 +161,7 @@ The license for the library itself is LGPLv3.
 
   <h2 class="binding-title" id="supercollider-binding"><img src="/assets/logo/supercollider-logo.png" height="60" width="auto"/>SuperCollider</h2>
   <div class="features-list">
-    libossia is available for SuperCollider. 
+    libossia is available for SuperCollider.
     </div><br/>
     <div>
     <ul>
@@ -188,7 +188,7 @@ The license for the library itself is LGPLv3.
 
   <h2 class="binding-title" id="python-binding"><img src="/assets/logo/python-logo.png" height="60" width="auto"/>Python</h2>
   <div class="features-list">
-    libossia is useable from Python. 
+    libossia is useable from Python.
   </div><br/>
   <div>
     <ul>
