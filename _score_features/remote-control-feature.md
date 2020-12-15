@@ -35,7 +35,7 @@ The message format is JSON.
 #### When a trigger starts executing:
 {% highlight js %}
 {
-    "Message": "TriggerAdded"
+    "Message": "TriggerAdded",
     "Path": "/path/to/the/trigger"
 }
 {% endhighlight %}
@@ -43,7 +43,7 @@ The message format is JSON.
 #### When a trigger has finished executing:
 {% highlight js %}
 {
-    "Message": "TriggerRemoved"
+    "Message": "TriggerRemoved",
     "Path": "/path/to/the/trigger"
 }
 {% endhighlight %}
@@ -80,8 +80,8 @@ See the [Console API](console.html) for the allowed operations.
 #### To send a control message:
 {% highlight js %}
 {
-    "Message": "Message"
-    "Address": "device:/foo/bar@[color.rgb.r]"
+    "Message": "Message",
+    "Address": "device:/foo/bar@[color.rgb.r]",
     "Value": {
         "Float": 1.23
     }
@@ -91,8 +91,8 @@ See the [Console API](console.html) for the allowed operations.
 or, to showcase all possible types:
 {% highlight js %}
 {
-    "Message": "Message"
-    "Address": "device:/foo/bar"
+    "Message": "Message",
+    "Address": "device:/foo/bar",
     "Value": {
         "Tuple": [
             { "Int": 1 },
@@ -116,7 +116,7 @@ new value is forwarded to the remote client.
 
 {% highlight js %}
 {
-    "Message": "EnableListening"
+    "Message": "EnableListening",
     "Address": "device:/foo/bar"
 }
 {% endhighlight %}
@@ -125,7 +125,12 @@ and
 
 {% highlight js %}
 {
-    "Message": "DisableListening"
+    "Message": "DisableListening",
     "Address": "device:/foo/bar"
 }
 {% endhighlight %}
+
+
+#### Control surface
+
+See [Control surface](controlsurface.html).
