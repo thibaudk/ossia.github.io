@@ -4,7 +4,7 @@ title:  "Download"
 
 permalink: /site-libossia/download.html
 category: site-libossia
-ossia_version: https://github.com/ossia/libossia/releases/download/v1.1.0-a4
+ossia_version: https://github.com/ossia/libossia/releases/download/v1.2.0
 ---
 
 <b>libossia</b> is available for many platforms and environments:
