@@ -48,6 +48,26 @@ The message format is JSON.
 }
 {% endhighlight %}
 
+#### When an interval starts executing:
+{% highlight js %}
+{
+    "Message": "IntervalAdded",
+    "Path": "/path/to/the/interval",
+    "Name": "machine_readable.name",
+    "Label": "User-readable label",
+    "Comment": "User-readable comment",
+    "Speed": 1.2345
+}
+{% endhighlight %}
+
+#### When an interval has finished executing:
+{% highlight js %}
+{
+    "Message": "IntervalRemoved",
+    "Path": "/path/to/the/interval"
+}
+{% endhighlight %}
+
 
 ### Client -> score
 
@@ -55,8 +75,15 @@ The message format is JSON.
 
 {% highlight js %}
 { "Message": "Play" }
+
 { "Message": "Pause" }
+
 { "Message": "Stop" }
+
+{
+    "Message": "Transport",
+    "Milliseconds": 40000
+}
 {% endhighlight %}
 
 #### Console control:
@@ -64,7 +91,7 @@ The message format is JSON.
 See the [Console API](console.html) for the allowed operations.
 {% highlight js %}
 {
-  "Message": "Console"
+  "Message": "Console",
   "Code": "someJSCodeToExecute()"
 }
 {% endhighlight %}
@@ -72,8 +99,17 @@ See the [Console API](console.html) for the allowed operations.
 #### To trigger a trigger:
 {% highlight js %}
 {
-    "Message": "Trigger"
+    "Message": "Trigger",
     "Path": "/path/to/the/trigger"
+}
+{% endhighlight %}
+
+#### To slow down or speed up an interval:
+{% highlight js %}
+{
+    "Message": "IntervalSpeed",
+    "Path": "/path/to/the/interval",
+    "Speed": 0.5
 }
 {% endhighlight %}
 
