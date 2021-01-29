@@ -8,12 +8,12 @@ category: site-about
 
 ## Scientific background
 
-Software developed as part of the ossia project has its roots in scientific research projects started around 2000 at the LaBRI - the general research project is called <i>i-score</i> (interactive scores). See the [Research](Research) section for detailed information.
+Software developed as part of the ossia project has its roots in scientific research projects started around 2000 at the LaBRI - the general research project is called <i>i-score</i> (interactive scores). See the [Research](research) section for detailed information.
 <!-- <img class="post-image" src="https://raw.githubusercontent.com/OSSIA/score/master/docs/score.png"/> -->
 
 
 ## Support
-Development has been supported over the years by many organisms and grants:
+Development has been supported over the years by many organizations and grants:
 <div class="logo-grid" style="justify-content: center;">
 <a href="https://www.labri.fr/"><img src="/assets/logo/LABRI_BIG.png"/></a>
 <a href="https://scrime.u-bordeaux.fr/"><img src="/assets/logo/logo-SCRIME-2018-Light.jpg"/></a>
@@ -28,11 +28,11 @@ Development has been supported over the years by many organisms and grants:
 <a href="https://www.education.gouv.fr/"><img src="/assets/logo/logo-ministere-de-la-culture.png"/></a>
 </div>
 
-With support and contributions of other organisms, such as:
+With additional support and contributions of other organizations, such as:
 * GMEA
 * L’Arboretum
 * didascalie.net
-* StudioMirio 
+* StudioMirio
 
 And of course all the open-source contributors:
 
