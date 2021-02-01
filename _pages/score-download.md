@@ -4,8 +4,8 @@ title:  "Download"
 
 permalink: /score/download.html
 category: site-score
-score_dl: https://github.com/ossia/score/releases/download/v3.0.0-a21
-score_version: 3.0.0-a21
+score_dl: https://github.com/ossia/score/releases/download/v3.0.0-a22
+score_version: 3.0.0-a22
 ---
 
 Download the latest alpha release __ossia score v{{page.score_version}}__:
@@ -21,7 +21,7 @@ See the <a href="https://github.com/OSSIA/score/releases/latest" target="_blank"
 The releases are 64-bit on all operating systems.
 
 * Windows: must be at least Windows 10.
-* macOS: must be at least Mojave (10.14).
+* macOS: must be at least Mojave (10.14) - an experimental 10.13 build is available on the Github release webpage.
 * All Linux distributions from at least 2015-era should be supported.
   * The packages are built on CentOS 7
   * Your system must have at least glibc-2.17, as well as X11, ALSA, libGL, librt, libdbus.
