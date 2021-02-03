@@ -90,7 +90,7 @@ The license for the library itself is LGPLv3.
     </div><br/>
     <div>
     <ul>
-    <li><a href="{{page.ossia_version}}/ossia-max-osx.tar.gz">Max package (macOS)</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-max-osx.zip">Max package (macOS)</a></li>
     <li><a href="{{page.ossia_version}}/ossia-max-win.zip">Max package (Windows)</a></li><br/>
     <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-max">Source code</a></li>
     <li><a href="https://ossia.io/ossia-docs/?plaintext--max#introduction">API Documentation</a></li>
