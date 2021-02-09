@@ -37,6 +37,13 @@ category: site-community
     </a>
 </div>
 
+<div id="Désoleil" align="middle" class="gallery-page-image">
+    <a href="https://fracnouvelleaquitaine-meca.fr/evenement/desoleil-anne-charlotte-finel/" class="gallery-text">
+        <img src="assets/gallery/Désoleil.jpeg" class="post-image" />
+        Désoleil  <br/> Anne-Charlotte Finel
+    </a>
+</div>
+
 <div id="meta-chef-d-orchestre" align="middle" class="gallery-page-image">
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Meta-Chef-d-Orchestre" class="gallery-text">
         <img src="assets/gallery/dome_scrime.jpg" class="post-image" />

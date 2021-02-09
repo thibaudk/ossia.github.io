@@ -17,7 +17,7 @@ The current core team is composed of:
 * <b>Julien Rabin</b>: Documentation, specifications and some user interface design
 * <b>Akané Lévy</b>: Graphic, website and user interface design, initial ofxOssia development
 * <b>Thibaud Keller</b>: ossia-superCollider, development, user feedback and more
-* <b>Pierre Cochard</b>: ossia-superColiider development, user feedback & beta-test,
+* <b>Pierre Cochard</b>: ossia-superCollider development, user feedback & beta-test,
 * <b>Thomas Pachoud</b>: Specifications, user feedback & beta-test, ofxOssia development
 * <b>Renaud Rubiano</b>: ossia-python specifications, user feedback & beta-test
 
