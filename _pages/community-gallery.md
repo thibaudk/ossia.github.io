@@ -39,7 +39,7 @@ category: site-community
 
 <div id="Désoleil" align="middle" class="gallery-page-image">
     <a href="https://fracnouvelleaquitaine-meca.fr/evenement/desoleil-anne-charlotte-finel/" class="gallery-text">
-        <img src="assets/gallery/Désoleil.jpeg" class="post-image" />
+        <img src="assets/gallery/Désoleil.jpg" class="post-image" />
         Désoleil  <br/> Anne-Charlotte Finel
     </a>
 </div>
