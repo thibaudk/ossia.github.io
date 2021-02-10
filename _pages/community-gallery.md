@@ -44,6 +44,14 @@ category: site-community
     </a>
 </div>
 
+<div id="Qui parle donc" align="middle" class="gallery-page-image">
+    <a href="http://passerelle-arts-sciences.fr/qui-parle-donc-2019/" 
+    class="gallery-text">
+        <img src="assets/gallery/Qui-parle-donc_Event.jpg" class="post-image" />
+        Qui parle donc  <br/> Passerelle arts-sciences
+    </a>
+</div>
+
 <div id="meta-chef-d-orchestre" align="middle" class="gallery-page-image">
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Meta-Chef-d-Orchestre" class="gallery-text">
         <img src="assets/gallery/dome_scrime.jpg" class="post-image" />
