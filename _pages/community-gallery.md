@@ -62,14 +62,14 @@ category: site-community
 <div align="middle" class="gallery-page-image">
     <a href="http://www.donatiengarnier.com/un-spectacle-en-3d/" class="gallery-text">
         <img src="assets/gallery/arbre-intégrale.jpg" class="post-image" />
-        ALEAS <br/> L'arbre Intégrale - Donatien Garnier
+        L'Arbre Intégral <br/> Le Poème en volume
     </a> 
 </div>
 
 <div id="meta-chef-d-orchestre" align="middle" class="gallery-page-image">
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Meta-Chef-d-Orchestre" class="gallery-text">
         <img src="assets/gallery/dome_scrime.jpg" class="post-image" />
-        Méta Chef d’Orchestre  <br/> Serge Delaubier
+        Méta Chef d’Orchestre <br/> Serge Delaubier
     </a>
 </div>
 
@@ -78,21 +78,21 @@ category: site-community
 <div id="sonotact" align="middle" class="gallery-page-image">
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Sonotact" class="gallery-text">
         <img src="assets/gallery/sonotact.jpg" class="post-image" />
-        Sonotact  <br/> Pascale Criton
+        Sonotact <br/> Pascale Criton
     </a> 
 </div>
 
 <div align="middle" class="gallery-page-image">
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Rain-of-Music" class="gallery-text">
         <img src="assets/gallery/metabot_score.jpg" class="post-image" />
-        Rain of Music  <br/> Josu Rekalde and co
+        Rain of Music <br/> Josu Rekalde and co
     </a> 
 </div>
 
 <div align="middle" class="gallery-page-image">
     <a href="https://djeff.com/portfolio/dyew/" class="gallery-text" >
         <img src="assets/gallery/Big_Dyew-1920x917.jpg" class="post-image" />
-        Dyew  <br/> Djeff
+        Dyew <br/> Djeff
     </a>
 </div>
 
