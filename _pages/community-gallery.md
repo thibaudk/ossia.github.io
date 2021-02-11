@@ -52,6 +52,20 @@ category: site-community
     </a>
 </div>
 
+<div align="middle" class="gallery-page-image">
+    <a href="https://www.compagnie-ever.com/aleas" class="gallery-text">
+        <img src="assets/gallery/MECA 2.jpg" class="post-image" />
+        ALEAS <br/> Compagnie EVER - Camille Rocailleux
+    </a> 
+</div>
+
+<div align="middle" class="gallery-page-image">
+    <a href="http://www.donatiengarnier.com/un-spectacle-en-3d/" class="gallery-text">
+        <img src="assets/gallery/arbre-intégrale.jpg" class="post-image" />
+        ALEAS <br/> L'arbre Intégrale - Donatien Garnier
+    </a> 
+</div>
+
 <div id="meta-chef-d-orchestre" align="middle" class="gallery-page-image">
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Meta-Chef-d-Orchestre" class="gallery-text">
         <img src="assets/gallery/dome_scrime.jpg" class="post-image" />
@@ -65,13 +79,6 @@ category: site-community
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Sonotact" class="gallery-text">
         <img src="assets/gallery/sonotact.jpg" class="post-image" />
         Sonotact  <br/> Pascale Criton
-    </a> 
-</div>
-
-<div align="middle" class="gallery-page-image">
-    <a href="https://www.compagnie-ever.com/aleas" class="gallery-text">
-        <img src="assets/gallery/MECA 2.jpg" class="post-image" />
-        ALEAS <br/> Compagnie EVER - Camille Rocailleux
     </a> 
 </div>
 
