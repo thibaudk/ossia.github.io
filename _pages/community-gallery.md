@@ -44,14 +44,6 @@ category: site-community
     </a>
 </div>
 
-<div id="Qui parle donc" align="middle" class="gallery-page-image">
-    <a href="http://passerelle-arts-sciences.fr/qui-parle-donc-2019/" 
-    class="gallery-text">
-        <img src="assets/gallery/Qui-parle-donc_Event.jpg" class="post-image" />
-        Qui parle donc  <br/> Passerelle arts-sciences
-    </a>
-</div>
-
 <div align="middle" class="gallery-page-image">
     <a href="https://www.compagnie-ever.com/aleas" class="gallery-text">
         <img src="assets/gallery/MECA 2.jpg" class="post-image" />
@@ -66,6 +58,28 @@ category: site-community
     </a> 
 </div>
 
+<div align="middle" class="gallery-page-image">
+    <a href="https://djeff.com/portfolio/dyew/" class="gallery-text" >
+        <img src="assets/gallery/Big_Dyew-1920x917.jpg" class="post-image" />
+        Dyew <br/> Djeff
+    </a>
+</div>
+
+<div align="middle" class="gallery-page-image">
+    <a href="https://vimeo.com/213259612" class="gallery-text" >
+    <img src="assets/gallery/14-Virages2.jpg" class="post-image" />
+        Rain of Music <br/> Josu Rekalde and co
+    </a> 
+</div>
+
+<div id="Qui parle donc" align="middle" class="gallery-page-image">
+    <a href="http://passerelle-arts-sciences.fr/qui-parle-donc-2019/" 
+    class="gallery-text">
+        <img src="assets/gallery/Qui-parle-donc_Event.jpg" class="post-image" />
+        Qui parle donc  <br/> Passerelle arts-sciences
+    </a>
+</div>
+
 <div id="meta-chef-d-orchestre" align="middle" class="gallery-page-image">
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Meta-Chef-d-Orchestre" class="gallery-text">
         <img src="assets/gallery/dome_scrime.jpg" class="post-image" />
@@ -73,8 +87,6 @@ category: site-community
     </a>
 </div>
 
-<br/>
-<br/>
 <div id="sonotact" align="middle" class="gallery-page-image">
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Sonotact" class="gallery-text">
         <img src="assets/gallery/sonotact.jpg" class="post-image" />
@@ -89,17 +101,6 @@ category: site-community
     </a> 
 </div>
 
-<div align="middle" class="gallery-page-image">
-    <a href="https://djeff.com/portfolio/dyew/" class="gallery-text" >
-        <img src="assets/gallery/Big_Dyew-1920x917.jpg" class="post-image" />
-        Dyew <br/> Djeff
-    </a>
-</div>
-
-<div align="middle" class="gallery-page-image">
-    <img src="assets/gallery/14-Virages2.jpg" class="post-image" />
-    <span class="gallery-text">(à) partir  <br/> Thibaut Le Maguer</span>
-</div>
 </div>
 <br/>
 <br/>
