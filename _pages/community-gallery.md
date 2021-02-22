@@ -68,7 +68,7 @@ category: site-community
 <div align="middle" class="gallery-page-image">
     <a href="https://vimeo.com/213259612" class="gallery-text" >
     <img src="assets/gallery/14-Virages2.jpg" class="post-image" />
-        Rain of Music <br/> Josu Rekalde and co
+        (à) partir <br/> Thibaud le Maguer
     </a> 
 </div>
 
