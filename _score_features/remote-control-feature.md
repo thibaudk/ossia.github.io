@@ -68,6 +68,19 @@ The message format is JSON.
 }
 {% endhighlight %}
 
+#### Heartbeat sent every few milliseconds:
+{% highlight js %}
+{
+    "Intervals": [ {
+        "Path": "/path/to/the/interval",
+        "Progress": 0.5,
+        "Speed": 1.,
+        "Gain": 0.8
+    }, ...
+    ]
+}
+{% endhighlight %}
+
 
 ### Client -> score
 
@@ -110,6 +123,15 @@ See the [Console API](console.html) for the allowed operations.
     "Message": "IntervalSpeed",
     "Path": "/path/to/the/interval",
     "Speed": 0.5
+}
+{% endhighlight %}
+
+#### To change the gain of an interval:
+{% highlight js %}
+{
+    "Message": "IntervalGain",
+    "Path": "/path/to/the/interval",
+    "Gain": 0.5
 }
 {% endhighlight %}
 
