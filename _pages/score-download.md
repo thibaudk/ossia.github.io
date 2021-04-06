@@ -4,8 +4,8 @@ title:  "Download"
 
 permalink: /score/download.html
 category: site-score
-score_dl: https://github.com/ossia/score/releases/download/v3.0.0-a24
-score_version: 3.0.0-a24
+score_dl: https://github.com/ossia/score/releases/download/v3.0.0-a26
+score_version: 3.0.0-a26
 ---
 
 Download the latest alpha release __ossia score v{{page.score_version}}__:
@@ -25,6 +25,7 @@ The releases are 64-bit on all operating systems.
 * All Linux distributions from at least 2015-era should be supported.
   * The packages are built on CentOS 7.
   * Your system must have at least glibc-2.17, as well as X11, ALSA, libGL, librt, libdbus.
+  * JACK and Avahi are recommended.
 
 ## Optional dependencies
 
