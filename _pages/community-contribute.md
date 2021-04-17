@@ -13,12 +13,12 @@ The [source code](https://github.com/ossia/score){:target="_blank"} for score is
 It is based on [libossia](https://github.com/ossia/libossia){:target="_blank"}.
 
 ## Contributing
-<img style="float: right;" src="/assets/contribution_oscar.png" width="40%"/>
+<img style="float: right;" src="/assets/contribution_oscar.png" width="40%" alt="Oscar, the cute ossia mascot" />
 * Contributing to the user library
 * Extending the scripting API
 * Implementing new protocols
 * Implementing new processes and effects
-    
+
 The score project is open to contributions.
 We need help on :
 

@@ -12,10 +12,10 @@ category: site-learn
          -->
          <a href="https://www.youtube.com/playlist?list=PLIHLSiZpIa6aRQT5v6RInuyCR3qWmMEgV" class="menu-item panel" target="_blank" ><span class="icon-svg icon-video"></span>Tutorials
          <p class="description">Video tutorials in french</p></a>
-         
+
          <a href="https://ossia.io/score-docs/" target="_blank"  class="menu-item panel"><span class="icon-svg icon-documentation"></span>Docs
          <p class="description">Documentation for score</p></a>
-         
+
          <a href="https://forum.ossia.io/"  target="_blank" class="menu-item panel"><span class="icon-svg icon-forum"></span>Forum
          <p class="description">Ask any questions !</p></a>
          <a href="https://gitter.im/OSSIA/score"  target="_blank" class="menu-item panel"><span class="icon-svg icon-chat"></span>Chat<p class="description">Come chat with us !</p></a>
@@ -23,7 +23,7 @@ category: site-learn
 
 <div style="width: 100%;">
 <h2 class="page-title" style="text-align: center;">FAQ</h2>
-    
+
 <h3 class="faq">Basics</h3>
 <p type="button" class="collapsible" > What is ossia score ?</p>
 <div class="collapsible-content">
@@ -39,11 +39,11 @@ We strongly believe that artists from around the world need free tools.
 
 <p type="button" class="collapsible" > Can I use it in a commercial or production setting ?</p>
 <div class="collapsible-content">
-Yes! The license allows you to do whatever you want with the software. You can make artworks, 
-shows, music production, art and museum installs, etc... without any limitation of features, time, or 
+Yes! The license allows you to do whatever you want with the software. You can make artworks,
+shows, music production, art and museum installs, etc... without any limitation of features, time, or
 anything of the sort.<br/>
 Note that there is *no warranty* provided - it is however possible to contact our team at
-<a href="mailto:contact@ossia.io">contact@ossia.io</a> for paid support. 
+<a href="mailto:contact@ossia.io">contact@ossia.io</a> for paid support.
 </div>
 
 <p type="button" class="collapsible" > How can I help ?</p>
@@ -51,7 +51,7 @@ Note that there is *no warranty* provided - it is however possible to contact ou
 The easiest way to contribute is by donating to the <a href="https://opencollective.org/ossia">development fund</a>.
 
 A very good way to participate is by contributing through bug reports, and code improvements.
-See the <a href="contributor-guide.html">Contributing</a> page for more information.
+See the <a href="/contributor-guide.html">Contributing</a> page for more information.
 </div>
 <!--
 <p type="button" class="collapsible"> Playing a sound</p>
@@ -264,13 +264,13 @@ See the <a href="contributor-guide.html">Contributing</a> page for more informat
 
 <p type="button" class="collapsible"> Some VST plug-ins and virtual cameras do not work on Mac</p>
 <div class="collapsible-content">
-    You are likely encountering <a href="https://stackoverflow.com/questions/61114738/are-macos-virtual-webcams-inherently-incompatible-with-10-14s-hardened-runtime">security-related macOS issues</a>. <br/> 
+    You are likely encountering <a href="https://stackoverflow.com/questions/61114738/are-macos-virtual-webcams-inherently-incompatible-with-10-14s-hardened-runtime">security-related macOS issues</a>. <br/>
     As a workaround, you can follow the steps given in the above link to remove the code signing of the score binary, which will in turn make macOS allow score to open virtual webcams and any audio plug-ins.
 </div>
 
 <p type="button" class="collapsible"> The minimap is hard to use on Mac</p>
 <div class="collapsible-content">
-    You are likely encountering <a href="https://stackoverflow.com/questions/61843481/macos-simulated-mouse-event-only-works-when-launching-binary-not-application-b">this macOS issue</a>. <br/> 
+    You are likely encountering <a href="https://stackoverflow.com/questions/61843481/macos-simulated-mouse-event-only-works-when-launching-binary-not-application-b">this macOS issue</a>. <br/>
     As a workaround, you can try to open score by right-clicking on Score.app, selection "Open contents", navigating to "Score.app/Contents/MacOS" and running the "score" binary from there.
 </div>
 
@@ -291,14 +291,14 @@ var i;
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
-  
+
     var coll = document.getElementsByClassName("collapsible");
     var i;
     for (i = 0; i < coll.length; i++) {
         coll[i].classList.remove("active");
         coll[i].nextElementSibling.style.display = "none";
     }
-    
+
     this.classList.toggle("active");
     var content = this.nextElementSibling;
     content.style.display = "block";
