@@ -16,9 +16,9 @@ category: "site-score"
             {% if post.tag contains ct %}
             {% if post.visible %}
                 <a href="https://ossia.io/score-docs{{post.doclink}}" class="thumbnail" >
-                    <img class="thumbnail-feature" src="/assets/blank.png" alt="" data-echo="{{post.image}}"  width="auto"/>
-                    <h1 class="blog-title">{{post.title}} </h1>
-                    <span class="feature-description">{{post.description}} </span>
+                    <img class="thumbnail-feature" src="/assets/blank.png" alt="{{post.title}}" data-echo="{{post.image}}"  width="auto"/>
+                    <h1 class="blog-title">{{post.title}}</h1>
+                    <span class="feature-description">{{post.description}}</span>
                 </a>
             {% endif %}
             {% endif %}

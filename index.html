@@ -1,8 +1,8 @@
 ---
 layout: landing-page
----		
+---
 
-   
+
 <!-- Loading the carousel for the gallery -->
 
 <link rel="stylesheet" href="/owlcarousel/owl.carousel.min.css">
@@ -11,38 +11,38 @@ layout: landing-page
 <!-- Main -->
 <article id="main" style="background-color: var(--dark-grey);">
 
-<!-- Banner -->		
+<!-- Banner -->
 <div style="text-align: center;">
 <div id="banner" class="background" >
-   <img class="background-image" src="css/images/banner_quarre.jpg"/> 
+   <img class="background-image" src="css/images/banner_quarre.jpg"/>
 
    <div class="overlay">
         <div class="inner">
             <header>
-                <!-- Logo -->		
+                <!-- Logo -->
                 <div style="display:flex; justify-content:center; align-items: center;">
-                    <image class="software-logo" src="/assets/score-logo.png"/>
+                    <image class="software-logo" src="/assets/score-logo.png" alt="score logo"/>
                     <h2 class="software">ossia score</h2>
                 </div>
-                
+
                    <div class="line"></div>
-                <!-- Short description -->		
+                <!-- Short description -->
                 <h2 class="catchphrase">A free and open-source sequencer</h2>
-                             
+
                 <p style="font-size: 20px;"> A <b>free, open-source, cross-platform intermedia sequencer </b> for precise and flexible scripting of <b>interactive</b>  scenarios. <br/> Control and score any OSC-compliant software or hardware:
                 Max/MSP, PureData, openFrameworks, Processing… </p>
                 <br/>
-                <!-- Download button -->		
+                <!-- Download button -->
             <a href="/score/download.html" class="download">Download</a>
             </header>
-            
-        </div>  
-    </div> 
+
+        </div>
+    </div>
 </div>
 </div>
 <!-- Awards -->
 <section id="index" class="white" style="padding-top: 4em;">
-    <h2 style="text-align: center;" ><span class="title-section" style="color: black; border-color:var(--orange);">Supporting organizations</span></h2> 
+    <h2 style="text-align: center;" ><span class="title-section" style="color: black; border-color:var(--orange);">Supporting organizations</span></h2>
     <div class="logo-grid" style="padding-top: 0.1em;">
      <a href="https://www.unrealengine.com/"><img loading="lazy" src="/assets/logo/unreal_engine.png" width="80" height="auto"/></a>
      <a href="https://www.mozilla.org/" ><img loading="lazy" src="/assets/logo/mozilla-logo.png"/></a>
@@ -54,20 +54,20 @@ layout: landing-page
     <a href="https://www.blueyeti.fr/"><img loading="lazy" src="/assets/logo/blueyeti.png" /></a>
     </div>
 </section>
-   
+
    <!-- Features -->
 <div id="overlay" onclick="hideOverlay()">
 <img id="overlay-image" loading="lazy" src="/assets/score.png"/>
 </div>
  <section id="index" class="dark-grey" >
-       <h2 style="text-align: center;" ><a href="/score/features.html" class="title-section">What is ossia score ?</a></h2> 
+       <h2 style="text-align: center;" ><a href="/score/features.html" class="title-section">What is ossia score ?</a></h2>
        <div class="feature-container">
             <div class="feature image-container">
                 <img onclick="displayInOverlay(this.src)" loading="lazy" src="/assets/score.png"/>
             </div>
             <div class="feature text" >
                 <h2>An intermedia sequencer</h2>
-                <p> Sequence various kinds of media in an intelligent timeline: 
+                <p> Sequence various kinds of media in an intelligent timeline:
                     <ul>
                         <li>Playback most audio formats, with support for multichannel</li>
                         <li>H.264 and HAP video playback, with a state-of-the art cross-platform video & shader pipeline</li>
@@ -123,8 +123,8 @@ layout: landing-page
            </div>
       </div>
  </section>
- 
- 
+
+
 
     <section id="index" class="white">
      <div class="feature-container reversed">
@@ -190,17 +190,17 @@ layout: landing-page
         </div>
         </div>
     </section>
-	
+
    <!-- Recent posts and twitter feed -->
     <section class="white blog-twitter" id="index">
         <div style="display: flex; justify-content: space-around; margin: 0;">
             <div class="blog-list">
-                <h2 style="text-align: center;" ><a href="/blog.html" class="title-section">Blog</a></h2> 
-                
+                <h2 style="text-align: center;" ><a href="/blog.html" class="title-section">Blog</a></h2>
+
                 <div class="recent-post-view">
                     {% for post in site.posts limit:2 %}
-                        <a href={{post.url}} class="thumbnail" >                            
-                            {% if post.image %} 
+                        <a href={{post.url}} class="thumbnail" >
+                            {% if post.image %}
                                 <img loading="lazy" class="thumbnail-blogpost" src={{post.image}} width="auto"/>
                             {% else %}
                                 <img loading="lazy" class="thumbnail-blogpost" src="assets/default_post_thumbnail.png"/>
@@ -208,61 +208,61 @@ layout: landing-page
                             <br/>
                             <h1 class="blog-title">{{post.title}} </h1>
                             <span class="blog-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                           
+
                         </a>
                     {% endfor %}
-                </div>				
+                </div>
             </div>
             <!-- Twitter timeline -->
             <div class="twitter" style="width: 30%;">
                  <h2><a class="twitter-timeline" data-tweet-limit="1" href="https://twitter.com/ossia_io?ref_src=twsrc%5Etfw">Tweets by ossia_io</a> </h2>
             </div>
         </div>
-    </section>	
-					
+    </section>
+
 	<!-- Gallery -->
       <section id="index" class="black">
-        <h2 style="text-align: center;" ><a href="/gallery.html" class="title-section">Gallery</a></h2> 
+        <h2 style="text-align: center;" ><a href="/gallery.html" class="title-section">Gallery</a></h2>
         <div class="owl-carousel owl-theme" >
             <div class="carouselcontainer">
-                <a href="/gallery.html"><img loading="lazy" class="frontpage-gallery" src="/assets/blank.png" alt="" data-echo="assets/gallery/frontpage/carrousel-frontpage.jpg"/></a>
+                <a href="/gallery.html"><img loading="lazy" class="frontpage-gallery" src="/assets/blank.png" alt="Carrousel" data-echo="assets/gallery/frontpage/carrousel-frontpage.jpg"/></a>
                 <header>
                     <a href="https://www.abbayeauxdames.org/en/musicaventure/carrousel-musical/" class="gallery-text">Carousel Musical</a> <span class="gallery-text">-</span> <a href="https://www.blueyeti.fr/le-carrousel-musical-abbaye-aux-dames/" class="gallery-text">Blue Yeti, Abbaye aux Dames</a>
                 </header>
             </div>
             <div class="carouselcontainer">
-                <a href="/gallery.html"><img loading="lazy" class="frontpage-gallery" src="/assets/blank.png" alt="" data-echo="assets/gallery/frontpage/Nebula_ChampignonsNeigeJaune-frontpage.jpg"/></a>
+                <a href="/gallery.html"><img loading="lazy" class="frontpage-gallery" src="/assets/blank.png" alt="Nebula" data-echo="assets/gallery/frontpage/Nebula_ChampignonsNeigeJaune-frontpage.jpg"/></a>
                 <header>
                     <a href="https://www.baltazars.org/project/nebula/" class="gallery-text">Nebula</a> <span class="gallery-text">-</span> <a href="https://www.baltazars.org/" class="gallery-text">Les Baltazars</a>
                 </header>
             </div>
             <div class="carouselcontainer">
-                <a href="/gallery.html"><img loading="lazy" class="frontpage-gallery" src="/assets/blank.png" alt="" data-echo="assets/gallery/frontpage/DID_4858.JPG"/></a>
+                <a href="/gallery.html"><img loading="lazy" class="frontpage-gallery" src="/assets/blank.png" alt="Four For" data-echo="assets/gallery/frontpage/DID_4858.JPG"/></a>
                 <header>
-                    <a href="https://bravozoulou.fr/projets/four-for/" class="gallery-text">Four For - Bravo Zoulou</a> 
+                    <a href="https://bravozoulou.fr/projets/four-for/" class="gallery-text">Four For - Bravo Zoulou</a>
                     <span class="copyright"><br/>&copy; Didier Crasnault</span>
                 </header>
             </div>
             <div class="carouselcontainer">
-                <a href="/gallery.html"><img loading="lazy" class="frontpage-gallery" src="/assets/blank.png" alt="" data-echo="assets/gallery/frontpage/quarre-frontpage.jpg"/></a>
+                <a href="/gallery.html"><img loading="lazy" class="frontpage-gallery" src="/assets/blank.png" alt="Quarrè" data-echo="assets/gallery/frontpage/quarre-frontpage.jpg"/></a>
                 <header>
-                    <a href="https://wpn214.com/en/" class="gallery-text">Quarrè - Pierre Cochard</a> 
+                    <a href="https://wpn214.com/en/" class="gallery-text">Quarrè - Pierre Cochard</a>
                 </header>
             </div>
             <div class="carouselcontainer" >
-                <a href="/gallery.html"><img loading="lazy" class="frontpage-gallery" src="/assets/blank.png" alt="" data-echo="assets/gallery/frontpage/dome_scrime-frontpage.jpg"/></a>
+                <a href="/gallery.html"><img loading="lazy" class="frontpage-gallery" src="/assets/blank.png" alt="Méta Chef d'Orchestre" data-echo="assets/gallery/frontpage/dome_scrime-frontpage.jpg"/></a>
                 <header>
-                    <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Meta-Chef-d-Orchestre" class="gallery-text">Méta Chef d’Orchestre - Serge Delaubier</a> 
+                    <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Meta-Chef-d-Orchestre" class="gallery-text">Méta Chef d’Orchestre - Serge Delaubier</a>
                 </header>
             </div>
             <div class="carouselcontainer" >
-                <a href="/gallery.html"><img loading="lazy" class="frontpage-gallery" src="/assets/blank.png" alt="" data-echo="assets/gallery/frontpage/sonotact-frontpage.jpg"/></a>
+                <a href="/gallery.html"><img loading="lazy" class="frontpage-gallery" src="/assets/blank.png" alt="Sonotact" data-echo="assets/gallery/frontpage/sonotact-frontpage.jpg"/></a>
                 <header>
-                    <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Sonotact" class="gallery-text">Sonotact - Pascale Criton</a> 
+                    <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Sonotact" class="gallery-text">Sonotact - Pascale Criton</a>
                 </header>
             </div>
         </div>
-      </section>  
+      </section>
 </article>
 
 <script async src="/owlcarousel/owl.carousel.min.js"></script>
