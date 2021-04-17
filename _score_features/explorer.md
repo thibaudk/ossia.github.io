@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Device explorer"
 
+doclink: /quick-start/working-with-devices.html
 permalink: /score/features/explorer.html
 category: "site-score"
 
@@ -12,7 +13,3 @@ tag: "Software model"
 visible: true
 ---
 
-# Shortcuts
-
-- Show: {% include shortcut.html content="Ctrl+Shift+D" %}
-- Esc: deselect node

@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Conditions"
 
+doclink: /processes/scenario.html#conditions
 permalink: /score/features/conditions.html
 category: "site-score"
 
@@ -12,6 +13,3 @@ tag: "Structure"
 visible: true
 ---
 
-
-# Keyboard shortcuts
-Pressing suppr / backspace when a condition is selected removes it.

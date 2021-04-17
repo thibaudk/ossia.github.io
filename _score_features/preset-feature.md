@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Presets"
 
+doclink: /in-depth/presets.html
 permalink: /score/features/presets.html
 category: "site-score"
 
@@ -11,3 +12,4 @@ description: "Creating, storing and recalling presets"
 tag: "Structure"
 visible: false
 ---
+

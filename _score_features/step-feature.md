@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Step sequencer"
 
+doclink: /processes/step.html
 permalink: /score/features/step-sequencer.html
 category: "site-score"
 
@@ -11,3 +12,4 @@ description: "Using the step sequencer process"
 tag: "Controls"
 visible: true
 ---
+

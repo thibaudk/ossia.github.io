@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Inspector"
 
+doclink: /quick-start/interface-overview.html#objects-inspector-panel
 permalink: /score/features/inspector.html
 category: "site-score"
 
@@ -11,4 +12,5 @@ description: "Discover the features of the inspector panel"
 tag: "Software model"
 visible: true
 ---
+
 

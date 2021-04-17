@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Local tree"
 
+doclink: /devices/local-device.html
 permalink: /score/features/localtree.html
 category: "site-score"
 
@@ -11,3 +12,4 @@ description: "Controlling ossia score with the local device tree"
 tag: "Interoperability"
 visible: true
 ---
+

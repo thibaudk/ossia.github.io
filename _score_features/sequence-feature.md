@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Sequences"
 
+doclink: /quick-start/states-and-automations-in-practice.html#sequence-mode
 permalink: /score/features/sequences.html
 category: "site-score"
 
@@ -12,4 +13,3 @@ tag: "Structure"
 visible: true
 ---
 
-- auto-sequence settings 

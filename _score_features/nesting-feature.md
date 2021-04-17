@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Nesting"
 
+doclink: /processes/scenario.html
 permalink: /score/features/nesting.html
 category: "site-score"
 
@@ -11,3 +12,4 @@ description: "Nesting scores with the scenario process"
 tag: "Structure"
 visible: true
 ---
+

@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Mapper device"
 
+doclink: /devices/mapper-device.html
 permalink: /score/features/mapper-device.html
 category: "site-score"
 
@@ -11,3 +12,4 @@ description: "Mappings between devices"
 tag: "Interoperability"
 visible: true
 ---
+

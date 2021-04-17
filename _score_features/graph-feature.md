@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Graphs"
 
+doclink: /quick-start/non-linear-timelines.html
 permalink: /score/features/graph.html
 category: "site-score"
 
@@ -11,3 +12,4 @@ description: "Creating state machines and graphs"
 tag: "Structure"
 visible: true
 ---
+

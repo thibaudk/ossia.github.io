@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Cues"
 
+doclink: /quick-start/saving-and-recalling-devices-state.html
 permalink: /score/features/cues.html
 category: "site-score"
 
@@ -11,3 +12,4 @@ description: "Sending cues to control a show"
 tag: "Structure"
 visible: true
 ---
+

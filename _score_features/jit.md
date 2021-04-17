@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "C++ JIT"
 
+doclink: /processes/cpp_jit.html
 permalink: /score/features/jit.html
 category: "site-score"
 

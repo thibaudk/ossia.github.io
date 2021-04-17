@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Media"
 
+doclink: /reference/media.html
 permalink: /score/features/media.html
 category: "site-score"
 
@@ -12,7 +13,3 @@ tag: "Software model"
 visible: true
 ---
 
-# Paths
-
-If the path is relative, it will look in the project folder first.
-The project folder is the folder which contains the saved .score file.

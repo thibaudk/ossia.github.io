@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Recording"
 
+doclink: /in-depth/recording.html
 permalink: /score/features/recording.html
 category: "site-score"
 

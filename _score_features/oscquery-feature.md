@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "OSCQuery"
 
+doclink: /devices/oscquery-device.html
 permalink: /score/features/oscquery.html
 category: "site-score"
 
@@ -12,5 +13,3 @@ tag: "Interoperability"
 visible: true
 ---
 
-- Rate limiting
-- see [libossia protocol details](../site-libossia/features/oscquery.html)

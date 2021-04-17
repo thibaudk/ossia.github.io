@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Timing"
 
+doclink: /in-depth/musical.html#timing
 permalink: /score/features/timing.html
 category: "site-score"
 
@@ -12,10 +13,3 @@ tag: "Software model"
 visible: true
 ---
 
-### Low-level timing explanations
-
-How timing works in ossia score.
-
-- Quantification
-- Model time
-- Physical time

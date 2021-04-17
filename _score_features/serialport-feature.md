@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Serial port"
 
+doclink: /devices/serial-device.html
 permalink: /score/features/serialport.html
 category: "site-score"
 
@@ -11,3 +12,4 @@ description: "Interaction through a serial port (Arduino, etc.)"
 tag: "Interoperability"
 visible: true
 ---
+

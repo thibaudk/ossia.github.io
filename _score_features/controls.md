@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "User interface"
 
+doclink: /quick-start/interface-overview.html#ui-controls
 permalink: /score/features/controls.html
 category: "site-score"
 
@@ -12,4 +13,3 @@ tag: "Software model"
 visible: true
 ---
 
-- right click to edit precisely
