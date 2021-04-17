@@ -2,7 +2,7 @@
 layout: score-feature
 title:  "Library"
 
-doclink: /reference/library.html
+doclink: /in-depth/library.html
 permalink: /score/features/library.html
 category: "site-score"
 

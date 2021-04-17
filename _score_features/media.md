@@ -2,7 +2,7 @@
 layout: score-feature
 title:  "Media"
 
-doclink: /reference/media.html
+doclink: /in-depth/media.html
 permalink: /score/features/media.html
 category: "site-score"
 
