@@ -1,5 +1,5 @@
 # Site settings
-title: ossia
+title: ossia | home of ossia score and libossia
 email: contact@ossia.io
 description: > # this means to ignore newlines until "baseurl:"
   Open Software System for Interactive Applications - home of ossia score, a free, open-source, cross-platform intermedia sequencer for precise and flexible scripting of interactive scenarios.
