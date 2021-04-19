@@ -1,6 +1,6 @@
 ---
 layout: libossia-page
-title:  "About"
+title:  "About libossia"
 
 permalink: /site-libossia/about.html
 category: site-libossia

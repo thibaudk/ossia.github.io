@@ -4,4 +4,6 @@ gem 'jekyll'
 gem 'guard'
 gem 'guard-jekyll-plus'
 gem 'guard-livereload'
-
+gem "rake"
+gem "html-proofer"
+gem "webrick", "~> 1.7"
