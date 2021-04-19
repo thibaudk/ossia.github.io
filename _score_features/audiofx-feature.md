@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Audio plug-ins"
 
+noindex: true
 doclink: /processes/audio-plugins.html
 permalink: /score/features/audiofx.html
 category: "site-score"

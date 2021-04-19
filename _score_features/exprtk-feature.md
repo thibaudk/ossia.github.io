@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Math expressions"
 
+noindex: true
 doclink: /processes/exprtk.html
 permalink: /score/features/exprtk.html
 category: "site-score"

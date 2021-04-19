@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Automation"
 
+noindex: true
 doclink: /in-depth/automations.html
 permalink: /score/features/automation.html
 category: "site-score"

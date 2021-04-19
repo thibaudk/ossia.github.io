@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Mapping processes"
 
+noindex: true
 doclink: /processes/mapping.html
 permalink: /score/features/mapping.html
 category: "site-score"

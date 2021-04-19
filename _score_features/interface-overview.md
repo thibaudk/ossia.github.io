@@ -2,6 +2,7 @@
 layout: score-feature
 title: "Interface overview"
 
+noindex: true
 doclink: /quick-start/interface-overview.html
 permalink: /score/features/interface-overview.html
 category: "site-score"

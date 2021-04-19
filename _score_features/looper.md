@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Audio looper"
 
+noindex: true
 doclink: /processes/audio-looper.html
 permalink: /score/features/looper.html
 category: "site-score"

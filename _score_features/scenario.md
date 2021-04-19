@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Temporal workflow"
 
+noindex: true
 doclink: /processes/scenario.html
 permalink: /score/features/temporal.html
 category: "site-score"

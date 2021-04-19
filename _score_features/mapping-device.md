@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Mapper device"
 
+noindex: true
 doclink: /devices/mapper-device.html
 permalink: /score/features/mapper-device.html
 category: "site-score"

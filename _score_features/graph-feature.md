@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Graphs"
 
+noindex: true
 doclink: /quick-start/non-linear-timelines.html
 permalink: /score/features/graph.html
 category: "site-score"

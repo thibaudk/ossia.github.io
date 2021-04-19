@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Cues"
 
+noindex: true
 doclink: /quick-start/saving-and-recalling-devices-state.html
 permalink: /score/features/cues.html
 category: "site-score"

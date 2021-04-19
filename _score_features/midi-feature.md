@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "MIDI"
 
+noindex: true
 doclink: /in-depth/midi.html
 permalink: /score/features/midi.html
 category: "site-score"

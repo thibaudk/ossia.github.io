@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Device explorer"
 
+noindex: true
 doclink: /quick-start/working-with-devices.html
 permalink: /score/features/explorer.html
 category: "site-score"

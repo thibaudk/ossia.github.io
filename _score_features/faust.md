@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Faust"
 
+noindex: true
 doclink: /processes/faust.html
 permalink: /score/features/faust.html
 category: "site-score"

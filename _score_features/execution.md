@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Execution"
 
+noindex: true
 doclink: /in-depth/execution.html
 permalink: /score/features/execution.html
 category: "site-score"

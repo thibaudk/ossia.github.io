@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Nesting"
 
+noindex: true
 doclink: /processes/scenario.html
 permalink: /score/features/nesting.html
 category: "site-score"

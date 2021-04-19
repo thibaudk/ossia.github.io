@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Bytebeat"
 
+noindex: true
 doclink: /processes/bytebeat.html
 permalink: /score/features/bytebeat.html
 category: "site-score"

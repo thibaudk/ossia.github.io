@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Remote control"
 
+noindex: true
 doclink: /in-depth/remote.html
 permalink: /score/features/remote-control.html
 category: "site-score"

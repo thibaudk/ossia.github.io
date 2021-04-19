@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Control surface"
 
+noindex: true
 doclink: /processes/controlsurface.html
 permalink: /score/features/controlsurface.html
 category: "site-score"

@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Timing"
 
+noindex: true
 doclink: /in-depth/musical.html#timing
 permalink: /score/features/timing.html
 category: "site-score"

@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Serial port"
 
+noindex: true
 doclink: /devices/serial-device.html
 permalink: /score/features/serialport.html
 category: "site-score"

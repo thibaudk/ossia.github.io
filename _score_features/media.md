@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Media"
 
+noindex: true
 doclink: /in-depth/media.html
 permalink: /score/features/media.html
 category: "site-score"

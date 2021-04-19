@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Generative textures"
 
+noindex: true
 doclink: /processes/texgen.html
 permalink: /score/features/texgen.html
 category: "site-score"

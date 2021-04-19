@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Presets"
 
+noindex: true
 doclink: /in-depth/presets.html
 permalink: /score/features/presets.html
 category: "site-score"

@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Sound files"
 
+noindex: true
 doclink: /processes/soundfile.html
 permalink: /score/features/audio.html
 category: "site-score"

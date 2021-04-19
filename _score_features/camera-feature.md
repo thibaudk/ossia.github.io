@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Camera"
 
+noindex: true
 doclink: /devices/camera-device.html
 permalink: /score/features/camera.html
 category: "site-score"

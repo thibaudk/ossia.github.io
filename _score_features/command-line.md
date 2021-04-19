@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Command line API"
 
+noindex: true
 doclink: /reference/commandline.html
 permalink: /score/features/commandline.html
 category: "site-score"

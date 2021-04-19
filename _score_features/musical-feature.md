@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Musicality"
 
+noindex: true
 doclink: /in-depth/musical.html
 permalink: /score/features/musical.html
 category: "site-score"

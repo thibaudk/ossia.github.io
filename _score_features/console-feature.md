@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Script console"
 
+noindex: true
 doclink: /in-depth/console.html
 permalink: /score/features/console.html
 category: "site-score"

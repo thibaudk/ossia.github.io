@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Controlling score"
 
+noindex: true
 doclink: /in-depth/remote.html
 permalink: /score/features/controlling-score.html
 category: "site-score"

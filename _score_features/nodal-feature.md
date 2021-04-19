@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Modular workflow"
 
+noindex: true
 doclink: /in-depth/modular-workflow.html
 permalink: /score/features/modular.html
 category: "site-score"

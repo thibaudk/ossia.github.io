@@ -2,6 +2,7 @@
 layout: score-feature
 title:  "Conditions"
 
+noindex: true
 doclink: /processes/scenario.html#conditions
 permalink: /score/features/conditions.html
 category: "site-score"
