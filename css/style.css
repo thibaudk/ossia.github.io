@@ -4,15 +4,15 @@
 
     --pale-blue: #58B8C5;
     --dark-blue: #281668;
-    
+
     --light-grey: #C0C0C0;
     --dark-grey: #1e2225;
     --dark-transparent-grey: rgba(30, 34, 37, 0.97);
     --dark-overlay: rgba(30, 34, 37, 0.6);
-    
+
     --orange: #FF7A00;
     --purple: #994466;
-    
+
     --light-background: #f3f6fa;
 }
 
@@ -25,7 +25,7 @@
 /* Basic */
 
 	body, #skel-layers-wrapper {
-		background: var(--light-background);        
+		background: var(--light-background);
 	}
     body.all-loaded {
             opacity: 1;
@@ -67,7 +67,7 @@
         text-decoration: none;
         color: var(--orange);
     }
-    
+
     h1{
         font-size: 38px;
         font-weight: 400;
@@ -91,7 +91,7 @@
     h2.blog.title{
         text-align: center;
     }
-    
+
     span.blog.category{
         font-family: 'Libre Franklin';
         font-size: 16px;
@@ -125,10 +125,10 @@
         text-decoration: none !important;
         color: var(--orange) !important;
     }
-  
+
     .carouselcontainer {
-        display: flex; 
-        flex-direction: column; 
+        display: flex;
+        flex-direction: column;
         padding: 20px;
         width: 800px;
     }
@@ -295,7 +295,7 @@
 			border-radius: 100%;
 			display: inline-block;
             font-size: 2em;
- 			line-height: 1em; 
+ 			line-height: 1em;
 			text-align: center;
             vertical-align: middle;
 			text-decoration: none;
@@ -306,7 +306,7 @@
 				top: -0.2em;
                 color: white !important;
 			}
-			
+
 		.icon.featured {
 			cursor: default;
 			display: block;
@@ -340,7 +340,7 @@
         font-size: 12px;
         padding-left: 1em;
     }
-    
+
 	ul.default li {
 		padding-left: 0.5em;
 	}
@@ -422,8 +422,8 @@
 		.button.special {
 			background: var(--pale-blue);
 			border-color: var(--pale-blue);
-            border-width: 4px; 
-            
+            border-width: 4px;
+
 			color: var(--dark-blue) !important;
 		}
 
@@ -431,7 +431,7 @@
 			.button.special:hover {
 				background: white !important;
 				border-color: var(--pale-blue) !important;
-                
+
                 color: black  !important;
 			}
 
@@ -509,21 +509,21 @@
         padding: 0.5em;
 		width: 100%;
 		z-index: 10000;
-        display:inline-block; 
-        
+        display:inline-block;
+
         position: fixed;
 		top: 0;
         left: 0;
-        background-color: var(--dark-transparent-grey);  
+        background-color: var(--dark-transparent-grey);
 
         text-align:center;
 	}
-			
+
         #header a.home-logo{
-            display: flex; 
-            justify-content:center; 
+            display: flex;
+            justify-content:center;
             align-items: center;
-            padding: 0; 
+            padding: 0;
             margin-bottom:10px;
         }
 		#header h1 {
@@ -535,7 +535,7 @@
 			#header h1 span {
 				font-weight: 300;
 			}
-        
+
 		#header nav {
             display: flex;
             flex-wrap: wrap;
@@ -549,7 +549,7 @@
                 margin: 0;
                 padding: 0;
                 vertical-align: middle;
-                display:inline-block; 
+                display:inline-block;
             }
 				#header nav div a {
 /*                     width: 180px; */
@@ -557,15 +557,15 @@
                     padding-right: 0.8em;
 					display: inline-block;
 					line-height: 1em;
-                    
+
 					text-decoration: none;
                     color: var(--pale-blue);
-                    
+
                     font-family: 'Catamaran', sans-serif;
                     font-weight: 700;
                     font-size: 23px;
 				}
-                
+
                 #header nav div.active > a, #header nav div a:hover,
 				#header nav div a.active {
                     color: var(--orange) !important;
@@ -573,8 +573,8 @@
 				#header nav div a.active, #header nav div a.special:hover {
 					color: var(--orange) !important;
 				}
-				
-				
+
+
                 #header nav div a.donate{
                     color: var(--orange);
                 }
@@ -663,13 +663,13 @@
 					padding: 0;
 					border: 0;
 				}
-	
+
 
 .recent-post-view{
-    display: flex; 
-    justify-content: space-evenly; 
-    align-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -694,11 +694,11 @@ h2.page-title{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--dark-overlay); 
+  background-color: var(--dark-overlay);
   z-index: 15000; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
-  
-  text-align: center; 
+
+  text-align: center;
 }
 #overlay > img {
     position: relative;
@@ -708,13 +708,13 @@ h2.page-title{
     width: auto;
 }
 .feature-container {
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
-    text-align: center; 
+    text-align: center;
     justify-content: center;
     align-items:center;
     width: 80%;
-    margin: auto; 
+    margin: auto;
     padding: auto;
 }
 
@@ -744,7 +744,7 @@ h2.page-title{
 .feature.text > h2 {
     margin: 0;
     text-align: center;
-} 
+}
 .feature.text > p, .feature.text > ul {
     font-weight: 300 !important;
     font-family: 'Lato', sans-serif;
@@ -768,21 +768,21 @@ a.title-section:hover {
 }
 /* Blog */
 ul.posts{
-    list-style-type: none;	
-    width: 60%; 
+    list-style-type: none;
+    width: 60%;
     margin-left: auto;
 }
 .categories {
     display: flex;
     flex-direction: column;
     padding: 1em;
-    width: 25%; 
+    width: 25%;
     padding-left: 2em;
 }
 
 h1.blog.category-title{
     text-align: center;
-    
+
 }
 h1.blog.category-title,  h1.blog.category{
     color:#281668;
@@ -791,9 +791,9 @@ h1.blog.category-title,  h1.blog.category{
 }
 
 .wrapper.container.nav{
-   padding: 2em; 
+   padding: 2em;
    padding-bottom: 4em;
-   padding-left: 0em; 
+   padding-left: 0em;
    padding-right: 0em;
 }
 
@@ -801,7 +801,7 @@ h1.blog.category-title,  h1.blog.category{
     font-size: 22px;
     color: inherit;
     border: none;
-}   
+}
 a.link-cat {
     font-size: 18px;
     font-weight: 500;
@@ -823,7 +823,7 @@ a.thumbnail{
     font-size: 22px;
     padding: 1em;
     margin: 0.5em;
-}   
+}
 
 a.thumbnail:hover{
     -moz-transition: color 0.1s ease-in-out;
@@ -831,20 +831,20 @@ a.thumbnail:hover{
 	-o-transition: color 0.1s ease-in-out;
 	-ms-transition: color 0.1s ease-in-out;
 	transition: color 0.1s ease-in-out;
-        
+
     color: var(--orange)
 }
 
 .blog-twitter{
-    padding: 3em; 
+    padding: 3em;
     margin: 0;
 }
 .twitter{
-    padding-right: 5em; 
+    padding-right: 5em;
 }
 .blog-list {
     width: 80%;
-    padding-left: 3em; 
+    padding-left: 3em;
 }
 
 h2.logo-header {
@@ -858,9 +858,9 @@ h2.logo-header {
     text-align: center;
 }
 div.logo-grid {
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     width: 100%;
     padding-left: 5%;
@@ -883,8 +883,8 @@ div.logo-grid span {
     margin-left: 20px;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis; 
-    
+    text-overflow: ellipsis;
+
     font-weight: 900 !important;
     font-size: 50px;
     letter-spacing: -2px;
@@ -920,10 +920,10 @@ h2.feature-title:before {
 }
 
 .features-list{
-    display: flex; 
-    justify-content: start; 
-    align-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -932,15 +932,15 @@ h2.binding-title{
     z-index: 1;
     overflow: hidden;
     text-align: left;
-    margin-top: -2em; 
+    margin-top: -2em;
     padding-top: 4em; /* this is to avoid the header to be hidden begind the fixed header when jumping with anchor link */
     margin-bottom: 0.5em;
     font-weight: 500;
-    
-    display: flex; 
-    justify-content: start; 
-    align-content: center; 
-    align-items: center; 
+
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
     flex-direction: row;
 }
 h2.binding-title img {
@@ -1008,7 +1008,7 @@ h2.binding-title:after {
     display: flex;
     width: 100%;
     height: 100%;
-    
+
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -1019,7 +1019,7 @@ h2.binding-title:after {
 	padding: 3.5em;
     padding-left: 4em;
     padding-right: 4em;
-    
+
 	text-align: center;
 }
 
@@ -1049,6 +1049,24 @@ div.line{
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
+h1.software{
+    font-size: 74px;
+    font-weight: 700 !important;
+    font-family: 'Catamaran', sans-serif;
+    color: var(--light-blue);
+	letter-spacing: 1px;
+	margin: 0;
+    padding-top: 0.05em;
+	padding-left: 0.1em;
+    line-height: 1;
+}
+h1.software.small{
+    font-size: 42px;
+    text-transform: none;
+    padding-top: 0.1em;
+}
+
 h2.software{
     font-size: 74px;
     font-weight: 700 !important;
@@ -1072,14 +1090,14 @@ h2.software.small{
     font-size: 24px;
     line-height: 0.7em;
     font-weight: 600;
-    
+
     padding: 0.5em;
     padding-left: 1em;
     padding-right: 1em;
     text-transform: uppercase;
-    
+
     border: solid var(--light-grey) 1px;
-            
+
 	color: #d1d1d1 !important;
 }
 
@@ -1108,9 +1126,9 @@ h2.software.small{
     background-color: var(--dark-grey);
     vertical-align: middle;
     color: var(--light-grey);
-    margin: 0.1em; 
+    margin: 0.1em;
     padding: 0.3em;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1124,11 +1142,18 @@ h2.software.small{
 }
 
 .gallery-list {
-    padding-left: 6em; 
+    padding-left: 6em;
     padding-right: 6em;
 }
 /* Recent posts */
 h1.blog-title{
+    color: inherit;
+    font-weight: 600;
+	margin: 0;
+/*     font-family: 'Lato', sans-serif; */
+    font-size: 26px;
+}
+h2.blog-title{
     color: inherit;
     font-weight: 600;
 	margin: 0;
@@ -1162,10 +1187,10 @@ span.copyright {
 }
 
 .menu {
-    display:flex; 
-    justify-content: center;  
+    display:flex;
+    justify-content: center;
     width: 100%;
-    margin:auto; 
+    margin:auto;
     padding: 0;
     flex-wrap: wrap;
 }
@@ -1204,15 +1229,15 @@ span.copyright {
     align-items: center;
     padding: 0;
     margin: 0.2em;
-    
+
     height: 270px;
     width: 20%;
-    
+
     font-size: 24px;
     font-weight: 700;
     background:rgba(3, 195, 221, 0.4);
     color: black;
-    border-radius: 4px; 
+    border-radius: 4px;
 }
 .menu-item.panel > .icon-svg {
     background: black;
@@ -1288,10 +1313,10 @@ p.description {
     font-family: 'Lato', sans-serif;
     font-size: 22px;
     font-weight: 400;
-    padding-top: 1em; 
+    padding-top: 1em;
     text-align: center;
     width: 85%;
-    margin: 0; 
+    margin: 0;
 }
 
 .page-button {
@@ -1299,7 +1324,7 @@ p.description {
     font-size: 24px;
     line-height: 0.7em;
     font-weight: 600;
-    
+
     padding: 0.5em;
     border-radius: 5px;
     background: var(--light-transparent-blue);
@@ -1321,7 +1346,7 @@ p.description {
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
-    
+
     font-size: 28px;
     margin: 10px;
     line-height: 1.0em;
@@ -1346,7 +1371,7 @@ h3.faq{
     margin-top: 1em;
     margin-bottom: 0.2em;
     font-weight: 700;
-    
+
 }
 
 .collapsible {
@@ -1354,8 +1379,8 @@ h3.faq{
    font-size: 20px;
     line-height: 2em;
     font-weight: 500;
-    cursor: pointer;  
-    
+    cursor: pointer;
+
 margin: 0;
   margin-left: 10px;
   padding: 0;
@@ -1376,10 +1401,10 @@ margin: 0;
      color: black;
     font-weight: 500;
     font-size: 19px;
-    
+
     vertical-align: middle;
     padding: 10px;
-    
+
     margin: 0;
     margin-left: 20px;
     display: none;
@@ -1387,14 +1412,14 @@ margin: 0;
 }
 
 #cover {
-    position: fixed; 
-    height: 100%; 
-    width: 100%; 
-    top:0; 
-    left: 0; 
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
      background: white;
     z-index:20000;
-    display:inline-block; 
+    display:inline-block;
 }
 
 /* Tooltip*/
@@ -1408,10 +1433,10 @@ margin: 0;
   font-size: 19px;
   font-weight: 400 !important;
   letter-spacing: 0.02em;
-  
+
   visibility: hidden;
   width: 180px;
-  
+
   background-color: var(--dark-transparent-grey);
    color: #FFFFFF;
   text-align: center;
@@ -1421,7 +1446,7 @@ margin: 0;
   z-index: 1;
   bottom: 120%;
   left: 50%;
-  margin-left: -90px; 
+  margin-left: -90px;
 }
 
 .tooltip .tooltiptext::after {
@@ -1472,8 +1497,8 @@ margin: 0;
 }
 .post-image {
     width: 90%;
-    display:block; 
-    margin-left: auto; 
+    display:block;
+    margin-left: auto;
     margin-right: auto;
 }
 
