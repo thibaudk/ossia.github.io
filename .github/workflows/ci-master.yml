@@ -1,0 +1,29 @@
+on:
+  push:
+    branches:
+      - master
+
+name: Master branch CI
+
+jobs:
+  jekyll-latest:
+    name: Build website
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Bundler Cache
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: Build & Deploy to GitHub Pages
+        uses: joshlarsen/jekyll4-deploy-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
+          GITHUB_REPOSITORY: ossia/ossia.github.io
+          GITHUB_ACTOR: oscar
