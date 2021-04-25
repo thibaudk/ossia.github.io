@@ -138,6 +138,54 @@
     /*img.frontpage-gallery{
         height: 600px;
     }*/
+
+    /* Association page */
+
+    section.association-page {
+        padding: 0 !important;
+    }
+	div.bubble-grid {
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	    align-content: center;
+	    align-items: flex-start;
+	    padding: 0;
+	    
+	}
+    .bubble-item{
+    	display: flex;
+        flex-direction: column;
+	    justify-content: flex-start;
+	    align-items: center;
+        text-align: center;
+        padding-left: 20px;
+     	padding-right: 20px;   
+    }
+    .bubble-image {
+    	width: 200px;
+	  	border-radius: 50%;
+	}
+
+    .bubble-title{
+    	width: 300px;
+        font-size: 18px;
+		color: var(--dark-blue);
+    }
+    .bubble-title:hover {
+        text-decoration: none !important;
+        color: var(--orange) !important;
+    }
+    .bubble-description{
+    	text-align: center;
+    	width: 300px;
+    	font-size: 12px;
+    	line-height: 18px;
+		font-family: 'Libre Franklin';
+        color: var(--dark-grey);
+        font-weight: 400;
+    }
+
     .frontpage-video{
         width:70%;
         margin: auto;
@@ -1291,6 +1339,10 @@ span.copyright {
 .icon-about{
   mask: url(images/icons/about_icon.svg);
    -webkit-mask-image: url(images/icons/about_icon.svg);
+}
+.icon-nonprofit{
+  mask: url(images/icons/nonprofit_icon.svg);
+   -webkit-mask-image: url(images/icons/nonprofit_icon.svg);
 }
 .icon-svg {
   display: inline-block;
