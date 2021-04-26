@@ -7,11 +7,27 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://ossia.io" # the base hostname & protocol for your site
 image: "/assets/score-logo.png"
 include: ["_pages", "CNAME", ".nojekyll"]
+# exclude: ["vendor"]
 permalink: /posts/:title/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-assets
+
 # Build settings
 markdown: kramdown
 collections:
   score_features:
-    output: true
+    output: false
   libossia_features:
     output: true
+
+assets:
+  sources:
+    - assets
+    - images
+    - css
+    - js
+  compress:
+    css: true
+    js: uglifier
