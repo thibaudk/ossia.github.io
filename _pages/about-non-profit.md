@@ -1,12 +1,12 @@
 ---
 layout: about-page
-title:  "Non-profit"
+title: "Non-profit"
 
 permalink: /non-profit.html
 category: site-about
 ---
 
-<!--Association : 
+<!--Association :
 explication objectif
 explication historique ?
 pour rejoindre  ?
@@ -36,6 +36,11 @@ He gives workshops, conduct residencies and collect user experiences focused on 
     <img class="bubble-image" src="assets/association/alevy.JPG"/>
     <a href="https://aklevy.github.io" target="_blank" class="bubble-title">Akané Lévy</a>
     <div class="bubble-description">UI designer, website graphic designer and sometimes developer.</div>
+</div>
+<div class="bubble-item">
+    <img class="bubble-image" src="assets/association/himito.jpg"/>
+    <a href="https://www.jaime-arias.fr/" target="_blank" class="bubble-title">Jaime Arias</a>
+    <div class="bubble-description">CNRS research engineer interested in applying formal methods to interactive multimedia.</div>
 </div>
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/oscar.png"/>
