@@ -4,8 +4,8 @@ title:  "Download"
 
 permalink: /score/download.html
 category: site-score
-score_dl: https://github.com/ossia/score/releases/download/v3.0.0-a33
-score_version: 3.0.0-a33
+score_dl: https://github.com/ossia/score/releases/download/v3.0.0-a34
+score_version: 3.0.0-a34
 ---
 
 Download the latest alpha release __ossia score v{{page.score_version}}__:
