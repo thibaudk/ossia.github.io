@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://ossia.io" # the base hostname & protocol for your site
 image: "/assets/score-logo.png"
-include: ["_pages", "CNAME", ".nojekyll", ".well-known" ]
+include: ["_pages", "CNAME", ".nojekyll"]
 # exclude: ["vendor"]
 permalink: /posts/:title/
 
