@@ -30,6 +30,15 @@ The source code for the JIT plug-in loading is entirely contained [in this part 
 
 SDK headers are provided from the _score_ package manager ; they are generated automatically for each release of _score_ by the CI service. They are extracted into the user library automatically when downloaded from the package manager: `Documents/ossia score library/SDK/3.0.0-a39/usr/include/...`. It is currently possible to override that path with the `SCORE_JIT_SDK` environment variable, though a graphical configuration may make sense. They contain _ossia score_ and _libossia_'s headers of course, but also Qt 5.15, boost 1.76, libav (ffmpeg 4.4), libc++, libc, etc... everything needed to create neat stuff.
 
+The most important thing is that the user does not have to install any compiler ; no tens-of-gigabytes of Visual Studio or XCode toolchains to install, just the _score_ binary (a few hundred megabytes) and the SDK headers (another few hundred megabytes).
+
+### Features provided
+
+The Clang / LLVM JIT feature is used for:
+* Compiling add-ons which add new processes, features, etc...
+* Compiling [Bytebeat](https://ossia.io/score-docs/processes/bytebeat.html) expressions.
+* A simple [CPU texture generator](https://ossia.io/score-docs/processes/texgen.html) for retro, analog video synth-like effects.
+
 ### Current restrictions
 
 Since LLVM's LLJIT work is still an ongoing work-in-progress, some features may be missing (or slightly more buggy :p).
