@@ -39,7 +39,7 @@ Here we generate all the categories.
                 <h2 class="blog title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <h1 class="blog">{{ post.categories }}  •  {{ post.date | date: "%b %-d, %Y" }}  •  {{post.author}}</h1>
                     {% if post.image %}
-                        <div class="videoWrapper">
+                        <div class="blog-image-header">
                             <img src="{{post.image}}">
                         </div>
                     {% endif %}

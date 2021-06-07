@@ -4,6 +4,7 @@ title: "Open Bidouille Camp"
 date: 2018-12-08
 author: Jean-Michaël
 category: News
+image: /assets/blog/openbidouille/logo.jpg
 ---
 
 We were present to make a small demonstration of ossia this afternoon at [Open Bidouille Camp](https://openbidouille.net/) in Bordeaux. We showed robot controls, real-time audio effects and

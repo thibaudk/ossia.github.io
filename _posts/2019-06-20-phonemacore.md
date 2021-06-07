@@ -4,13 +4,14 @@ title:  "ossia score in the Phonemacore project"
 date:   2019-06-15
 author: Jean-Michaël
 category: News
+image: /assets/blog/phonemacore/phonemacore.png
 ---
 
 <div class="videoWrapper">
     <iframe src="//player.vimeo.com/video/458968225"  frameborder="0" allow="fullscreen" allowfullscreen></iframe>
 </div>
 
-This year, in june, the band [Phonema](https://phonema.bandcamp.com) joined the SCRIME for one week of musical experimentation. The goal was to see how well ossia score would 
+This year, in june, the band [Phonema](https://phonema.bandcamp.com) joined the SCRIME for one week of musical experimentation. The goal was to see how well ossia score would
 adapt to more traditional beat-based music, and establish a list of features required for future developments.
 
 The idea of the project is to study how metal music can be made more interactive.

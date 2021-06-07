@@ -23,6 +23,9 @@
 */
 
 /* Basic */
+    article {
+        font-weight: 400;
+    }
 
 	body, #skel-layers-wrapper {
 		background: var(--light-background);
@@ -151,7 +154,7 @@
 	    align-content: center;
 	    align-items: flex-start;
 	    padding: 0;
-	    
+
 	}
     .bubble-item{
     	display: flex;
@@ -160,7 +163,7 @@
 	    align-items: center;
         text-align: center;
         padding-left: 20px;
-     	padding-right: 20px;   
+     	padding-right: 20px;
     }
     .bubble-image {
     	width: 200px;
@@ -1408,7 +1411,7 @@ p.description {
 }
 
 li a{
-    color: black;
+    /* color: black; */
     font-weight: 500;
 }
 
@@ -1555,6 +1558,18 @@ margin: 0;
 }
 
 
+.blog-image-header {
+	position: relative;
+}
+.blog-image-header img {
+	top: 0;
+	left: 0;
+	width: auto;
+	height: auto;
+    max-width: 100%;
+    max-height: 400px;
+}
+
 /* Code highlight */
 figure.highlight pre {
     padding: 1em;
@@ -1632,7 +1647,7 @@ figure.highlight pre {
 .highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
 
 .highlight .gh { } /* Generic Heading & Diff Header */
-.highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
+.highlight .gu { color: #c0bdab; } /* Generic.Subheading & Diff Unified/Comment? */
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
 
@@ -1660,4 +1675,11 @@ figcaption {
     margin: 0 0.2em;
     box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
     background-color: #f7f7f7;
+}
+
+code.highlighter-rouge {
+    border-radius: 1px;
+    font-family:  Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-weight: normal;
+    font-size: 87%;
 }
