@@ -35,9 +35,10 @@ The most important thing is that the user does not have to install any compiler 
 ### Features provided
 
 The Clang / LLVM JIT feature is used for:
-* Compiling add-ons which add new processes, features, etc...
+* Compiling add-ons which add new processes, features, etc. to the software. Pretty much the entirety of *ossia score* can be changed that way.
 * Compiling [Bytebeat](https://ossia.io/score-docs/processes/bytebeat.html) expressions.
 * A simple [CPU texture generator](https://ossia.io/score-docs/processes/texgen.html) for retro, analog video synth-like effects.
+* The [C++ JIT Process](https://ossia.io/score-docs/processes/cpp_jit.html) is an experiment in providing very simple computation nodes without much type safety. It uses the libossia API for graph nodes ([example](https://github.com/ossia/libossia/blob/master/src/ossia/dataflow/nodes/merger.hpp)).
 
 ### Current restrictions
 
