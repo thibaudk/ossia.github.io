@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Creating score add-ons"
+title: "Creating ossia score add-ons"
 date: 2021-06-07
 author: Jean-Michaël
 category: Dev
