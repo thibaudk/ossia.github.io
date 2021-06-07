@@ -179,6 +179,7 @@ We provide a few templates to get started writing custom _score_ add-ons in the 
 
 To use the templates, simply clone the repo and run `./init.sh YourAddonName`: this will rename everything and make sure that you start from something that builds.
 Every template has a simple example built-in in order to get started quickly.
+They also come with Github actions which will test your code on macOS, Windows and Linux automatically.
 
 Note that the templates would definitely benefit from more polish ; any contribution is welcome !
 
