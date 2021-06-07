@@ -15,7 +15,7 @@ This article is an introductory tutorial about writing and distributing add-ons 
 
 ## Tech stack
 
-_score_ add-ons are developped in C++20, like the rest of _score_. The main code-base still uses C++17 mostly to keep compatibility with Debian Stable's native compiler (GCC 8) but add-ons should not restrain themselves as the official releases of are built with Clang 12 which supports most of C++20.
+_score_ add-ons are developped in C++20, like the rest of _score_. The main code-base still uses C++17 mostly to keep compatibility with Debian Stable's native compiler (GCC 8) but add-ons should not restrain themselves as the official releases are built with Clang 12 which supports most of C++20.
 
 They are distributed in source form. We use LLVM and Clang to compile them with the most adapted settings on the users's machine, as if the add-on was built with `-Ofast -march=native` (again, with the featureset of Clang / LLVM 12).
 This means that in a lot of case, math operations can be vectorized, which is really useful with audio algorithms for instance.
