@@ -17,7 +17,7 @@ This summer, they are going to work on improving the *score* documentation, work
 
 ### Aldwin Baïetto
 
-![Aldwin]({{site.baseurl}}/assets/blog/internships-2021/aldwin.jpg){: width="300"  style="float: right;margin-right: 7px;margin-top: 7px;" }
+![Aldwin]({{site.baseurl}}/assets/blog/internships-2021/aldwin.jpg){: width="300"  style="float: right;margin-left: 10px;margin-top: 7px;" }
 
 *My name is Aldwin Baïetto and I am 21 years old. I am a first year student at the [ENSC](https://ensc.bordeaux-inp.fr/fr) (École Nationale Supérieur de Cognitique).
 I study the user experience and every aspect that is related to users. I am passionate about  technology and IA. I also protect some theatre in my free time.*
@@ -29,7 +29,7 @@ Aldwin helps improving the overall ergonomy and user experience of the system af
 
 ### Théo Barbé
 
-![Théo]({{site.baseurl}}/assets/blog/internships-2021/theo.jpg){: width="300" style="float: left;margin-right: 7px;margin-top: 7px;" }
+![Théo]({{site.baseurl}}/assets/blog/internships-2021/theo.jpg){: width="300" style="float: left;margin-right: 10px;margin-top: 7px;" }
 
 *Student in computer science and engineering at [ENSEIRB-MATMECA](https://enseirb-matmeca.bordeaux-inp.fr/fr), I want to specialize in multimedia. Passionate about music, I will take off soon towards Canada for new adventures.*
 
@@ -42,7 +42,7 @@ Théo is working on the graphics and video pipeline of ossia score. He is workin
 
 ### Maria Paula Carrero
 
-![Maria Paula]({{site.baseurl}}/assets/blog/internships-2021/maria.jpg){: width="300" style="float: right;margin-right: 7px;margin-top: 7px;" }
+![Maria Paula]({{site.baseurl}}/assets/blog/internships-2021/maria.jpg){: width="300" style="float: right;margin-left: 10px;margin-top: 7px;" }
 
 *My name is Maria Paula Carrero, I’m a Colombian Computer Science student.*
 *I’m a hard-working, self-starter, responsible and meticulous woman who wants to inspire women to work in STEM.*
@@ -57,7 +57,7 @@ Maria Paula has already provided implementations of Factor Oracle algorithms for
 
 ### Antoine Dudouit
 
-![Antoine]({{site.baseurl}}/assets/blog/internships-2021/antoine.jpg){: width="300" style="float: left;margin-right: 7px;margin-top: 7px;" }
+![Antoine]({{site.baseurl}}/assets/blog/internships-2021/antoine.jpg){: width="300" style="float: left;margin-right: 10px;margin-top: 7px;" }
 
 *Through my studies in engineering school at [ENSEIRB-MATMECA](https://enseirb-matmeca.bordeaux-inp.fr/fr), I satisfy my interest in computer science, though I am also very attracted to art.
 So, I would like to combine the two and use computer science as an artistic tool.*
@@ -73,7 +73,7 @@ Antoine is continuing the work started this year on the remote control for ossia
 
 ### Arthur Fourcadet
 
-![Arthur]({{site.baseurl}}/assets/blog/internships-2021/arthur.jpg){: width="300" style="float: right;margin-right: 7px;margin-top: 7px;" }
+![Arthur]({{site.baseurl}}/assets/blog/internships-2021/arthur.jpg){: width="300" style="float: right;margin-left: 10px;margin-top: 7px;" }
 
 *I am Arthur Fourcadet, 21, in second year of computer science at the engineering school,
 [ENSEIRB-MATMECA](https://enseirb-matmeca.bordeaux-inp.fr/fr) and on my way to specialize in software engineering.
