@@ -1582,9 +1582,10 @@ figure.highlight pre {
     font-size: 80%;
     line-height: 140%;
     white-space: pre;
-    white-space: pre-wrap;
+    white-space: pre-wrap !important;
     white-space: -moz-pre-wrap;
     white-space: -o-pre-wrap;
+    word-wrap: break-word;
 }
 
 .highlight pre { background-color: #272822; color: #f8f8f2; }
