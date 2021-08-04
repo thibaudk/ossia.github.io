@@ -4,7 +4,7 @@ title:  "Download"
 
 permalink: /score/download.html
 category: site-score
-score_version: 3.0.0-a42
+score_version: 3.0.0-a43
 ---
 
 Download the latest alpha release __ossia score v{{page.score_version}}__:
