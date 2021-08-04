@@ -7,12 +7,12 @@ category: site-about
 ---
 
 <p align="center">
-<a href="https://github.com/OSSIA/score/releases/tag/v2.5.2" class="page-button"  target="_blank" >Current stable version is 2.5.2</a>
+<a href="https://github.com/ossia/score/releases/tag/v2.5.2" class="page-button"  target="_blank" >Current stable version is 2.5.2</a>
 </p>
 
 <h2>Future plans</h2>
 
-* Networked edition and execution. [These capabilities have been prototyped but not kept up to date with the rest of the software](https://github.com/OSSIA/iscore-addon-network){:target="_blank"}.
+* Networked edition and execution. [These capabilities have been prototyped but not kept up to date with the rest of the software](https://github.com/ossia/iscore-addon-network){:target="_blank"}.
 * Parametric processes. How to have parameters and variables used within the scope of a given box and changed easily across different instances of that box.
 * Mixer panel : making mixing from within score more straightforward.
 * WebAssembly support : experiments have been made a few years ago – most of the score engine and user interface builds for WebAssembly, but execution does not work yet in a web page.
@@ -20,7 +20,7 @@ category: site-about
 * Better support for sequences.
 * Support for MIDI 2.0.
 
-<h2><a href="https://github.com/OSSIA/score/releases/tag/v3.0.0-alpha1"  target="_blank">ossia score v3 (release targeting late 2020)</a></h2>
+<h2><a href="https://github.com/ossia/score/releases/tag/v3.0.0-alpha1"  target="_blank">ossia score v3 (release targeting late 2020)</a></h2>
 
 ossia score 3 fulfills the long-term goal of being a proper multi-media platform, by providing integrated video abilities, in sync with the rest of the score, as well as musical abilities with support for tempo, musical metrics and quantization. Finally, the core engine has been extended to allow cycles in scenarios with a new kind of connection. This allows to implement state-machine-like behaviours in scenarios.
 
@@ -34,7 +34,7 @@ ossia score 3 fulfills the long-term goal of being a proper multi-media platform
 * Many small and useful new processes – signal visualization, pattern sequencer…
 * [JIT compilation support](https://twitter.com/jcelerie/status/1307792769277190147){:target="_blank"}.  This will be an experimental feature for the 3.0 release cycle, allowing you to write and run C++ extensions directly from within the software.
 
-<h2><a href="https://github.com/OSSIA/score/releases/tag/v2.5.2"  target="_blank">ossia score v2.5</a></h2>
+<h2><a href="https://github.com/ossia/score/releases/tag/v2.5.2"  target="_blank">ossia score v2.5</a></h2>
 
 This version is a big update to 2.0, adding two new processes :
 
@@ -43,7 +43,7 @@ This version is a big update to 2.0, adding two new processes :
 * RemoteControl : control your score through a simple WebSockets API.
 * Tons of UI work
 
-<h2><a href="https://github.com/OSSIA/score/releases/tag/v2.0.0-a1"  target="_blank">ossia score v2.0</a></h2>
+<h2><a href="https://github.com/ossia/score/releases/tag/v2.0.0-a1"  target="_blank">ossia score v2.0</a></h2>
 
 The 2.0 version is a paradigm shift : it introduces data and audio processing in score. The name was changed to reflect the OSSIA project legacy. It is now possible to play sounds, apply sound effects, among many other changes. The main highlights are :
 
@@ -55,12 +55,12 @@ The 2.0 version is a paradigm shift : it introduces data and audio processing in
 * Many new processes: LFO, step sequencer, math expressions, etc
 * Pattern matching
 * Drag’n’drop in a lot of places
-* Creation of a library panel and a [user library](https://github.com/OSSIA/score-user-library){:target="_blank"}
+* Creation of a library panel and a [user library](https://github.com/ossia/score-user-library){:target="_blank"}
 * A super cute new mascot, [Oscar](https://camo.githubusercontent.com/2d6bd98dd127261a5306d0d9c73acf28c63795f7/68747470733a2f2f692e696d6775722e636f6d2f327842574967392e706e67){:target="_blank"} !
 
 The first release for the 2.0 version was released in April 2018.
 
-<h2><a href="https://github.com/OSSIA/score/releases/tag/v1.0.0-b40"  target="_blank">i-score v1.0 </a></h2>
+<h2><a href="https://github.com/ossia/score/releases/tag/v1.0.0-b40"  target="_blank">i-score v1.0 </a></h2>
 
 The 1.0 version is the concretization of the last year of effort of the OSSIA project.
 Thanks to a from-scratch rewrite, the software has been highly modularized, and now offers the following features :

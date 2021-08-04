@@ -30,18 +30,18 @@ libossia offers bindings and implementations for several environments such as:
 </div>
 
 <br/>
-Please feel free to come and chat with us ! [join the chat](https://gitter.im/OSSIA){:target="_blank"}
+Please feel free to come and chat with us ! [join the chat](https://gitter.im/ossia){:target="_blank"}
 
 ## Documentation :
 
 * [Lib and Implementations](https://ossia.io/ossia-docs/#introduction){:target="_blank"}
-* [Tutorials](https://github.com/OSSIA/libossia/tree/master/docs/Tutorial){:target="_blank"}
-* [Examples](https://github.com/OSSIA/libossia/tree/master/examples){:target="_blank"}
+* [Tutorials](https://github.com/ossia/libossia/tree/master/docs/Tutorial){:target="_blank"}
+* [Examples](https://github.com/ossia/libossia/tree/master/examples){:target="_blank"}
 * [Doxygen](https://ossia.io/libossia/html/){:target="_blank"}
-* [Building](https://github.com/OSSIA/libossia/wiki/Building){:target="_blank"}
-* [Code style](https://github.com/OSSIA/libossia/wiki/Code-style-guide){:target="_blank"}
+* [Building](https://github.com/ossia/libossia/wiki/Building){:target="_blank"}
+* [Code style](https://github.com/ossia/libossia/wiki/Code-style-guide){:target="_blank"}
 
-[Source code](https://github.com/OSSIA/libossia){:target="_blank"}
+[Source code](https://github.com/ossia/libossia){:target="_blank"}
 
 [API Documentation](https://ossia.io/ossia-docs/#introduction){:target="_blank"}
 

@@ -27,7 +27,7 @@ The license for the library itself is LGPLv3.
 
 <ul>
 <li>The source code is hosted on <a href="https://github.com/ossia/libossia">github.com/ossia/libossia</a>.</li>
-<li>The latest releases are stored here <a href="https://github.com/OSSIA/libossia/releases">github.com/OSSIA/libossia/releases</a>.</li>
+<li>The latest releases are stored here <a href="https://github.com/ossia/libossia/releases">github.com/ossia/libossia/releases</a>.</li>
 </ul>
 
 
@@ -165,7 +165,7 @@ The license for the library itself is LGPLv3.
     </div><br/>
     <div>
     <ul>
-    <li><a href="https://github.com/OSSIA/ossia-sclang">Source code</a></li>
+    <li><a href="https://github.com/ossia/ossia-sclang">Source code</a></li>
     <li><a href="https://ossia.io/ossia-docs/?javascript#creating-parameters">API Documentation</a></li>
     <!--<li><a href="">Examples</a></li>-->
     </ul>

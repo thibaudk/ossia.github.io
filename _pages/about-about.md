@@ -9,7 +9,7 @@ category: site-about
 ## Scientific background
 
 Software developed as part of the ossia project has its roots in scientific research projects started around 2000 at the LaBRI - the general research project is called <i>i-score</i> (interactive scores). See the [Research](research.html) section for detailed information.
-<!-- <img class="post-image" src="https://raw.githubusercontent.com/OSSIA/score/master/docs/score.png"/> -->
+<!-- <img class="post-image" src="https://raw.githubusercontent.com/ossia/score/master/docs/score.png"/> -->
 
 
 ## Support
