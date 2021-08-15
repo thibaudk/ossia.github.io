@@ -26,8 +26,8 @@ The releases are 64-bit on all operating systems.
   * Your system must have at least glibc-2.17, as well as X11, ALSA, libGL, librt, libdbus.
   * Either JACK or Pipewire for audio, and Avahi for Bonjour support are recommended.
   * Wayland is not yet supported correctly.
-* WebAssembly (experimental): [click here !](https://ossia.io/score-web).
-* Raspberry Pi 3/4 (experimental, AArch32 build): [available here !](https://github.com/ossia/score/actions/runs/1133591091). Read the [documentation](https://ossia.io/score-docs/in-depth/embedded.html) before running score on a Pi.
+* WebAssembly (experimental): [click here](https://ossia.io/score-web)!
+* Raspberry Pi 3/4 (experimental, AArch32 build): [available here](https://github.com/ossia/score/actions/runs/1133591091)! Read the [documentation](https://ossia.io/score-docs/in-depth/embedded.html) before running score on a Pi.
 
 ## Optional dependencies
 
