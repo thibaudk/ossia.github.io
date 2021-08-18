@@ -3,7 +3,7 @@ layout: score-feature
 title:  "Mixing"
 
 noindex: true
-doclink: /in-depth/mixer.html
+doclink: /panels/mixer.html
 permalink: /score/features/mixing.html
 category: "site-score"
 

@@ -20,7 +20,7 @@ category: site-about
 * Better support for sequences.
 * Support for MIDI 2.0.
 
-<h2><a href="https://github.com/ossia/score/releases/tag/v3.0.0-alpha1"  target="_blank">ossia score v3 (release targeting late 2020)</a></h2>
+<h2><a href="https://github.com/ossia/score/releases/tag/v3.0.0-alpha1"  target="_blank">ossia score v3 (release targeting autumn 2021)</a></h2>
 
 ossia score 3 fulfills the long-term goal of being a proper multi-media platform, by providing integrated video abilities, in sync with the rest of the score, as well as musical abilities with support for tempo, musical metrics and quantization. Finally, the core engine has been extended to allow cycles in scenarios with a new kind of connection. This allows to implement state-machine-like behaviours in scenarios.
 

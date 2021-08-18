@@ -3,7 +3,7 @@ layout: score-feature
 title:  "Library"
 
 noindex: true
-doclink: /in-depth/library.html
+doclink: /panels/library.html
 permalink: /score/features/library.html
 category: "site-score"
 

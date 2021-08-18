@@ -7,7 +7,6 @@ category: "site-score"
 ---
 {% assign cats = "Structure|Audio|Controls|Graphics|Interoperability|Presentation|Scripting|Software model" | split: '|' %}
 
-<h1> Important: the documentation below is a work-in-progress. </h1>
 <div>
     {% for ct in cats %}
          <h2 class="feature-title">{{ ct }}</h2>

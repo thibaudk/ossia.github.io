@@ -4,7 +4,8 @@ title:  "Download"
 
 permalink: /site-libossia/download.html
 category: site-libossia
-ossia_version: https://github.com/ossia/libossia/releases/download/v1.2.0
+release_link: https://github.com/ossia/libossia/releases/tag/v1.2.5
+ossia_version: https://github.com/ossia/libossia/releases/download/v1.2.4
 ---
 
 <b>libossia</b> is available for many platforms and environments:
@@ -101,18 +102,11 @@ The license for the library itself is LGPLv3.
   <h2 class="binding-title" id="pd-binding"><img src="/assets/logo/pd.png" height="60" width="auto" />PureData</h2>
   <div class="features-list">
     libossia is available as a PureData package. It is also supported for PurrData.
-    In PureData, you can install ossia directly through the package manager.
+    In PureData, you can install ossia directly through the package manager ; this is the recommended way.
     </div><br/>
     <div>
     <ul>
-    <li><a href="{{page.ossia_version}}/ossia-pd-linux_arm.tar.gz">PureData externals (Linux, ARMv7)</a></li>
-    <li><a href="{{page.ossia_version}}/ossia-pd-linux_x86_64.tar.gz">PureData externals (Linux, x86_64)</a></li>
-    <li><a href="{{page.ossia_version}}/ossia-pd-osx.tar.gz">PureData externals (macOS)</a></li>
-    <li><a href="{{page.ossia_version}}/ossia-pd-win32.zip">PureData externals (Windows, 32-bit)</a></li>
-    <li><a href="{{page.ossia_version}}/ossia-pd-win64.zip">PureData externals (Windows, 64-bit)</a></li><br/>
-    <li><a href="{{page.ossia_version}}/ossia-purr-data-linux_arm.tar.gz">PurrData externals (Linux, ARMv7)</a></li>
-    <li><a href="{{page.ossia_version}}/ossia-purr-data-linux_x86_64.tar.gz">PurrData externals (Linux, x86_64)</a></li>
-    <li><a href="{{page.ossia_version}}/ossia-purr-data-osx.tar.gz">PurrData externals (macOS)</a></li><br/>
+    <li><a href="{{page.release_link}}">PureData and PurrData externals (Linux, Mac, Windows, ...)</a></li>
     <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-pd">Source code</a></li>
     <li><a href="https://ossia.io/ossia-docs/?plaintext--pd#introduction">API Documentation</a></li>
     <!--<li><a href="">Examples</a></li>-->
@@ -178,7 +172,7 @@ The license for the library itself is LGPLv3.
     <div>
     <ul>
     <li><a href="{{page.ossia_version}}/ossia-qml-linux_x86_64.tar.gz">Download (Linux, x86_64)</a></li>
-    <li><a href="{{page.ossia_version}}/ossia-qml-osx.tar.gz">Download (macOS)</a></li>
+    <li><a href="{{page.ossia_version}}/ossia-qml-osx.zip">Download (macOS)</a></li>
     <li><a href="{{page.ossia_version}}/ossia-qml-win64.zip">Download (Windows, 64-bit)</a></li><br/>
     <li><a href="https://github.com/ossia/libossia/tree/master/src/ossia-qt">Source code</a></li>
     <li><a href="https://ossia.io/ossia-docs/?qml#introduction">API Documentation</a></li>
