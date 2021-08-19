@@ -5,6 +5,8 @@ date: 2021-06-07
 author: Jean-Michaël
 category: Dev
 image: /assets/blog/addondev/banner.png
+image-alt: Hairy C++ plug-in code
+description: A tutorial for making custom ossia score add-ons, involving C++ JIT'ing
 ---
 
 ## Introduction

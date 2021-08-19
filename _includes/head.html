@@ -12,12 +12,40 @@
   <meta name="description" content="{{ site.description }}" />
   <meta
     name="keywords"
-    content="ossia, score, libossia, sequencer, interactive art, intermedia, new media art, osc, open sound control, midi, oscquery"
+    content="ossia, score, libossia, sequencer, interactive art, intermedia, new media art, osc, open sound control, midi, oscquery, timeline, dmx, artnet, osc timeline"
   />
 
   {% if page.noindex %}
   <meta name="robots" content="noindex" />
   {% endif %}
+
+<!-- Twitter card metatags -->
+
+<!-- Image size option -->
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Twitter username -->
+<meta name="twitter:site" content="@ossia.io">
+
+<!-- Page title -->
+<meta name="twitter:title" content="{{ page.title }}">
+
+<!-- Page description -->
+{% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+  <meta name="twitter:description" content="Home of ossia score and libossia">
+{% endif %}
+
+<!-- Image path -->
+{% if page.image %}
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+  <meta name="twitter:image:alt" content="{{ page.image-alt }}">
+{% else %}
+  <meta name="twitter:image" content="{{ site.url }}/assets/score.png">
+  <meta name="twitter:image:alt" content="ossia score">
+{% endif %}
+
   <link rel="shortcut icon" type="image/png" href="/assets/score-logo.png" />
   <noscript>
     <link rel="stylesheet" href="/css/skel.css" />

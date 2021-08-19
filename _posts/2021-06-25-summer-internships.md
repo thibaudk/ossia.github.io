@@ -5,6 +5,8 @@ date: 2021-06-25
 author: Jean-Michaël
 category: Community
 image: /assets/blog/internships-2021/banner.jpg
+image-alt: Our interns
+description: Summer internships for 2021 for ossia score
 ---
 
 ## Summer internships in ossia.io

@@ -5,6 +5,8 @@ date:   2021-07-22
 author: Jean-Michaël Celerier
 category: Dev
 image: /assets/blog/reflection/banner.png
+image-alt: Some nifty C++20 code
+description: Techniques for reflection in C++20 applied to multimedia systems
 ---
 
 Reflection is often presented as a feature that makes software harder to understand.
@@ -13,7 +15,7 @@ In this article, I will present ways to approximate some level of static reflect
 
 # What we aim to solve
 
-Imagine that you are writing a neat algorithm. You've worked on it for a few years ; it produces great results and is now ready to be shared to the world. 
+Imagine that you are writing a neat algorithm. You've worked on it for a few years ; it produces great results and is now ready to be shared to the world.
 Let's say that this algorithm is a noise generator.
 
 You'd like that noise generator to easily work in a breadth of environments: in 2D bitmap manipulation programs ([Krita](https://krita.org), GIMP, ...), in audio and multimedia software (PureData, Audacity, [ossia score](https://ossia.io), [Mixxx](https://mixxx.org/)...), 3D voxel editors, etc.
@@ -36,9 +38,9 @@ auto noise(
 
 You are proud of your neat results, prepare conference papers, etc... but ! Now is the time to implement your noise algorithm in a set of software in order to have it used widely and become the next industry standard in procedural noise generation.
 
-If you are used to working in C#, Java, Python, or any other language more recent than 1983, the solution may at this point seem trivial. Sadly, in C++, this has been unordinately hard to implement until now, especially when one aims for as close as possible to a zero-runtime cost-abstraction. 
+If you are used to working in C#, Java, Python, or any other language more recent than 1983, the solution may at this point seem trivial. Sadly, in C++, this has been unordinately hard to implement until now, especially when one aims for as close as possible to a zero-runtime cost-abstraction.
 
-On the other hand, if you implement your algorithm in C#, Java, or Python, having it useable from any other runtime environment is a massive challenge, as two VMs, often with their own garbage collection mechanism, etc... now have to cooperate. Thus, for something really universal, a language than can compile to native binaries, with minimal dependencies, is the easiest way to have a wide reach. In particular, most multimedia host environments are written in a native language and expect plug-ins conforming to operating system DLLs, executable and dynamic linker APIs: ELF, PE, Macho-O ; `dlopen` and friends. There aren't that many suitable candidates with a high enough capacity for abstraction: C++, Rust, D without GC, Zig. Since most of the media host provide C or C++ APIs, and C does not have any interesting form of reflection, C++ is the natural, minimal-friction choice. 
+On the other hand, if you implement your algorithm in C#, Java, or Python, having it useable from any other runtime environment is a massive challenge, as two VMs, often with their own garbage collection mechanism, etc... now have to cooperate. Thus, for something really universal, a language than can compile to native binaries, with minimal dependencies, is the easiest way to have a wide reach. In particular, most multimedia host environments are written in a native language and expect plug-ins conforming to operating system DLLs, executable and dynamic linker APIs: ELF, PE, Macho-O ; `dlopen` and friends. There aren't that many suitable candidates with a high enough capacity for abstraction: C++, Rust, D without GC, Zig. Since most of the media host provide C or C++ APIs, and C does not have any interesting form of reflection, C++ is the natural, minimal-friction choice.
 
 This post is a hint of how much better and easier life is with true reflection as available in other languages, and in particular how attribute reflection and user-defined attributes, would make one's life. And most importantly, what kind of abstracting power "reflective programming" holds over existing generic programming techniques in C++: macro-based metaprogramming, template-based metaprogramming (with e.g. CRTP being commonly used for that).
 
@@ -58,11 +60,11 @@ If for instance you were using the OSC protocol, to make your algorithm controll
 
 Maybe you'd also like to serialize your algorithm's inputs, in order to have a preset system, or just to exchange with another runtime system expecting a serialized version of your data. In JSON ? YAML ? Binary ? Network-byte-order binary ? GLSL `std140` ? So many possibilities !
 
-### Hell on earth 
+### Hell on earth
 
 For *every* protocol, host environment, plug-in system, ... that you want to provide your algorithm to, you will have to write some amount of binding code, also often called *glue code*.
 
-How does that binding code may look, you ask ? 
+How does that binding code may look, you ask ?
 
 Let's look at some examples from around the world:
 
@@ -97,17 +99,17 @@ gPropertySuite->propSetDouble(paramProps, kOfxParamPropDisplayMax, 0, 10.0);
 Hopefully you don't forget all the incantations's updates when you decide that this control would indeed be better as an integer !
 * A very good example is the [1€ filter](https://cristal.univ-lille.fr/~casiez/1euro/) input filtering algorithm. The actual algorithm can fit in a few dozen lines. The [Unreal Engine binding](https://github.com/DarioMazzanti/OneEuroFilterUnreal) is almost 600 lines !
 * Things like [iPlug](https://github.com/iPlug2/iPlug2/blob/master/Examples/IPlugEffect/IPlugEffect.cpp#L8) are a bit more sane, but we still have to triplicate our parameter creation / access: in an enum in the hpp, in the constructor and finally in `ProcessBlock` where we get the actual value. This is still a whole lot of work versus **JUST ACCESSING A FLOAT IN A STRUCT !!11!1!!**
-* A Krita [plug-in for noise generation](https://github.com/KDE/krita/blob/master/plugins/generators/simplexnoise/simplexnoisegenerator.cpp#L62) -- here Qt's QObject run-time property system is used to declare and use the algorithm controls. That also means inheriting from Qt's QObject, which has a non-negligible memory cost.  
+* A Krita [plug-in for noise generation](https://github.com/KDE/krita/blob/master/plugins/generators/simplexnoise/simplexnoisegenerator.cpp#L62) -- here Qt's QObject run-time property system is used to declare and use the algorithm controls. That also means inheriting from Qt's QObject, which has a non-negligible memory cost.
 * Wanna receive messages through OSC ? [Make the exceptions rain !](https://github.com/RossBencina/oscpack/blob/master/examples/SimpleReceive.cpp)
-* Wanna expose your algorithm to another language, such as Python ? [Get ready for some py::<>'y boilerplate](https://pybind11.readthedocs.io/en/stable/advanced/classes.html). 
+* Wanna expose your algorithm to another language, such as Python ? [Get ready for some py::<>'y boilerplate](https://pybind11.readthedocs.io/en/stable/advanced/classes.html).
 
 As such, one can see that:
 - There is no current generic way for writing an audio processor in PureData, and have it work in, say, Audacity, Ardour or LMMS as a VST plug-in, expose it through the network... Writing a PureData external ties you to PureData, and so does writing a Krita plug-in.
-It's the well-known ["quadratic glue"](https://www.oreilly.com/radar/thinking-about-glue/) problem: there are N algorithms and M "host systems", thus NxM glue code to write. 
+It's the well-known ["quadratic glue"](https://www.oreilly.com/radar/thinking-about-glue/) problem: there are N algorithms and M "host systems", thus NxM glue code to write.
 
 - All the approaches are riddled with unsafety, since the run-time environments force the inputs & outputs to the algorithm to be declared dynamically ; thus, if you make an error in your call sequence, you rely on the runtime system you are using to notice this error and notify you (e.g; if you are lucky you'll get an error message on stdout ; but most likely a crash).
 
-- All the approaches require duplicating the actual parameters of your algorithm, e;g. our `alpha`, `beta`, once as actual C++ variables, once as facades to the runtime object system you are interacting with. 
+- All the approaches require duplicating the actual parameters of your algorithm, e;g. our `alpha`, `beta`, once as actual C++ variables, once as facades to the runtime object system you are interacting with.
 
 Of course, the above list is not an indictment on the code quality of those various projects: they simply all do as well as they can considering the limitations of the language at the time they were originally written, in some cases multiple decades ago.
 
@@ -130,13 +132,13 @@ Basically: there's a ton of environments (also called "hosts", "host APIs" in th
 
 Sadly, C++ does not offer true reflection on any entity: from the generic function `noise` defined above, it would be fairly hard to extract its parameter list, and reconstruct what we need to perform the above. Likewise, due to the lack of user-defined attributes, one wouldn't be able to tag the input / output parameters, to give them a name, bounds, etc.
 
-We will however show that with very simple transformations, we can reach our goals ! 
+We will however show that with very simple transformations, we can reach our goals !
 
 ### First transformation: function to class
 
 This transformation is commonplace in C++: classes / structs are in general more convenient to use than straight function pointers. They are easier to pass as arguments, work better with the type system as template arguments, etc.
 
-Let's apply it: 
+Let's apply it:
 {% highlight cpp %}
 // noise.hpp
 #pragma once
@@ -181,9 +183,9 @@ To register our process to thar imaginary API, one may write the following, whic
 {% highlight cpp %}
 noise algo;
 void process(void* context, float* out, const float* in)
-{ 
+{
   noise& algo = *static_cast<noise*>(context);
-  *out = algo(*in); 
+  *out = algo(*in);
 }
 
 lib_type_t main()
@@ -208,11 +210,11 @@ The technique is basically a band-aid until we get true reflection: it counts th
 In a nutshell:
 {% highlight cpp %}
 auto tie_as_tuple(auto&& t, size<1>) {
-  auto&& [_1] = t;  
+  auto&& [_1] = t;
   return std::tie(_1);
 }
 auto tie_as_tuple(auto&& t, size<2>) {
-  auto&& [_1, _2] = t;  
+  auto&& [_1, _2] = t;
   return std::tie(_1, _2);
 }
 // etc... computer-generated
@@ -231,10 +233,10 @@ struct bind_to_lib {
     struct {
         bind_to_lib& self;
         void operator()(float& f) const noexcept {
-          lib_add_float(self.handle, "???", &f, ???, ???); 
+          lib_add_float(self.handle, "???", &f, ???, ???);
         }
         void operator()(int& i) const noexcept {
-          lib_add_int(self.handle, "???", &i, ???, ???); 
+          lib_add_int(self.handle, "???", &i, ???, ???);
         }
     } visitor;
     boost::pfr::for_each_field(algo, visitor);
@@ -242,7 +244,7 @@ struct bind_to_lib {
 };
 {% endhighlight %}
 
-This gets us 90% there: if our C API was just `lib_add_float(lib_type_t, float*);` that blog stop would stop right there ! 
+This gets us 90% there: if our C API was just `lib_add_float(lib_type_t, float*);` that blog stop would stop right there !
 
 But, as it stands, our API also expects some additional metadata: a pretty name to show to the user, mins and maxs...
 
@@ -307,7 +309,7 @@ struct alpha {
 {% endhighlight %}
 
 #### How user-defined attributes and attribute reflection would help
-Now, if we were in, say, C#, what we'd most likely write instead would instead just be: 
+Now, if we were in, say, C#, what we'd most likely write instead would instead just be:
 {% highlight csharp %}
 [Name("α")]
 [Range(min = -1.f, max = 1.f)]
@@ -332,11 +334,11 @@ Consider a member of our earlier visitor:
 {% highlight cpp %}
 void operator()(???& f) const noexcept
 {
-  lib_add_float(r, ???, ???, ???, ???); 
+  lib_add_float(r, ???, ???, ???, ???);
 }
 {% endhighlight %}
 
-We can for instance fill it that way : 
+We can for instance fill it that way :
 {% highlight cpp %}
 // we are writing the binding code, here everything is allowed !
 #include <concepts>
@@ -360,7 +362,7 @@ But what if the program author forgets to implement the `name()` method ? Mainly
            ^
 {% endhighlight %}
 
-If our API absolutely requires a `name()`, and a `value`, concepts are very helpful: 
+If our API absolutely requires a `name()`, and a `value`, concepts are very helpful:
 
 {% highlight cpp %}
 template<typename T, typename Value_T>
@@ -401,14 +403,14 @@ Whether that constitutes an improvement in readability of errors in our specific
 
 But, what if our algorithm *doesn't* actually need bounds ? We'd still want it to work in a bounded host system, right ? The host system would just choose arbitrary bounds that make sense for e.g. an input widget.
 
-In this case, we'd get a combinatorial explosion of concepts: we'd need an overload for a parameter with a name and no range, an overload for a parameter with a range and no name, etc.  
+In this case, we'd get a combinatorial explosion of concepts: we'd need an overload for a parameter with a name and no range, an overload for a parameter with a range and no name, etc.
 
 ### Handling optionality
 As an algorithm author, you cannot specify every possible metadata known to man. We want our algorithm to be future-proof: even if refinements can be added, we want the code we write today to still be able to integrate into tomorrow's host.
 
 Thankfully, the age-old notion of condition can help here ; in particular compile-time conditions depending on the existence of a member.
 
-C++20 makes that trivial: 
+C++20 makes that trivial:
 
 {% highlight cpp %}
 void operator()(auto& f) const noexcept
@@ -437,7 +439,7 @@ This last part works in Clang and GCC, but MSVC's concepts implementation [does 
 
 There's not much difference with the previous technique when we want to call our process (`operator()`) function.
 
-What we cannot do without reflection & code generation (metaclasses) is an entirely generic transformation from one of our algorithm's processing method, which, depending on the problem domain, could have any number of inputs / outputs of various types, to arbitrary run-time data. For instance, audio processors generally have inputs and outputs in the form of an array of channels of float / double values, plus the amount of data to be processed: 
+What we cannot do without reflection & code generation (metaclasses) is an entirely generic transformation from one of our algorithm's processing method, which, depending on the problem domain, could have any number of inputs / outputs of various types, to arbitrary run-time data. For instance, audio processors generally have inputs and outputs in the form of an array of channels of float / double values, plus the amount of data to be processed:
 
 {% highlight cpp %}
 void canonical_audio_processor(float** inputs, float** outputs, int frames_to_process);
@@ -454,11 +456,11 @@ Thus, the author of the binding code has the responsibility of adapting the expe
 {% highlight cpp %}
 struct bind_to_lib {
   lib_type_t handle;
-  
+
   template<typename T>
   void register_process(T& algo)
   {
-    auto process = [] (void* context, float* out, const float* in) { 
+    auto process = [] (void* context, float* out, const float* in) {
       T& algo = *static_cast<T*>(context);
       *out = algo(*in);
     };
@@ -477,7 +479,7 @@ void register_process(T& algo)
   {
     auto process = [] (void* context, float* out, const float* in, std::size_t n) {
       // ...
-      algo(in, out, n); 
+      algo(in, out, n);
     };
     lib_add_method(handle, "process_array", reinterpret_cast<void*>(process), &algo, kFloat, kFloat);
   }
@@ -513,7 +515,7 @@ void register_process(T& algo)
         out[i] = algo(in[i]);
     };
     lib_add_method(handle, "process", reinterpret_cast<void*>(process), &algo, kFloat, kFloat);
-  } 
+  }
 }
 {% endhighlight %}
 
@@ -524,8 +526,8 @@ Such an API's `lib_add_float` function could look like this:
 
 {% highlight cpp %}
 void lib_add_float(
-  lib_type_t handle, 
-  const char* name, 
+  lib_type_t handle,
+  const char* name,
   float (*getter)(void*),
   void (*setter)(void*, float),
   void* context
@@ -545,21 +547,21 @@ A simple way for this is through any of the common C++ type-based metaprogrammin
 template<typename T>
 struct binding_to_lib {
   // parameters_type will look like tuple<float, int>
-  using parameters_type = decltype(boost::pfr::structure_to_tuple(std::declval<const T&>())); 
-  
+  using parameters_type = decltype(boost::pfr::structure_to_tuple(std::declval<const T&>()));
+
   // parameters_type will look like tuple<std::atomic<float>, std::atomic<int>>
   using atomic_type = mp_transform<std::atomic, parameters_type>;
-  
+
   // our algorithm's aggregate struct, we're allocating it as part of the binding for more simplicity
   T implementation;
-  
+
   atomic_type parameters;
-  
+
   binding_to_lib() { /* register everything with the host API */ }
 };
 {% endhighlight %}
 
-From this, our binding methods would be changed to look like: 
+From this, our binding methods would be changed to look like:
 {% highlight cpp %}
 void register_process()
 {
@@ -595,7 +597,7 @@ void load_all_atomics(const auto& atomics, auto& actual)
   // Template lambda (C++20 feature): one used to have to write a separate
   // load_all_atomics_helper function as there was no way to retrieve the parameter pack,
   // which pollutes the namespace
-  auto helper = [&] <std::size_t... Index> (std::integer_sequence<std::size_t, Index...>) 
+  auto helper = [&] <std::size_t... Index> (std::integer_sequence<std::size_t, Index...>)
   {
     using namespace boost::pfr; // for `get`
 
@@ -607,7 +609,7 @@ void load_all_atomics(const auto& atomics, auto& actual)
     // get<1>(actual) = get<1>(atomics);
     // get<2>(actual) = get<2>(atomics);
   };
-  
+
   // std::integer_sequence<std::size_t, 1, 2>
   auto sequence = std::make_index_sequence<std::tuple_size_v<parameters_type>>();
 
@@ -639,7 +641,7 @@ void for_nth_parameter(Parameters& params, int n, F&& func) noexcept
 # Conclusion
 From this, it is obvious that writing, for instance, a generic serializer, hash function, etc... that will work on any such types is trivial ; Boost.PFR already provides some amount of it. A fun exercise left to the reader would be memoization of plug-in state, for the sake of undo-redo.
 
-Note that the algorithm could also easily be generic ; for instance, some audio plug-in APIs support working with either single- or double- precision floating-point ; one could just provide a `noise<std::floating_point>` algorithm if it fits the algorithm's spec. Otherwise, the binding library would simply perform the conversion from / to the correct floating-point type if that is a meaningful thing to do. 
+Note that the algorithm could also easily be generic ; for instance, some audio plug-in APIs support working with either single- or double- precision floating-point ; one could just provide a `noise<std::floating_point>` algorithm if it fits the algorithm's spec. Otherwise, the binding library would simply perform the conversion from / to the correct floating-point type if that is a meaningful thing to do.
 
 This concept has been prototyped in, first, an API for writing plug-ins for [ossia score](https://github.com/jcelerier/score-simple-api-2), and then in a tentative for writing audio plug-ins, [vintage](https://github.com/jcelerier/vintage/blob/main/examples/audio_effect/distortion.cpp).
 
@@ -649,21 +651,21 @@ There is one last drop of manual binding code to write: the code that ties the a
 // main.cpp
 #include <noise.hpp>
 #include <bind_to_lib.hpp>
-extern "C" 
+extern "C"
 DLL_EXPORT_MACRO
 void plugin_main_function() { bind_to_lib<noise>(); }
 {% endhighlight %}
 
-There is no easy way without full static reflection to bypass that drop of code: we have to reference the name of our algorithm in the same line than our binding code at least once ; full reflection would allow to enumerate the available types instead and skip that part. There are two band-aid solutions: 
+There is no easy way without full static reflection to bypass that drop of code: we have to reference the name of our algorithm in the same line than our binding code at least once ; full reflection would allow to enumerate the available types instead and skip that part. There are two band-aid solutions:
 
 * State that the class containing the algorithm must have a specific name, e.g. `Plugin`. This does not really scale if for instance a software would like to build and bundle multiple such plug-ins statically, due to ODR ; it can be made to work with shared objects if one takes care of hiding all symbols except `plugin_main_function`.
 * Generate that code in the build system: one could easily provide a set of e.g. `bind_algorithm(<name> <main_source_file>)` CMake function which would generate the appropriate `.cpp` ; the act of porting the algorithm to a new host platform would simply be for instance forking a template repo on GitHub, and replacing the content of an `src/algorithm.cpp` file.
 
-So, in the end, what we have, roughly, is: 
+So, in the end, what we have, roughly, is:
 - Algorithms without dependencies on host APIs for exposing themselves to GUI software, etc.
 - Independent introspection of these algorithms.
 
-What remains is, as a community, to specify the ontologies / concepts that a given algorithm can be made to fit in: for instance, for audio plug-ins, the [LV2 specification](https://lv2plug.in/ns/) has done a great deal of work towards that ; similar work could be done for graphics algorithms, serialization systems, etc. 
+What remains is, as a community, to specify the ontologies / concepts that a given algorithm can be made to fit in: for instance, for audio plug-ins, the [LV2 specification](https://lv2plug.in/ns/) has done a great deal of work towards that ; similar work could be done for graphics algorithms, serialization systems, etc.
 
 This work could be encoded in C++ concepts, maybe with inspiration from the various Haskell typeclasses or Rust traits libraries: then, if as an algorithm author I want to make sure that my algorithm will be able to be used by audio, video, ... software, I'd just clone a concept-checking library and see which concepts my code does (and does not) support ; an algorithm which takes a float and outputs a float would likely have a very wide applicability.
 

@@ -5,6 +5,8 @@ date:   2019-06-15
 author: Jean-Michaël
 category: News
 image: /assets/blog/phonemacore/phonemacore.png
+image-alt: The Phonema band reinterpreting their cult song The New Beginning
+description: Residency for the use of ossia score for the Phonema band
 ---
 
 <div class="videoWrapper">

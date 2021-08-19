@@ -12,7 +12,7 @@ category: News
 <p>
 <a href="https://vimeo.com/83989990">Le chant du filament</a> from <a href="https://vimeo.com/user24205756">NICOLAS VILLENAVE</a> on <a href="https://vimeo.com">Vimeo</a>.
 </p>
-                        
+
 Following November’s last development sprint, GMEA – Centre National de Création Musicale d’Albi-Tarn invited a bunch of i-score users as part of the OSSIA project. This workshop focussed on users experiments with i-score version 0.2.x and feedbacks regarding i-score 0.3 features.
 
 In addition to i-score core developers, were welcomed Pascal Baltazar who coordinates i-score development and extensively used i-score for the Nocturnes project led by Les Baltazars, Mathieu Chamagne who experiments i-score for interactive sound and visual installation as well as doing researches for spatial scenarios representations, Julien Rabin who is in charged of research and development at GMEA as well as working on i-score documentation, Renaud Rubiano who experiments i-score for live art productions and for his in progress installation Mobiles and Antoine Villeret who recently used i-score for Mylène Benoît’s project.
