@@ -104,7 +104,7 @@ category: site-community
 <div align="middle" class="gallery-page-image">
     <a href="https://vimeo.com/572657592" class="gallery-text">
         <img src="assets/gallery/chant-hibou.jpeg" class="post-image" />
-        Le regard du hibou <br/> Les Baltazars</a>
+        Le regard du hibou <br/> Les Baltazars
     </a> 
 </div>
 
