@@ -26,7 +26,7 @@ category: site-community
 <div id="fourfor" align="middle" class="gallery-page-image">
 <a href="https://bravozoulou.fr/projets/four-for/" class="gallery-text">
     <img src="assets/gallery/DID_4858.JPG" class="post-image" />
-    Four For  <br/> Bravo Zoulou</a> 
+    Four For  <br/> Bravo Zoulou</a>
      <br/>&copy; Didier Crasnault
 </div>
 
@@ -48,14 +48,14 @@ category: site-community
     <a href="https://www.compagnie-ever.com/aleas" class="gallery-text">
         <img src="assets/gallery/MECA 2.jpg" class="post-image" />
         ALEAS <br/> Compagnie EVER - Camille Rocailleux
-    </a> 
+    </a>
 </div>
 
 <div align="middle" class="gallery-page-image">
     <a href="http://www.donatiengarnier.com/un-spectacle-en-3d/" class="gallery-text">
         <img src="assets/gallery/arbre-intégrale.jpg" class="post-image" />
         L'Arbre Intégral <br/> Le Poème en volume
-    </a> 
+    </a>
 </div>
 
 <div align="middle" class="gallery-page-image">
@@ -69,11 +69,11 @@ category: site-community
     <a href="https://vimeo.com/213259612" class="gallery-text" >
     <img src="assets/gallery/14-Virages2.jpg" class="post-image" />
         (à) partir <br/> Thibaud le Maguer
-    </a> 
+    </a>
 </div>
 
 <div id="Qui parle donc" align="middle" class="gallery-page-image">
-    <a href="http://passerelle-arts-sciences.fr/qui-parle-donc-2019/" 
+    <a href="http://passerelle-arts-sciences.fr/qui-parle-donc-2019/"
     class="gallery-text">
         <img src="assets/gallery/Qui-parle-donc_Event.jpg" class="post-image" />
         Qui parle donc  <br/> Passerelle arts-sciences
@@ -91,21 +91,28 @@ category: site-community
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Sonotact" class="gallery-text">
         <img src="assets/gallery/sonotact.jpg" class="post-image" />
         Sonotact <br/> Pascale Criton
-    </a> 
+    </a>
 </div>
 
 <div align="middle" class="gallery-page-image">
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Rain-of-Music" class="gallery-text">
         <img src="assets/gallery/metabot_score.jpg" class="post-image" />
         Rain of Music <br/> Josu Rekalde and co
-    </a> 
+    </a>
 </div>
 
 <div align="middle" class="gallery-page-image">
     <a href="https://vimeo.com/572657592" class="gallery-text">
         <img src="assets/gallery/chant-hibou.jpeg" class="post-image" />
         Le regard du hibou <br/> Les Baltazars
-    </a> 
+    </a>
+</div>
+
+<div align="middle" class="gallery-page-image">
+    <a href="https://dennis-scheiba.com/events/2021-06-04_kolorit.html" class="gallery-text">
+        <img src="assets/gallery/heimat.jpeg" class="post-image" />
+        Heimat <br/> Dennis Scheiba
+    </a>
 </div>
 
 </div>
