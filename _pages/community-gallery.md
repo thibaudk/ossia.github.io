@@ -47,8 +47,8 @@ category: site-community
 <div align="middle" class="gallery-page-image">
     <a href="https://www.compagnie-ever.com/aleas" class="gallery-text">
         <img src="assets/gallery/MECA 2.jpg" class="post-image" />
-        ALEAS <br/> Compagnie EVER - Camille Rocailleux
-    </a>
+        ALEAS <br/> Compagnie EVER </a>
+    <br/> Camille Rocailleux
 </div>
 
 <div align="middle" class="gallery-page-image">
@@ -112,6 +112,34 @@ category: site-community
     <a href="https://dennis-scheiba.com/events/2021-06-04_kolorit.html" class="gallery-text">
         <img src="assets/gallery/heimat.jpeg" class="post-image" />
         Heimat <br/> Dennis Scheiba
+    </a>
+</div>
+
+<div align="middle" class="gallery-page-image">
+    <a href="https://jim2021.sciencesconf.org/361406" class="gallery-text">
+        <img src="assets/gallery/hermes-captureécran.jpeg" class="post-image" />
+        HERMES v2 <br /> João Svidzinski
+    </a>
+</div>
+
+<div align="middle" class="gallery-page-image">
+    <a href="https://www.youtube.com/watch?v=3taCxcwjxcs" class="gallery-text">
+        <img src="assets/gallery/marelle.jpg" class="post-image" />
+        Jeu de la Marelle <br /> Laurence Bouckaert </a>
+     <br /> Olivier Moyne
+</div>
+
+<div align="middle" class="gallery-page-image">
+    <a href="https://www.instagram.com/p/CTPZegDs0BL/" class="gallery-text">
+        <img src="assets/gallery/STATUE-ART.jpg" height="270" class="post-image" />
+        ParallelWorlds <br /> LUCHS.US Team
+    </a>
+</div>
+
+<div align="middle" class="gallery-page-image">
+    <a href="https://youtu.be/IPW5e-OhMy8?t=2487" class="gallery-text">
+        <img src="assets/gallery/S0327146.JPG" height="270" class="post-image" />
+        Proteus <br /> Gordon Delap
     </a>
 </div>
 
