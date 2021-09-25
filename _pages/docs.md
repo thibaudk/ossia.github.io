@@ -1,9 +1,9 @@
 ---
-layout: score-page
-title:  "Learn"
+layout: page
+title:  "Documentation"
 
-permalink: /score/learn.html
-category: site-learn
+permalink: /docs.html
+category: site-docs
 
 ---
 <div class="menu" style="display:flex; align-items:center; width: 100%;margin:auto; padding: auto; ">
@@ -12,10 +12,10 @@ category: site-learn
          -->
          <a href="https://www.youtube.com/watch?v=R-3d8K6gQkw&list=PLIHLSiZpIa6YoY1_aW1yetDgZ7tZcxfEC&index=1" class="menu-item panel" target="_blank" ><span class="icon-svg icon-video"></span>Tutorials
          <p class="description">Online workshop</p></a>
-
          <a href="https://ossia.io/score-docs/" target="_blank"  class="menu-item panel"><span class="icon-svg icon-documentation"></span>Docs
          <p class="description">Documentation for score</p></a>
-
+         <a href="blog.html" class="menu-item panel"><span class="icon-svg icon-blog"></span>Blog
+         <p class="description">Documentation for score</p></a>
          <a href="https://forum.ossia.io/"  target="_blank" class="menu-item panel"><span class="icon-svg icon-forum"></span>Forum
          <p class="description">Ask any questions !</p></a>
          <a href="https://gitter.im/ossia/score"  target="_blank" class="menu-item panel"><span class="icon-svg icon-chat"></span>Chat<p class="description">Come chat with us !</p></a>

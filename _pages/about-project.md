@@ -1,8 +1,8 @@
 ---
 layout: about-page
-title:  "Research"
+title:  "Project"
 
-permalink: /research.html
+permalink: /project.html
 category: site-about
 ---
 
@@ -12,9 +12,157 @@ Intermedia and multimedia support has then been added starting from 2008 with th
 
 Following the [ANR OSSIA research project](https://anr.fr/Projet-ANR-12-CORD-0024), which took place between 2012 and 2015, a new version of the sequencer has been implemented by Jean-Michaël Celerier, as part of his doctoral thesis. This endeavour has been joined by several artists and developers, which established itself as the *ossia* collective. The sequencer has been named *ossia score*, and its underlying library *libossia*. They are both available on <a href="https://github.com/ossia">GitHub</a>, and documented on this very website.
 
+<!--- Contribute !-->
+<h2 class="feature-title">Contribute</h2>
+
+The [source code](https://github.com/ossia/score){:target="_blank"} for score is hosted on GitHub.
+It is based on [libossia](https://github.com/ossia/libossia){:target="_blank"}.
+
+<img style="float: right;" src="/assets/contribution_oscar.png" width="40%" alt="Oscar, the cute ossia mascot" />
+* Contributing to the user library
+* Extending the scripting API
+* Implementing new protocols
+* Implementing new processes and effects
+
+The score project is open to contributions.
+We need help on :
+
+* Contribution of example scores
+* Creation of namespaces for your favorite application
+* Creating tutorials content
+* Creating skins
+* Fixing TODO’s in the code
+* (soon) Translations
+* Linux distribution packaging
+
+Most of the discussion regarding score features occurs on the [issue tracker](https://github.com/ossia/score/issues).
+If you wish to help, you can join the [forum](https://forum.ossia.io) or the [chat](https://gitter.im/ossia/score).
+We can help you into making your first contributions to the project.
+
+Here is a video explaining how to contribute to the code of ossia score:
+
+<div class="videoWrapper">
+    <iframe src="" data-src="https://www.youtube.com/embed/LSifHFbuky0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<!--- Roadmap !-->
+<h2 class="feature-title">Roadmap</h2>
+<br/>
+<p align="center">
+<a href="https://github.com/ossia/score/releases/tag/v2.5.2" class="page-button"  target="_blank" >Current stable version is 2.5.2</a>
+</p>
+
+<h2>Future plans</h2>
+
+* Networked edition and execution. [These capabilities have been prototyped but not kept up to date with the rest of the software](https://github.com/ossia/iscore-addon-network){:target="_blank"}.
+* Parametric processes. How to have parameters and variables used within the scope of a given box and changed easily across different instances of that box.
+* Mixer panel : making mixing from within score more straightforward.
+* WebAssembly support : experiments have been made a few years ago – most of the score engine and user interface builds for WebAssembly, but execution does not work yet in a web page.
+* Spout, Syphon support.
+* Better support for sequences.
+* Support for MIDI 2.0.
+
+<h2><a href="https://github.com/ossia/score/releases/tag/v3.0.0-alpha1"  target="_blank">ossia score v3 (release targeting autumn 2021)</a></h2>
+
+ossia score 3 fulfills the long-term goal of being a proper multi-media platform, by providing integrated video abilities, in sync with the rest of the score, as well as musical abilities with support for tempo, musical metrics and quantization. Finally, the core engine has been extended to allow cycles in scenarios with a new kind of connection. This allows to implement state-machine-like behaviours in scenarios.
+
+* [Support for reading videos](https://twitter.com/jcelerie/status/1236809800727617537){:target="_blank"}, right now H.264 and HAP. Implementation uses Vulkan, Metal, D3D or OpenGL depending on the platform for maximal performance. Multiple viewports are supported. Spout output is supported.
+* Support for applying shader-based filters on these videos. Interactive shader format is supported.
+* Support for tempo, musical bars, etc. It is now possible to sync the triggering of a timenode to the beginning of the following bar for instance. Polyrythmy is supported : each interval can have its own tempo and metrics timeline.
+* [Support for cycles and loops](https://twitter.com/jcelerie/status/1245484342274646017){:target="_blank"} in the main scenario.
+* [Preset mechanism](https://twitter.com/jcelerie/status/1241774333535666176){:target="_blank"} for built-in processes.
+* Built-in looping for individual processes, to easily loop audio files.
+* Intervals can now be viewed in nodal mode to easily interconnect their processes.
+* Many small and useful new processes – signal visualization, pattern sequencer…
+* [JIT compilation support](https://twitter.com/jcelerie/status/1307792769277190147){:target="_blank"}.  This will be an experimental feature for the 3.0 release cycle, allowing you to write and run C++ extensions directly from within the software.
+
+<h2><a href="https://github.com/ossia/score/releases/tag/v2.5.2"  target="_blank">ossia score v2.5</a></h2>
+
+This version is a big update to 2.0, adding two new processes :
+
+* Control surface : allows to have UIs to control remote parameters in the score
+* Nodal : allows to layout processes in a graph interface, like many other famous visual programming languages. Temporal processes can be nested in nodal processes.
+* RemoteControl : control your score through a simple WebSockets API.
+* Tons of UI work
+
+<h2><a href="https://github.com/ossia/score/releases/tag/v2.0.0-a1"  target="_blank">ossia score v2.0</a></h2>
+
+The 2.0 version is a paradigm shift : it introduces data and audio processing in score. The name was changed to reflect the OSSIA project legacy. It is now possible to play sounds, apply sound effects, among many other changes. The main highlights are :
+
+* Execution is now based on synchronous audio processing APIs
+* Playback of sounds
+* Support for LV2, VST effects and instruments
+* Support for Faust effects. The Faust compiler is integrated directly to score.
+* Support for many new protocols : OSCQuery, ArtNet…
+* Many new processes: LFO, step sequencer, math expressions, etc
+* Pattern matching
+* Drag’n’drop in a lot of places
+* Creation of a library panel and a [user library](https://github.com/ossia/score-user-library){:target="_blank"}
+* A super cute new mascot, [Oscar](https://camo.githubusercontent.com/2d6bd98dd127261a5306d0d9c73acf28c63795f7/68747470733a2f2f692e696d6775722e636f6d2f327842574967392e706e67){:target="_blank"} !
+
+The first release for the 2.0 version was released in April 2018.
+
+<h2><a href="https://github.com/ossia/score/releases/tag/v1.0.0-b40"  target="_blank">i-score v1.0 </a></h2>
+
+The 1.0 version is the concretization of the last year of effort of the OSSIA project.
+Thanks to a from-scratch rewrite, the software has been highly modularized, and now offers the following features :
+
+* Undo-redo
+* Restore on crash
+* Various plug-in APIs
+* Loops, mappings, JavaScript processes
+* Arbitrary hierarchy
+* Complete conditional branching and triggering
+* A new dark blue theme
+
+The 1.0 version was released in 2016.
+
+<h2>i-score v0.3</h2>
+
+Thanks again to the OSSIA project, a research effort will be carried on from early-2014 to 2015 in order to implement logic scenarios in i-score. This will include:
+
+* Support for looping boxes and (sub-)scenarios
+* Better graphic support for the conditional branching
+* Multi-user support
+* Framework for the future support of “plug-in” boxes:
+    * Mapping boxes (for several one-to-one mappings between remote parameters)
+    * Generic boxes and SDK for third-party boxes (e.g. audio boxes using JamomaAudioGraph, video/openGL boxes using QuartzComposer, etc…)
+
+
+<h2>i-score v0.2</h2>
+
+Thanks to the OSSIA research project, some services of i-score have been improved by implementing the Jamoma Modular framework into libIscore, and a dedicated framework for Interactive scores management
+
+This allows some new features and improvements :
+
+* Better devices/namespace support, including:
+    * better devices configuration and automatic discovery
+    * devices’ parameters’ attributes support (including range, type, etc….)
+    * better curve management
+    * recording of performance actions as curves
+    * declaration and management of i-score’s boxes parameters (such as speed, trigger points….)
+* Initial support of the conditional branching
+
+<h2>v0.1</h2>
+
+Initial version, including (as of 0.1-alpha1 – December 2012):
+
+* Linear edition (no loops, no branching)
+* One static Minuit device only (MinuitDevice1)
+* Simple curves (no range editing)
+* Nested scenarios (hierarchy) support
+* Simple playing (unfinished GOTO function)
+
+Several incremental alpha versions, have been released along the way, including:
+
+* Plain OSC support
+* Minuit devices configuration
+* Several interface improvements
+
 <!--
 For more details on *i-score*'s family tree and research process, an inheritance graph is available at the end of this page.
 -->
+<h2 class="feature-title">Scientific Research</h2>
 ## Talks
 Talks about the project are regularly given in conferences and meetups. Here is a list:
 * [Talks given by Jean-Michaël](https://jcelerier.name/page/talks)

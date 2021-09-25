@@ -3,7 +3,7 @@ layout: libossia-page
 title:  "Features"
 
 permalink: /site-libossia/features.html
-category: "site-libossia"
+category: site-libossia
 ---
 
 

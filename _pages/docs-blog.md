@@ -1,9 +1,9 @@
 ---
-layout: community-page
+layout: wide-page
 title:  "Blog"
 
 permalink: /blog.html
-category: site-blog
+category: site-docs
 ---
 {% comment%}
 Here we generate all the categories.

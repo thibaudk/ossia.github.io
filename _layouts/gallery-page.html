@@ -1,0 +1,20 @@
+---
+layout: wide-page
+---
+
+    
+<!--  Page content    -->
+        {{ content }}
+<!--     </section> -->
+
+<script>
+$(function(){
+    $('.menu a').each(function(){
+    if("{{page.title}}" ===  this.text){
+        $(this).addClass('active');
+         return false;
+    }
+    });
+});
+</script>
+    

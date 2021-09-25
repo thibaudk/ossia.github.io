@@ -1,5 +1,5 @@
 ---
-layout: libossia-page
+layout: page
 title:  "Download"
 
 permalink: /site-libossia/download.html
@@ -24,12 +24,7 @@ ossia_version: https://github.com/ossia/libossia/releases/download/v1.2.4
     <a href="#faust-binding"><img src="/assets/logo/faust.png" height="50" width="auto"/></a>
 </div>
 
-The license for the library itself is LGPLv3.
-
-<ul>
-<li>The source code is hosted on <a href="https://github.com/ossia/libossia">github.com/ossia/libossia</a>.</li>
-<li>The latest releases are stored here <a href="https://github.com/ossia/libossia/releases">github.com/ossia/libossia/releases</a>.</li>
-</ul>
+The latest releases are stored here <a href="https://github.com/ossia/libossia/releases">github.com/ossia/libossia/releases</a>.
 
 
 <div>

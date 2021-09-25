@@ -5,14 +5,99 @@ title:  "About ossia"
 permalink: /about.html
 category: site-about
 ---
+<h2 class="feature-title" style="margin-top:0.5em;">France</h2>
+<br/>
+<section class="wrapper style4 association-page">
 
-## Scientific background
+<div class="bubble-grid">
+<div class="bubble-item">
+    <img class="bubble-image" src="assets/association/jcelerier.jpg"/>
+    <a href="https://jcelerier.name/" target="_blank" class="bubble-title">Jean-Michaël Celerier</a>
+    <div class="bubble-description">Lead developer. A freelance researcher, interested in art, code, computer music and interactive show control.</div>
+</div>
+<div class="bubble-item">
+    <img class="bubble-image" src="assets/association/pbaltazar.jpeg"/>
+    <a href="http://www.baltazars.org/" target="_blank" class="bubble-title">Pia Baltazar</a>
+    <div class="bubble-description">An intermedia composer, in particular in <a href="http://www.baltazars.org/" >The Baltazars duo</a>. She is the coordinator of the ossia collective and has been involved in the i-score (interactive scores) research project since 2006. Through this she contributed to the visual syntax and interaction design of score. She has also contributed to the specification design of the libossia namespace model.</div>
+</div>
+<div class="bubble-item">
+    <img class="bubble-image" src="assets/association/tkeller.jpg"/>
+    <a href="https://github.com/thibaudk" target="_blank" class="bubble-title">Thibaud Keller</a>
+    <div class="bubble-description">Preacher, workshop conductor, creator of ossia-sclang Quark.
+He gives workshops, conduct residencies and collect user experiences focused on score and the ossia environnement.</div>
+</div>
+<div class="bubble-item">
+    <img class="bubble-image" src="assets/association/alevy.JPG"/>
+    <a href="https://aklevy.github.io" target="_blank" class="bubble-title">Akané Lévy</a>
+    <div class="bubble-description">UI designer, website graphic designer and sometimes developer.</div>
+</div>
+<div class="bubble-item">
+    <img class="bubble-image" src="assets/association/himito.jpg"/>
+    <a href="https://www.jaime-arias.fr/" target="_blank" class="bubble-title">Jaime Arias</a>
+    <div class="bubble-description">CNRS research engineer interested in applying formal methods to interactive multimedia.</div>
+</div>
+<div class="bubble-item">
+    <img class="bubble-image" src="assets/association/oscar.png"/>
+    <a href="https://opencollective.com/ossia" target="_blank"  class="bubble-title">Oscar</a>
+    <div class="bubble-description">Full-time mascot. Interested in the design of time and space.</div>
+</div>
+</div>
+</section>
 
-Software developed as part of the ossia project has its roots in scientific research projects started around 2000 at the LaBRI - the general research project is called <i>i-score</i> (interactive scores). See the [Research](research.html) section for detailed information.
-<!-- <img class="post-image" src="https://raw.githubusercontent.com/ossia/score/master/docs/score.png"/> -->
+<h2 class="feature-title">Canada</h2>
+<br/>
+<section class="wrapper style4 association-page">
+<div class="bubble-grid">
+<div class="bubble-item">
+    <img class="bubble-image" src="assets/association/aobscura.JPG"/>
+    <a href="https://www.ashleyobscura.net" target="_blank" class="bubble-title">Ashley Obscura</a>
+    <div class="bubble-description">Ashley Obscura is a multidisciplinary poet, writer and publisher. She is the founder and managing editor of Metatron Press, the author of Ambient Technology and I Am Here, and the scriptwriter of experimental video games Oceanarium, Songs of the Lost, and Museum of Symmetry.</div>
+</div>
+<div class="bubble-item">
+    <img class="bubble-image" src="assets/association/nnavab.jpg"/>
+    <a href="http://www.navidnavab.com/" target="_blank" class="bubble-title">Navid Navab</a>
+    <div class="bubble-description">A media alchemist, multidisciplinary  composer, audiovisual sculptor, phono-menologist, perSonifier,  gestureBender, and interdisciplinary artist-researcher. Interested in  the poetics of schizophonia, gesture, materiality, and embodiment, his  work investigates the transmutation of matter and the enrichment of its  inherent performative qualities.</div>
+</div>
+</div>
+</section>
 
 
-## Support
+<h2 class="feature-title">Contributors</h2>
+
+<strong>score</strong> and <strong>libossia</strong> are specified, developed, documented and tested by a team of collaborators, that has been growing over the years.
+
+Each of us is somehow a different mix between an artist and an developer, and we are all passionate about creating tools for improving our creative workflows, and sharing those with others.
+
+The current core team is composed of:
+* <b>Jean-Michaël Celerier</b>: Lead developer and software architect
+* <b>Antoine Villeret</b>: libossia (ossia-pd/max and more) and score developer
+* <b>Pia Baltazar</b>: Coordination, specifications and some user interface design
+* <b>Julien Rabin</b>: Documentation, specifications and some user interface design
+* <b>Akané Lévy</b>: Graphic, website and user interface design, initial ofxOssia development
+* <b>Thibaud Keller</b>: ossia-superCollider, development, user feedback and more
+* <b>Pierre Cochard</b>: ossia-superCollider development, user feedback & beta-test,
+* <b>Thomas Pachoud</b>: Specifications, user feedback & beta-test, ofxOssia development
+* <b>Renaud Rubiano</b>: ossia-python specifications, user feedback & beta-test
+
+We owe a lot to previous developers, notably:
+* <b>Théo De La Hogue</b>: ossia-python development, and previous OSSIA API development
+* <b>Nicolas Vuaille, LaBRI</b>: Graphical interface development
+* <b>Clément Bossut, LaBRI</b>: OSSIA API specification
+
+And also to the initiators of the Virage/i-score sequencers:
+* <b>Myriam Desainte-Catherine, LaBRI</b>: Scientific advising
+* <b>Jean-Michel Couturier, Magnolya Roy,  Blue Yeti</b>: graphical interface design
+
+Many individuals and structures have supported the project along its various mutations and incarnations. It’s impossible to cite them all, but we’re very grateful to them!
+Among them: Georges Gagneré, didascalie.net ; Thierry Besche, GMEA ; Yves Bernard, iMal…
+
+The complete list can be found below:
+
+* [ossia score contributors](https://github.com/ossia/score/graphs/contributors)
+* [libossia contributors](https://github.com/ossia/libossia/graphs/contributors)
+
+<h2 class="feature-title">Supporting organizations</h2>
+<br/>
 Development has been supported over the years by many organizations and grants:
 <div class="logo-grid" style="justify-content: center;">
 <a href="https://www.labri.fr/"><img src="/assets/logo/LABRI_BIG.png" alt="LaBRI" /></a>
@@ -33,8 +118,3 @@ With additional support and contributions of other organizations, such as:
 * L’Arboretum
 * didascalie.net
 * StudioMirio
-
-And of course all the open-source contributors:
-
-* [ossia score contributors](https://github.com/ossia/score/graphs/contributors)
-* [libossia contributors](https://github.com/ossia/libossia/graphs/contributors)

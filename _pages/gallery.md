@@ -1,9 +1,9 @@
 ---
-layout: community-page
+layout: gallery-page
 title:  "Gallery"
 
 permalink: /gallery.html
-category: site-community
+category: site-gallery
 ---
 
 <section class="wrapper style4 container gallery-page">

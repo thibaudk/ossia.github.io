@@ -1,5 +1,5 @@
 ---
-layout: score-page
+layout: page
 title:  "Download"
 
 permalink: /score/download.html
