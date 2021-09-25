@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Download"
+title:  "Download ossia score"
 
 permalink: /score/download.html
 category: site-score
