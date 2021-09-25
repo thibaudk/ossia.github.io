@@ -2,7 +2,7 @@
 layout: libossia-feature
 title:  "Python bindings"
 
-permalink: /libossia/features/python.html
+permalink: /site-libossia/features/python.html
 category: "site-libossia"
 #image: /assets/bindings/max.png
 description: "Using libossia with Python"

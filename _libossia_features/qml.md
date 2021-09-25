@@ -2,7 +2,7 @@
 layout: libossia-feature
 title:  "Qt / QML bindings"
 
-permalink: /libossia/features/qml.html
+permalink: /site-libossia/features/qml.html
 category: "site-libossia"
 #image: /assets/bindings/qml.png
 description: "Using libossia with QML"

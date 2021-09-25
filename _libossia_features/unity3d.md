@@ -2,7 +2,7 @@
 layout: libossia-feature
 title:  "Unity3D bindings"
 
-permalink: /libossia/features/unity.html
+permalink: /site-libossia/features/unity.html
 category: "site-libossia"
 #image: /assets/bindings/qml.png
 description: "Using libossia with Unity3D"

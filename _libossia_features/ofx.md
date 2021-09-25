@@ -2,7 +2,7 @@
 layout: libossia-feature
 title:  "OpenFrameworks bindings"
 
-permalink: /libossia/features/openframeworks.html
+permalink: /site-libossia/features/openframeworks.html
 category: "site-libossia"
 #image: /assets/bindings/openframeworks.png
 description: "Using libossia with OpenFrameworks"

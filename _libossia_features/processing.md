@@ -2,7 +2,7 @@
 layout: libossia-feature
 title:  "Processing bindings"
 
-permalink: /libossia/features/processing.html
+permalink: /site-libossia/features/processing.html
 category: "site-libossia"
 #image: /assets/bindings/processing.png
 description: "Using libossia with Processing"

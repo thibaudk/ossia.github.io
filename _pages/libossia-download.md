@@ -2,7 +2,7 @@
 layout: page
 title:  "Download"
 
-permalink: /libossia/download.html
+permalink: /site-libossia/download.html
 category: site-libossia
 release_link: https://github.com/ossia/libossia/releases/tag/v1.2.5
 ossia_version: https://github.com/ossia/libossia/releases/download/v1.2.4
