@@ -2,7 +2,7 @@
 layout: libossia-feature
 title:  "Unreal Engine bindings"
 
-permalink: /site-libossia/features/unreal.html
+permalink: /libossia/features/unreal.html
 category: "site-libossia"
 #image: /assets/bindings/qml.png
 description: "Using libossia with Unreal Engine"

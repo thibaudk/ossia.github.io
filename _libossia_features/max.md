@@ -2,7 +2,7 @@
 layout: libossia-feature
 title:  "Max/MSP bindings"
 
-permalink: /site-libossia/features/max.html
+permalink: /libossia/features/max.html
 category: "site-libossia"
 #image: /assets/bindings/max.png
 description: "Using libossia with Max/MSP"

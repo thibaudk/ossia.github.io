@@ -2,7 +2,7 @@
 layout: libossia-feature
 title:  "SuperCollider bindings"
 
-permalink: /site-libossia/features/supercollider.html
+permalink: /libossia/features/supercollider.html
 category: "site-libossia"
 #image: /assets/bindings/puredata.png
 description: "Using libossia with SuperCollider"
