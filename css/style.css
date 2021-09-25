@@ -13,7 +13,7 @@
     --orange: #FF7A00;
     --purple: #994466;
 
-    --light-background: #f3f6fa;
+    --light-background: #EBE9E9;
 }
 
 /*
@@ -1035,7 +1035,7 @@ h2.binding-title:after {
 
 
 #index.white {
-    background-color: white;
+    background-color: #F5F5F5;
 }
 
 #index.white h2 a{
