@@ -1,18 +1,16 @@
 ---
 layout: page
-title:  "ossia score"
+title:  "About ossia score"
 
 permalink: /score/about.html
 category: "site-score"
 ---
-<p align="center">
-<a href="/score/download.html" class="page-button" style="padding-left:4em;padding-right:4em;font-size: 27px;" >Download</a>
-</p>
+
+<h3><a href="https://github.com/ossia/score" target="_blank" >ossia score</a> is a sequencer for audio-visual artists, designed to enable the creation of interactive shows, museum installations, intermedia digital artworks, interactive music and more in an intuitive user interface.</h3>
+
 
 <br/>
 <img class="post-image" src="/assets/score.png" />
-
-[ossia score](https://github.com/ossia/score) is a sequencer for audio-visual artists, designed to enable the creation of interactive shows, museum installations, intermedia digital artworks, interactive music and more in an intuitive user interface.
 
 It allows to sequence OSC, MIDI, DMX, sound files and more, between multiple software and hardware.
 Its novel interactive timeline enables scores written with it to depend on external events and controls through a simple visual language.
@@ -26,7 +24,12 @@ ossia score is distributed under the terms of the CeCILL license. The french CeC
 ## Funding
 You can fund the development of ossia on [OpenCollective](https://opencollective.com/ossia).
 
+
 <br/>
+<p align="center">
+<a href="/score/download.html" class="page-button" style="padding-left:4em;padding-right:4em;font-size: 27px;" >Download</a>
+</p>
+
 {% assign cats = "Structure|Audio|Controls|Graphics|Interoperability|Presentation|Scripting|Software model" | split: '|' %}
 
 <div>
