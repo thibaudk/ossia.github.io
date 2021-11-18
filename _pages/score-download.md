@@ -17,28 +17,39 @@ See the <a href="https://github.com/ossia/score/releases/latest" target="_blank"
 
 ## Supported platforms
 
-The releases are 64-bit on all operating systems.
+The releases are 64-bit on all desktop operating systems.
 
-* Windows: must be at least Windows 10.
+### Windows
+
+* Must be at least Windows 10.
+* *score* and *libossia* use Bonjour for the OSCQuery automatic discovery feature. 
+  This means that on Windows, you must install the [Bonjour Print Services](https://support.apple.com/kb/dl999?locale=en_US) for this to work.
+ 
+### macOS
+
 * macOS: must be at least Mojave (10.14).
+
+### Linux (Desktop)
+
 * All Linux distributions from at least 2015-era should be supported.
   * The packages are built on CentOS 7.
   * Your system must have at least glibc-2.17, as well as X11, ALSA, libGL, librt, libdbus.
   * Either JACK or Pipewire for audio, and Avahi for Bonjour support are recommended.
-  * Wayland is not yet supported correctly.
-* WebAssembly (experimental): [click here](https://ossia.io/score-web)!
-* Raspberry Pi 3/4 (experimental, AArch32 build): [available here](https://github.com/ossia/score/actions/runs/1133591091)! Read the [documentation](https://ossia.io/score-docs/in-depth/embedded.html) before running score on a Pi.
+  * libbluez may be necessary to use Wiimotes (which go through Bluetooth).
+  * Wayland support is still experimental. 
 
-## Optional dependencies
+* To integrate the AppImage into your system, please follow 
+  https://github.com/AppImage/awesome-appimage/#desktop-integration
+  
+### Linux (Raspberry Pi, embedded...)
 
-*score* and *libossia* use Bonjour for the OSCQuery automatic discovery feature.
+* Raspberry Pi 3/4 (experimental, AArch32 build): [available here](https://github.com/ossia/score/actions/runs/1133591091)! 
 
-This means that on Windows, you must install the [Bonjour Print Services](https://support.apple.com/kb/dl999?locale=en_US)
-for this to work.
+* Read the [documentation](https://ossia.io/score-docs/in-depth/embedded.html) before running score on a Pi.
 
-On Linux, you must be running Avahi (if you are using a common distribution, such as Ubuntu or Fedora it is likely already the case).
+### Web
 
-Additionally, on Linux, libbluez may be necessary to use Wiimotes (which go through Bluetooth).
+* Check out our experimental WebAssembly build: [right here](https://ossia.io/score-web)!
 
 ## Source code
 
