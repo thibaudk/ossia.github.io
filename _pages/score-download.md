@@ -22,9 +22,9 @@ The releases are 64-bit on all desktop operating systems.
 ### Windows
 
 * Must be at least Windows 10.
-* *score* and *libossia* use Bonjour for the OSCQuery automatic discovery feature. 
+* *score* and *libossia* use Bonjour for the OSCQuery automatic discovery feature.
   This means that on Windows, you must install the [Bonjour Print Services](https://support.apple.com/kb/dl999?locale=en_US) for this to work.
- 
+
 ### macOS
 
 * macOS: must be at least Mojave (10.14).
@@ -36,14 +36,14 @@ The releases are 64-bit on all desktop operating systems.
   * Your system must have at least glibc-2.17, as well as X11, ALSA, libGL, librt, libdbus.
   * Either JACK or Pipewire for audio, and Avahi for Bonjour support are recommended.
   * libbluez may be necessary to use Wiimotes (which go through Bluetooth).
-  * Wayland support is still experimental. 
+  * Wayland support is still experimental.
 
-* To integrate the AppImage into your system, please follow 
+* To integrate the AppImage into your system, please follow
   https://github.com/AppImage/awesome-appimage/#desktop-integration
-  
+
 ### Linux (Raspberry Pi, embedded...)
 
-* Raspberry Pi 3/4 (experimental, AArch32 build): [available here](https://github.com/ossia/score/actions/runs/1133591091)! 
+* Raspberry Pi 3/4 (experimental, AArch32 build): [available here](https://github.com/ossia/score/releases/download/v3.0.0-rc4/ossia.score-3.0.0-rc4-rpi-aarch32.zip)!
 
 * Read the [documentation](https://ossia.io/score-docs/in-depth/embedded.html) before running score on a Pi.
 
