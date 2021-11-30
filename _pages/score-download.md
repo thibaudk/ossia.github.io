@@ -4,7 +4,7 @@ title:  "Download ossia score"
 
 permalink: /score/download.html
 category: site-score
-score_version: 3.0.0-rc4
+score_version: 3.0.0-rc5
 ---
 
 Download the latest beta release __ossia score v{{page.score_version}}__:
@@ -43,7 +43,7 @@ The releases are 64-bit on all desktop operating systems.
 
 ### Linux (Raspberry Pi, embedded...)
 
-* Raspberry Pi 3/4 (experimental, AArch32 build): [available here](https://github.com/ossia/score/releases/download/v3.0.0-rc4/ossia.score-3.0.0-rc4-rpi-aarch32.zip)!
+* Raspberry Pi 3/4 (experimental, AArch32 build): [available here](https://github.com/ossia/score/releases/download/v3.0.0-rc5/ossia.score-3.0.0-rc5-rpi-aarch32.zip)!
 
 * Read the [documentation](https://ossia.io/score-docs/in-depth/embedded.html) before running score on a Pi.
 
