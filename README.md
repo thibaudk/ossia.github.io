@@ -12,11 +12,19 @@ $ rbenv shell 2.7.3
 $ bundle update
 ```
 
-## Building the cods
+## Building the docs
 
 ```
 $ eval "$(rbenv init -)"
 $ rbenv shell 2.7.3
+
+# Check that ruby is not /usr/bin/ruby with: 
+$ which ruby
+
+# If not do: 
+$ export PATH=$HOME/.rbenv/versions/2.7.3/bin:$PATH
+
+# Finally:
 $ bundle exec jekyll serve
 ```
 
