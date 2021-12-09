@@ -795,6 +795,8 @@ h2.page-title{
 .feature.logo-grid {
     width: 40%;
     padding: 0.1em;
+    column-gap: 15px;
+    row-gap: 5px;
 }
 
 .feature.text {
@@ -1033,8 +1035,11 @@ h2.binding-title:after {
     text-align : center;
 }
 
-
 #index.white {
+    background-color: #FFFFFF;
+}
+
+#index.grey {
     background-color: #F5F5F5;
 }
 
