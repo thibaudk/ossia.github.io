@@ -10,65 +10,86 @@ category: site-gallery
 
 <div class="gallery-grid">
 
-<div id="carousel" align="middle" class="gallery-page-image" >
-    <a href="https://www.abbayeauxdames.org/en/musicaventure/carrousel-musical/" class="gallery-text">
-        <img src="assets/gallery/carrousel.jpg" class="post-image" />
-        Carousel Musical <br/> (Abbaye aux Dames)</a>
-    <a href="https://www.blueyeti.fr/le-carrousel-musical-abbaye-aux-dames/" class="gallery-text">Blue Yeti</a>
+<div id="fourfor" align="middle" class="gallery-page-image">
+<a href="https://bravozoulou.fr/projets/four-for/" class="gallery-text">
+    <img src="assets/gallery/DID_4858.JPG" class="post-image" />
+    <i>Four For </i> <br/> Bravo Zoulou <br/>&copy; Didier Crasnault
+</a> 
+</div>
+
+<div align="middle" class="gallery-page-image">
+    <a href="https://www.navidnavab.com/tangibleflux" class="gallery-text">
+        <img src="assets/gallery/tangibleFlux.png" class="post-image" />
+        <i> tangibleFlux φ plenumorphic ∴ chaosmosis</i> <br /> Navid Navab    </a>
+</div>
+
+
+<div align="middle" class="gallery-page-image">
+    <a href="https://vimeo.com/429115710" class="gallery-text">
+        <img src="assets/gallery/SNN2.png" class="post-image" />
+        <i> SNN#2: Light/Space/Modulator </i> <br /> Alex Saunier & Chris Salter
+    </a>
+</div>
+
+<div align="middle" class="gallery-page-image">
+    <a href="https://www.contour-progressif.net/projets/spectacle/laveuglement" class="gallery-text">
+        <img src="assets/gallery/aveuglement.png" class="post-image" />
+        <i> L'aveuglement </i> <br /> Cie Contour progressif / Mylène Benoît    </a>
 </div>
 
 <div id="nebula" align="middle" class="gallery-page-image">
     <a href="https://www.baltazars.org/project/nebula/" class="gallery-text">
         <img src="assets/gallery/Nebula_ChampignonsNeigeJaune.jpg" class="post-image" />
-        Nebula  <br/> Les Baltazars</a>
+        <i>Nebula </i> <br/> The Baltazars</a>
 </div>
 
-<div id="fourfor" align="middle" class="gallery-page-image">
-<a href="https://bravozoulou.fr/projets/four-for/" class="gallery-text">
-    <img src="assets/gallery/DID_4858.JPG" class="post-image" />
-    Four For  <br/> Bravo Zoulou <br/>&copy; Didier Crasnault
-</a> 
-</div>
 
-<div id="quarre" align="middle" class="gallery-page-image">
-    <a href="https://wpn214.com/en/" class="gallery-text">
-        <img src="assets/gallery/quarre.jpg" class="post-image" />
-        Quarrè  <br/> Pierre Cochard
-    </a>
+
+<div align="middle" class="gallery-page-image">
+    <a href="https://vimeo.com/282498843" class="gallery-text">
+        <img src="assets/gallery/Sun8mm.png" class="post-image" />
+        <i> Sun (~8 mn) </i> <br /> Félicie d'Estienne d'Orves    </a>
 </div>
 
 <div id="Désoleil" align="middle" class="gallery-page-image">
     <a href="https://fracnouvelleaquitaine-meca.fr/evenement/desoleil-anne-charlotte-finel/" class="gallery-text">
         <img src="assets/gallery/Désoleil.jpg" class="post-image" />
-        Désoleil  <br/> Anne-Charlotte Finel
-    </a>
-</div>
-
-<div align="middle" class="gallery-page-image">
-    <a href="https://www.compagnie-ever.com/aleas" class="gallery-text">
-        <img src="assets/gallery/MECA 2.jpg" class="post-image" />
-        ALEAS <br/> Compagnie EVER <br/> Camille Rocailleux
-    </a>    
-</div>
-
-<div align="middle" class="gallery-page-image">
-    <a href="http://www.donatiengarnier.com/un-spectacle-en-3d/" class="gallery-text">
-        <img src="assets/gallery/arbre-intégrale.jpg" class="post-image" />
-        L'Arbre Intégral <br/> Le Poème en volume
+        <i>Désoleil </i> <br/> Anne-Charlotte Finel
     </a>
 </div>
 
 <div align="middle" class="gallery-page-image">
     <a href="https://djeff.com/portfolio/dyew/" class="gallery-text" >
         <img src="assets/gallery/Big_Dyew-1920x917.jpg" class="post-image" />
-        Dyew <br/> Djeff
+        <i> Dyew </i><br/> Djeff
+    </a>
+</div>
+
+<div id="quarre" align="middle" class="gallery-page-image">
+    <a href="https://wpn214.com/en/" class="gallery-text">
+        <img src="assets/gallery/quarre.jpg" class="post-image" />
+        <i>Quarrè</i> <br/> Pierre Cochard
+    </a>
+</div>
+
+<div id="carousel" align="middle" class="gallery-page-image" >
+    <a href="https://www.abbayeauxdames.org/en/musicaventure/carrousel-musical/" class="gallery-text">
+        <img src="assets/gallery/carrousel.jpg" class="post-image" />
+        <i>Carousel Musical</i> <br/> (Abbaye aux Dames)</a>
+    <a href="https://www.blueyeti.fr/le-carrousel-musical-abbaye-aux-dames/" class="gallery-text">Blue Yeti</a>
+</div>
+
+<div align="middle" class="gallery-page-image">
+    <a href="http://www.donatiengarnier.com/un-spectacle-en-3d/" class="gallery-text">
+        <img src="assets/gallery/arbre-intégrale.jpg" class="post-image" />
+        <i>L'Arbre Intégral</i> <br/> Le Poème en volume
     </a>
 </div>
 
 <div align="middle" class="gallery-page-image">
     <a href="https://vimeo.com/213259612" class="gallery-text" >
     <img src="assets/gallery/14-Virages2.jpg" class="post-image" />
-        (à) partir <br/> Thibaud le Maguer
+        (à) partir </i><br/> Thibaud le Maguer
     </a>
 </div>
 
@@ -76,94 +97,110 @@ category: site-gallery
     <a href="http://passerelle-arts-sciences.fr/qui-parle-donc-2019/"
     class="gallery-text">
         <img src="assets/gallery/Qui-parle-donc_Event.jpg" class="post-image" />
-        Qui parle donc  <br/> Passerelle arts-sciences
+        <i> Qui parle donc</i>  <br/> Passerelle arts-sciences
     </a>
 </div>
 
 <div id="meta-chef-d-orchestre" align="middle" class="gallery-page-image">
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Meta-Chef-d-Orchestre" class="gallery-text">
         <img src="assets/gallery/dome_scrime.jpg" class="post-image" />
-        Méta Chef d’Orchestre <br/> Serge Delaubier
+        <i> Méta Chef d’Orchestre </i><br/> Serge Delaubier
     </a>
+</div>
+
+<div align="middle" class="gallery-page-image">
+    <a href="https://www.compagnie-ever.com/aleas" class="gallery-text">
+        <img src="assets/gallery/MECA 2.jpg" class="post-image" />
+        <i>ALEAS </i><br/> Compagnie EVER <br/> Camille Rocailleux
+    </a>    
 </div>
 
 <div id="sonotact" align="middle" class="gallery-page-image">
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Sonotact" class="gallery-text">
         <img src="assets/gallery/sonotact.jpg" class="post-image" />
-        Sonotact <br/> Pascale Criton
+        <i> Sonotact </i><br/> Pascale Criton
     </a>
 </div>
 
 <div align="middle" class="gallery-page-image">
     <a href="https://scrime.u-bordeaux.fr/Arts-Sciences/Residences/Residences/Rain-of-Music" class="gallery-text">
         <img src="assets/gallery/metabot_score.jpg" class="post-image" />
-        Rain of Music <br/> Josu Rekalde and co
+        <i> Rain of Music </i><br/> Josu Rekalde 
     </a>
 </div>
 
 <div align="middle" class="gallery-page-image">
     <a href="https://vimeo.com/572657592" class="gallery-text">
         <img src="assets/gallery/chant-hibou.jpeg" class="post-image" />
-        Le regard du hibou <br/> Les Baltazars
+        <i> Le regard du hibou </i><br/> The Baltazars
     </a>
 </div>
 
 <div align="middle" class="gallery-page-image">
     <a href="https://dennis-scheiba.com/events/2021-06-04_kolorit.html" class="gallery-text">
         <img src="assets/gallery/heimat.jpeg" class="post-image" />
-        Heimat <br/> Dennis Scheiba
+        <i> Heimat</i> <br/> Dennis Scheiba
     </a>
 </div>
 
 <div align="middle" class="gallery-page-image">
     <a href="https://jim2021.sciencesconf.org/361406" class="gallery-text">
         <img src="assets/gallery/hermes-captureécran.jpeg" class="post-image" />
-        HERMES v2 <br /> João Svidzinski
+        <i> HERMES v2</i> <br /> João Svidzinski
     </a>
 </div>
 
 <div align="middle" class="gallery-page-image">
     <a href="https://www.youtube.com/watch?v=3taCxcwjxcs" class="gallery-text">
         <img src="assets/gallery/marelle.jpg" class="post-image" />
-        Jeu de la Marelle <br /> Laurence Bouckaert <br /> Olivier Moyne 
+        <i> Jeu de la Marelle </i><br /> Laurence Bouckaert <br /> Olivier Moyne 
     </a>
 </div>
 
 <div align="middle" class="gallery-page-image">
     <a href="https://www.luchs.us/parallel-welt" class="gallery-text">
         <img src="assets/gallery/STATUE-ART.jpg" height="270" class="post-image" />
-        ParallelWorlds <br /> LUCHS.US Team
+        <i> ParallelWorlds </i><br /> LUCHS.US Team
     </a>
 </div>
 
 <div align="middle" class="gallery-page-image">
     <a href="https://youtu.be/IPW5e-OhMy8?t=2487" class="gallery-text">
-        <img src="assets/gallery/S0327146.JPG" height="270" class="post-image" />
-        Proteus <br /> Gordon Delap
+        <img src="assets/gallery/S0327146.JPG" height="270" class="post-image" />  <i>Proteus </i><br /> Gordon Delap
     </a>
 </div>
 
+
+
 <div align="middle" class="gallery-page-image">
-    <a href="https://vimeo.com/392372223" class="gallery-text">
-        <img src="assets/gallery/SNN2.png" class="post-image" />
-        SNN#2: <br /> Light/Space/Modulator <br /> Alex Saunier & Chris Salter
-    </a>
+    <a href="https://assoikari.wordpress.com/2016/09/15/matiere-creation-en-cours/" class="gallery-text">
+        <img src="assets/gallery/matiere.png" class="post-image" />
+        <i> Matière </i> <br /> Cie Ikari / Thomas Pachoud    </a>
 </div>
+
+
+
+
+
+
+
+
+
 
 </div>
 <br/>
 <br/>
 <div class="gallery-list">
-<h2>More projects using ossia: </h2>
+<h2>More (details of) projects using ossia: </h2>
 
 <ul>
 <li> tangibleFlux φ plenumorphic ∴ chaosmosis – Navid Navab – score with Max, ossia and Jamoma </li>
 <li> ParOral, Georges Gagneré – didascalie.net – score with SuperCollider + Unity/Unreal Engine </li>
-<li> L’Arbre intégral, Le Poème en Volume –  (score with Reaper, Live, Unity3D, + un smartphone android) </li>
-<li> pianotronics #3 – Alain Bonardi – score </li>
+<li> L’Arbre intégral, Le Poème en Volume –  (score with Reaper, Live, Unity3D, + android  smartphone) </li>
+<li> pianotronics #3 – Alain Bonardi – (score) </li>
 <li> Le Chant des Nanos – Collectif Genre, SCRIME / IdEx Arts et Sciences – score with Max4Live +Modul8 </li>
 <li> L’Aveuglement, Cie Contour Progressif  : (ossia-pd and score) </li>
-<li> (à) partir,  (score, ossia-pd, ofxossia) </li>
+<li> (à) partir,  Théo Maguer (score, ossia-pd, ofxossia) </li>
 <li> AdAstra,  Djeff (score)  </li>
 <li> Cie IKARI: shapeOfLight et Matiere (ongoing production) and (oncoming) Ascension : (score and ofxOssia)  </li>
 <li> Cie Princess Leopold: Voyage Voyage (score and ofxOssia) </li>
