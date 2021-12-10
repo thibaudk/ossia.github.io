@@ -43,7 +43,7 @@ The releases are 64-bit on all desktop operating systems.
 
 ### Linux (Raspberry Pi, embedded...)
 
-* Raspberry Pi 3/4 (experimental, AArch32 build): [available here](https://github.com/ossia/score/releases/download/v3.0.0-rc6/ossia.score-3.0.0-rc6-rpi-aarch32.zip)!
+* Raspberry Pi 3/4 (experimental, AArch32 build): [available here](https://github.com/ossia/score/releases/download/v3.0.0-rc6/ossia.score-3.0.0-rc6-rpi-aarch32.tar.gz)!
 
 * Read the [documentation](https://ossia.io/score-docs/in-depth/embedded.html) before running score on a Pi.
 
