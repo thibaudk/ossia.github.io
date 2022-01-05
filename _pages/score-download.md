@@ -4,21 +4,27 @@ title:  "Download ossia score"
 
 permalink: /score/download.html
 category: site-score
-score_version: 3.0.0-rc7
+score_version: 3.0.0
 ---
 
-Download the latest beta release __ossia score v{{page.score_version}}__:
+Download the latest stable release __ossia score v{{page.score_version}}__:
 <p style="display: flex; justify-content: center;align-content:space-evenly;" align="center">
 <a href="https://github.com/ossia/score/releases/download/v{{page.score_version}}/ossia.score-{{page.score_version}}-win64.exe" target="_blank" class="page-button download-page"><img src="../assets/windows_logo_2012-Black.svg" height="80px"/>Windows 7/8/10/11</a>
 <a href="https://github.com/ossia/score/releases/download/v{{page.score_version}}/ossia.score-{{page.score_version}}-macOS.dmg"  target="_blank" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="80px"/>Mac OS<br/>10.14 and later</a>
 <a href="https://github.com/ossia/score/releases/download/v{{page.score_version}}/ossia.score-{{page.score_version}}-linux-amd64.AppImage" target="_blank" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux</a>
+<a href="https://github.com/ossia/score/releases/download/v{{page.score_version}}/ossia.score-{{page.score_version}}-rpi-aarch32.tar.gz" target="_blank" class="page-button download-page"><img src="../assets/Pi_Platform.svg" height="80px"/>Raspberry Pi</a>
 </p>
 See the <a href="https://github.com/ossia/score/releases/latest" target="_blank">change log</a> for the latest release.
 
 ## Supported platforms
 
-The releases are 64-bit on all desktop operating systems.
+The releases are 64-bit on all desktop operating systems, 32-bit for Raspberry Pi. There are no native M1 macOS builds yet but score has been tested to work in Rosetta.
 
+### Minimal requirements
+
+* 800 MHz CPU, 512MB of RAM (but you won't make very large scores).
+* For graphics, a GPU which supports at least OpenGL 3.2, Vulkan, Direct3D11 or Metal.
+  
 ### Windows
 
 * Recommended: Windows 10. Must be at least Windows 7 with all system updates installed.
@@ -31,9 +37,12 @@ The releases are 64-bit on all desktop operating systems.
 
 ### Linux (Desktop)
 
-* All Linux distributions from at least 2015-era should be supported.
-  * The packages are built on CentOS 7.
-  * Your system must have at least glibc-2.17, as well as X11, ALSA, libGL, librt, libdbus (those packages are present on any relevant desktop distribution ; if you use Debian, Ubuntu, Fedora, OpenSUSE, ArchLinux or anything like those it will work fine).
+* All Linux distributions from at least mid-2018 should be supported.
+  * The packages are built on CentOS 8.
+  * Ubuntu 18.10+
+  * Debian Buster (10) / Bullseye (11) / ...  
+  * Fedora 29+
+  * Your system must have at least glibc-2.28, as well as X11, ALSA, libGL, librt, libdbus, libGL, libEGL (those packages are present on any relevant desktop distribution ; if you use Debian, Ubuntu, Fedora, OpenSUSE, ArchLinux or anything like those it will work fine).
   * Either JACK or Pipewire for audio, and Avahi for Bonjour support are recommended.
   * libbluez may be necessary to use Wiimotes (which go through Bluetooth).
   * Wayland support is still experimental, in particular on GNOME-based desktops.
@@ -42,8 +51,6 @@ The releases are 64-bit on all desktop operating systems.
   https://github.com/AppImage/awesome-appimage/#desktop-integration
 
 ### Linux (Raspberry Pi, embedded...)
-
-* Raspberry Pi 3/4 (experimental, AArch32 build): [available here](https://github.com/ossia/score/releases/download/v3.0.0-rc6/ossia.score-3.0.0-rc6-rpi-aarch32.tar.gz)!
 
 * Read the [documentation](https://ossia.io/score-docs/in-depth/embedded.html) before running score on a Pi.
 

@@ -49,7 +49,7 @@ Here is a video explaining how to contribute to the code of ossia score:
 <h2 class="feature-title">Roadmap</h2>
 <br/>
 <p align="center">
-<a href="https://github.com/ossia/score/releases/tag/v2.5.2" class="page-button"  target="_blank" >Current stable version is 2.5.2</a>
+<a href="https://github.com/ossia/score/releases/tag/v2.5.2" class="page-button"  target="_blank" >Current stable version is 3.0.0</a>
 </p>
 
 <h2>Future plans</h2>
@@ -62,12 +62,13 @@ Here is a video explaining how to contribute to the code of ossia score:
 * Better support for sequences.
 * Support for MIDI 2.0.
 
-<h2><a href="https://github.com/ossia/score/releases/tag/v3.0.0-alpha1"  target="_blank">ossia score v3 (release targeting autumn 2021)</a></h2>
+<h2><a href="https://github.com/ossia/score/releases/tag/v3.0.0"  target="_blank">ossia score v3 (released jan. 2022)</a></h2>
 
 ossia score 3 fulfills the long-term goal of being a proper multi-media platform, by providing integrated video abilities, in sync with the rest of the score, as well as musical abilities with support for tempo, musical metrics and quantization. Finally, the core engine has been extended to allow cycles in scenarios with a new kind of connection. This allows to implement state-machine-like behaviours in scenarios.
 
 * [Support for reading videos](https://twitter.com/jcelerie/status/1236809800727617537){:target="_blank"}, right now H.264 and HAP. Implementation uses Vulkan, Metal, D3D or OpenGL depending on the platform for maximal performance. Multiple viewports are supported. Spout output is supported.
-* Support for applying shader-based filters on these videos. Interactive shader format is supported.
+* Support for applying shader-based filters on these videos. Interactive Shader Format is supported.
+* Support for JSFX plug-ins, VST3.
 * Support for tempo, musical bars, etc. It is now possible to sync the triggering of a timenode to the beginning of the following bar for instance. Polyrythmy is supported : each interval can have its own tempo and metrics timeline.
 * [Support for cycles and loops](https://twitter.com/jcelerie/status/1245484342274646017){:target="_blank"} in the main scenario.
 * [Preset mechanism](https://twitter.com/jcelerie/status/1241774333535666176){:target="_blank"} for built-in processes.
