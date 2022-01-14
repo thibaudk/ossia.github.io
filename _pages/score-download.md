@@ -4,7 +4,7 @@ title:  "Download ossia score"
 
 permalink: /score/download.html
 category: site-score
-score_version: 3.0.0
+score_version: 3.0.1
 ---
 
 Download the latest stable release __ossia score v{{page.score_version}}__:
