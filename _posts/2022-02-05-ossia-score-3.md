@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  ossia score 3
+title:  Introducing ossia score 3
 date:   2022-02-05
 author: Jean-Michaël Celerier
 category: News
-image: /assets/blog/v3-final/score.png
-image-alt: Screenshot of ossia score 3
+image: /assets/blog/v3-final/ossia-score-3.jpg
+image-alt: ossia score 3
 description: Introducing ossia score 3
 ---
 
