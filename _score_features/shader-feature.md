@@ -3,7 +3,7 @@ layout: score-feature
 title:  "Shaders"
 
 noindex: true
-doclink: /processes/shader.html
+doclink: /processes/shaders.html
 permalink: /score/features/shaders.html
 category: "site-score"
 
