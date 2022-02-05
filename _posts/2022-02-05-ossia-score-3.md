@@ -55,3 +55,4 @@ will do our best to mentor you!
 
 A huge thanks to the public and private sponsors who believe in the project -- in particular Epic and the Megagrant thanks to which we could afford working full-time on ossia. To all the occasional and regular contributors, to all the individuals who take the time to report issues when they hit a bug, to all the developers and testers of the ton of libraries we use (check out the About screen once in a while!) and to all the artists who use score to create great artworks: thank you so much for your time and work!
 
+[Discuss this post on Reddit !](https://www.reddit.com/r/ossia/comments/slaihs/introducing_ossia_score_3/)
