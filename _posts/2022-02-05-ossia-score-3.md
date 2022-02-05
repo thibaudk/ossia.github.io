@@ -6,7 +6,7 @@ author: Jean-Michaël Celerier
 category: News
 image: /assets/blog/v3-final/ossia-score-3.jpg
 image-alt: ossia score 3
-description: Introducing ossia score 3
+description: The interactive and intermedia sequencer reaches a stable release
 ---
 
 # Introducing ossia score 3
