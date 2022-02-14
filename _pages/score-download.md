@@ -10,7 +10,7 @@ score_version: 3.0.3
 Download the latest stable release __ossia score v{{page.score_version}}__:
 <p style="display: flex; justify-content: center;align-content:space-evenly;" align="center">
 <a href="https://github.com/ossia/score/releases/download/v{{page.score_version}}/ossia.score-{{page.score_version}}-win64.exe" target="_blank" class="page-button download-page"><img src="../assets/windows_logo_2012-Black.svg" height="80px"/>Windows 7/8/10/11</a>
-<a href="https://github.com/ossia/score/releases/download/v{{page.score_version}}/ossia.score-{{page.score_version}}-macOS.dmg"  target="_blank" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="80px"/>Mac OS<br/>10.14 and later</a>
+<a href="https://github.com/ossia/score/releases/download/v{{page.score_version}}/ossia.score-{{page.score_version}}-macOS.dmg"  target="_blank" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="80px"/>Mac OS<br/>10.13 and later</a>
 <a href="https://github.com/ossia/score/releases/download/v{{page.score_version}}/ossia.score-{{page.score_version}}-linux-amd64.AppImage" target="_blank" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux</a>
 <a href="https://github.com/ossia/score/releases/download/v{{page.score_version}}/ossia.score-{{page.score_version}}-rpi-aarch32.tar.gz" target="_blank" class="page-button download-page"><img src="../assets/Pi_Platform.svg" height="80px"/>Raspberry Pi</a>
 </p>
@@ -33,7 +33,7 @@ The releases are 64-bit on all desktop operating systems, 32-bit for Raspberry P
 
 ### macOS
 
-* macOS: must be at least Mojave (10.14).
+* macOS: must be at least High Sierra (10.13).
 
 ### Linux (Desktop)
 
