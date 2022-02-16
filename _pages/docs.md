@@ -248,7 +248,7 @@ See the <a href="/contributor-guide.html">Contributing</a> page for more informa
 
 <p type="button"  class="collapsible">  score crashes immediately on first start-up on Windows</p>
 <div class="collapsible-content">
-    Check that you do not have the JACK2 ASIO driver installed. It is known to cause [crashes on startup on Windows](https://github.com/jackaudio/jack2/issues/275) for many software. You can check the following registry key in the Windows registry editor: `HKEY_LOCAL_MACHINE\SOFTWARE\ASIO`.
+    Check that you do not have the JACK2 ASIO driver installed. It is known to cause <a href="https://github.com/jackaudio/jack2/issues/275">crashes on startup on Windows</a> for many software. You can check the following registry key in the Windows registry editor: <b>HKEY_LOCAL_MACHINE\SOFTWARE\ASIO</b>.
 </div>
 
 <p type="button" class="collapsible">  The playback does not start</p>
