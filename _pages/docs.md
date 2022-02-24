@@ -239,29 +239,29 @@ See the <a href="/contributor-guide.html">Contributing</a> page for more informa
 -->
 <h3 class="faq">Troubleshooting</h3>
 
-<p type="button"  class="collapsible">  score just crashed</p>
+<p type="button"  class="collapsible"> score just crashed</p>
 <div class="collapsible-content">
     Please send us a detailed bug report of what you were doing at the moment of the crash,
     along with any crashlog, in either the forum, the chat or the <a href="https://github.com/ossia/score/issues">Github issues (preferably)</a>.
     Thanks !
 </div>
 
-<p type="button"  class="collapsible">  score crashes immediately on first start-up on Windows</p>
+<p type="button"  class="collapsible"> score crashes immediately on first start-up on Windows</p>
 <div class="collapsible-content">
     Check that you do not have the JACK2 ASIO driver installed. It is known to cause <a href="https://github.com/jackaudio/jack2/issues/275">crashes on startup on Windows</a> for many software. You can check the following registry key in the Windows registry editor: <b>HKEY_LOCAL_MACHINE\SOFTWARE\ASIO</b>.
 </div>
 
-<p type="button" class="collapsible">  The playback does not start</p>
+<p type="button" class="collapsible"> The playback does not start</p>
 <div class="collapsible-content">
      Most of the time, this is due to incorrect sound settings.
 </div>
 
-<p type="button" class="collapsible">  The score runs but there is no sound</p>
+<p type="button" class="collapsible"> The score runs but there is no sound</p>
 <div class="collapsible-content">
      Most of the time, this is due to incorrect sound settings.
 </div>
 
-<p type="button" class="collapsible">  Playback seems to hang at random times on Linux</p>
+<p type="button" class="collapsible"> Playback seems to hang at random times on Linux</p>
 <div class="collapsible-content">
     This is due to a <a href="https://portaudio.music.columbia.narkive.com/3V9hsUak/pa-linux-alsa-c-3636-assertion-failed-with-hack-fix">PortAudio bug</a>.
     Use the JACK backend instead.
