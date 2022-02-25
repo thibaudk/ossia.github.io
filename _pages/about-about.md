@@ -18,7 +18,7 @@ category: site-about
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/pbaltazar.jpeg"/>
     <a href="http://www.baltazars.org/" target="_blank" class="bubble-title">Pia Baltazar</a>
-    <div class="bubble-description">> Intermedia composer (The <a href="http://www.baltazars.org/">Baltazars</a> duo). She coordinates the ossia organization. She has contributed to the visual syntax and interaction design of score and to the specification design of the libossia namespace model.</div>
+    <div class="bubble-description">Intermedia composer (The <a href="http://www.baltazars.org/">Baltazars</a> duo). She coordinates the ossia organization. She has contributed to the visual syntax and interaction design of score and to the specification design of the libossia namespace model.</div>
 </div>
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/tkeller.jpg"/>
@@ -34,7 +34,7 @@ He gives workshops, conduct residencies and collect user experiences focused on 
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/antoine.jpg"/>
     <a href="https://opencollective.com/ossia" target="_blank"  class="bubble-title">Antoine Villeret</a>
-    <div class="bubble-description">Antoine creates interactive artworks. He is the main developer of ossia-max and ossia-pd.</div>
+    <div class="bubble-description">Creator of interactive artworks and experienced software engineer. He is the main developer of ossia-max and ossia-pd.</div>
 </div>
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/himito.jpg"/>
@@ -44,7 +44,7 @@ He gives workshops, conduct residencies and collect user experiences focused on 
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/julien.png"/>
     <a href="https://opencollective.com/ossia" target="_blank"  class="bubble-title">Julien Rabin</a>
-    <div class="bubble-description">Julien is a composer, involved with ossia since the very beginnings of the project, and is currently involved with writing the documentation.</div>
+    <div class="bubble-description">Musician, composer, involved with ossia since the very beginnings of the project. Julien is currently involved with writing the documentation for score and is an ossia-max expert.</div>
 </div>
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/oscar.png"/>
