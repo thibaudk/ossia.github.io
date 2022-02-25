@@ -33,7 +33,7 @@ He gives workshops, conduct residencies and collect user experiences focused on 
 </div>
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/antoine.jpg"/>
-    <a href="https://opencollective.com/ossia" target="_blank"  class="bubble-title">Antoine Villeret</a>
+    <a href="http://antoine.villeret.free.fr/?lang=fr" target="_blank"  class="bubble-title">Antoine Villeret</a>
     <div class="bubble-description">Creator of interactive artworks and experienced software engineer. He is the main developer of ossia-max and ossia-pd.</div>
 </div>
 <div class="bubble-item">
@@ -43,8 +43,23 @@ He gives workshops, conduct residencies and collect user experiences focused on 
 </div>
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/julien.png"/>
-    <a href="https://opencollective.com/ossia" target="_blank"  class="bubble-title">Julien Rabin</a>
+    <a href="" target="_blank"  class="bubble-title">Julien Rabin</a>
     <div class="bubble-description">Musician, composer, involved with ossia since the very beginnings of the project. Julien is currently involved with writing the documentation for score and is an ossia-max expert.</div>
+</div>
+<div class="bubble-item">
+    <img class="bubble-image" src="assets/association/nani.png"/>
+    <a href="http://www.mathieuchamagne.com/" target="_blank"  class="bubble-title">Mathieu Chamagne</a>
+    <div class="bubble-description">Mathieu Chamagne invents virtual spaces to be discovered and explored using digital devices. With a piano background, he has been developing a musical practice around electroacoustic instruments since the 90s. </div>
+</div>
+<div class="bubble-item">
+    <img class="bubble-image" src="assets/association/nani.png"/>
+    <a href="https://vincentgoudard.com/" target="_blank"  class="bubble-title">Vincent Goudard</a>
+    <div class="bubble-description">Researcher and maker crafting digital musical instruments for audio/visual live performances, installations and interactive applications.</div>
+</div>
+<div class="bubble-item">
+    <img class="bubble-image" src="assets/association/nani.png"/>
+    <a href="" target="_blank"  class="bubble-title">Pierre Cochard</a>
+    <div class="bubble-description">Intermedia creator and musician, he has helped creating multiple artworks and pieces with i-score and ossia score.</div>
 </div>
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/oscar.png"/>
