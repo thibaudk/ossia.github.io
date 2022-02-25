@@ -171,6 +171,15 @@ Talks about the project are regularly given in conferences and meetups. Here is 
 * [Talks given by Jean-Michaël](https://jcelerier.name/page/talks)
 
 ## Research articles and Ph. D. dissertations
+#### 2021
+* [Patches in a timeline with ossia score](http://periodicos.unespar.edu.br/index.php/vortex/article/view/4545), Jean-Michaël Celerier, Vortex Music Journal
+
+#### 2020
+* [Architecture logicielle du projet ossia](https://revues.mshparisnord.fr/rfim/index.php?id=574), Jean-Michaël Celerier, Revue Française d'Informatique Musicale
+
+#### 2019
+* [A Cross-Platform Development Toolchain For JIT-Compilation in Multimedia Software](http://lac.linuxaudio.org/2019/doc/celerier.pdf), Jean-Michaël Celerier, LAC2019
+  
 #### 2018
 
 * <a href="https://tel.archives-ouvertes.fr/tel-01947309/document">Authoring interactive media: a logical & temporal approach</a>, Ph. D. thesis, Jean-Michaël Celerier
