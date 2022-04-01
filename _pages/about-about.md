@@ -74,7 +74,7 @@ He gives workshops, conduct residencies and collect user experiences focused on 
 <section class="wrapper style4 association-page">
 <div class="bubble-grid">
 <div class="bubble-item">
-    <img class="bubble-image" src="assets/association/nani.png"/>
+    <img class="bubble-image" src="assets/association/emontpellier.jpg"/>
     <a href="https://evanmontpellier.net/" target="_blank" class="bubble-title">Evan Montpellier</a>
     <div class="bubble-description">Evan Montpellier, coordinator of the Canadian non-profit, is a musician and artist based in Montréal, Québec. Working mainly with selfbuilt software and electronic instruments, Evan creates live video and sound performances, recorded music and interactive artworks.</div>
 </div>
