@@ -9,7 +9,7 @@ image: "/assets/score-logo.png"
 include: ["_pages", "CNAME", ".nojekyll", "score-last-version.txt", "download-stats.json"]
 # exclude: ["vendor"]
 permalink: /posts/:title/
-score_version: 3.0.6
+score_version: 3.0.7
 plugins:
   - jekyll-sitemap
   - jekyll-assets
