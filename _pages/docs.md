@@ -51,7 +51,7 @@ Note that there is *no warranty* provided - it is however possible to contact ou
 The easiest way to contribute is by donating to the <a href="https://opencollective.org/ossia">development fund</a>.
 
 A very good way to participate is by contributing through bug reports, and code improvements.
-See the <a href="/contributor-guide.html">Contributing</a> page for more information.
+See the <a href="/project.html">Contributing</a> page for more information.
 </div>
 <!--
 <p type="button" class="collapsible"> Playing a sound</p>
