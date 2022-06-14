@@ -4,7 +4,7 @@ title:  Collaborative and distributed interactive scores
 date:   2022-06-14
 author: Jean-Michaël Celerier
 category: News
-image: /assets/blog/v3-final/ossia-score-3.jpg
+image: /assets/blog/distributed/image.png
 image-alt: Distributed score screenshot
 description: Collaborative features in score 3.0.11
 ---
