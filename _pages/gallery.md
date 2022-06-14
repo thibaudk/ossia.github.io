@@ -151,13 +151,6 @@ category: site-gallery
 </div>
 
 <div align="middle" class="gallery-page-image">
-    <a href="https://www.youtube.com/watch?v=3taCxcwjxcs" class="gallery-text">
-        <img src="assets/gallery/marelle.jpg" class="post-image" />
-        <i> Jeu de la Marelle </i><br /> Laurence Bouckaert <br /> Olivier Moyne 
-    </a>
-</div>
-
-<div align="middle" class="gallery-page-image">
     <a href="https://www.luchs.us/parallel-welt" class="gallery-text">
         <img src="assets/gallery/STATUE-ART.jpg" height="270" class="post-image" />
         <i> ParallelWorlds </i><br /> LUCHS.US Team
@@ -169,8 +162,6 @@ category: site-gallery
         <img src="assets/gallery/S0327146.JPG" height="270" class="post-image" />  <i>Proteus </i><br /> Gordon Delap
     </a>
 </div>
-
-
 
 <div align="middle" class="gallery-page-image">
     <a href="https://assoikari.wordpress.com/2016/09/15/matiere-creation-en-cours/" class="gallery-text">
