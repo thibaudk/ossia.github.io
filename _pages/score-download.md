@@ -49,6 +49,13 @@ The releases are 64-bit on all desktop operating systems, 32-bit for Raspberry P
 * To integrate the AppImage into your system, please follow
   https://github.com/AppImage/awesome-appimage/#desktop-integration
 
+* Important note: for Ubuntu Jammy (22.04), libfuse2 must be installed as it is necessary for running AppImages:
+
+```
+sudo add-apt-repository universe
+sudo apt install libfuse2
+```
+
 ### Linux (Raspberry Pi, embedded...)
 
 * Read the [documentation](https://ossia.io/score-docs/in-depth/embedded.html) before running score on a Pi.
