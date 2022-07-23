@@ -4,7 +4,7 @@ title:  "Qt / QML bindings"
 
 permalink: /site-libossia/features/qml.html
 category: "site-libossia"
-#image: /assets/bindings/qml.png
+image: /assets/logo/qt-logo.png
 description: "Using libossia with QML"
 
 tag: "Bindings"

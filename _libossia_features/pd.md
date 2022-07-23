@@ -4,7 +4,7 @@ title:  "PureData bindings"
 
 permalink: /site-libossia/features/puredata.html
 category: "site-libossia"
-#image: /assets/bindings/puredata.png
+image: /assets/logo/pd.png
 description: "Using libossia with PureData"
 
 tag: "Bindings"

@@ -4,7 +4,7 @@ title:  "SuperCollider bindings"
 
 permalink: /site-libossia/features/supercollider.html
 category: "site-libossia"
-#image: /assets/bindings/puredata.png
+image: /assets/logo/supercollider-logo.png
 description: "Using libossia with SuperCollider"
 
 tag: "Bindings"

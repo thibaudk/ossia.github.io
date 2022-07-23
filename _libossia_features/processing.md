@@ -4,7 +4,7 @@ title:  "Processing bindings"
 
 permalink: /site-libossia/features/processing.html
 category: "site-libossia"
-#image: /assets/bindings/processing.png
+image: /assets/logo/processing.jpg
 description: "Using libossia with Processing"
 
 tag: "Bindings"

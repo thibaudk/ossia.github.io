@@ -4,7 +4,7 @@ title:  "Unity3D bindings"
 
 permalink: /site-libossia/features/unity.html
 category: "site-libossia"
-#image: /assets/bindings/qml.png
+image: /assets/logo/unity.png
 description: "Using libossia with Unity3D"
 
 tag: "Bindings"

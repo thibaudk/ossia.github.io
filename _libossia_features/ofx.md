@@ -4,7 +4,7 @@ title:  "OpenFrameworks bindings"
 
 permalink: /site-libossia/features/openframeworks.html
 category: "site-libossia"
-#image: /assets/bindings/openframeworks.png
+image: /assets/logo/of.png
 description: "Using libossia with OpenFrameworks"
 
 tag: "Bindings"

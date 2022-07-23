@@ -4,7 +4,7 @@ title:  "Unreal Engine bindings"
 
 permalink: /site-libossia/features/unreal.html
 category: "site-libossia"
-#image: /assets/bindings/qml.png
+image: /assets/logo/unreal_engine.png
 description: "Using libossia with Unreal Engine"
 
 tag: "Bindings"

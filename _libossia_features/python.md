@@ -4,7 +4,7 @@ title:  "Python bindings"
 
 permalink: /site-libossia/features/python.html
 category: "site-libossia"
-#image: /assets/bindings/max.png
+image: /assets/logo/python-logo.png
 description: "Using libossia with Python"
 
 tag: "Bindings"

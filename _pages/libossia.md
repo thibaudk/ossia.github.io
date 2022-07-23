@@ -81,7 +81,7 @@ libossia is distributed under the terms of the CeCILL-C license and of the LGPLv
          <div class="features-list">
         {% for post in site.libossia_features %}
                 <a href="{{post.url}}" class="thumbnail" >
-                    <img class="thumbnail-feature" src="/assets/blank.png" alt="{{post.title}}" data-echo="{{post.image}}"  width="auto"/>
+                    <img class="thumbnail-feature-libossia" src="/assets/blank.png" data-echo="{{post.image}}" />
                     <h1 class="blog-title">{{post.title}} </h1>
                     <span class="feature-description">{{post.description}}</span>
                 </a>
