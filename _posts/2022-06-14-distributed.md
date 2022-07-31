@@ -161,6 +161,6 @@ Similar support for audio, video, and MIDI is planned but understandably quite a
 Interactive distributed scores spanning from microcontrollers to web pages ;p
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">it actually works 🥳 one score in a browser compiled as <a href="https://twitter.com/hashtag/webassembly?src=hash&amp;ref_src=twsrc%5Etfw">#webassembly</a>, another as a desktop app, both edit and play the same document. sync is imperfect, wasm clicks, but I think that this opens up cool new avenues for distributed music performance, laptop orchestras, etc ! <a href="https://t.co/Poh6jj1txf">pic.twitter.com/Poh6jj1txf</a></p>&mdash; jm (@jcelerie) <a href="https://twitter.com/jcelerie/status/1535539371314712576?ref_src=twsrc%5Etfw">June 11, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
+ 
 
 [1] Shader Based on "Twist" Shadertoy by fb39ca4 - https://www.shadertoy.com/view/XsXXDH ; Inspired by Matthew DiVito's gifs http://cargocollective.com/matthewdivito/Animated-Gifs-02 ; Credit: Joseph Fiola, Matthew DiVito, Shadertoy user fb39ca4"

@@ -8,12 +8,12 @@ category: site-score
 
 Download the latest stable release __ossia score v{{site.score_version}}__:
 <p style="display: flex; justify-content: center;align-content:space-evenly;" align="center">
-<a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-win64.exe" target="_blank" class="page-button download-page"><img src="../assets/windows_logo_2012-Black.svg" height="80px"/>Windows 7/8/10/11</a>
+<a href="https://apps.microsoft.com/store/detail/ossia-score/9NGT21X5XB19" target="_blank" class="page-button download-page"><img src="../assets/windows_logo_2012-Black.svg" height="80px"/>Microsoft Store</a>
 <a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-macOS.dmg"  target="_blank" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="80px"/>Mac OS<br/>10.13 and later</a>
 <a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-linux-amd64.AppImage" target="_blank" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux</a>
 <a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-rpi-aarch32.tar.gz" target="_blank" class="page-button download-page"><img src="../assets/Pi_Platform.svg" height="80px"/>Raspberry Pi</a>
 </p>
-See the <a href="https://github.com/ossia/score/releases/latest" target="_blank">change log</a> for the latest release.
+See the <a href="https://github.com/ossia/score/releases/latest" target="_blank">change log</a> for the latest release and the non-store downloads.
 
 ## Supported platforms
 
