@@ -1606,7 +1606,18 @@ figure.highlight pre {
     white-space: -o-pre-wrap;
     word-wrap: break-word;
 }
+code {
+    word-wrap: break-word;
+}
+div.highlight {
+    display: flex;
+    overflow-wrap: anywhere;
+}
 
+pre.highlight {
+    overflow-wrap: anywhere;
+    flex-direction: column; 
+}
 .highlight pre { background-color: #272822; color: #f8f8f2; }
 .highlight .hll { background-color: #272822; }
 .highlight .c { color: #75715e } /* Comment */
