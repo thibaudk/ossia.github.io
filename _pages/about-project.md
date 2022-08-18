@@ -36,7 +36,7 @@ We need help on :
 * Linux distribution packaging
 
 Most of the discussion regarding score features occurs on the [issue tracker](https://github.com/ossia/score/issues).
-If you wish to help, you can join the [forum](https://forum.ossia.io) or the [chat](https://gitter.im/ossia/score).
+If you wish to help, you can join the [forum](https://forum.ossia.io), the [Discord channel](https://discord.gg/8Hzm4UduaS) or the [chat on Gitter](https://gitter.im/ossia/score).
 We can help you into making your first contributions to the project.
 
 Here is a video explaining how to contribute to the code of ossia score:
@@ -54,15 +54,15 @@ Here is a video explaining how to contribute to the code of ossia score:
 
 <h2>Future plans</h2>
 
-* Networked edition and execution. [These capabilities have been prototyped but not kept up to date with the rest of the software](https://github.com/ossia/iscore-addon-network){:target="_blank"}.
+* Networked edition and execution (done in 3.0.11!).
 * Support for recording audio, midi directly in the score. Improvements for OSC recording.
 * Parametric processes. How to have parameters and variables used within the scope of a given box and changed easily across different instances of that box.
 * Mixer panel : making mixing from within score more straightforward.
 * WebAssembly support : experiments have been made a few years ago – most of the score engine and user interface builds for WebAssembly, but not every process works yet.
-* Support for geometry transformations and compute shaders.
+* Support for geometry transformations and compute shaders (done in 3.2.0!).
 * Better support for sequences.
 * Support for MIDI 2.0.
-* Spout, Syphon support (done in 3.0.4 !).
+* Spout, Syphon support (done in 3.0.4!).
 
 <h2><a href="https://github.com/ossia/score/releases/tag/v3.0.0"  target="_blank">ossia score v3 (released jan. 2022)</a></h2>
 

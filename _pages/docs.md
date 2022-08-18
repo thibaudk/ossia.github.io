@@ -17,8 +17,8 @@ category: site-docs
          <a href="blog.html" class="menu-item panel"><span class="icon-svg icon-blog"></span>Blog
          <p class="description">Blog post</p></a>
          <a href="https://forum.ossia.io/"  target="_blank" class="menu-item panel"><span class="icon-svg icon-forum"></span>Forum
-         <p class="description">Ask any questions !</p></a>
-         <a href="https://gitter.im/ossia"  target="_blank" class="menu-item panel"><span class="icon-svg icon-chat"></span>Chat<p class="description">Come chat with us !</p></a>
+         <p class="description">Ask any questions!</p></a>
+         <a href="https://discord.gg/8Hzm4UduaS"  target="_blank" class="menu-item panel"><span class="icon-svg icon-chat"></span>Chat<p class="description">Come chat with us on Discord!</p></a>
 </div>
 
 <div style="width: 100%;">
@@ -243,7 +243,7 @@ See the <a href="/project.html">Contributing</a> page for more information.
 <div class="collapsible-content">
     Please send us a detailed bug report of what you were doing at the moment of the crash,
     along with any crashlog, in either the forum, the chat or the <a href="https://github.com/ossia/score/issues">Github issues (preferably)</a>.
-    Thanks !
+    Thanks!
 </div>
 
 <p type="button"  class="collapsible"> score crashes immediately on first start-up on Windows</p>
@@ -286,7 +286,7 @@ See the <a href="/project.html">Contributing</a> page for more information.
 <br/>
 
 <p align="center">
-<a href="https://forum.ossia.io/" class="page-button"  target="_blank" >If your question is not here, ask us in the forum ! </a>
+<a href="https://forum.ossia.io/" class="page-button"  target="_blank" >If your question is not here, ask us in the forum! </a>
 </p>
 
 
