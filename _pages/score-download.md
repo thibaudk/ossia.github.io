@@ -13,7 +13,7 @@ Download the latest stable release __ossia score v{{site.score_version}}__:
 <a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-linux-amd64.AppImage" target="_blank" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux</a>
 <a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-rpi-aarch32.tar.gz" target="_blank" class="page-button download-page"><img src="../assets/Pi_Platform.svg" height="80px"/>Raspberry Pi</a>
 </p>
-See the <a href="https://github.com/ossia/score/releases/latest" target="_blank">change log</a> for the latest release and the non-store downloads.
+See the bottom of the <a href="https://github.com/ossia/score/releases/latest" target="_blank">change log</a> for the latest release and the free, non-store downloads. We sell score on the Microsoft store as a way to get financial support to ensure continued development so please consider buying it there, or funding us through [OpenCollective](https://opencollective.com/ossia) or [Github Sponsors](https://github.com/sponsors/jcelerier)!
 
 ## Supported platforms
 
