@@ -289,24 +289,4 @@ See the <a href="/project.html">Contributing</a> page for more information.
 <a href="https://forum.ossia.io/" class="page-button"  target="_blank" >If your question is not here, ask us in the forum! </a>
 </p>
 
-
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-    for (i = 0; i < coll.length; i++) {
-        coll[i].classList.remove("active");
-        coll[i].nextElementSibling.style.display = "none";
-    }
-
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    content.style.display = "block";
-  });
-}
-</script>
+<script src="/js/collapsible.js"></script>

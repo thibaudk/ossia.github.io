@@ -1062,7 +1062,6 @@ h2.binding-title:after {
     width: 100%;
     height: auto;
     vertical-align: bottom;
-    background: var(--dark-grey) url(images/banner_quarre.jpg);
 }
 
 #banner .background-image + .overlay{
@@ -1410,29 +1409,37 @@ p.description {
 	color: black !important;
 }
 .page-button:hover {
-    text-decoration: none;
+    text-decoration: underline;
+    font-weight: 900;
     color:var(--orange) !important;
     background: none;
-    border-color: var(--orange)  !important;
+    border-color: none;/*var(--orange)  !important;*/
 }
 
 .page-button.download-page {
-    width: 20%;
-    height: 200px;
+    width: 170px;
+    height: 210px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
 
-    font-size: 28px;
-    margin: 10px;
+    font-size: 30px;
     line-height: 1.0em;
     border-radius: 0px;
-    background: none;
     text-align: center;
+    background: none;
 }
 
+p.download-page-layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
+}
 li a{
     /* color: black; */
     font-weight: 500;
@@ -1454,7 +1461,6 @@ h3.faq{
 
 .collapsible {
     color: #595959;
-   font-size: 20px;
     line-height: 2em;
     font-weight: 500;
     cursor: pointer;

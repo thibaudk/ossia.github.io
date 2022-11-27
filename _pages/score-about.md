@@ -18,6 +18,11 @@ Its novel interactive timeline enables scores written with it to depend on exter
 ossia score is free, libre & open source software and runs on desktop (Windows / macOS / Linux), mobile and embedded.
 It leverages [libossia](../site-libossia/about.html) for its implementation, as well as reputed open-source technologies such as Qt 5, Boost and LLVM. It is written primarily in modern C++.
 
+<br/>
+<p align="center">
+<a href="/score/download.html" class="page-button" style="padding-left:4em;padding-right:4em;font-size: 27px;" >Download score !</a>
+</p>
+
 ## License
 ossia score is distributed under the terms of the CeCILL license. The french CeCILL license allows the software to be used under the terms of the GNU GPLv3.
 
@@ -25,10 +30,6 @@ ossia score is distributed under the terms of the CeCILL license. The french CeC
 You can fund the development of ossia on [OpenCollective](https://opencollective.com/ossia).
 
 
-<br/>
-<p align="center">
-<a href="/score/download.html" class="page-button" style="padding-left:4em;padding-right:4em;font-size: 27px;" >Download</a>
-</p>
 
 {% assign cats = "Structure|Audio|Controls|Graphics|Interoperability|Presentation|Scripting|Software model" | split: '|' %}
 
