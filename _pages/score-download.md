@@ -55,7 +55,7 @@ The releases are 64-bit on all desktop operating systems, 32-bit for Raspberry P
 <ul>
 <li> Recommended: Windows 10. Must be at least Windows 7 with all system updates installed. </li>
 <li> <i>score</i> and *libossia* use Bonjour for the OSCQuery automatic discovery feature.
-  This means that on Windows, you must install the [Bonjour Print Services](https://support.apple.com/kb/dl999?locale=en_US) for this to work. </li>
+  This means that on Windows, you must install the <a href="https://support.apple.com/kb/dl999?locale=en_US">Bonjour Print Services</a> for this to work. </li>
 </ul>
 </div>
 
@@ -77,7 +77,7 @@ All Linux distributions from at least mid-2018 should be supported:
 <li>Ubuntu 18.10+ </li>
 <li>Debian Buster (10) / Bullseye (11) / ...  </li>
 <li>Fedora 29+</li>
-<li>Your system must have at least glibc-2.28, as well as X11, ALSA, libGL, librt, libdbus, libGL, libEGL (those packages are present on any relevant desktop distribution ; if you use Debian, Ubuntu, Fedora, OpenSUSE, ArchLinux or anything like those it will work fine).</li>
+<li>Your system must have at least glibc-2.28, as well as X11, ALSA, libGL, librt, libdbus, libGL, libEGL. Those packages are present on any relevant desktop distribution ; if you use Debian, Ubuntu, Fedora, OpenSUSE, ArchLinux or anything like those it will work fine.</li>
 <li>Either JACK or Pipewire for audio, and Avahi for Bonjour support are recommended.</li>
 <li>libbluez may be necessary to use Wiimotes (which go through Bluetooth).</li>
 <li>Wayland support is still experimental, in particular on GNOME-based desktops.</li>
@@ -94,7 +94,7 @@ sudo apt install libfuse2
 
 <h2 type="button" class="collapsible" > Linux (Raspberry Pi, embedded...) </h2>
 <div class="collapsible-content">
-Read the [documentation](https://ossia.io/score-docs/in-depth/embedded.html) before running score on a Pi.
+Read the <a href="https://ossia.io/score-docs/in-depth/embedded.html">documentation</a> before running score on a Pi.
 </div>
 
 ## Source code
