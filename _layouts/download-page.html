@@ -1,13 +1,38 @@
----
-layout: download-page-layout
----
-<article id="main">
-  <header class="container" style="padding-top: 4em;text-align:center;">
-  </header>
+<!DOCTYPE html>
+<html lang="en">
 
-  <section class="style4 wrapper container">
-    {{ content }}
-  </section>
-</article>
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    
+    <div class="page-content transparent" style="background-image: url('/assets/download-bg.png');" >         
+      <article id="main">
+        <header class="container" style="padding-top: 4em;text-align:center;">
+        </header>
+
+        <section class="style4 wrapper container">
+          {{ content }}
+        </section>
+      </article>
+    </div>
+    {% include footer.html %}
+
+  </body>
+  <script type="text/javascript">
+    let os = navigator.platform;
+    let windows = os.includes('Win');
+    document.getElementById('winstore').style.display = windows ? 'flex' : 'none'; 
+    document.getElementById('win').style.display = windows ? 'flex' : 'none'; 
+    
+    let osx = os.includes('Mac');
+    document.getElementById('osx').style.display = osx ? 'flex' : 'none';
+    
+    let linux = os.includes('Linux');
+    document.getElementById('linux').style.display = linux ? 'flex' : 'none';
+    document.getElementById('pi').style.display = linux ? 'flex' : 'none';
+  </script>
+</html>
 
 

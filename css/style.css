@@ -566,7 +566,7 @@
             padding-left: 6em;
             padding-right: 6em;
 		}
-        .download .wrapper.style4 {
+        .transparent .wrapper.style4, .transparent .container {
  			background: var(--light-background-transparent);
 		}
 /* Header */
@@ -748,6 +748,7 @@ h2.page-title{
 }
 
 
+
 /* Front page features */
 
 #overlay {
@@ -884,13 +885,22 @@ a.link-cat:hover {
 
 a.thumbnail{
     color: var(--dark-grey);
-/*     background-color: var(--dark-grey); */
-    background-color: white;
+    background-color: white; 
     text-align: center;
     font-size: 22px;
     padding: 1em;
     margin: 0.5em;
 }
+
+a.thumbnail.dark{
+    color: white;
+    background-color: var(--dark-transparent-grey); 
+    text-align: center;
+    font-size: 22px;
+    padding: 1em;
+    margin: 0.5em;
+}
+
 
 a.thumbnail:hover{
     -moz-transition: color 0.1s ease-in-out;
@@ -990,7 +1000,7 @@ h2.feature-title:before {
     display: flex;
     justify-content: start;
     align-content: center;
-    align-items: center;
+/*     align-items: center; */
     flex-wrap: wrap;
 }
 
@@ -1247,6 +1257,14 @@ h2.blog-title{
     display:block;
     width:300px;
     word-wrap:break-word;
+    color: inherit;
+}
+
+a.thumbnail.dark h1.blog-title{
+    color: white;
+    font-weight: 600;
+	margin: 0;
+    font-size: 26px;
 }
 span.blog-date{
     margin-top: -30px:

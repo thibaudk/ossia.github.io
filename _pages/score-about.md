@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-with-background
 title:  "About ossia score"
 
 permalink: /score/about.html
@@ -40,9 +40,9 @@ You can fund the development of ossia on [OpenCollective](https://opencollective
         {% for post in site.score_features %}
             {% if post.tag contains ct %}
             {% if post.visible %}
-                <a href="https://ossia.io/score-docs{{post.doclink}}" class="thumbnail" >
+                <a href="https://ossia.io/score-docs{{post.doclink}}" class="thumbnail dark" >
+                    <h1 class="blog-title" style="margin-bottom: 0.4em;">{{post.title}}</h1>
                     <img class="thumbnail-feature" src="/assets/blank.png" alt="{{post.title}}" data-echo="{{post.image}}"  width="auto"/>
-                    <h1 class="blog-title">{{post.title}}</h1>
                     <span class="feature-description">{{post.description}}</span>
                 </a>
             {% endif %}

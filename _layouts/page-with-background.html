@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    
+    <div class="page-content transparent" style="background-image: url('/assets/download-bg.png');" >
+      <article id="main">
+        <header class="container" style="padding-top: 4em;text-align:center;">
+          <h2 class="page-title">{{ page.title }}</h2>
+        </header>
+
+        <section class="style4 wrapper container">
+          {{ content }}
+        </section>
+      </article>
+
+    </div>
+    {% include footer.html %}
+
+  </body>
+  
+</html>
