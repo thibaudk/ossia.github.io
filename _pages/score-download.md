@@ -6,7 +6,7 @@ permalink: /score/download.html
 category: site-score
 ---
 
-## Support us
+<h2> Support us </h2>
 We sell score on the Microsoft store as a way to get financial support to ensure continued development so please consider buying it there, or funding us through <a href="https://opencollective.com/ossia">OpenCollective</a> or <a href="https://github.com/sponsors/jcelerier">Github Sponsors</a>!
 
 ## Download ossia score v{{site.score_version}}
@@ -84,13 +84,15 @@ All Linux distributions from at least mid-2018 should be supported:
 </ul>
 </div>
 
-## Ubuntu Jammy (22.04)
+<h2 type="button" class="collapsible" > Ubuntu Jammy (22.04)</h2>
+<div class="collapsible-content">
 Important note for Ubuntu Jammy (22.04): *libfuse2* must be installed as it is necessary for running AppImages:
 
-```
+<pre>
 sudo add-apt-repository universe
 sudo apt install libfuse2
-```
+</pre>
+</div>
 
 <h2 type="button" class="collapsible" > Linux (Raspberry Pi, embedded...) </h2>
 <div class="collapsible-content">
