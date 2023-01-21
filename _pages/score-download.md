@@ -6,9 +6,10 @@ permalink: /score/download.html
 category: site-score
 ---
 
-<h2> Support us </h2>
+<div class="support">
+<h2> Support us !</h2>
 We sell score on the Microsoft store as a way to get financial support to ensure continued development so please consider buying it there, or funding us through <a href="https://opencollective.com/ossia">OpenCollective</a> or <a href="https://github.com/sponsors/jcelerier">Github Sponsors</a>!
-
+</div>
 ## Download ossia score v{{site.score_version}}
 ### Released on {{site.score_released_date}}
 <p class="download-page-layout" align="center">

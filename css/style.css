@@ -4,6 +4,7 @@
 
     --pale-blue: #58B8C5;
     --dark-blue: #281668;
+    --link-blue: #2b05b0;
 
     --light-grey: #C0C0C0;
     --dark-grey: #1e2225;
@@ -66,7 +67,7 @@
         color: "#FF0000"
     }
 	a {
-			color: var(--light-blue);
+			color: var(--link-blue);
             font-weight: 400;
 			text-decoration: none;
 			border: 0;
@@ -1183,6 +1184,18 @@ h2.software.small{
     text-decoration: none;
     color:var(--orange) !important;
     border-color: var(--orange);
+}
+
+div.support {
+    text-align: center;
+    background-color: var(--pale-blue);
+    padding: 20px;
+    padding-top: 10px;
+}
+div.support h2 {
+    font-size: 37px !important;
+    font-weight: 800 !important;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Gallery page */
