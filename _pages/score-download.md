@@ -8,7 +8,7 @@ category: site-score
 
 <div class="support">
 <h2> Support us !</h2>
-We sell score on the Microsoft store as a way to get financial support to ensure continued development so please consider buying it there, or funding us through <a href="https://opencollective.com/ossia">OpenCollective</a> or <a href="https://github.com/sponsors/jcelerier">Github Sponsors</a>!
+We sell score on the Microsoft store as a way to get financial support to ensure continued development so please consider buying it <a href="https://apps.microsoft.com/store/detail/ossia-score/9NGT21X5XB19">there</a>, or funding us through <a href="https://opencollective.com/ossia">OpenCollective</a> or <a href="https://github.com/sponsors/jcelerier">Github Sponsors</a>!
 </div>
 ## Download ossia score v{{site.score_version}}
 ### Released on {{site.score_released_date}}
