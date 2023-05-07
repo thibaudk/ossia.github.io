@@ -17,7 +17,6 @@ We sell score on the Microsoft store as a way to get financial support to ensure
 <a id="win" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-win64.exe" class="page-button download-page"><img src="../assets/windows_logo_2012-Black.svg" height="80px"/> Windows</a>
 <a id="osx" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-macOS.dmg" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="60px"/>macOS 10.13 and later</a>
 <a id="linux" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-linux-amd64.AppImage" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux</a>
-<a id="pi" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-rpi-aarch32.tar.gz" class="page-button download-page"><img src="../assets/Pi_Platform.svg" height="80px"/>Raspberry Pi (32-bit)</a>
 <a id="pi64" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-rpi-aarch64.tar.gz" class="page-button download-page"><img src="../assets/Pi64_Platform.svg" height="80px"/>Raspberry Pi (64-bit)</a>
 </p>
 
@@ -26,7 +25,7 @@ Take a look at the <a href="https://github.com/ossia/score/releases/latest" targ
 
 ## All Supported platforms
 
-The releases are 64-bit on all desktop operating systems, 32-bit & 64-bit for Raspberry Pi. There are no native M1 macOS builds yet but score has been tested to work in Rosetta.
+The releases are 64-bit on all desktop operating systems and for Raspberry Pi. There are no native M1 macOS builds yet but score has been tested to work in Rosetta.
 
 <h2 type="button" class="collapsible" > All platforms </h2>
 <div class="collapsible-content">
@@ -34,7 +33,6 @@ The releases are 64-bit on all desktop operating systems, 32-bit & 64-bit for Ra
 <a href="https://apps.microsoft.com/store/detail/ossia-score/9NGT21X5XB19" target="_blank" class="page-button download-page"><img src="../assets/microsoft-store.svg" height="80px"/>Microsoft Store</a>
 <a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-macOS.dmg" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="80px"/>macOS</a>
 <a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-linux-amd64.AppImage" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux</a>
-<a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-rpi-aarch32.tar.gz" class="page-button download-page"><img src="../assets/Pi_Platform.svg" height="80px"/>Raspberry Pi (32-bit)</a>
 <a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-rpi-aarch64.tar.gz" class="page-button download-page"><img src="../assets/Pi64_Platform.svg" height="80px"/>Raspberry Pi (64-bit)</a>
 <a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-win64.exe" class="page-button download-page"><img src="../assets/windows_logo_2012-Black.svg" height="80px"/>Windows</a>
 <a href="https://ossia.io/score-web" target="_blank" class="page-button download-page"><img src="../assets/web.png" height="80px"/>WebAssembly</a>
