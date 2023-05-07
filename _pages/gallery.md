@@ -170,6 +170,13 @@ category: site-gallery
 </div>
 
 
+<div align="middle" class="gallery-page-image">
+    <a href="https://serious.computer/" class="gallery-text">
+        <img src="assets/gallery/nova_visual_01.png" class="post-image" />
+        <i> Nova </i> <br /> Nina Bouchard, Evan Montpellier / Serious Computer Group    </a>
+</div>
+
+
 
 
 
