@@ -170,7 +170,16 @@ For more details on *i-score*'s family tree and research process, an inheritance
 Talks about the project are regularly given in conferences and meetups. Here is a list:
 * [Talks given by Jean-Michaël](https://jcelerier.name/page/talks)
 
-## Research articles and Ph. D. dissertations
+## Peer-reviewed publications, Ph. D. dissertations
+#### 2023
+* A Notation System for Distributed Media Art, Jean-Michaël Celerier, Akané Levy, @TENOR2023
+* Proof of Concept of a Generic Toolkit for Sonification: the Sonification Cell in ossia score, Maxime Poret, Jean-Michaël Celerier, Myriam Desainte-Catherine, Catherine Semal, @ICAD2023
+
+#### 2022
+* [Networked Performances with Ossia Score (demo)](https://zenodo.org/record/6800771), Jean-Michaël Celerier, Pia Baltazar, @SMC2022. Presentation [video here](https://youtu.be/DuXSpb2CbWE?t=3206)
+* [Rage Against The Glue: Beyond Run-Time Media Frameworks with Modern C++](https://cnrs.hal.science/hal-04090584/), Jean-Michaël Celerier, @ICMC2022
+* [ossia score 3](https://www.tenor-conference.org/proceedings/2022/TENOR_2022_paper_29.pdf), Jean-Michaël Celerier, Pia Baltazar, Myriam Desainte-Catherine, @TENOR2022
+
 #### 2021
 * [Patches in a timeline with ossia score](http://periodicos.unespar.edu.br/index.php/vortex/article/view/4545), Jean-Michaël Celerier, Vortex Music Journal
 
@@ -178,7 +187,7 @@ Talks about the project are regularly given in conferences and meetups. Here is 
 * [Architecture logicielle du projet ossia](https://revues.mshparisnord.fr/rfim/index.php?id=574), Jean-Michaël Celerier, Revue Française d'Informatique Musicale
 
 #### 2019
-* [A Cross-Platform Development Toolchain For JIT-Compilation in Multimedia Software](http://lac.linuxaudio.org/2019/doc/celerier.pdf), Jean-Michaël Celerier, LAC2019
+* [A Cross-Platform Development Toolchain For JIT-Compilation in Multimedia Software](http://lac.linuxaudio.org/2019/doc/celerier.pdf), Jean-Michaël Celerier, @LAC2019
   
 #### 2018
 
