@@ -27,7 +27,8 @@
     document.getElementById('win').style.display = windows ? 'flex' : 'none'; 
     
     let osx = os.includes('Mac');
-    document.getElementById('osx').style.display = osx ? 'flex' : 'none';
+    document.getElementById('osx-intel').style.display = osx ? 'flex' : 'none';
+    document.getElementById('osx-arm').style.display = osx ? 'flex' : 'none';
     
     let linux = os.includes('Linux');
     document.getElementById('linux').style.display = linux ? 'flex' : 'none';
