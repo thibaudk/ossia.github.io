@@ -16,7 +16,7 @@ We sell score on the Microsoft store as a way to get financial support to ensure
 <a id="winstore" href="https://apps.microsoft.com/store/detail/ossia-score/9NGT21X5XB19" target="_blank" class="page-button download-page"><img src="../assets/microsoft-store.svg" height="80px"/> Microsoft Store</a>
 <a id="win" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-win64.exe" class="page-button download-page"><img src="../assets/windows_logo_2012-Black.svg" height="80px"/> Windows</a>
 <a id="osx-intel" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-macOS-Intel.dmg" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="60px"/>macOS 10.15 and later (Intel)</a>
-<a id="osx-arm" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-macOS-AppleSilicon.dmg" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="60px"/>macOS 11 and later (AppleSilicon)</a>
+<a id="osx-arm" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-macOS-AppleSilicon.dmg" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="60px"/>macOS 11 and later (AppleSilicon / M1 etc.)</a>
 <a id="linux" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-linux-amd64.AppImage" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux</a>
 <a id="pi64" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-rpi-aarch64.tar.gz" class="page-button download-page"><img src="../assets/Pi64_Platform.svg" height="80px"/>Raspberry Pi (64-bit)</a>
 </p>
@@ -33,7 +33,7 @@ The releases are 64-bit on all desktop operating systems and for Raspberry Pi.
 <p class="download-page-layout" align="center">
 <a href="https://apps.microsoft.com/store/detail/ossia-score/9NGT21X5XB19" target="_blank" class="page-button download-page"><img src="../assets/microsoft-store.svg" height="80px"/>Microsoft Store</a>
 <a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-macOS-Intel.dmg" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="80px"/>macOS (Intel)</a>
-<a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-macOS-Intel.dmg" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="80px"/>macOS (AppleSilicon)</a>
+<a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-macOS-AppleSilicon.dmg" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="80px"/>macOS (AppleSilicon / M1 etc.)</a>
 <a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-linux-amd64.AppImage" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux</a>
 <a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-rpi-aarch64.tar.gz" class="page-button download-page"><img src="../assets/Pi64_Platform.svg" height="80px"/>Raspberry Pi (64-bit)</a>
 <a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-win64.exe" class="page-button download-page"><img src="../assets/windows_logo_2012-Black.svg" height="80px"/>Windows</a>
@@ -64,8 +64,8 @@ The releases are 64-bit on all desktop operating systems and for Raspberry Pi.
 
 <h2 type="button" class="collapsible" > macOS </h2>
 <div class="collapsible-content">
-Must be at least Catalina (10.15).
-The latest version to support back to macOS 10.13 High Sierra is 3.1.8, downloadable [here](https://github.com/ossia/score/releases/download/v3.1.8/ossia.score-3.1.8-macOS.dmg).
+Must be at least Catalina (10.15) on Intel, 11.0 on ARM / AppleSilicon / M1 etc..
+The latest version to support back to macOS 10.13 High Sierra is 3.1.8, downloadable <a href="https://github.com/ossia/score/releases/download/v3.1.8/ossia.score-3.1.8-macOS.dmg">here</a>.
 </div>
 
 <h2 type="button" class="collapsible" > Linux (Desktop) </h2>
@@ -90,11 +90,11 @@ All Linux distributions from at least mid-2018 should be supported:
 
 <h2 type="button" class="collapsible" > Ubuntu >= 22.04</h2>
 <div class="collapsible-content">
-Important note for Ubuntu: *libfuse2* must be installed as it is necessary for running AppImages:
+Important note for Ubuntu: *fuse2* must be installed as it is necessary for running AppImages:
 
 <pre>
 sudo add-apt-repository universe
-sudo apt install libfuse2
+sudo apt install fuse2
 </pre>
 </div>
 
