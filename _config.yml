@@ -9,8 +9,8 @@ image: "/assets/score-logo.png"
 include: ["_pages", "CNAME", ".nojekyll", "score-last-version.txt", "download-stats.json", ".well-known"]
 # exclude: ["vendor"]
 permalink: /posts/:title/
-score_version: 3.2.4
-score_released_date: "July 9, 2024"
+score_version: 3.3.2
+score_released_date: "November 17, 2024"
 plugins:
   - jekyll-sitemap
   - jekyll-assets
