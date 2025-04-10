@@ -29,6 +29,7 @@ Take a look at the <a href="https://github.com/ossia/score/releases/latest" targ
 
 ## Minimal requirements
 - <i>score</i> requires a 64-bit operating system and CPU, both on desktop and embedded platforms. <br/> 
+- The official releases are built with AVX2 on Windows and Linux. If your CPU does not support AVX2 please use a distribution package such as provided by MSYS2 or Arch Linux AUR.
 - 800 MHz CPU, 512MB of RAM. For instance, <i>score</i> runs on a Raspberry Pi Zero 2W.
 - For graphics, a GPU which supports at least OpenGL 3.2, Vulkan, Direct3D 11 or Metal.
 - [NDI Runtime](https://github.com/DistroAV/DistroAV/discussions/831) (at least v5) may be necessary to use NDI.
@@ -45,11 +46,11 @@ Take a look at the <a href="https://github.com/ossia/score/releases/latest" targ
 
 <h3 type="button" class="collapsible" > macOS </h3>
 <div class="collapsible-content">
-Must be at least Catalina (10.15) on Intel.
+Must be at least macOS Ventura 13.0.
+<br/><br/>
+The latest version to support back to macOS 10.15 Catalina is 3.3.2, downloadable <a href="https://github.com/ossia/score/releases/v3.3.2">here</a>.
 <br/>
-Must be at least Big Sur 11.0 on ARM / AppleSilicon / M1 etc.
-<br/>
-The latest version to support back to macOS 10.13 High Sierra is 3.1.8, downloadable <a href="https://github.com/ossia/score/releases/download/v3.1.8/ossia.score-3.1.8-macOS.dmg">here</a>.
+The latest version to support back to macOS 10.13 High Sierra is 3.1.8, downloadable <a href="https://github.com/ossia/score/releases/v3.4.1">here</a>.
 </div>
 
 <h3 type="button" class="collapsible" > Linux (Desktop) </h3>
@@ -57,15 +58,17 @@ The latest version to support back to macOS 10.13 High Sierra is 3.1.8, download
 
 <p> To integrate the AppImage into your system, please follow: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/AppImage/awesome-appimage/#desktop-integration">https://github.com/AppImage/awesome-appimage/#desktop-integration</a>
+<br/>
+Important: due to a bug in AppImageLauncher, it must <b>not</b> be installed otherwise launching the software will crash with cryptic error messages.
 </p>
 
-All Linux distributions from at least mid-2018 should be supported:
+All Linux distributions from at least 2022 should be supported:
 <ul>
-<li>The packages are built on CentOS 8.</li>
-<li>Ubuntu 18.10+</li>
-<li>Debian Buster (10) / Bullseye (11) / ...  </li>
-<li>Fedora 29+</li>
-<li>Your system must have at least glibc-2.28, as well as X11, ALSA, libGL, librt, libdbus, libGL, libEGL. Those packages are present on any relevant desktop distribution ; if you use Debian, Ubuntu, Fedora, OpenSUSE, ArchLinux or anything like those it will work fine.</li>
+<li>The packages are built on CentOS 9.</li>
+<li>Ubuntu 22.04+</li>
+<li>Debian Bookworm ...  </li>
+<li>Fedora 36+</li>
+<li>Your system must have at least glibc-2.34, as well as X11, ALSA, libGL, librt, libdbus, libGL, libEGL. Those packages are present on any relevant desktop distribution ; if you use Debian, Ubuntu, Fedora, OpenSUSE, ArchLinux or anything like those it will work fine.</li>
 <li>Either JACK or Pipewire for audio, and Avahi for Bonjour support are recommended.</li>
 <li>libbluez may be necessary to use Wiimotes (which go through Bluetooth) and the BLE support.</li>
 <li>Wayland support is still experimental, in particular on GNOME-based desktops.</li>
