@@ -17,9 +17,9 @@ We sell score on the Microsoft store as a way to get financial support to ensure
 <a id="win" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-win64.exe" class="page-button download-page"><img src="../assets/windows_logo_2012-Black.svg" height="80px"/> Windows</a>
 <a id="osx-intel" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-macOS-Intel.dmg" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="60px"/>macOS 10.15 and later (Intel)</a>
 <a id="osx-arm" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-macOS-AppleSilicon.dmg" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="60px"/>macOS 11 and later (AppleSilicon / M1 etc.)</a>
-<a id="linux" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-linux-amd64.AppImage" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux (AppImage)</a>
-<a id="linux" href="https://flathub.org/apps/io.ossia.score" class="page-button download-page"><img src="../assets/Flatpak_Logo.svg" height="80px"/>Linux (Flatpak)</a>
-<a id="pi64" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-rpi-aarch64.tar.gz" class="page-button download-page"><img src="../assets/Pi64_Platform.svg" height="80px"/>Raspberry Pi (64-bit)</a>
+<a id="linux" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-linux-x86_64.AppImage" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux AppImage x86_64</a>
+<a id="pi64" href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-linux-aarch64.AppImage" class="page-button download-page"><img src="../assets/Pi64_Platform.svg" height="80px"/>Linux AppImage AArch64</a>
+<a id="linux" href="https://flathub.org/apps/io.ossia.score" class="page-button download-page"><img src="../assets/Flatpak_Logo.svg" height="80px"/>Linux Flatpak</a>
 </p>
 
 
@@ -59,7 +59,7 @@ The latest version to support back to macOS 10.13 High Sierra is 3.1.8, download
 <p> To integrate the AppImage into your system, please follow: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/AppImage/awesome-appimage/#desktop-integration">https://github.com/AppImage/awesome-appimage/#desktop-integration</a>
 <br/>
-Important: due to a bug in AppImageLauncher, it must <b>not</b> be installed otherwise launching the software will crash with cryptic error messages.
+Important: AppImageLauncher below version 3.0.0 does not support the score AppImage and crashes. See <a herf="https://github.com/TheAssassin/AppImageLauncher/issues/711">this thread</a> and update your version.
 </p>
 
 All Linux distributions from at least 2022 should be supported:
@@ -89,7 +89,7 @@ sudo apt install fuse2
 <div class="collapsible-content">
 Read the <a href="https://ossia.io/score-docs/in-depth/embedded.html">documentation</a> before running score on a Pi.
 <br/>
-The Raspberry Pi package has also been tested on Arch Linux ARM and Asahi Linux.
+The Raspberry Pi package has also been tested on Arch Linux ARM and Asahi Linux (M1 macs).
 <br/>
 The Flatpak and Nix versions are also available as AArch64.
 </div>
@@ -130,9 +130,9 @@ The source code for the latest release can be downloaded from here:
 <a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-macOS-AppleSilicon.dmg" class="page-button download-page" ><img src="../assets/apple_logo_black.svg" height="80px"/>macOS (AppleSilicon / M1 etc.)</a>
 </p>
 <p class="download-page-layout" align="center">
-<a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-linux-amd64.AppImage" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux (AppImage)</a>
+<a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-linux-x86_64.AppImage" class="page-button download-page"><img src="../assets/Linux_Platform.svg" height="80px"/>Linux AppImage x86_64</a>
+<a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-linux-aarch64.AppImage" class="page-button download-page"><img src="../assets/Pi64_Platform.svg" height="80px"/>Linux AppImage AArch64</a>
 <a href="https://flathub.org/apps/io.ossia.score" class="page-button download-page"><img src="../assets/Flatpak_Logo.svg" height="80px"/>Linux (Flatpak)</a>
-<a href="https://github.com/ossia/score/releases/download/v{{site.score_version}}/ossia.score-{{site.score_version}}-rpi-aarch64.tar.gz" class="page-button download-page"><img src="../assets/Pi64_Platform.svg" height="80px"/>Raspberry Pi (64-bit)</a>
 </p>
 <p class="download-page-layout" align="center">
 <a href="https://ossia.io/score-web" target="_blank" class="page-button download-page"><img src="../assets/web.png" height="80px"/>WebAssembly</a>

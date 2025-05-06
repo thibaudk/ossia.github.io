@@ -17,8 +17,8 @@ category: site-about
 </div>
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/pbaltazar.jpeg"/>
-    <a href="http://www.baltazars.org/" target="_blank" class="bubble-title">Pia Baltazar</a>
-    <div class="bubble-description">Intermedia composer (The <a href="http://www.baltazars.org/">Baltazars</a> duo). She coordinates the ossia organization. She has contributed to the visual syntax and interaction design of score and to the specification design of the libossia namespace model.</div>
+    <a href="https://www.baltazars.org/" target="_blank" class="bubble-title">Pia Baltazar</a>
+    <div class="bubble-description">Intermedia composer (The <a href="https://www.baltazars.org/">Baltazars</a> duo). She coordinates the ossia organization. She has contributed to the visual syntax and interaction design of score and to the specification design of the libossia namespace model.</div>
 </div>
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/tkeller.jpg"/>
@@ -33,7 +33,7 @@ He gives workshops, conduct residencies and collect user experiences focused on 
 </div>
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/antoine.jpg"/>
-    <a href="http://antoine.villeret.free.fr/?lang=fr" target="_blank"  class="bubble-title">Antoine Villeret</a>
+    <a href="https://antoine.villeret.free.fr/?lang=fr" target="_blank"  class="bubble-title">Antoine Villeret</a>
     <div class="bubble-description">Creator of interactive artworks and experienced software engineer. He is the main developer of ossia-max and ossia-pd.</div>
 </div>
 <div class="bubble-item">
@@ -48,7 +48,7 @@ He gives workshops, conduct residencies and collect user experiences focused on 
 </div>
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/nani.png"/>
-    <a href="http://www.mathieuchamagne.com/" target="_blank"  class="bubble-title">Mathieu Chamagne</a>
+    <a href="https://www.mathieuchamagne.com/" target="_blank"  class="bubble-title">Mathieu Chamagne</a>
     <div class="bubble-description">Mathieu Chamagne invents virtual spaces to be discovered and explored using digital devices. With a piano background, he has been developing a musical practice around electroacoustic instruments since the 90s. </div>
 </div>
 <div class="bubble-item">
@@ -86,13 +86,13 @@ He gives workshops, conduct residencies and collect user experiences focused on 
 </div>
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/nnavab.jpg"/>
-    <a href="http://www.navidnavab.com/" target="_blank" class="bubble-title">Navid Navab</a>
+    <a href="https://www.navidnavab.com/" target="_blank" class="bubble-title">Navid Navab</a>
     <div class="bubble-description">A media alchemist, multidisciplinary  composer, audiovisual sculptor, phono-menologist, perSonifier,  gestureBender, and interdisciplinary artist-researcher. Interested in  the poetics of schizophonia, gesture, materiality, and embodiment, his  work investigates the transmutation of matter and the enrichment of its  inherent performative qualities.</div>
 </div>
 
 <div class="bubble-item">
     <img class="bubble-image" src="assets/association/nani.png"/>
-    <a href="http://www-new.idmil.org/people/travis-west/" target="_blank"  class="bubble-title">Travis West</a>
+    <a href="https://www-new.idmil.org/people/travis-west/" target="_blank"  class="bubble-title">Travis West</a>
     <div class="bubble-description">Travis West is a multidisciplinary programmer, composer-performer, and musical instrument designer. His research explores the design of gestural interfaces, sound synthesis algorithms, and the mappings made between the two. </div>
 </div>
 <div class="bubble-item">

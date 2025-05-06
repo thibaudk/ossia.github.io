@@ -80,7 +80,7 @@ category: site-gallery
 </div>
 
 <div align="middle" class="gallery-page-image">
-    <a href="http://www.donatiengarnier.com/un-spectacle-en-3d/" class="gallery-text">
+    <a href="https://www.donatiengarnier.com/un-spectacle-en-3d/" class="gallery-text">
         <img src="assets/gallery/arbre-intégrale.jpg" class="post-image" />
         <i>L'Arbre Intégral</i> <br/> Le Poème en volume
     </a>
@@ -94,7 +94,7 @@ category: site-gallery
 </div>
 
 <div id="Qui parle donc" align="middle" class="gallery-page-image">
-    <a href="http://passerelle-arts-sciences.fr/qui-parle-donc-2019/"
+    <a href="https://passerelle-arts-sciences.fr/qui-parle-donc-2019/"
     class="gallery-text">
         <img src="assets/gallery/Qui-parle-donc_Event.jpg" class="post-image" />
         <i> Qui parle donc</i>  <br/> Passerelle arts-sciences

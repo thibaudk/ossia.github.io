@@ -68,16 +68,16 @@ Here is a video explaining how to contribute to the code of ossia score:
 
 ossia score 3 fulfills the long-term goal of being a proper multi-media platform, by providing integrated video abilities, in sync with the rest of the score, as well as musical abilities with support for tempo, musical metrics and quantization. Finally, the core engine has been extended to allow cycles in scenarios with a new kind of connection. This allows to implement state-machine-like behaviours in scenarios.
 
-* [Support for reading videos](https://twitter.com/jcelerie/status/1236809800727617537){:target="_blank"}, right now H.264 and HAP. Implementation uses Vulkan, Metal, D3D or OpenGL depending on the platform for maximal performance. Multiple viewports are supported. Spout output is supported.
+* [Support for reading videos](https://x.com/jcelerie/status/1236809800727617537){:target="_blank"}, right now H.264 and HAP. Implementation uses Vulkan, Metal, D3D or OpenGL depending on the platform for maximal performance. Multiple viewports are supported. Spout output is supported.
 * Support for applying shader-based filters on these videos. Interactive Shader Format is supported.
 * Support for JSFX plug-ins, VST3.
 * Support for tempo, musical bars, etc. It is now possible to sync the triggering of a timenode to the beginning of the following bar for instance. Polyrythmy is supported : each interval can have its own tempo and metrics timeline.
-* [Support for cycles and loops](https://twitter.com/jcelerie/status/1245484342274646017){:target="_blank"} in the main scenario.
-* [Preset mechanism](https://twitter.com/jcelerie/status/1241774333535666176){:target="_blank"} for built-in processes.
+* [Support for cycles and loops](https://x.com/jcelerie/status/1245484342274646017){:target="_blank"} in the main scenario.
+* [Preset mechanism](https://x.com/jcelerie/status/1241774333535666176){:target="_blank"} for built-in processes.
 * Built-in looping for individual processes, to easily loop audio files.
 * Intervals can now be viewed in nodal mode to easily interconnect their processes.
 * Many small and useful new processes – signal visualization, pattern sequencer…
-* [JIT compilation support](https://twitter.com/jcelerie/status/1307792769277190147){:target="_blank"}.  This will be an experimental feature for the 3.0 release cycle, allowing you to write and run C++ extensions directly from within the software.
+* [JIT compilation support](https://x.com/jcelerie/status/1307792769277190147){:target="_blank"}.  This will be an experimental feature for the 3.0 release cycle, allowing you to write and run C++ extensions directly from within the software.
 
 <h2><a href="https://github.com/ossia/score/releases/tag/v2.5.2"  target="_blank">ossia score v2.5</a></h2>
 
@@ -181,13 +181,13 @@ Talks about the project are regularly given in conferences and meetups. Here is 
 * [ossia score 3](https://www.tenor-conference.org/proceedings/2022/TENOR_2022_paper_29.pdf), Jean-Michaël Celerier, Pia Baltazar, Myriam Desainte-Catherine, @TENOR2022
 
 #### 2021
-* [Patches in a timeline with ossia score](http://periodicos.unespar.edu.br/index.php/vortex/article/view/4545), Jean-Michaël Celerier, Vortex Music Journal
+* [Patches in a timeline with ossia score](https://periodicos.unespar.edu.br/index.php/vortex/article/view/4545), Jean-Michaël Celerier, Vortex Music Journal
 
 #### 2020
 * [Architecture logicielle du projet ossia](https://revues.mshparisnord.fr/rfim/index.php?id=574), Jean-Michaël Celerier, Revue Française d'Informatique Musicale
 
 #### 2019
-* [A Cross-Platform Development Toolchain For JIT-Compilation in Multimedia Software](http://lac.linuxaudio.org/2019/doc/celerier.pdf), Jean-Michaël Celerier, @LAC2019
+* [A Cross-Platform Development Toolchain For JIT-Compilation in Multimedia Software](https://lac.linuxaudio.org/2019/doc/celerier.pdf), Jean-Michaël Celerier, @LAC2019
   
 #### 2018
 
